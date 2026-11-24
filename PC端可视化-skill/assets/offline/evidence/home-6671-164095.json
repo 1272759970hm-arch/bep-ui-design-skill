@@ -1,0 +1,2418 @@
+{
+  "id": "6671:164095",
+  "name": "Frame 1321319654",
+  "w": 343,
+  "h": 134,
+  "records": [
+    {
+      "id": "6671:164095",
+      "parent": "6671:164094",
+      "type": "FRAME",
+      "name": "Frame 1321319654",
+      "x": 0,
+      "y": 0,
+      "w": 343,
+      "h": 134,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164096",
+      "parent": "6671:164095",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Subtract",
+      "x": 343,
+      "y": 0,
+      "w": 343,
+      "h": 136.251953125,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -180,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 0.5,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.7803921699523926,
+                "g": 0.9960784316062927,
+                "b": 0.9921568632125854,
+                "a": 1
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -0.9892229437828064,
+              0.14797724783420563,
+              0.9329327344894409
+            ],
+            [
+              -0.2149512767791748,
+              -0.17727068066596985,
+              0.7374866604804993
+            ]
+          ]
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 10.899999618530273,
+          "boundVariables": {},
+          "color": {
+            "r": 0.3843137323856354,
+            "g": 0.5882353186607361,
+            "b": 0.5882353186607361,
+            "a": 0.1599999964237213
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164097",
+      "parent": "6671:164096",
+      "type": "RECTANGLE",
+      "name": "矩形",
+      "x": 343,
+      "y": -0.00020516104996204376,
+      "w": 343,
+      "h": 136.25209045410156,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -180,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8196078538894653,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "radii": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "smoothing": 0,
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 48.929073333740234,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 44,
+          "boundVariables": {},
+          "color": {
+            "r": 0.9189942479133606,
+            "g": 0.9490330815315247,
+            "b": 0.9698292016983032,
+            "a": 0.5326508283615112
+          },
+          "offset": {
+            "x": 0,
+            "y": 17
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164098",
+      "parent": "6671:164096",
+      "type": "VECTOR",
+      "name": "Rectangle 34625963",
+      "x": 132,
+      "y": -37.820377349853516,
+      "w": 135,
+      "h": 53.36782455444336,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -180,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8509804010391235,
+            "b": 0.8509804010391235
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164099",
+      "parent": "6671:164095",
+      "type": "FRAME",
+      "name": "Frame 1321319922",
+      "x": 16,
+      "y": 24,
+      "w": 311,
+      "h": 94,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164100",
+      "parent": "6671:164099",
+      "type": "FRAME",
+      "name": "Frame 1321319923",
+      "x": 0,
+      "y": 0,
+      "w": 311,
+      "h": 58,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164101",
+      "parent": "6671:164100",
+      "type": "FRAME",
+      "name": "Frame 1321319921",
+      "x": 0,
+      "y": 0,
+      "w": 311,
+      "h": 58,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 118,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164102",
+      "parent": "6671:164101",
+      "type": "FRAME",
+      "name": "Frame 1321318697",
+      "x": 0,
+      "y": 6.5,
+      "w": 90,
+      "h": 45,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "VERTICAL",
+        "gap": 6,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164103",
+      "parent": "6671:164102",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 0,
+      "w": 90,
+      "h": 23,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "经营性收入",
+          "start": 0,
+          "end": 5,
+          "fontSize": 18,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164104",
+      "parent": "6671:164102",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 29,
+      "w": 56,
+      "h": 16,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.44999998807907104,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:16c0380ce7c9c580efc364c8e1d4a04b4c3a72c2/7:92"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "集团整体",
+          "start": 0,
+          "end": 4,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.44999998807907104,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:16c0380ce7c9c580efc364c8e1d4a04b4c3a72c2/7:92"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164105",
+      "parent": "6671:164102",
+      "type": "FRAME",
+      "name": "Frame",
+      "x": 0,
+      "y": 35.5,
+      "w": 15,
+      "h": 15,
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.24193552136421204,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": true
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164106",
+      "parent": "6671:164105",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.04725302755832672,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164107",
+      "parent": "6671:164105",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 5.834585189819336,
+      "y": 3.330829381942749,
+      "w": 3.333491563796997,
+      "h": 8.333333015441895,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.04725302755832672,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164108",
+      "parent": "6671:164101",
+      "type": "FRAME",
+      "name": "Frame 1321318409",
+      "x": 208,
+      "y": 0,
+      "w": 103,
+      "h": 58,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "VERTICAL",
+        "gap": 2,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164109",
+      "parent": "6671:164108",
+      "type": "FRAME",
+      "name": "Frame 1321318411",
+      "x": 0,
+      "y": 0,
+      "w": 103,
+      "h": 36,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 3,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164110",
+      "parent": "6671:164109",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 69,
+      "y": 12,
+      "w": 12,
+      "h": 24,
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.12941177189350128,
+            "b": 0.12941177189350128
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "%",
+          "start": 0,
+          "end": 1,
+          "fontSize": 14,
+          "fontName": {
+            "family": "DIN",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.12941177189350128,
+                "g": 0.12941177189350128,
+                "b": 0.12941177189350128
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164111",
+      "parent": "6671:164109",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 0,
+      "w": 84,
+      "h": 36,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "998.65",
+          "start": 0,
+          "end": 6,
+          "fontSize": 28,
+          "fontName": {
+            "family": "DIN",
+            "style": "Bold"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 36
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164112",
+      "parent": "6671:164109",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 87,
+      "y": 10,
+      "w": 16,
+      "h": 26,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "亿",
+          "start": 0,
+          "end": 1,
+          "fontSize": 16,
+          "fontName": {
+            "family": "DIN",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 26
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164113",
+      "parent": "6671:164108",
+      "type": "FRAME",
+      "name": "环比",
+      "x": 34,
+      "y": 58,
+      "w": 59,
+      "h": 24,
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 2,
+        "padding": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164114",
+      "parent": "6671:164113",
+      "type": "FRAME",
+      "name": "Frame 1321318408",
+      "x": 0,
+      "y": 6,
+      "w": 12,
+      "h": 12,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3490196168422699,
+            "g": 0.3490196168422699,
+            "b": 0.3490196168422699
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.8571428656578064,
+      "radii": [
+        1.7142857313156128,
+        1.7142857313156128,
+        1.7142857313156128,
+        1.7142857313156128
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "VERTICAL",
+        "gap": 8.571428298950195,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164115",
+      "parent": "6671:164114",
+      "type": "TEXT",
+      "name": "环",
+      "x": 1,
+      "y": 0,
+      "w": 10,
+      "h": 12,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.6666666865348816,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "环",
+          "start": 0,
+          "end": 1,
+          "fontSize": 10,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "letterSpacing": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164116",
+      "parent": "6671:164113",
+      "type": "TEXT",
+      "name": "+3.23%",
+      "x": 14,
+      "y": 2,
+      "w": 45,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.3686274588108063,
+            "b": 0.3333333432674408
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "+3.23%",
+          "start": 0,
+          "end": 6,
+          "fontSize": 12,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.3686274588108063,
+                "b": 0.3333333432674408
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164117",
+      "parent": "6671:164108",
+      "type": "FRAME",
+      "name": "Frame 1321319926",
+      "x": 23,
+      "y": 38,
+      "w": 80,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 2,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164118",
+      "parent": "6671:164117",
+      "type": "FRAME",
+      "name": "Frame 1321318789",
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.06009864807128906,
+            "g": 0.8325007557868958,
+            "b": 0.5235399603843689
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 0.5,
+      "radii": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 2,
+        "padding": [
+          0,
+          5,
+          0,
+          5
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164119",
+      "parent": "6671:164118",
+      "type": "TEXT",
+      "name": "同 3.2%",
+      "x": 5,
+      "y": 0,
+      "w": 54,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.06009864807128906,
+            "g": 0.8325007557868958,
+            "b": 0.5235399603843689
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "同 3.2%",
+          "start": 0,
+          "end": 6,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.06009864807128906,
+                "g": 0.8325007557868958,
+                "b": 0.5235399603843689
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164120",
+      "parent": "6671:164118",
+      "type": "FRAME",
+      "name": "Frame 1321318787",
+      "x": 61,
+      "y": 3,
+      "w": 14,
+      "h": 14,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.06009864807128906,
+            "g": 0.8325007557868958,
+            "b": 0.5235399603843689
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 10,
+        "padding": [
+          1,
+          3,
+          1,
+          3
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164121",
+      "parent": "6671:164120",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Union",
+      "x": 3,
+      "y": 0.93603515625,
+      "w": 8,
+      "h": 12.1279296875,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -3.0617613445625937e-22,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164122",
+      "parent": "6671:164121",
+      "type": "POLYGON",
+      "name": "Polygon 32",
+      "x": 2.381154239177704,
+      "y": 0.9358084957348183,
+      "w": 9.238027572631836,
+      "h": 7.131109237670898,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -3.0617613445625937e-22,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.06009864807128906,
+            "g": 0.8325007557868958,
+            "b": 0.5235399603843689
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.5906698703765869,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164123",
+      "parent": "6671:164121",
+      "type": "VECTOR",
+      "name": "Rectangle 34625980",
+      "x": 5.945939064025879,
+      "y": 6.284139156341553,
+      "w": 2.1069185733795166,
+      "h": 6.779391765594482,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -3.0617613445625937e-22,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.06009864807128906,
+            "g": 0.8325007557868958,
+            "b": 0.5235399603843689
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.5906698703765869,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164124",
+      "parent": "6671:164099",
+      "type": "FRAME",
+      "name": "Frame 1321319913",
+      "x": 0,
+      "y": 99,
+      "w": 311,
+      "h": 22,
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 158,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164125",
+      "parent": "6671:164124",
+      "type": "FRAME",
+      "name": "Frame 1321318798",
+      "x": 0,
+      "y": 0,
+      "w": 22,
+      "h": 22,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164126",
+      "parent": "6671:164125",
+      "type": "ELLIPSE",
+      "name": "Ellipse 870",
+      "x": 0,
+      "y": 0,
+      "w": 22,
+      "h": 22,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.10000000149011612,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.800000011920929,
+            "g": 0.8117647171020508,
+            "b": 0.8392156958580017
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 20,
+          "boundVariables": {},
+          "color": {
+            "r": 0.10241382569074631,
+            "g": 0.6628855466842651,
+            "b": 0.6628855466842651,
+            "a": 0.11999999731779099
+          },
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164127",
+      "parent": "6671:164125",
+      "type": "GROUP",
+      "name": "页面-1",
+      "x": 15.501953125,
+      "y": 8.75,
+      "w": 4.5,
+      "h": 9.042754173278809,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -90,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": null,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164128",
+      "parent": "6671:164127",
+      "type": "GROUP",
+      "name": "icon_list_zhankai",
+      "x": 15.501953125,
+      "y": 8.75,
+      "w": 4.5,
+      "h": 9.042754173278809,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -90,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": null,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164129",
+      "parent": "6671:164128",
+      "type": "VECTOR",
+      "name": "路径-2",
+      "x": 15.501953125,
+      "y": 8.75,
+      "w": 4.5,
+      "h": 9.042754173278809,
+      "visible": true,
+      "opacity": 1,
+      "rotation": -90,
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1.928571343421936,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164130",
+      "parent": "6671:164124",
+      "type": "FRAME",
+      "name": "Frame 1321318784",
+      "x": 255,
+      "y": 0.5,
+      "w": 56,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164131",
+      "parent": "6671:164130",
+      "type": "FRAME",
+      "name": "Frame 1321319672",
+      "x": 0,
+      "y": 0,
+      "w": 56,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164132",
+      "parent": "6671:164131",
+      "type": "FRAME",
+      "name": "Frame 1321319676",
+      "x": 0,
+      "y": 4,
+      "w": 13,
+      "h": 13,
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1.0833333730697632,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164133",
+      "parent": "6671:164132",
+      "type": "ELLIPSE",
+      "name": "Ellipse 2238",
+      "x": 0,
+      "y": 0,
+      "w": 13,
+      "h": 13,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.6447566151618958,
+            "b": 0.6447566151618958
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1.3000000715255737,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164134",
+      "parent": "6671:164132",
+      "type": "VECTOR",
+      "name": "¥",
+      "x": 3.14208984375,
+      "y": 2.9973957538604736,
+      "w": 6.5,
+      "h": 7.061245441436768,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.6447566151618958,
+            "b": 0.6447566151618958
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.6447566151618958,
+            "b": 0.6447566151618958
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 0.20000000298023224,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164135",
+      "parent": "6671:164131",
+      "type": "FRAME",
+      "name": "Frame",
+      "x": 137,
+      "y": 2.5,
+      "w": 16,
+      "h": 16,
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.3225806951522827,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": true
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164136",
+      "parent": "6671:164135",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.646312415599823,
+            "g": 0.7488712072372437,
+            "b": 0.8514310121536255
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.0630040392279625,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164137",
+      "parent": "6671:164135",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 6.223958492279053,
+      "y": 3.5520832538604736,
+      "w": 3.5557241439819336,
+      "h": 8.888888359069824,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.646312415599823,
+            "g": 0.7488712072372437,
+            "b": 0.8514310121536255
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.0630040392279625,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164138",
+      "parent": "6671:164099",
+      "type": "FRAME",
+      "name": "Frame 1321319946",
+      "x": 0,
+      "y": 74,
+      "w": 311,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 5,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164139",
+      "parent": "6671:164138",
+      "type": "TEXT",
+      "name": "完成率",
+      "x": 0,
+      "y": 0,
+      "w": 36,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.007843137718737125,
+            "g": 0.7137255072593689,
+            "b": 0.8156862854957581
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "完成率",
+          "start": 0,
+          "end": 3,
+          "fontSize": 12,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.007843137718737125,
+                "g": 0.7137255072593689,
+                "b": 0.8156862854957581
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6671:164140",
+      "parent": "6671:164138",
+      "type": "FRAME",
+      "name": "Frame 1321319919",
+      "x": 41,
+      "y": 7.5,
+      "w": 264,
+      "h": 5,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 229,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164141",
+      "parent": "6671:164140",
+      "type": "FRAME",
+      "name": "Frame 1321319919",
+      "x": 0,
+      "y": 0,
+      "w": 264,
+      "h": 5,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 229,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164142",
+      "parent": "6671:164141",
+      "type": "FRAME",
+      "name": "Frame 1321319918",
+      "x": 0,
+      "y": 0,
+      "w": 51,
+      "h": 5,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 10,
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164143",
+      "parent": "6671:164142",
+      "type": "VECTOR",
+      "name": "Rectangle 34626347",
+      "x": 0,
+      "y": 1,
+      "w": 120,
+      "h": 5,
+      "visible": true,
+      "opacity": 0.7699999809265137,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.007843137718737125,
+            "g": 0.7137255072593689,
+            "b": 0.8156862854957581
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164144",
+      "parent": "6671:164142",
+      "type": "VECTOR",
+      "name": "Rectangle 34626346",
+      "x": 0,
+      "y": 1,
+      "w": 270,
+      "h": 5,
+      "visible": true,
+      "opacity": 0.20000000298023224,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.1764705926179886,
+            "g": 0.7921568751335144,
+            "b": 0.8784313797950745
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164145",
+      "parent": "6671:164141",
+      "type": "VECTOR",
+      "name": "Rectangle 34626345",
+      "x": 0,
+      "y": 1,
+      "w": 120,
+      "h": 5,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "PATTERN",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "sourceNodeId": "6671:131587",
+          "tileType": "RECTANGULAR",
+          "scalingFactor": 0.03999999910593033,
+          "spacing": {
+            "x": -0.03999999910593033,
+            "y": -0.03999999910593033
+          },
+          "horizontalAlignment": "START",
+          "verticalAlignment": "START"
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": 0,
+      "effects": [],
+      "layout": null,
+      "segments": null
+    },
+    {
+      "id": "6671:164146",
+      "parent": "6671:164141",
+      "type": "FRAME",
+      "name": "Frame 1321319652",
+      "x": 98,
+      "y": -4,
+      "w": 42,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.007843137718737125,
+            "g": 0.7137255072593689,
+            "b": 0.8156862854957581
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4185076951980591,
+            "g": 0.8180592060089111,
+            "b": 0.9073204398155212
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "radii": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "smoothing": 0,
+      "effects": [],
+      "layout": {
+        "mode": "HORIZONTAL",
+        "gap": 59,
+        "padding": [
+          0,
+          4,
+          0,
+          4
+        ],
+        "clips": false
+      },
+      "segments": null
+    },
+    {
+      "id": "6671:164147",
+      "parent": "6671:164146",
+      "type": "TEXT",
+      "name": "52.7%",
+      "x": 4,
+      "y": 0,
+      "w": 34,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "radii": null,
+      "smoothing": null,
+      "effects": [],
+      "layout": null,
+      "segments": [
+        {
+          "characters": "52.7%",
+          "start": 0,
+          "end": 5,
+          "fontSize": 11,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold"
+          },
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "svgFile": "native/home-6671-164095.svg"
+}

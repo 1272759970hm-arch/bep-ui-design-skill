@@ -1,0 +1,300 @@
+{
+  "id": "6695:316886",
+  "name": "月份仪表 / 经营收入 / 原项目图层",
+  "w": 311,
+  "h": 183,
+  "records": [
+    {
+      "id": "6695:316886",
+      "parent": "6695:316884",
+      "type": "FRAME",
+      "name": "月份仪表 / 经营收入 / 原项目图层",
+      "x": 8,
+      "y": 46,
+      "w": 311,
+      "h": 183,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "text": null
+    },
+    {
+      "id": "6695:316914",
+      "parent": "6695:316913",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 0,
+      "w": 67,
+      "h": 45,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "80.0",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Semibold"
+        },
+        "size": 32,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "6695:316915",
+      "parent": "6695:316913",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 70.73329162597656,
+      "y": 15,
+      "w": 14,
+      "h": 30,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.8500000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "size": 14,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29.295154571533203
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316917",
+      "parent": "6695:316916",
+      "type": "TEXT",
+      "name": "同 3.2%",
+      "x": 6.607921123504639,
+      "y": 0.0038202092982828617,
+      "w": 59,
+      "h": 23,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.06009864807128906,
+            "g": 0.8325007557868958,
+            "b": 0.5235399603843689
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "同 3.2%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "size": 15.418501853942871,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22.026432037353516
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316919",
+      "parent": "6695:316887",
+      "type": "TEXT",
+      "name": "同比",
+      "x": 17.621145248413086,
+      "y": 159.99996948242188,
+      "w": 28,
+      "h": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.800000011920929,
+            "g": 0.8117647171020508,
+            "b": 0.8392156958580017
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "同比",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 14,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316921",
+      "parent": "6695:316920",
+      "type": "TEXT",
+      "name": "分类一",
+      "x": 0,
+      "y": 0,
+      "w": 42,
+      "h": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5558025240898132,
+            "g": 0.6682431697845459,
+            "b": 0.8322190642356873
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "军令状",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 14,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316922",
+      "parent": "6695:316920",
+      "type": "TEXT",
+      "name": "分类一",
+      "x": 46,
+      "y": 0,
+      "w": 44,
+      "h": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5558025240898132,
+            "g": 0.6682431697845459,
+            "b": 0.8322190642356873
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "46.5亿",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Semibold"
+        },
+        "size": 14,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    }
+  ],
+  "svgFile": "native/chart-6695-316886.svg",
+  "deferredSvg": false
+}

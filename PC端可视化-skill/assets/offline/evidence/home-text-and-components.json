@@ -1,0 +1,448 @@
+{
+  "textStyles": [
+    {
+      "id": "4424:66074",
+      "text": "实收金额",
+      "font": {
+        "family": "PingFang SC",
+        "style": "Medium"
+      },
+      "size": 18,
+      "line": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+            }
+          }
+        }
+      ],
+      "style": "S:1d2d476cdd6bccca722e721d9ee284890927e45b,165:0"
+    },
+    {
+      "id": "4424:66075",
+      "text": "更新25/07",
+      "font": {
+        "family": "PingFang SC",
+        "style": "Regular"
+      },
+      "size": 12,
+      "line": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+            }
+          }
+        }
+      ],
+      "style": "S:4d7ed2e157ac9d189391b7ba250ef696f3bd42fe,147:3"
+    },
+    {
+      "id": "4424:66078",
+      "text": "988.20",
+      "font": {
+        "family": "DIN",
+        "style": "Bold"
+      },
+      "size": 30,
+      "line": {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "style": ""
+    },
+    {
+      "id": "4424:66079",
+      "text": "亿",
+      "font": {
+        "family": "DIN",
+        "style": "Medium"
+      },
+      "size": 16,
+      "line": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "style": ""
+    },
+    {
+      "id": "4424:66084",
+      "text": "收费率",
+      "font": {
+        "family": "PingFang SC",
+        "style": "Regular"
+      },
+      "size": 14,
+      "line": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:011767b03e3c2ead4e51f1260bebc8f7672408bc/330:8"
+            }
+          }
+        }
+      ],
+      "style": "S:b26796ed150b74a2fdaa05f687c7bc812d34445b,147:0"
+    },
+    {
+      "id": "4424:66087",
+      "text": "89.56",
+      "font": {
+        "family": "DIN",
+        "style": "Bold"
+      },
+      "size": 16,
+      "line": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {}
+        }
+      ],
+      "style": ""
+    },
+    {
+      "id": "4424:66088",
+      "text": "%",
+      "font": {
+        "family": "DIN",
+        "style": "Medium"
+      },
+      "size": 14,
+      "line": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {}
+        }
+      ],
+      "style": ""
+    },
+    {
+      "id": "4424:66177",
+      "text": "项目来源",
+      "font": {
+        "family": "PingFang SC",
+        "style": "Regular"
+      },
+      "size": 14,
+      "line": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:011767b03e3c2ead4e51f1260bebc8f7672408bc/330:8"
+            }
+          }
+        }
+      ],
+      "style": "S:b26796ed150b74a2fdaa05f687c7bc812d34445b,147:0"
+    },
+    {
+      "id": "4424:66178",
+      "text": "集团开发",
+      "font": {
+        "family": "PingFang SC",
+        "style": "Medium"
+      },
+      "size": 16,
+      "line": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+            }
+          }
+        }
+      ],
+      "style": "S:c23d2ffd1ff55ded3640172052dfe3cc030a6791,129:92"
+    },
+    {
+      "id": "4424:66190",
+      "text": "本年累计主营收费率",
+      "font": {
+        "family": "PingFang SC",
+        "style": "Regular"
+      },
+      "size": 16,
+      "line": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "style": "S:7968406ea91738ac2291f13a98b781daa1647ca4,129:93"
+    },
+    {
+      "id": "4424:66191",
+      "text": "86.56%",
+      "font": {
+        "family": "Rubik",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "size": 16,
+      "line": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "style": ""
+    }
+  ],
+  "tags": [
+    {
+      "id": "4424:66080",
+      "w": 85,
+      "h": 20,
+      "main": {
+        "id": "4424:47225",
+        "key": "bfb262258af552a7fe1c445b0331a5f8b2ce5db4",
+        "name": "类型=up, 位置=首页, 尺寸=Default"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "pad": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "gap": 2
+    },
+    {
+      "id": "4424:66089",
+      "w": 75,
+      "h": 18,
+      "main": {
+        "id": "4424:47229",
+        "key": "81cf9654051a3c2e3b40bf49e406efdb943898d8",
+        "name": "类型=up, 位置=首页, 尺寸=小"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "pad": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "gap": 2
+    }
+  ],
+  "clickNodes": [
+    {
+      "id": "4424:66070",
+      "name": "收费",
+      "reactions": []
+    },
+    {
+      "id": "4424:66072",
+      "name": "实收",
+      "reactions": []
+    },
+    {
+      "id": "4424:66083",
+      "name": "收费率",
+      "reactions": []
+    },
+    {
+      "id": "4424:66104",
+      "name": "满意度",
+      "reactions": []
+    },
+    {
+      "id": "4424:66117",
+      "name": "Frame 1321319746",
+      "reactions": []
+    },
+    {
+      "id": "4424:66127",
+      "name": "Frame 1321319747",
+      "reactions": []
+    },
+    {
+      "id": "4424:66173",
+      "name": "Frame 1321320017",
+      "reactions": []
+    },
+    {
+      "id": "4424:66185",
+      "name": "Frame 1321319750",
+      "reactions": []
+    }
+  ]
+}

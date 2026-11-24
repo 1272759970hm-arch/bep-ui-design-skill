@@ -1,0 +1,30 @@
+{
+  "title": "一看底部导航三态",
+  "description": "原始矢量与 On／Off 状态色核对。点击可切换选中项，宿主通过导航事件接入页面。",
+  "screens": [
+    {
+      "name": "首页选中",
+      "homeNavigation": {
+        "selected": 0
+      },
+      "components": [],
+      "note": "底部导航组件状态核对"
+    },
+    {
+      "name": "指标选中",
+      "homeNavigation": {
+        "selected": 1
+      },
+      "components": [],
+      "note": "底部导航组件状态核对"
+    },
+    {
+      "name": "我的选中",
+      "homeNavigation": {
+        "selected": 2
+      },
+      "components": [],
+      "note": "底部导航组件状态核对"
+    }
+  ]
+}

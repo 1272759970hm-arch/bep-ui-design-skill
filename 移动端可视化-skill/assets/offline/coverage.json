@@ -1,0 +1,167 @@
+{
+  "version": "1.3.4-trial.2",
+  "release_status": "product_trial",
+  "runtime_figma_dependency": false,
+  "extracted": {
+    "colors": 66,
+    "typography_roles": 47,
+    "geometry_records": 6689,
+    "native_icon_svgs": 20,
+    "ai_original_image": true,
+    "ai_original_background_svg": true,
+    "funding_two_state_properties_refreshed": "2026-11-03",
+    "native_ring_states": 10,
+    "native_ring_svg_files": 20,
+    "outlined_original_chart_samples": 17,
+    "native_svg_files": 104,
+    "outlined_original_home_samples": 9,
+    "organization_source_pngs": 2,
+    "outlined_original_warning_samples": 4,
+    "warning_layout_and_text_nodes": 576,
+    "header_background_assets": 4
+  },
+  "render_templates": 16,
+  "all_existing_rule_documents_bundled": true,
+  "source_export_limited": "See nov4_progress for per-file status. The two new Brainstorm pages were read successfully.",
+  "verified": [
+    "金额关系及占比",
+    "缺失/非法数据不补0",
+    "分类联动保持合计占比",
+    "五系列默认显示",
+    "趋势选点/显隐",
+    "排名搜索/排序",
+    "无外网请求",
+    "375宽无整页溢出"
+  ],
+  "not_complete": [
+    "品牌文件详细规范及其余来源/业务状态逐项核销",
+    "组织原始SVG异常与完整权限场景素材",
+    "其他原件的文字转曲版、实例约束和组件变体元数据",
+    "原稿未定义的异常多环/多圈及部分口径疑点",
+    "已取得原件的数据模板原样适配",
+    "全组件同数据视觉对照与Skill独立复现",
+    "重新打包当前工作版"
+  ],
+  "scope_note": "现有已提取文档均本地可读；未读取或未定义的内容未被补造为规范。建议模板不冒充原生组件。",
+  "nov4_progress": {
+    "updated_at": "2026-11-04",
+    "specified_sources": [
+      {
+        "fileKey": "OY85mLprwU2KM2Kl4wfMN0",
+        "nodeId": "7210:4344",
+        "status": "Starter限额拦截"
+      },
+      {
+        "fileKey": "2oSqZAFWhrtQoOytyamFOn",
+        "nodeId": "6671:131442",
+        "status": "已读取页面结构、指定交互明文及7组有效原始SVG"
+      }
+    ],
+    "native_business_groups": 7,
+    "native_backgrounds": 2,
+    "invalid_organization_svgs": 2,
+    "complete": false,
+    "remaining": [
+      "品牌规范文件读取",
+      "组织原始SVG导出异常",
+      "其余原始组件与全状态提取",
+      "日历筛选的动态模板接入",
+      "全组件逐像素验收"
+    ]
+  },
+  "native_category_backgrounds_acquired": true,
+  "completeness_audit": "references/current-extraction-status.md",
+  "overall_complete": false,
+  "audit_native_valid_svg_count": 63,
+  "latest_update": "2026-11-18",
+  "component_classification_text_count": 1291,
+  "ring_native_reference": "references/ring-native-states.md",
+  "query_controls": {
+    "reference": "references/query-controls.md",
+    "date_sheet_native_svgs": 3,
+    "date_local_interaction": true,
+    "organization_local_interaction": true,
+    "organization_native_svg_valid": false,
+    "full_page_query_binding": false,
+    "full_calendar_native_svgs": 3,
+    "full_calendar_local_interaction": true
+  },
+  "advanced_filter": {
+    "reference": "references/advanced-filter.md",
+    "parameter_evidence": true,
+    "local_interaction_implemented": true,
+    "whole_page_query_complete": false
+  },
+  "business_ranking": {
+    "reference": "references/business-ranking.md",
+    "neighborhood_selection": true,
+    "peer_mask_before_html_embedding": true,
+    "column_search": true,
+    "scope_and_drill_events": true,
+    "real_business_routing": false,
+    "indicator_detail_background": true
+  },
+  "native_source_extraction_1105": {
+    "manifest": "assets/offline/native-source-catalog-2026-11-05.json",
+    "reference": "references/native-chart-extraction-2026-11-05.md",
+    "chart_svgs": 17,
+    "home_card_svgs": 3,
+    "text_records": 497,
+    "mixed_style_nodes": 19,
+    "svg_element_records": 1653,
+    "original_png_resources": 1,
+    "runtime_adapter_complete": false
+  },
+  "native_home_warning_extraction": {
+    "manifest": "assets/offline/home-warning-source-catalog-2026-11-05.json",
+    "reference": "references/native-home-warning-extraction-2026-11-05.md",
+    "home_originals": 6,
+    "warning_originals": 4,
+    "svg_element_records": 952,
+    "runtime_changed": true,
+    "runtime_home_source_layouts": 6,
+    "warning_ranking_and_rules_dialog": true
+  },
+  "current_source_state": "references/current-extraction-status.md",
+  "chart_layout_extraction": {
+    "charts": 17,
+    "layout_and_text_nodes": 1312,
+    "text_nodes": 463,
+    "audit_script": "scripts/audit_native_extraction.py",
+    "scope": "all descendant text/layout-capable nodes, not all instance metadata"
+  },
+  "brand_2026_11_16": {
+    "spacing_and_series_source": "assets/offline/evidence/brand-spacing-and-chart-source-2026-11-16.json",
+    "color_metadata": "assets/offline/evidence/brand-color-layer-index-2026-11-16.xml",
+    "remaining": "Full color paint parameters, typography and copy detail"
+  },
+  "funding_source_2026_11_16": {
+    "funding-bar-5790-97067.svg": {
+      "sha256": "123ed19352fc95cd36c530177c2ede5b435c320150074edfc7b6531480a90adc"
+    },
+    "funding-bar-5885-88880.svg": {
+      "sha256": "2b4d65ae431ec6c57a9fda7ec81bd19e3faafecd9194ac31380d6c3da44d5418"
+    },
+    "funding-bar-7896-93819.svg": {
+      "sha256": "cf2e78b567f87f84f5c4912051f85eb30518ff2cb133ec91fc2c52eba5384bce"
+    }
+  },
+  "trial_release": {
+    "reference": "references/trial-release-1.3.4.md",
+    "report": "audit/2026-11-18/trial-browser-validation.json",
+    "scope": [
+      "indicatorHeader",
+      "fundingBar",
+      "aiHint",
+      "detailRanking",
+      "homeCard"
+    ],
+    "passed": "局部公式、计算样式、离线运行和交互；不是全库视觉验收"
+  },
+  "postGenerationValidation": {
+    "static": "automatic",
+    "browser": "auto when available",
+    "fullVisualParity": false,
+    "guide": "references/post-generation-validation.md"
+  }
+}

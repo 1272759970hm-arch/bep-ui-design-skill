@@ -1,0 +1,11 @@
+{
+  "section": "4424:69842",
+  "allTraversableNodes": 3810,
+  "detailedSelectedNodes": 819,
+  "statePages": 10,
+  "chartTypes": 2,
+  "scope": "All ten analysis-card subtrees and header text; repeated navigation/ranking graphics excluded",
+  "configuredReactions": "ten analysis subtrees: 0; static state specification, no runnable gesture proof",
+  "fontAndAngleEvidence": "stored in nodes.json and CSV",
+  "formulaScope": "single ring selected samples verified; multi-ring algorithm unresolved"
+}

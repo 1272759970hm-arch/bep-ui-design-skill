@@ -1,0 +1,40 @@
+<svg width="369" height="136" viewBox="0 0 369 136" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_6671_164148)">
+<path d="M12.9004 22.9004C12.9004 16.273 18.273 10.9004 24.9004 10.9004H343.9C350.528 10.9004 355.9 16.273 355.9 22.9004V108.9C355.9 115.528 350.528 120.9 343.9 120.9H24.9004C18.273 120.9 12.9004 115.528 12.9004 108.9V22.9004Z" fill="white" fill-opacity="0.6" shape-rendering="crispEdges"/>
+<path d="M343.9 9.90039C351.08 9.90039 356.9 15.7207 356.9 22.9004V108.9C356.9 116.08 351.08 121.9 343.9 121.9H24.9004C17.7207 121.9 11.9004 116.08 11.9004 108.9V22.9004C11.9004 15.7207 17.7207 9.90039 24.9004 9.90039H343.9Z" stroke="white" stroke-width="2" shape-rendering="crispEdges"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="18" letter-spacing="0em"><tspan x="28.9004" y="45.3804">&#x7a0e;&#x524d;&#x5229;&#x6da6;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="28.9004" y="69.4404">&#x96c6;&#x56e2;&#x6574;&#x4f53;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="30" font-weight="bold" letter-spacing="0em"><tspan x="262.9" y="51.0354">90.2</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="16" letter-spacing="0em"><tspan x="323.9" y="50.2124">&#x4ebf;</tspan></text>
+<rect x="259.9" y="58.9004" width="80" height="20" rx="10" fill="white" fill-opacity="0.6"/>
+<text fill="#0FD486" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="264.9" y="73.9404">&#x540c; 3.2%</tspan></text>
+<rect x="320.9" y="61.9004" width="14" height="14" rx="7" fill="#0FD486"/>
+<path d="M328.143 74.9639H327.656L326.847 68.1836H323.9L327.9 62.8359L331.9 68.1836H328.953L328.143 74.9639Z" fill="white"/>
+<text fill="#2DCAE0" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="12" letter-spacing="0em"><tspan x="28.9004" y="105.22">&#x5b8c;&#x6210;&#x7387;</tspan></text>
+<path opacity="0.77" d="M69.9004 101.9C69.9004 100.52 71.0197 99.4004 72.4004 99.4004H187.4C188.781 99.4004 189.9 100.52 189.9 101.9C189.9 103.281 188.781 104.4 187.4 104.4H72.4004C71.0197 104.4 69.9004 103.281 69.9004 101.9Z" fill="#2DCAE0"/>
+<path opacity="0.1" d="M69.9004 101.9C69.9004 100.52 71.0197 99.4004 72.4004 99.4004H337.4C338.781 99.4004 339.9 100.52 339.9 101.9C339.9 103.281 338.781 104.4 337.4 104.4H72.4004C71.0197 104.4 69.9004 103.281 69.9004 101.9Z" fill="#2DCAE0"/>
+<path d="M69.9004 101.9C69.9004 100.52 71.0197 99.4004 72.4004 99.4004H187.4C188.781 99.4004 189.9 100.52 189.9 101.9C189.9 103.281 188.781 104.4 187.4 104.4H72.4004C71.0197 104.4 69.9004 103.281 69.9004 101.9Z" fill="url(#pattern0_6671_164148)"/>
+<rect x="186.9" y="93.4004" width="44" height="17" rx="8.5" fill="#2DCAE0"/>
+<rect x="186.9" y="93.4004" width="44" height="17" rx="8.5" stroke="#DAF8FC" stroke-width="2"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="11" letter-spacing="0em"><tspan x="191.9" y="105.86">52.7%</tspan></text>
+</g>
+<defs>
+<filter id="filter0_d_6671_164148" x="0.000391006" y="0.000391006" width="368.8" height="135.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="5.45"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.385845 0 0 0 0 0.586445 0 0 0 0 0.586445 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6671_164148"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6671_164148" result="shape"/>
+</filter>
+<pattern id="pattern0_6671_164148" patternUnits="userSpaceOnUse" patternTransform="matrix(7.5648 0 0 6.4128 69.3701 98.7749)" preserveAspectRatio="none" viewBox="-13.2561 -15.6374 189.12 160.32" width="1" height="1">
+<use xlink:href="#pattern0_6671_164148_inner" transform="translate(-189.12 -160.32)"/>
+<use xlink:href="#pattern0_6671_164148_inner" transform="translate(0 -160.32)"/>
+<use xlink:href="#pattern0_6671_164148_inner" transform="translate(-189.12 0)"/>
+<g id="pattern0_6671_164148_inner">
+<path d="M0 167L197 0" stroke="#2DCAE0" stroke-width="41"/>
+</g>
+</pattern></defs>
+</svg>

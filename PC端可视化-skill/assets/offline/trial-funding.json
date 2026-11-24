@@ -1,0 +1,287 @@
+{
+  "title": "两轮充电 · 经营情况试用",
+  "description": "模拟数据。金额单位万元；资金流水38400＝实际收益25574.40＋未计入12825.60。日期控件演示不改变该快照。",
+  "screens": [
+    {
+      "name": "经营情况",
+      "header": {
+        "layout": "indicatorDetail",
+        "title": "一看",
+        "navFont": "pingfang",
+        "query": {
+          "value": {
+            "granularity": "year",
+            "year": 2026,
+            "month": 10,
+            "day": 26
+          },
+          "years": [
+            2025,
+            2026
+          ],
+          "today": {
+            "year": 2026,
+            "month": 10,
+            "day": 26
+          },
+          "min": {
+            "granularity": "day",
+            "year": 2025,
+            "month": 1,
+            "day": 1
+          },
+          "max": {
+            "granularity": "day",
+            "year": 2026,
+            "month": 10,
+            "day": 26
+          }
+        },
+        "value": "3.84",
+        "unit": "亿元",
+        "metricName": "资金流水",
+        "metricInfo": "总资金流水＝充电收益＋增值收益＋未计入其他金额。经营条两个色块合计占总流水的比例。",
+        "updated": "更新于10月26日",
+        "yoy": 18.52,
+        "mom": null,
+        "ai": {
+          "text": "实际收益合计占总流水66.6%",
+          "detail": "演示解读：两项合计25574.40万元；未计入12825.60万元。此页为统一模拟数据，切换日期仅演示控件，不调用业务接口。",
+          "demo": true
+        }
+      },
+      "components": [
+        {
+          "type": "fundingBar",
+          "props": {
+            "current": {
+              "funding": 4560,
+              "charging": 3113.52,
+              "added": 126.48,
+              "actual_revenue": 3240,
+              "excluded": 1320,
+              "actual_share_display": "71.1%"
+            },
+            "cumulative": {
+              "funding": 38400,
+              "charging": 24568.56,
+              "added": 1005.84,
+              "actual_revenue": 25574.4,
+              "excluded": 12825.6,
+              "actual_share_display": "66.6%"
+            },
+            "category": "charging"
+          }
+        },
+        {
+          "type": "detailRanking",
+          "props": {
+            "title": "资金排名",
+            "peer": {
+              "id": "peers",
+              "kind": "peers",
+              "label": "地区",
+              "selfId": "p3",
+              "complete": true,
+              "totalPeers": 7,
+              "columns": [
+                "排名",
+                "项目名称",
+                "收款金额",
+                "环比"
+              ],
+              "rows": [
+                {
+                  "id": "p0",
+                  "rank": 1,
+                  "name": "项目0",
+                  "values": [
+                    854.08,
+                    67.2
+                  ],
+                  "canDrill": false
+                },
+                {
+                  "id": "p1",
+                  "rank": 2,
+                  "name": "项目1",
+                  "values": [
+                    804.08,
+                    -23.1
+                  ],
+                  "canDrill": false
+                },
+                {
+                  "id": "p2",
+                  "rank": 3,
+                  "name": "项目2",
+                  "values": [
+                    754.08,
+                    45.7
+                  ],
+                  "canDrill": false
+                },
+                {
+                  "id": "p3",
+                  "rank": 4,
+                  "name": "康桥碧桂园",
+                  "values": [
+                    704.08,
+                    -18.4
+                  ],
+                  "canDrill": false
+                },
+                {
+                  "id": "p4",
+                  "rank": 5,
+                  "name": "项目4",
+                  "values": [
+                    654.08,
+                    0
+                  ],
+                  "canDrill": false
+                },
+                {
+                  "id": "p5",
+                  "rank": 6,
+                  "name": "项目5",
+                  "values": [
+                    604.08,
+                    2.3
+                  ],
+                  "canDrill": false
+                },
+                {
+                  "id": "p6",
+                  "rank": 7,
+                  "name": "项目6",
+                  "values": [
+                    554.08,
+                    -8.9
+                  ],
+                  "canDrill": false
+                }
+              ],
+              "rateColumn": 3,
+              "valueUnits": [
+                "万",
+                ""
+              ]
+            },
+            "subordinates": [
+              {
+                "id": "steward",
+                "kind": "subordinates",
+                "label": "管家排名",
+                "title": "下辖组织收款排名",
+                "columns": [
+                  "排名",
+                  "管家姓名",
+                  "收款金额",
+                  "环比"
+                ],
+                "rows": [
+                  {
+                    "id": "u0",
+                    "rank": 1,
+                    "name": "黄恩林",
+                    "values": [
+                      854.08,
+                      67.2
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "u1",
+                    "rank": 2,
+                    "name": "钱华",
+                    "values": [
+                      782.01,
+                      -23.1
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "u2",
+                    "rank": 3,
+                    "name": "许万强",
+                    "values": [
+                      630.44,
+                      45.7
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "u3",
+                    "rank": 4,
+                    "name": "徐志",
+                    "values": [
+                      328.85,
+                      -18.4
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "u4",
+                    "rank": 5,
+                    "name": "王伟",
+                    "values": [
+                      293.01,
+                      -8.9
+                    ],
+                    "canDrill": true
+                  }
+                ],
+                "rateColumn": 3,
+                "valueUnits": [
+                  "万",
+                  ""
+                ]
+              },
+              {
+                "id": "project",
+                "kind": "subordinates",
+                "label": "项目排名",
+                "title": "下辖组织收款排名",
+                "columns": [
+                  "排名",
+                  "项目名称",
+                  "收款金额",
+                  "环比"
+                ],
+                "rows": [
+                  {
+                    "id": "o0",
+                    "rank": 1,
+                    "name": "示例项目A",
+                    "values": [
+                      900,
+                      5
+                    ],
+                    "canDrill": false
+                  },
+                  {
+                    "id": "o1",
+                    "rank": 2,
+                    "name": "示例项目B",
+                    "values": [
+                      800,
+                      -2
+                    ],
+                    "canDrill": false
+                  }
+                ],
+                "rateColumn": 3,
+                "valueUnits": [
+                  "万",
+                  ""
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据 · 日期/下钻为本地交互演示；后端查询及路由需业务接入。"
+    }
+  ]
+}

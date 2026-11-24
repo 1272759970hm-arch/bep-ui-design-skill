@@ -1,0 +1,209 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bep-s-page.schema.json",
+  "title": "BEP-S Page Output Schema",
+  "description": "AI 独立设计页面时产出的中间结构（page.json）。这个结构不依赖 Figma MCP 就能生成，未来接一个 Figma Plugin 读取这份 JSON 就能把页面画进 Figma——Claude 只负责产出符合这个结构的 JSON，不需要在生成阶段就调用 Figma。字段设计原则：每个组件引用都指向 component-registry.json 里的真实条目（用 componentRef），每个数值都指向 design-tokens.json 里的 Token key（用 tokenRef），不允许在 page.json 里出现裸的魔法数字或凭空编造的组件名。",
+  "type": "object",
+  "required": ["page", "frames"],
+  "properties": {
+    "page": {
+      "type": "object",
+      "description": "页面级元信息",
+      "required": ["name", "width"],
+      "properties": {
+        "name": { "type": "string", "description": "页面名称，如'报修申请'" },
+        "width": { "type": "number", "description": "移动端设计基准宽度，固定375，对应 design-tokens.json 里没有独立Token但由 mobile-ui-rules.md 确定" },
+        "estimatedHeight": { "type": "number", "description": "页面总高度估算值（px），可以超过812视口，代表需要滚动" },
+        "background": { "type": "string", "description": "背景色，必须是 design-tokens.json 里的 color token key，如 color.white" },
+        "generatedFrom": {
+          "type": "object",
+          "description": "溯源信息，记录这份 page.json 依赖了哪些 registry 版本，方便以后 registry 更新时判断哪些 page.json 需要重新生成",
+          "properties": {
+            "componentRegistryVersion": { "type": "string" },
+            "designTokensVersion": { "type": "string" },
+            "generatedDate": { "type": "string" }
+          }
+        }
+      }
+    },
+    "frames": {
+      "type": "array",
+      "description": "页面的顶层结构树，通常是 [NavBar frame, Content frame] 两个顶层节点，Content frame 内部再嵌套字段 frame",
+      "items": { "$ref": "#/definitions/frame" }
+    },
+    "components": {
+      "type": "array",
+      "description": "本页面用到的所有组件实例清单（跟 frames 里的引用对应，扁平化列一份方便统计 Component Reuse Score）",
+      "items": { "$ref": "#/definitions/componentUsage" }
+    },
+    "text": {
+      "type": "array",
+      "description": "本页面所有独立文本节点（不在组件内部的，比如手工加的字段标题、说明文字）",
+      "items": { "$ref": "#/definitions/textNode" }
+    },
+    "tokens": {
+      "type": "object",
+      "description": "本页面实际用到的 Token 引用清单，用于 Validation 的 Token Compliance 检查，同时区分 DESIGN_SYSTEM_FACT 和 AI_PROPOSED",
+      "properties": {
+        "colorRefs": { "type": "array", "items": { "type": "string" } },
+        "typographyRefs": { "type": "array", "items": { "type": "string" } },
+        "spacingRefs": { "type": "array", "items": { "type": "string" } },
+        "radiusRefs": { "type": "array", "items": { "type": "string" } },
+        "aiProposedRefs": {
+          "type": "array",
+          "description": "本页面用到的所有 AI_PROPOSED / INFERRED 数值，每一条都必须在最终报告里声明'该值为AI建议值，并非当前设计系统正式规范'",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "description": "页面级布局参数",
+      "properties": {
+        "type": { "type": "string", "enum": ["auto-layout-vertical", "auto-layout-horizontal", "fixed"] },
+        "paddingTop": { "type": "number" },
+        "paddingBottom": { "type": "number" },
+        "paddingLeft": { "type": "number" },
+        "paddingRight": { "type": "number" },
+        "itemSpacing": { "type": "number" }
+      }
+    },
+    "spacing": {
+      "type": "object",
+      "description": "字段级/组件级的间距明细，key 是'来源frame id → 目标frame id'，value 是 px 数值 + tokenRef（如果有 Token 依据）或 INFERRED 说明",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "px": { "type": "number" },
+          "tokenRef": { "type": ["string", "null"] },
+          "status": { "type": "string", "enum": ["FOUND_IN_FIGMA", "INFERRED", "AI_PROPOSED"] }
+        }
+      }
+    },
+    "states": {
+      "type": "object",
+      "description": "页面/组件的交互状态快照，比如表单校验状态、每个组件当前展示的具体state",
+      "properties": {
+        "formValidation": {
+          "type": "object",
+          "description": "表单级校验状态占位，比如必填字段清单、提交前禁用条件"
+        },
+        "componentStates": {
+          "type": "array",
+          "description": "每个组件实例当前渲染的具体状态，对应 component-registry.json 里 states 数组的某一项 name",
+          "items": {
+            "type": "object",
+            "properties": {
+              "componentUsageId": { "type": "string" },
+              "stateName": { "type": "string" },
+              "verified": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "description": "该页面对应的 validation.md 检查结果快照，便于未来 Figma Plugin 侧展示或存档",
+      "properties": {
+        "componentReuseScore": { "type": "number" },
+        "tokenComplianceScore": { "type": "number" },
+        "mobileUiScore": { "type": "number" },
+        "visualConsistencyScore": { "type": "number" },
+        "overallScore": { "type": "number" },
+        "componentAuthenticity": { "type": "string", "enum": ["PASS", "FAIL"] },
+        "designSystemConflict": { "type": "string", "enum": ["PASS", "FAIL"] },
+        "missingComponentDetection": { "type": "string", "enum": ["PASS", "FAIL"] },
+        "aiInferenceDetection": { "type": "string", "enum": ["PASS", "FAIL"] }
+      }
+    }
+  },
+  "definitions": {
+    "frame": {
+      "type": "object",
+      "required": ["id", "name", "type"],
+      "properties": {
+        "id": { "type": "string", "description": "本页面内唯一的节点id，纯粹是page.json内部引用用的，不是Figma node id" },
+        "name": { "type": "string" },
+        "type": { "type": "string", "enum": ["root", "section", "field", "componentInstance"] },
+        "componentUsageId": {
+          "type": ["string", "null"],
+          "description": "如果这个frame本质是一个组件实例，指向 components 数组里对应条目的 id；纯手工GROUP/SPEC_ONLY搭建的容器这里是null"
+        },
+        "layout": {
+          "type": "object",
+          "properties": {
+            "mode": { "type": "string", "enum": ["vertical", "horizontal", "none"] },
+            "gap": { "type": "number" },
+            "padding": { "type": "object" }
+          }
+        },
+        "dimensions": {
+          "type": "object",
+          "properties": {
+            "width": { "type": "number" },
+            "height": { "type": "number" }
+          }
+        },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/frame" }
+        }
+      }
+    },
+    "componentUsage": {
+      "type": "object",
+      "required": ["id", "componentRef", "status"],
+      "properties": {
+        "id": { "type": "string", "description": "本页面内唯一id，供 frames/states 引用" },
+        "componentRef": {
+          "type": "string",
+          "description": "指向 component-registry.json 里的 name 字段（如'输入框'/'选择触发行'），不允许写一个 registry 里没有的组件名"
+        },
+        "variantUsed": { "type": ["string", "null"], "description": "本次用的是该组件哪个variant" },
+        "stateUsed": { "type": ["string", "null"], "description": "本次展示的组件状态，必须是 registry 里该组件 states 数组中已存在的条目" },
+        "status": {
+          "type": "string",
+          "enum": ["REAL_COMPONENT", "REMOTE_COMPONENT", "REMOTE_INSTANCE", "LOCAL_COMPONENT", "COMPONENT_SET", "SPEC_ONLY", "AI_PROPOSED", "NOT_FOUND"],
+          "description": "直接抄自 component-registry.json 对应条目的 status，禁止在这里自行升级组件的真实性状态"
+        },
+        "overrides": {
+          "type": "object",
+          "description": "对该组件实例的文本/可见性覆盖",
+          "properties": {
+            "text": { "type": "object", "additionalProperties": { "type": "string" } },
+            "visibility": { "type": "object", "additionalProperties": { "type": "boolean" } }
+          }
+        }
+      }
+    },
+    "textNode": {
+      "type": "object",
+      "required": ["id", "content"],
+      "properties": {
+        "id": { "type": "string" },
+        "content": { "type": "string" },
+        "fontSizeTokenRef": { "type": "string", "description": "指向 design-tokens.json 的 font.size 值" },
+        "colorTokenRef": { "type": "string", "description": "指向 design-tokens.json 的 color.* key" },
+        "fontWeightTokenRef": { "type": "string" }
+      }
+    }
+  },
+  "examples": [
+    {
+      "page": { "name": "信息登记", "width": 375, "estimatedHeight": 1006, "background": "color.white" },
+      "frames": [
+        {
+          "id": "navbar", "name": "NavBar", "type": "componentInstance", "componentUsageId": "cu-navbar",
+          "dimensions": { "width": 375, "height": 44 }, "children": []
+        }
+      ],
+      "components": [
+        { "id": "cu-navbar", "componentRef": "导航栏", "variantUsed": "纯导航-右侧带文案", "stateUsed": null, "status": "REMOTE_INSTANCE",
+          "overrides": { "text": { "标准导航标题": "信息登记" }, "visibility": { "说明助文": false } } }
+      ],
+      "text": [],
+      "tokens": { "colorRefs": ["color.white", "color.text.4"], "spacingRefs": ["spacing.navbar.height"] }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "4424:70453",
+  "name": "项目预存",
+  "sectionTraversal": 1237,
+  "detailedUniqueNodes": 517,
+  "pageCount": 5,
+  "scope": "All analysis-card subtrees, header text, page identities and textual notes; repeated ranking/navigation graphics omitted; duplicate note root removed",
+  "configuredReactionsObserved": 0,
+  "verification": "read-only source audit and screenshot; not runtime interaction verification"
+}

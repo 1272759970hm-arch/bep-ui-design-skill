@@ -1,0 +1,94 @@
+{
+  "title": "一看移动端 · 基础柱与分组柱",
+  "description": "模拟数据。点选类别或使用选择器查看精确读数。",
+  "screens": [
+    {
+      "name": "物业满意度",
+      "header": {
+        "title": "物业满意度",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "categoryColumns",
+          "props": {
+            "title": "物业满意度",
+            "unit": "%",
+            "labels": [
+              "保洁",
+              "工程",
+              "客服",
+              "绿化",
+              "安防",
+              "其他"
+            ],
+            "series": [
+              {
+                "name": "满意度",
+                "values": [
+                  95,
+                  84,
+                  67,
+                  54,
+                  54,
+                  47
+                ]
+              }
+            ],
+            "selectedIndex": 0
+          }
+        }
+      ],
+      "note": "模拟数据。所有系列单位一致；“—”表示缺失。"
+    },
+    {
+      "name": "项目收缴对照",
+      "header": {
+        "title": "项目收缴对照",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "categoryColumns",
+          "props": {
+            "title": "项目收缴对照",
+            "unit": "万元",
+            "labels": [
+              "小业主",
+              "非风险客商",
+              "第三方"
+            ],
+            "series": [
+              {
+                "name": "应收金额",
+                "values": [
+                  120,
+                  80,
+                  65
+                ]
+              },
+              {
+                "name": "本期收款",
+                "values": [
+                  96,
+                  50,
+                  null
+                ]
+              },
+              {
+                "name": "同期收款",
+                "values": [
+                  88,
+                  0,
+                  31
+                ]
+              }
+            ],
+            "selectedIndex": 1
+          }
+        }
+      ],
+      "note": "模拟数据。所有系列单位一致；“—”表示缺失。"
+    }
+  ]
+}

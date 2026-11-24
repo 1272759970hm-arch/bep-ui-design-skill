@@ -1,0 +1,71 @@
+{
+  "title": "一看移动端 · 主页头部",
+  "description": "复用原稿渐变与组织选中曲面。组织名称为模拟数据。",
+  "screens": [
+    {
+      "name": "多组织主页头部",
+      "homeHeader": {
+        "organizations": [
+          {
+            "id": "area",
+            "name": "华东区域",
+            "selectable": true
+          },
+          {
+            "id": "a",
+            "name": "安庆碧桂园",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "b",
+            "name": "潮州碧桂园西区",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "c",
+            "name": "紫蓝湾一期",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "d",
+            "name": "清溪花园",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "unit",
+            "name": "潮州西区一期",
+            "parentId": "b",
+            "selectable": true
+          }
+        ],
+        "value": "a",
+        "peerIds": [
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "components": [],
+      "note": "模拟组织。可横滑、切换或搜索组织。"
+    },
+    {
+      "name": "单组织主页头部",
+      "homeHeader": {
+        "organizations": [
+          {
+            "id": "a",
+            "name": "安庆碧桂园",
+            "selectable": true
+          }
+        ],
+        "value": "a"
+      },
+      "components": [],
+      "note": "模拟组织。"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<svg width="369" height="169" viewBox="0 0 369 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_6671_164196)">
+<rect x="12.9004" y="10.9004" width="343" height="143" rx="12" fill="white" fill-opacity="0.6" shape-rendering="crispEdges"/>
+<rect x="11.9004" y="9.90039" width="345" height="145" rx="13" stroke="white" stroke-width="2" shape-rendering="crispEdges"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="18" letter-spacing="0em"><tspan x="28.9004" y="38.8804">&#x73b0;&#x91d1;&#x6d41;&#x51c0;&#x989d;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="28.9004" y="62.9404">&#x56fd;&#x5185;+&#x6d77;&#x5916;+&#x80a1;&#x6743;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="30" font-weight="bold" letter-spacing="0em"><tspan x="246.9" y="55.5354">678.3</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="16" letter-spacing="0em"><tspan x="323.9" y="54.7124">&#x4ebf;</tspan></text>
+<rect x="28.9004" y="77.9004" width="311" height="60" rx="4" fill="#00B2B2" fill-opacity="0.08"/>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="36.9004" y="100.94">&#x76ee;&#x6807;&#x7f3a;&#x53e3;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="15" letter-spacing="0em"><tspan x="280.733" y="101.818">84.71</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="13" letter-spacing="0em"><tspan x="318.9" y="101.029">&#x4e07;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="36.9004" y="124.94">&#x540c;&#x6bd4;&#x91d1;&#x989d;&#x53d8;&#x52a8;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="15" letter-spacing="0em"><tspan x="280.733" y="125.818">41.71</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="13" letter-spacing="0em"><tspan x="318.9" y="125.029">&#x4e07;</tspan></text>
+</g>
+<defs>
+<filter id="filter0_d_6671_164196" x="0.000391006" y="0.000391006" width="368.8" height="168.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="5.45"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.385845 0 0 0 0 0.586445 0 0 0 0 0.586445 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6671_164196"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6671_164196" result="shape"/>
+</filter>
+</defs>
+</svg>

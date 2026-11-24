@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "scrollEdges": [
+    "right",
+    "both",
+    "left"
+  ],
+  "fullscreen": true,
+  "searchInFullscreen": true,
+  "escapeRestore": true,
+  "buttonRestore": true,
+  "focusRestore": true,
+  "pageErrors": [],
+  "note": "Local behavior verification; not pixel parity with Figma."
+}

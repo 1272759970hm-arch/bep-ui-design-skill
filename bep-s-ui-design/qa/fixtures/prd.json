@@ -1,0 +1,18 @@
+{
+  "source": "转场协作工单 PRD v1.2（QA 测试样例）",
+  "goal": "让保洁员在转场时上报异常并查看处理记录",
+  "roles": ["保洁员", "调度员"],
+  "screens": ["list", "detail", "report", "history"],
+  "flow": ["进入列表 → 打开工单 → 上报异常 → 查看处理记录"],
+  "blocks": { "list": ["顶部筛选", "工单卡片"], "detail": ["KV信息块", "操作区"] },
+  "fields": ["工单编号", "目标点位", "异常类型", "处理人"],
+  "states": ["空", "加载", "失败", "禁用"],
+  "outOfScope": ["审批流", "消息推送"],
+  "assumptions": [ { "假设": "异常类型为固定枚举", "依据": "PRD 字段表", "影响范围": "report 屏", "要改改哪里": "report 屏胶囊" } ],
+  "requirements": [
+    { "id": "F-01", "text": "工单列表支持按状态筛选", "screen": "list", "module": "顶部筛选胶囊" },
+    { "id": "F-02", "text": "工单详情展示编号与目标点位", "screen": "detail", "module": "KV 信息块" },
+    { "id": "F-03", "text": "支持上报转场异常", "screen": "report", "module": "异常类型胶囊 + 底部弹层表单" },
+    { "id": "F-04", "text": "可查看处理记录时间线", "screen": "history", "module": "时间线" }
+  ]
+}

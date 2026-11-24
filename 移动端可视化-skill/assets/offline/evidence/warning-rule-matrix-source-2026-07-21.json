@@ -1,0 +1,71 @@
+{
+  "sourceFile": "2oSqZAFWhrtQoOytyamFOn",
+  "sourceVersion": "2026/07/21",
+  "sourceNodes": [
+    "6671:171178",
+    "6671:171633"
+  ],
+  "status": "source extraction; not a runtime risk implementation",
+  "progressRatioRules": [
+    {
+      "metric": "物业服务收入净增长",
+      "greenGte": 95,
+      "yellowGte": 60,
+      "redLt": 60
+    },
+    {
+      "metric": "生活服务收入",
+      "greenGte": 95,
+      "yellowGte": 80,
+      "redLt": 80
+    },
+    {
+      "metric": "归母税前利润及剔除口径",
+      "greenGte": 95,
+      "yellowGte": 85,
+      "redLt": 85
+    }
+  ],
+  "progressRatioExpression": "目标达成率/本月时间进度",
+  "inflowRules": {
+    "metric": "总流入（含预存新增）",
+    "green": "目标完成率≥100%",
+    "yellow": "98%≤目标完成率<100%",
+    "red": "目标完成率<98%"
+  },
+  "outflowRules": {
+    "metric": "流出",
+    "green": "目标执行率≤100%",
+    "yellow": "100%<目标执行率≤102%",
+    "red": "目标执行率>102%"
+  },
+  "cashflowNetRules": {
+    "netLeZero": "red",
+    "netGtZero": {
+      "green/green": "green",
+      "green/yellow": "green",
+      "yellow/green": "green",
+      "yellow/yellow": "yellow",
+      "green/red": "yellow",
+      "red/green": "yellow",
+      "red/yellow": "red",
+      "yellow/red": "red",
+      "red/red": "red"
+    }
+  },
+  "healthRules": {
+    "0": "健康",
+    "1-2": "关注",
+    ">=3": "高风险"
+  },
+  "historicalLegendColors": {
+    "green": "#3BBB3E",
+    "yellow": "#FFA645",
+    "red": "#FE5E54"
+  },
+  "unresolved": [
+    "缺失值、零目标、时间进度为零未完整定义",
+    "净收利剔现五个简称与旁边四段指标顺序说明不能直接一一映射",
+    "不能据样本排名推导并列或排序算法"
+  ]
+}

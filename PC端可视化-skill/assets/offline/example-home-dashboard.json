@@ -1,0 +1,164 @@
+{
+  "title": "一看移动端 · 项目主页",
+  "description": "模拟数据。通过横滑组织栏或搜索切换组织，查看对应的项目资料和经营指标。",
+  "screens": [
+    {
+      "name": "项目主页",
+      "homeHeader": {
+        "organizations": [
+          {
+            "id": "area",
+            "name": "华东区域",
+            "selectable": false
+          },
+          {
+            "id": "a",
+            "name": "安庆碧桂园",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "b",
+            "name": "潮州碧桂园西区",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "unit",
+            "name": "潮州西区一期",
+            "parentId": "b",
+            "selectable": true
+          }
+        ],
+        "value": "a",
+        "peerIds": [
+          "b"
+        ],
+        "showBrand": true
+      },
+      "homeProfiles": {
+        "a": {
+          "project": {
+            "origin": "集团开发",
+            "area": "240952.79㎡",
+            "fee": "商业 4.5"
+          },
+          "highlight": {
+            "label": "本年累计主营收费率",
+            "value": "86.56%"
+          },
+          "cards": [
+            {
+              "type": "homePerformanceCard",
+              "props": {
+                "source": "6671:164095",
+                "scope": "本项目",
+                "value": 9.98,
+                "unit": "亿元",
+                "completion": 52.7,
+                "comparisonValue": 3.2
+              }
+            },
+            {
+              "type": "homePerformanceCard",
+              "props": {
+                "source": "6671:164148",
+                "scope": "本项目",
+                "value": 0.9,
+                "unit": "亿元",
+                "completion": 112.8,
+                "comparisonValue": -1.1
+              }
+            },
+            {
+              "type": "homeProfitExplanation",
+              "props": {
+                "updated": "10月26日",
+                "rate": 9.02,
+                "profit": 0.9,
+                "revenue": 9.98,
+                "unit": "亿元",
+                "yoy": 1.2,
+                "mom": -0.4
+              }
+            },
+            {
+              "type": "homePerformanceCard",
+              "props": {
+                "source": "6671:164196",
+                "scope": "本项目",
+                "value": 6.78,
+                "unit": "亿元",
+                "gap": {
+                  "value": 84.71,
+                  "unit": "万元"
+                },
+                "yoyDelta": {
+                  "value": -41.71,
+                  "unit": "万元"
+                }
+              }
+            },
+            {
+              "type": "homeCashflowTargets",
+              "props": {
+                "updated": "25/07 12:38",
+                "unit": "万",
+                "month": {
+                  "net": 988.2,
+                  "yoyDelta": 138.32
+                },
+                "halfYear": {
+                  "rate": -98.2,
+                  "net": -123245.87,
+                  "target": 125505,
+                  "yoyDelta": -38.2
+                },
+                "year": {
+                  "rate": -46.24,
+                  "net": -101728,
+                  "target": 220000,
+                  "yoyDelta": 0
+                }
+              }
+            }
+          ]
+        },
+        "b": {
+          "project": {
+            "origin": "集团开发",
+            "area": "187402㎡",
+            "fee": "住宅 3.2"
+          },
+          "highlight": {
+            "label": "本年累计主营收费率",
+            "value": "82.70%"
+          },
+          "cards": [
+            {
+              "type": "homePerformanceCard",
+              "props": {
+                "source": "6671:164095",
+                "value": 6.52,
+                "unit": "亿元",
+                "completion": 82.7
+              }
+            },
+            {
+              "type": "homeProfitExplanation",
+              "props": {
+                "rate": 8.13,
+                "profit": 0.53,
+                "revenue": 6.52,
+                "unit": "亿元"
+              }
+            }
+          ]
+        }
+      },
+      "components": [],
+      "note": "模拟数据",
+      "homeNavigation": true
+    }
+  ]
+}

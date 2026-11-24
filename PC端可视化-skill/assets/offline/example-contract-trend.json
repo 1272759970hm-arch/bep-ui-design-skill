@@ -1,0 +1,86 @@
+{
+  "title": "一看移动端 · 户数与签约率",
+  "description": "查看月末已收楼及已签约户数与签约率。可切换查看期间，以及隐藏或恢复图表系列。",
+  "screens": [
+    {
+      "name": "月末签约趋势",
+      "header": {
+        "title": "月末签约趋势",
+        "date": "2026年9月"
+      },
+      "components": [
+        {
+          "type": "contractTrend",
+          "props": {
+            "periods": [
+              {
+                "label": "4月",
+                "eligible": 1000,
+                "signed": 600
+              },
+              {
+                "label": "5月",
+                "eligible": 1100,
+                "signed": 715
+              },
+              {
+                "label": "6月",
+                "eligible": 1200,
+                "signed": 840
+              },
+              {
+                "label": "7月",
+                "eligible": 1250,
+                "signed": 925
+              },
+              {
+                "label": "8月",
+                "eligible": 1300,
+                "signed": 1014
+              },
+              {
+                "label": "9月",
+                "eligible": 1400,
+                "signed": 1120
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。户数按各月份月末快照读取。"
+    },
+    {
+      "name": "零基数及缺失",
+      "header": {
+        "title": "零基数及缺失",
+        "date": "2026年9月"
+      },
+      "components": [
+        {
+          "type": "contractTrend",
+          "props": {
+            "periods": [
+              {
+                "label": "1月",
+                "eligible": 120,
+                "signed": 84
+              },
+              {
+                "label": "2月",
+                "eligible": 0,
+                "signed": 0
+              },
+              {
+                "label": "3月",
+                "eligible": 140,
+                "signed": null
+              }
+            ],
+            "selectedIndex": 1
+          }
+        }
+      ],
+      "note": "模拟数据。户数按各月份月末快照读取。"
+    }
+  ]
+}

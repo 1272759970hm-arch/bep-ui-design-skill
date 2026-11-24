@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "peerNeighborhood": [
+    1,
+    3,
+    4,
+    5
+  ],
+  "peerNamesMaskedBeforeEmbedding": true,
+  "noPeerDrill": true,
+  "scopeSwitch": true,
+  "columnSearch": true,
+  "explicitSubordinateDrill": true,
+  "drillInFullscreen": true,
+  "noPageErrors": true,
+  "noExternalRequests": true,
+  "note": "Local scope switching and drill events only; server permissions and real routing are not implemented."
+}

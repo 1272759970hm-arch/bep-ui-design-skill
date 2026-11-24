@@ -1,0 +1,93 @@
+{
+  "title": "一看移动端 · 阶段转化与现金流行内条",
+  "description": "模拟数据。阶段图复用三柱、连接面和箭头读数。现金流读数保留正负方向，所有行共用零点和量级。",
+  "screens": [
+    {
+      "name": "回收转化",
+      "header": {
+        "title": "回收转化",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "stageConversion",
+          "props": {
+            "items": [
+              {
+                "name": "圈选客户",
+                "value": 1000
+              },
+              {
+                "name": "已触达客户",
+                "value": 800
+              },
+              {
+                "name": "已缴费客户",
+                "value": 240
+              }
+            ],
+            "unit": "户"
+          }
+        }
+      ],
+      "note": "模拟数据，用于验证图表的布局与计算。"
+    },
+    {
+      "name": "现金流对照",
+      "header": {
+        "title": "现金流对照",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "cashflowInline",
+          "props": {
+            "unit": "万元",
+            "scope": "大物业板块",
+            "groups": [
+              {
+                "name": "现金流净额",
+                "rows": [
+                  {
+                    "name": "本期实际",
+                    "value": 60
+                  },
+                  {
+                    "name": "去年同期",
+                    "value": 50
+                  },
+                  {
+                    "name": "目标",
+                    "value": 90
+                  },
+                  {
+                    "name": "实际－同期",
+                    "value": 10
+                  },
+                  {
+                    "name": "实际－目标",
+                    "value": -30
+                  }
+                ]
+              },
+              {
+                "name": "预存新增",
+                "rows": [
+                  {
+                    "name": "本期实际",
+                    "value": 0
+                  },
+                  {
+                    "name": "去年同期",
+                    "value": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，用于验证图表的布局与计算。"
+    }
+  ]
+}

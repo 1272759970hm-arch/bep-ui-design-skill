@@ -1,0 +1,168 @@
+{
+  "$schemaVersion": "1.0",
+  "registryDate": "2025-08-17",
+  "purpose": "填补 mobile-ui-rules.md 里标 NOT_DEFINED 的交互/自适应空白。这些值全部来自外部行业规范，不是 BEP-S/Figma 定义的，任何时候引用都必须带上 source 字段，禁止说成'BEP-S规范'或'design-tokens'。不修改、不覆盖任何 BEP-S 自己的视觉 Token（颜色/字号/间距/圆角/阴影维持 design-tokens.json 原样）。",
+  "usageRule": "生成页面遇到 mobile-ui-rules.md 标 NOT_DEFINED 的项时，优先在这里找对应的 EXTERNAL_STANDARD 值；这里也没有才退到纯 AI_PROPOSED 猜测。EXTERNAL_STANDARD 优先级高于 AI_PROPOSED，因为它至少有一个具名的外部权威来源，不是凭空给的数。",
+  "touchTarget": {
+    "minSize.appleHIG": {
+      "value": "44×44pt",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Apple Human Interface Guidelines — Layout: Minimum tappable area",
+      "verified": false,
+      "confidence": "HIGH"
+    },
+    "minSize.materialDesign": {
+      "value": "48×48dp",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — Accessibility: Touch target size",
+      "verified": false,
+      "confidence": "HIGH"
+    },
+    "minSize.wcag_AA": {
+      "value": "24×24 CSS px",
+      "status": "EXTERNAL_STANDARD",
+      "source": "WCAG 2.2 — 2.5.8 Target Size (Minimum), Level AA",
+      "verified": false,
+      "confidence": "HIGH"
+    },
+    "minSize.wcag_AAA": {
+      "value": "44×44 CSS px",
+      "status": "EXTERNAL_STANDARD",
+      "source": "WCAG 2.1 — 2.5.5 Target Size, Level AAA",
+      "verified": false,
+      "confidence": "HIGH"
+    },
+    "note_vs_bep_s": "BEP-S 自己的 Button/Radio/Checkbox 已经是 48px（FOUND_IN_FIGMA，design-tokens.json），已经满足/超过以上所有标准，不需要改——这条只用来填补 BEP-S 没有单独定义尺寸的其他可点击元素（比如纯图标按钮、列表行内小图标）。"
+  },
+  "interactionStates": {
+    "hover.materialStateLayer": {
+      "value": "8% overlay opacity",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — State layers: Hover",
+      "verified": false,
+      "confidence": "MEDIUM",
+      "note": "M3 文档里这组数字在不同版本间有过微调，引用时建议注明是'大致惯例值'"
+    },
+    "focus.materialStateLayer": {
+      "value": "10–12% overlay opacity",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — State layers: Focus",
+      "verified": false,
+      "confidence": "MEDIUM"
+    },
+    "pressed.materialStateLayer": {
+      "value": "10–12% overlay opacity",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — State layers: Pressed",
+      "verified": false,
+      "confidence": "MEDIUM"
+    },
+    "pressed.iosConvention": {
+      "value": "元素整体降低到约 40–60% 不透明度，或轻微缩放(scale 0.96–0.98)",
+      "status": "EXTERNAL_STANDARD",
+      "source": "iOS 平台惯例（Apple HIG 未给出像 Material 那样的精确数值token，这是社区/常见实现的归纳，不是HIG原文明确写死的数字）",
+      "verified": false,
+      "confidence": "MEDIUM",
+      "note": "比 Material 的 state layer 更不正式，Apple 官方文档本身没有像 Material 那样的精确数值表"
+    },
+    "disabled.opacity": {
+      "value": "约 38%（Material）/ 约 30–50%（iOS 常见实现）",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — Disabled state opacity；iOS 无统一官方数值，为社区惯例",
+      "verified": false,
+      "confidence": "MEDIUM"
+    }
+  },
+  "motion": {
+    "duration.micro": {
+      "value": "100–200ms",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — Motion: duration tokens (short1~short4)；Apple HIG 未给出精确到毫秒的表格，一般引用约0.2s",
+      "verified": false,
+      "confidence": "MEDIUM",
+      "note": "用于按钮按下反馈、开关切换这类小反馈"
+    },
+    "duration.standard": {
+      "value": "250–300ms",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — Motion: duration tokens (medium)；iOS 常见转场时长约0.3s",
+      "verified": false,
+      "confidence": "MEDIUM",
+      "note": "用于弹层出现/消失、页面切换"
+    },
+    "easing.materialStandard": {
+      "value": "cubic-bezier(0.2, 0.0, 0, 1.0)",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — Motion: Standard easing",
+      "verified": false,
+      "confidence": "HIGH"
+    },
+    "easing.iosStandard": {
+      "value": "ease-in-out（近似）",
+      "status": "EXTERNAL_STANDARD",
+      "source": "iOS 平台常见转场惯例，非HIG精确定义的贝塞尔数值",
+      "verified": false,
+      "confidence": "MEDIUM"
+    }
+  },
+  "scroll": {
+    "momentum": {
+      "value": "交给平台原生处理（iOS橡皮筋回弹 / Android边缘发光），Web端可加 `overscroll-behavior: contain` 防止滚动穿透，不建议用JS重新实现原生滚动物理效果",
+      "status": "EXTERNAL_STANDARD",
+      "source": "iOS/Android 平台原生滚动惯例 + W3C CSS Overscroll Behavior 规范",
+      "verified": false,
+      "confidence": "HIGH"
+    },
+    "pullToRefresh": {
+      "value": "下拉阈值约60-80px触发，常见实现区间，无强制标准数值",
+      "status": "EXTERNAL_STANDARD",
+      "source": "iOS/Android 平台通用惯例，非单一权威文档定值",
+      "verified": false,
+      "confidence": "MEDIUM"
+    }
+  },
+  "keyboardAvoidance": {
+    "scrollIntoView": {
+      "value": "输入框获焦时，将其滚动到视口内，一般在其上方保留约16px呼吸间距",
+      "status": "EXTERNAL_STANDARD",
+      "source": "iOS/Android/Web 移动端通用工程惯例，非某个大厂官方文档的强制数值",
+      "verified": false,
+      "confidence": "MEDIUM",
+      "note": "Web 端常见实现是 element.scrollIntoView({behavior:'smooth', block:'center'})"
+    },
+    "avoidFixedOverlap": {
+      "value": "固定定位的底部操作栏在键盘弹起时应上移或让位，不能被键盘遮挡",
+      "status": "EXTERNAL_STANDARD",
+      "source": "iOS/Android 平台通用工程惯例",
+      "verified": false,
+      "confidence": "HIGH"
+    }
+  },
+  "responsive": {
+    "scope_note": "BEP-S 设计基准是单一固定尺寸 375×812px（FOUND_IN_FIGMA），本身没有多断点体系。以下是超出 375 基准时的外部参考，不是对 BEP-S 现有尺寸的修改。",
+    "fluidWidth": {
+      "value": "页面容器建议用 `width:100%; max-width:428px`（428px≈iPhone Pro Max逻辑宽度）+ 左右 padding 保持 BEP-S 的16px不变，而不是写死375px，避免在更大/更小的真机宽度上出现空白或裁切",
+      "status": "EXTERNAL_STANDARD",
+      "source": "行业惯例（覆盖当前主流iOS机型逻辑宽度范围 320–430px），非单一大厂强制标准",
+      "verified": false,
+      "confidence": "MEDIUM"
+    },
+    "breakpoint.materialCompact": {
+      "value": "<600dp",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — Window size classes: Compact",
+      "verified": false,
+      "confidence": "HIGH",
+      "note": "BEP-S目前只做移动端，这个断点仅供将来如果要适配平板/折叠屏时参考，当前不需要用"
+    },
+    "breakpoint.materialMedium": {
+      "value": "600–840dp",
+      "status": "EXTERNAL_STANDARD",
+      "source": "Material Design 3 — Window size classes: Medium",
+      "verified": false,
+      "confidence": "HIGH",
+      "note": "同上，当前不需要用"
+    },
+    "devicePairing_note": "BEP-S 已有的 iPhone678 / iPhoneX 两套安全区变体（NavBar/TabBar，FOUND_IN_FIGMA）本身就是一种'自适应'，这个文件不重新定义它，只补充它没覆盖的部分（任意宽度缩放、断点）"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source": "4424:71306",
+  "name": "微信代扣",
+  "sectionTraversal": 1461,
+  "detailedUniqueNodes": 596,
+  "pageCount": 3,
+  "scope": "All analysis-card subtrees, header text, page identities and textual notes; repeated ranking/navigation graphics omitted; duplicate note root removed",
+  "configuredReactionsObserved": 0,
+  "verification": "read-only source audit and screenshot; not runtime interaction verification"
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "6671:152825",
+    "strokeWeight": 2,
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "blurs": [
+      {
+        "id": "6671:152826",
+        "name": "Ellipse 2242",
+        "w": 117,
+        "h": 117,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.20000000298023224,
+              "g": 0.7568627595901489,
+              "b": 0.7568627595901489
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "LAYER_BLUR",
+            "visible": true,
+            "radius": 90.4000015258789,
+            "boundVariables": {},
+            "blurType": "NORMAL"
+          }
+        ]
+      }
+    ],
+    "mainValues": [
+      {
+        "text": "67.85",
+        "font": {
+          "family": "DIN",
+          "style": "Bold"
+        },
+        "size": 30,
+        "line": {
+          "unit": "PIXELS",
+          "value": 36
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:152814",
+    "strokeWeight": 2,
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "blurs": [
+      {
+        "id": "6671:152815",
+        "name": "Ellipse 2242",
+        "w": 117,
+        "h": 117,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.20000000298023224,
+              "g": 0.7568627595901489,
+              "b": 0.7568627595901489
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "LAYER_BLUR",
+            "visible": true,
+            "radius": 90.4000015258789,
+            "boundVariables": {},
+            "blurType": "NORMAL"
+          }
+        ]
+      }
+    ],
+    "mainValues": [
+      {
+        "text": "94.63",
+        "font": {
+          "family": "DIN",
+          "style": "Bold"
+        },
+        "size": 30,
+        "line": {
+          "unit": "PIXELS",
+          "value": 36
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:152767",
+    "strokeWeight": 2,
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "blurs": [
+      {
+        "id": "6671:152768",
+        "name": "Ellipse 2242",
+        "w": 117,
+        "h": 117,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.336181640625,
+              "g": 0.723409116268158,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "LAYER_BLUR",
+            "visible": true,
+            "radius": 90.4000015258789,
+            "boundVariables": {},
+            "blurType": "NORMAL"
+          }
+        ]
+      }
+    ],
+    "mainValues": [
+      {
+        "text": "90.34",
+        "font": {
+          "family": "DIN",
+          "style": "Bold"
+        },
+        "size": 30,
+        "line": {
+          "unit": "PIXELS",
+          "value": 36
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:152733",
+    "strokeWeight": 2,
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "blurs": [
+      {
+        "id": "6671:152734",
+        "name": "Ellipse 2242",
+        "w": 117,
+        "h": 117,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.336181640625,
+              "g": 0.723409116268158,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "LAYER_BLUR",
+            "visible": true,
+            "radius": 90.4000015258789,
+            "boundVariables": {},
+            "blurType": "NORMAL"
+          }
+        ]
+      }
+    ],
+    "mainValues": [
+      {
+        "text": "988.20",
+        "font": {
+          "family": "DIN",
+          "style": "Bold"
+        },
+        "size": 30,
+        "line": {
+          "unit": "PIXELS",
+          "value": 36
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:152800",
+    "strokeWeight": 2,
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "blurs": [
+      {
+        "id": "6671:152801",
+        "name": "Ellipse 2242",
+        "w": 117,
+        "h": 117,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5803921818733215,
+              "g": 0.6117647290229797,
+              "b": 0.9725490212440491
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "LAYER_BLUR",
+            "visible": true,
+            "radius": 90.4000015258789,
+            "boundVariables": {},
+            "blurType": "NORMAL"
+          }
+        ]
+      }
+    ],
+    "mainValues": [
+      {
+        "text": "52.72",
+        "font": {
+          "family": "DIN",
+          "style": "Bold"
+        },
+        "size": 30,
+        "line": {
+          "unit": "PIXELS",
+          "value": 36
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:152778",
+    "strokeWeight": 2,
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "blurs": [
+      {
+        "id": "6671:152779",
+        "name": "Ellipse 2242",
+        "w": 117,
+        "h": 117,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.336181640625,
+              "g": 0.723409116268158,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "LAYER_BLUR",
+            "visible": true,
+            "radius": 90.4000015258789,
+            "boundVariables": {},
+            "blurType": "NORMAL"
+          }
+        ]
+      }
+    ],
+    "mainValues": [
+      {
+        "text": "94.63",
+        "font": {
+          "family": "DIN",
+          "style": "Bold"
+        },
+        "size": 30,
+        "line": {
+          "unit": "PIXELS",
+          "value": 36
+        }
+      },
+      {
+        "text": "67.85",
+        "font": {
+          "family": "DIN",
+          "style": "Bold"
+        },
+        "size": 30,
+        "line": {
+          "unit": "PIXELS",
+          "value": 36
+        }
+      }
+    ]
+  }
+]

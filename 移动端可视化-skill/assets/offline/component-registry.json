@@ -1,0 +1,366 @@
+{
+  "version": "1.3.4-trial.2",
+  "runtime_network_required": false,
+  "runtime_figma_required": false,
+  "items": [
+    {
+      "type": "detailRanking",
+      "source": "7958:123884/123892/123900",
+      "provenance": "纯净版逐层参数适配",
+      "capability": "同一卡片同级邻位与脱敏、下辖对象、逐列排序、名称搜索、整卡全屏",
+      "gap": "全库逐像素验收未完成，真实路由及权限需业务接入"
+    },
+    {
+      "type": "fundingBar",
+      "source": "10044:65926 / 10044:66027",
+      "provenance": "原始SVG背景＋数据参数模板",
+      "capability": "分类联动、R/T、灰色余量",
+      "gap": "已取得原始分类曲面，两态宽度差异按原件保留，全面视觉验收待完成",
+      "supplementarySource": "6671:175157 / 6671:175264"
+    },
+    {
+      "type": "deviceComposition",
+      "source": "5790:97172",
+      "provenance": "实测参数移植",
+      "capability": "来源构成及本期/累计分类",
+      "gap": "选中环几何未逐像素验收"
+    },
+    {
+      "type": "progressRing",
+      "source": "4424:69842 / five single-ring states",
+      "provenance": "五态原始SVG路径＋参数绑定",
+      "capability": "零/正常/100/单圈超百/单圈负值；五个样本复用路径",
+      "gap": "任意值文字定位与几何需视觉对照；多圈未确认"
+    },
+    {
+      "type": "multiRing",
+      "source": "4424:74002",
+      "provenance": "实测参数移植",
+      "capability": "三个独立比率",
+      "gap": "五态文字及转曲原件已取得；任意值动态异常算法仍未确认"
+    },
+    {
+      "type": "donut",
+      "source": "5533:66598 / 4424:72130",
+      "provenance": "实测参数移植",
+      "capability": "共同整体非负构成",
+      "gap": "选中态与分隔几何未逐像素验收",
+      "nativeExampleReferences": [
+        "native/chart-6695-315962.svg",
+        "native/chart-6695-316042.svg"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false
+    },
+    {
+      "type": "trend",
+      "source": "5635:74035/73983",
+      "provenance": "实测参数移植",
+      "capability": "五系列双轴、选点、显隐",
+      "gap": "原始单/多曲线SVG及布局已取得；现有五系列模板与原稿曲线/选点视觉未完整适配",
+      "nativeExampleReferences": [
+        "native/chart-6695-314803.svg",
+        "native/chart-6695-314937.svg"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false
+    },
+    {
+      "type": "ranking",
+      "source": "5721:75298 / 4424:69018",
+      "provenance": "实测参数移植＋原始SVG",
+      "capability": "完整列、自身、指定列搜索、排序、全屏及横滑阴影",
+      "gap": "自身/下辖排名完整原件、搜索浮层各态与视觉适配未完成",
+      "externalIntegrationScope": "真实服务、服务器权限、下载接口和业务路由不计入本次原始规范提取完成度；本地数据合同与视觉状态仍需验收",
+      "indicatorDetailBackgroundSource": "4424:69091"
+    },
+    {
+      "type": "aiHint",
+      "source": "5533:69935",
+      "provenance": "原始素材＋参数模板",
+      "capability": "原生AI位图/紫底、展开",
+      "gap": "提示条完整尺寸/状态、触发条件记录与视觉核验未完成",
+      "externalIntegrationScope": "真实服务、服务器权限、下载接口和业务路由不计入本次原始规范提取完成度；本地数据合同与视觉状态仍需验收"
+    },
+    {
+      "type": "comparison",
+      "source": "1515:414/460/452/468",
+      "provenance": "原始SVG＋参数模板",
+      "capability": "上/下/零/缺失",
+      "gap": "其他大小变体只保留规则，未全量实现"
+    },
+    {
+      "type": "homeCard",
+      "source": "4424:66070/66104/66115",
+      "provenance": "实测参数移植",
+      "capability": "单值、主子、双摘要",
+      "gap": "已有9个主页卡片/卡组原件；解释卡尚未核销，已取得卡型未全部适配成原样数据模板",
+      "nativeExampleReferences": [
+        "native-source-catalog-2026-11-05.json",
+        "home-warning-source-catalog-2026-11-05.json"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false,
+      "additionalSourceLayouts": [
+        "6671:152733",
+        "6671:152767",
+        "6671:152778",
+        "6671:152800",
+        "6671:152814",
+        "6671:152825"
+      ]
+    },
+    {
+      "type": "warning",
+      "source": "4424:85610/86517",
+      "provenance": "原色与业务规则＋建议容器",
+      "capability": "有范围的风险阈值",
+      "gap": "预警说明/排行4个原件及规则已取得；运行模板未原样适配，简称映射仍待确认",
+      "nativeExampleReferences": [
+        "native/warning-source-6671-171178.svg",
+        "native/warning-source-6671-171633.svg",
+        "native/warning-source-6671-171367.svg",
+        "native/warning-source-6671-170726.svg"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false
+    },
+    {
+      "type": "bars",
+      "source": "4424:85061",
+      "provenance": "实测参数移植",
+      "capability": "正负、分组、同期深浅",
+      "gap": "堆叠为文档补充建议",
+      "nativeExampleReferences": [
+        "native/chart-6695-315115.svg",
+        "native/chart-6695-315240.svg",
+        "native/chart-6695-315326.svg"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false
+    },
+    {
+      "type": "horizontalBars",
+      "source": "4424:78086",
+      "provenance": "建议模板",
+      "capability": "长标签比较",
+      "gap": "现金流行内条原件已取得；当前通用横条模板不是原行内正负参照条的完整数据适配",
+      "nativeExampleReferences": [
+        "native/chart-6695-315631.svg"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false
+    },
+    {
+      "type": "funnel",
+      "source": "references/chart-types.md",
+      "provenance": "建议模板",
+      "capability": "顺序阶段",
+      "gap": "通用示意；同批三阶段采用 stageConversion",
+      "nativeExampleReferences": [
+        "native/chart-6695-316711.svg"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false
+    },
+    {
+      "type": "radar",
+      "source": "4424:83479",
+      "provenance": "建议模板",
+      "capability": "同量纲多维",
+      "gap": "通用示意；已有五维及六维满意度原稿时采用 satisfactionRadar",
+      "nativeExampleReferences": [
+        "native/chart-6695-316308.svg",
+        "native/chart-6695-316438.svg"
+      ],
+      "nativeExamplesAreRuntimeParityApproval": false
+    },
+    {
+      "type": "header/tabs",
+      "source": "4424:69018 / 5533:67710",
+      "provenance": "实测参数移植",
+      "capability": "导航、摘要、选中Tab",
+      "gap": "独立日期弹层已有本地实现；原导航组合、整页查询绑定与全状态视觉未完成"
+    },
+    {
+      "type": "nativeRingState",
+      "source": "4424:69842",
+      "provenance": "十态原始SVG及转曲SVG",
+      "capability": "静态原件离线展示，不改业务数字",
+      "gap": "不等于任意业务数据绑定"
+    },
+    {
+      "type": "dateControl",
+      "source": "6695:311818/311834/311850; 6671:132073/132304/132460",
+      "provenance": "三态原始SVG＋实测参数模板",
+      "capability": "年/月/日、草稿确认取消、快捷粒度、显式边界与本地查询事件、支持浏览器中的滚动吸附、完整日历三态、可选范围和历史圆点",
+      "gap": "真机触摸、跨端字体、全状态视觉验收与整页业务查询"
+    },
+    {
+      "type": "organizationControl",
+      "source": "6671:131690/131711",
+      "provenance": "实测参数模板；SVG原件仍异常",
+      "capability": "显式可选组织、路径、搜索、本地选择事件、取消回滚",
+      "gap": "原始SVG导出异常、角色场景矩阵与全状态对照未完成",
+      "externalIntegrationScope": "真实服务、服务器权限、下载接口和业务路由不计入本次原始规范提取完成度；本地数据合同与视觉状态仍需验收"
+    },
+    {
+      "type": "filterControl",
+      "source": "6671:145683/145744/145797/145798",
+      "provenance": "原始SVG＋实测参数与版本说明＋本地交互",
+      "capability": "显式单多选、条件显隐、隐藏值清理、草稿确认、重置与取消、本地事件",
+      "gap": "原件已取得；后续版本组合及精细视觉一致性未完成",
+      "externalIntegrationScope": "真实服务、服务器权限、下载接口和业务路由不计入本次原始规范提取完成度；本地数据合同与视觉状态仍需验收"
+    },
+    {
+      "type": "businessRanking",
+      "source": "6671:154337/154340/154366",
+      "provenance": "业务明文＋现有排名参数模板",
+      "capability": "同级邻位边界、名称脱敏、范围切换、下辖授权事件",
+      "gap": "自身/下辖原始样式完整适配与状态矩阵未完成",
+      "externalIntegrationScope": "真实服务、服务器权限、下载接口和业务路由不计入本次原始规范提取完成度；本地数据合同与视觉状态仍需验收"
+    },
+    {
+      "type": "warningRanking",
+      "source": "6671:171367/170726/171178/171633",
+      "provenance": "原始亮灯说明嵌入＋实测参数移植",
+      "capability": "预警列表、显式灯色、横滑、全屏、规则说明",
+      "gap": "简称映射、业务权限场景、全状态原稿验收待补"
+    },
+    {
+      "type": "stageConversion",
+      "source": "6695:316711",
+      "provenance": "原稿三柱与连接箭头结构＋数据绑定",
+      "capability": "同批三阶段、相邻/全链路转化、空值与零值"
+    },
+    {
+      "type": "cashflowInline",
+      "source": "6695:315631",
+      "provenance": "原稿三列表与双向行内条结构＋数据绑定",
+      "capability": "按组显示同单位带符号金额，整表共用零点与量级",
+      "gap": "整页板块查询和同数据视觉验收待核对"
+    },
+    {
+      "type": "actualTarget",
+      "source": "6695:316767",
+      "provenance": "原稿轨道及双标记结构＋数据绑定",
+      "capability": "实际/目标与可选组成，保留超目标完成率"
+    },
+    {
+      "type": "chargeRateTarget",
+      "source": "6695:316799",
+      "provenance": "原稿派生背景＋斜纹轨道和目标读数数据绑定",
+      "capability": "收费率实际与目标、百分点缺口、零值和缺失状态"
+    },
+    {
+      "type": "contractTrend",
+      "source": "6695:316197",
+      "provenance": "原稿双轴柱线部分结构＋数据绑定",
+      "capability": "两组户数、比例线、期间与图例交互、掉点和零分母",
+      "gap": "完整代扣页面与同数据视觉验收仍待核对"
+    },
+    {
+      "type": "withholdingAnalysis",
+      "source": "4424:71307/71453/71596",
+      "provenance": "来源卡片结构＋本地数据绑定",
+      "capability": "签约/解约、环形摘要、户数明细、趋势展开与视图状态保持",
+      "gap": "完整离线样例已组装，待同数据视觉核对与生产数据联调"
+    },
+    {
+      "type": "withholdingPayment",
+      "source": "4424:71313",
+      "provenance": "原稿金额分析卡结构＋本地数据绑定",
+      "capability": "扣费率环、金额读数、口径显式输入"
+    },
+    {
+      "type": "withholdingRankings",
+      "source": "4424:71307/71453/71596",
+      "provenance": "原稿排名指标切换＋通用排名组件",
+      "capability": "三指标独立、数值排序、同级脱敏、全屏",
+      "gap": "生产数据与真实角色权限待接入"
+    },
+    {
+      "type": "satisfactionRadar",
+      "source": "6695:316308/316438",
+      "provenance": "五维及六维原稿结构＋六维背景＋数据绑定",
+      "capability": "同量纲多维、参照组、维度切换和缺失轴断线",
+      "gap": "待 Figma 同数据视觉核对"
+    },
+    {
+      "type": "signedPeriodBars",
+      "source": "6695:315326",
+      "provenance": "正负分组柱原稿结构＋数据绑定",
+      "capability": "本期/同期双柱、共用零线和量程、周期选择、同期隐藏、精确差额",
+      "gap": "待 Figma 同数据视觉核对"
+    },
+    {
+      "type": "yearAmountRings",
+      "source": "6695:316042",
+      "provenance": "小金额环原稿结构＋数据绑定",
+      "capability": "本年/往年、每指标独立合计、金额及占比、零与缺失",
+      "gap": "待 Figma 同数据视觉核对"
+    },
+    {
+      "type": "receiptComposition",
+      "source": "6695:315962",
+      "provenance": "三分类选中结构＋同口径数据绑定",
+      "capability": "所选金额与占比联动、独立整体合计、零与缺失",
+      "gap": "待 Figma 同数据视觉核对"
+    },
+    {
+      "type": "monthlyRevenueGauge",
+      "source": "6695:316886",
+      "provenance": "月份仪表原稿结构＋显式业务输入",
+      "capability": "十二月状态、月份选择、年度目标和精确完成率、零与缺失",
+      "gap": "原稿板块弧、独立目标记号与同数据视觉待核对"
+    },
+    {
+      "type": "categoryColumns",
+      "source": "6695:315115/315240",
+      "provenance": "基础及分组柱样式与选中带＋同量纲适配",
+      "capability": "一至三系列、共同零线、类别点击和精确读数",
+      "gap": "原稿金额/%混写及堆叠画面不作为数据规则，待同数据视觉核对"
+    },
+    {
+      "type": "periodCurves",
+      "source": "6695:314803/314937",
+      "provenance": "单轴单及多曲线选点结构＋实收同期线补充",
+      "capability": "同量纲、选点、对齐同期、缺失断线",
+      "gap": "待同数据视觉核对；多量纲使用双轴模板"
+    },
+    {
+      "type": "ratioRings",
+      "source": "6695:315922/316135",
+      "provenance": "独立分母环图结构与数据绑定",
+      "capability": "单环/多环，各自分子分母，主体切换，异常原值",
+      "gap": "多轨负值、超过200%的动态几何及同数据视觉待核对"
+    },
+    {
+      "type": "homePerformanceCard",
+      "source": "6671:164095/164148/164196",
+      "provenance": "三款主页原稿结构＋经营收入原稿渐变底图＋数据绑定",
+      "capability": "收入、税前利润金额、现金流；金额、完成率及差额分别绑定",
+      "gap": "同数据视觉待核对"
+    },
+    {
+      "type": "homeProfitExplanation",
+      "source": "4424:72991",
+      "provenance": "源节点实测记录＋离线数据模板",
+      "capability": "税前利润率、权责口径基础金额及独立同环比",
+      "gap": "同数据视觉待核对"
+    },
+    {
+      "type": "homeCashflowTargets",
+      "source": "4424:72760",
+      "provenance": "原稿布局记录与截图＋离线数据模板",
+      "capability": "当月净额、半年度与年度累计及目标、独立同比金额差",
+      "gap": "年度字段修正标签，视觉待同数据逐像素核对"
+    },
+    {
+      "type": "statusTag",
+      "source": "7952:98702",
+      "provenance": "原始五态SVG与逐段参数移植",
+      "capability": "高户效绿色、低户效橙色；五种通用状态；HTML默认打包CSS",
+      "gap": "尚未完成跨平台字体与同数据视觉验收"
+    }
+  ],
+  "completeness_audit": "references/current-extraction-status.md",
+  "overall_complete": false,
+  "source_catalogs": [
+    "assets/offline/native-source-catalog-2026-11-05.json",
+    "assets/offline/home-warning-source-catalog-2026-11-05.json"
+  ]
+}

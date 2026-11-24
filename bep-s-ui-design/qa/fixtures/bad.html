@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>QA 反例样例</title>
+<style>
+:root{
+  --brand:#00B1B4; --brand-pressed:#00686A;
+  --tag-brand-bg:rgba(0,177,180,.16); --tag-brand-text:#00B1B4;
+  --bg:#F7F8FA; --white:#FFFFFF; --t1:#22262F;
+  --r-card:8px; --r-btn:4px; --r-tag:2px;
+  --nav-h:44px; --status-h:44px; --tabbar-h:50px; --safe-b:34px;
+  --w:375px; --h:812px;
+}
+body{background:#F7F8FA;color:#22262F;margin:0}
+.phone{width:375px;height:812px;margin:0 auto;background:#FFFFFF}
+.tag{height:20px;padding:2px 8px;border-radius:2px;background:rgba(0,177,180,.16);color:#00B1B4;font-size:13px;line-height:1}
+.btn{height:48px;border-radius:4px;background:#00B1B4;color:#fff;font-size:16px;font-weight:700;cursor:pointer}
+.card{margin:16px;border-radius:6px;background:#FFFFFF}
+</style>
+<body>
+<div class="phone">
+  <div class="tag" data-bep-status="REMOTE_INSTANCE" data-bep-component="不存在组件">进行中</div>
+  <div class="card"><button class="btn" onclick="void 0">提交</button></div>
+  <img src="https://example.com/empty.png" alt="缺省插画">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
+<script>function nope(){ alert('hi'); }</script>
+</body></html>

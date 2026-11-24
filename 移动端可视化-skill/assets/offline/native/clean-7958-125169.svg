@@ -1,0 +1,9 @@
+<svg width="343" height="192" viewBox="0 0 343 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="343" height="192" rx="8" fill="white"/>
+<path opacity="0.1" d="M252 97C252 141.183 216.183 177 172 177C127.817 177 92 141.183 92 97C92 52.8172 127.817 17 172 17C216.183 17 252 52.8172 252 97ZM108 97C108 132.346 136.654 161 172 161C207.346 161 236 132.346 236 97C236 61.6538 207.346 33 172 33C136.654 33 108 61.6538 108 97Z" fill="#66A7FF"/>
+<path d="M250 97C250 140.078 215.078 175 172 175C128.922 175 94 140.078 94 97C94 53.9218 128.922 19 172 19C215.078 19 250 53.9218 250 97ZM106.136 97C106.136 133.375 135.625 162.864 172 162.864C208.375 162.864 237.864 133.375 237.864 97C237.864 60.6245 208.375 31.1364 172 31.1364C135.625 31.1364 106.136 60.6245 106.136 97Z" fill="#66A7FF"/>
+<path d="M172 25.0682C172 21.7168 174.721 18.9755 178.062 19.2359C185.524 19.8176 192.863 21.4703 199.854 24.143C202.985 25.3397 204.268 28.9828 202.831 32.0107C201.395 35.0386 197.783 36.3001 194.636 35.1483C189.295 33.1937 183.723 31.939 178.06 31.4157C174.723 31.1074 172 28.4196 172 25.0682Z" fill="black" fill-opacity="0.36" style="mix-blend-mode:overlay"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="28" letter-spacing="0em"><tspan x="121.5" y="105.08">107.05</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="207.5" y="103.04">%</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="150.5" y="125.04">&#x6536;&#x8d39;&#x7387;</tspan></text>
+</svg>

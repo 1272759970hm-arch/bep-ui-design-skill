@@ -1,0 +1,6885 @@
+{
+  "source": "6671:171367",
+  "scope": "root and descendant text/layout nodes",
+  "recordCount": 142,
+  "records": [
+    {
+      "id": "6671:171367",
+      "parent": "6671:171350",
+      "type": "FRAME",
+      "name": "指标列表",
+      "bounds": [
+        16,
+        215,
+        343,
+        639
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          16
+        ],
+        [
+          0,
+          1,
+          215
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "VERTICAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 16,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "HUG",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "CENTER",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171368",
+      "parent": "6671:171367",
+      "type": "FRAME",
+      "name": "Frame 1321319654",
+      "bounds": [
+        0,
+        0,
+        343,
+        639
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "NONE",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171372",
+      "parent": "6671:171368",
+      "type": "FRAME",
+      "name": "预警排行（全屏）",
+      "bounds": [
+        0,
+        115,
+        343,
+        648
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          115
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 16,
+        "counterGap": 0,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "clips": true,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171373",
+      "parent": "6671:171372",
+      "type": "FRAME",
+      "name": "Frame 1321319589",
+      "bounds": [
+        16,
+        8,
+        30,
+        632
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          16
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "VERTICAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171374",
+      "parent": "6671:171373",
+      "type": "TEXT",
+      "name": "排名",
+      "bounds": [
+        0,
+        0,
+        30,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171375",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        32,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          32
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171376",
+      "parent": "6671:171375",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171377",
+      "parent": "6671:171376",
+      "type": "TEXT",
+      "name": "30",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171378",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        72,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          72
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171379",
+      "parent": "6671:171378",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171380",
+      "parent": "6671:171379",
+      "type": "TEXT",
+      "name": "29",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171381",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        112,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          112
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171382",
+      "parent": "6671:171381",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171383",
+      "parent": "6671:171382",
+      "type": "TEXT",
+      "name": "29",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171384",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        152,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          152
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171385",
+      "parent": "6671:171384",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171386",
+      "parent": "6671:171385",
+      "type": "TEXT",
+      "name": "27",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171387",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        192,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          192
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171388",
+      "parent": "6671:171387",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171389",
+      "parent": "6671:171388",
+      "type": "TEXT",
+      "name": "27",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171390",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        232,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          232
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171391",
+      "parent": "6671:171390",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171392",
+      "parent": "6671:171391",
+      "type": "TEXT",
+      "name": "25",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171393",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        272,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          272
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171394",
+      "parent": "6671:171393",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171395",
+      "parent": "6671:171394",
+      "type": "TEXT",
+      "name": "24",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171396",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        312,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          312
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171397",
+      "parent": "6671:171396",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171398",
+      "parent": "6671:171397",
+      "type": "TEXT",
+      "name": "23",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171399",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        352,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          352
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171400",
+      "parent": "6671:171399",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171401",
+      "parent": "6671:171400",
+      "type": "TEXT",
+      "name": "22",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171402",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319091",
+      "bounds": [
+        0,
+        392,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          392
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171403",
+      "parent": "6671:171402",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171404",
+      "parent": "6671:171403",
+      "type": "TEXT",
+      "name": "21",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171405",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        432,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          432
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171406",
+      "parent": "6671:171405",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171407",
+      "parent": "6671:171406",
+      "type": "TEXT",
+      "name": "21",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171408",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319093",
+      "bounds": [
+        0,
+        472,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          472
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171409",
+      "parent": "6671:171408",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171410",
+      "parent": "6671:171409",
+      "type": "TEXT",
+      "name": "21",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171411",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319094",
+      "bounds": [
+        0,
+        512,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          512
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171412",
+      "parent": "6671:171411",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171413",
+      "parent": "6671:171412",
+      "type": "TEXT",
+      "name": "21",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171414",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319095",
+      "bounds": [
+        0,
+        552,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          552
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171415",
+      "parent": "6671:171414",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171416",
+      "parent": "6671:171415",
+      "type": "TEXT",
+      "name": "21",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171417",
+      "parent": "6671:171373",
+      "type": "FRAME",
+      "name": "Frame 1321319096",
+      "bounds": [
+        0,
+        592,
+        30,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          592
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171418",
+      "parent": "6671:171417",
+      "type": "FRAME",
+      "name": "Frame 1321319051",
+      "bounds": [
+        3,
+        8,
+        24,
+        24
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 10,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171419",
+      "parent": "6671:171418",
+      "type": "TEXT",
+      "name": "21",
+      "bounds": [
+        0,
+        1,
+        24,
+        22
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171420",
+      "parent": "6671:171372",
+      "type": "FRAME",
+      "name": "Frame 1321319590",
+      "bounds": [
+        62,
+        8,
+        30,
+        632
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          62
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "VERTICAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171421",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "分类",
+      "bounds": [
+        0,
+        0,
+        30,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171422",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        32,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          32
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171423",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        72,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          72
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171424",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        112,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          112
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171425",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        152,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          152
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171426",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        192,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          192
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171427",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        232,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          232
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171428",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        272,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          272
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171429",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        312,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          312
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171430",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "A类",
+      "bounds": [
+        2.5,
+        352,
+        25,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2.5
+        ],
+        [
+          0,
+          1,
+          352
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171431",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "B类",
+      "bounds": [
+        2,
+        392,
+        26,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          392
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171432",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "B类",
+      "bounds": [
+        2,
+        432,
+        26,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          432
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171433",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "B类",
+      "bounds": [
+        2,
+        472,
+        26,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          472
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171434",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "B类",
+      "bounds": [
+        2,
+        512,
+        26,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          512
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171435",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "B类",
+      "bounds": [
+        2,
+        552,
+        26,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          552
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171436",
+      "parent": "6671:171420",
+      "type": "TEXT",
+      "name": "B类",
+      "bounds": [
+        2,
+        592,
+        26,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          592
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171437",
+      "parent": "6671:171372",
+      "type": "FRAME",
+      "name": "Frame 1321319591",
+      "bounds": [
+        108,
+        8,
+        168,
+        632
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          108
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "VERTICAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171438",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "区域名称",
+      "bounds": [
+        0,
+        0,
+        98,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171439",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "粤东区域",
+      "bounds": [
+        0,
+        32,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          32
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171440",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "山东区域",
+      "bounds": [
+        0,
+        72,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          72
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171441",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "江苏区域（含物源）",
+      "bounds": [
+        0,
+        112,
+        135,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          112
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171442",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "江中/佛山区域（含宁信）",
+      "bounds": [
+        0,
+        152,
+        168,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          152
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171443",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "湖北区域",
+      "bounds": [
+        0,
+        192,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          192
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171444",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "河南区域",
+      "bounds": [
+        0,
+        232,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          232
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171445",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "广清/莞深区域",
+      "bounds": [
+        0,
+        272,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          272
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171446",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "四川区域（含嘉宝和盟）",
+      "bounds": [
+        0,
+        312,
+        168,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          312
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171447",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "广清/韶关区域",
+      "bounds": [
+        0,
+        352,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          352
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171448",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "泰国区域",
+      "bounds": [
+        0,
+        392,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          392
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171449",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "泰国区域",
+      "bounds": [
+        0,
+        432,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          432
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171450",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "泰国区域",
+      "bounds": [
+        0,
+        472,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          472
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171451",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "泰国区域",
+      "bounds": [
+        0,
+        512,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          512
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171452",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "泰国区域",
+      "bounds": [
+        0,
+        552,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          552
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171453",
+      "parent": "6671:171437",
+      "type": "TEXT",
+      "name": "泰国区域",
+      "bounds": [
+        0,
+        592,
+        129,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          592
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171454",
+      "parent": "6671:171372",
+      "type": "FRAME",
+      "name": "Frame 1321319592",
+      "bounds": [
+        292,
+        8,
+        104,
+        632
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          292
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "VERTICAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171455",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "PC预警指标表头/净收利剔现",
+      "bounds": [
+        0,
+        0,
+        104,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "MIN",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": true,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171456",
+      "parent": "6671:171455",
+      "type": "TEXT",
+      "name": "指标/净",
+      "bounds": [
+        3,
+        0,
+        10,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "NONE",
+        "alignH": "CENTER",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171457",
+      "parent": "6671:171455",
+      "type": "TEXT",
+      "name": "指标/收",
+      "bounds": [
+        25,
+        0,
+        10,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          25
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "NONE",
+        "alignH": "CENTER",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171458",
+      "parent": "6671:171455",
+      "type": "TEXT",
+      "name": "指标/利",
+      "bounds": [
+        47,
+        0,
+        10,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          47
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "NONE",
+        "alignH": "CENTER",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171459",
+      "parent": "6671:171455",
+      "type": "TEXT",
+      "name": "指标/剔",
+      "bounds": [
+        69,
+        0,
+        10,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          69
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "NONE",
+        "alignH": "CENTER",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171460",
+      "parent": "6671:171455",
+      "type": "TEXT",
+      "name": "指标/现",
+      "bounds": [
+        91,
+        0,
+        10,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          91
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "NONE",
+        "alignH": "CENTER",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171461",
+      "parent": "6671:171454",
+      "type": "TEXT",
+      "name": "净收利剔现",
+      "bounds": [
+        0,
+        32,
+        75,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          32
+        ]
+      ],
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171462",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        32,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          32
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171468",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        72,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          72
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171474",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        112,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          112
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171480",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        152,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          152
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171486",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        192,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          192
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171492",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        232,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          232
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171498",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        272,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          272
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171504",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        312,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          312
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171510",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        352,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          352
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171516",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319092",
+      "bounds": [
+        0,
+        392,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          392
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171522",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319093",
+      "bounds": [
+        0,
+        432,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          432
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171528",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319094",
+      "bounds": [
+        0,
+        472,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          472
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171534",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319095",
+      "bounds": [
+        0,
+        512,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          512
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171540",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319096",
+      "bounds": [
+        0,
+        552,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          552
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171546",
+      "parent": "6671:171454",
+      "type": "FRAME",
+      "name": "Frame 1321319097",
+      "bounds": [
+        0,
+        592,
+        104,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          592
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 12,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171552",
+      "parent": "6671:171372",
+      "type": "FRAME",
+      "name": "Frame 1321319593",
+      "bounds": [
+        412,
+        8,
+        45,
+        632
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          412
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "VERTICAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "HUG",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171553",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "红灯数",
+      "bounds": [
+        0,
+        0,
+        45,
+        32
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "TOP",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171554",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "5",
+      "bounds": [
+        0,
+        32,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          32
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171555",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "4",
+      "bounds": [
+        0,
+        72,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          72
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171556",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "3",
+      "bounds": [
+        0,
+        112,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          112
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171557",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "2",
+      "bounds": [
+        0,
+        152,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          152
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171558",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "1",
+      "bounds": [
+        0,
+        192,
+        7,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          192
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171559",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "2",
+      "bounds": [
+        0,
+        232,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          232
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171560",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "1",
+      "bounds": [
+        0,
+        272,
+        7,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          272
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171561",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "1",
+      "bounds": [
+        0,
+        312,
+        7,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          312
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171562",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "0",
+      "bounds": [
+        0,
+        352,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          352
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171563",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "0",
+      "bounds": [
+        0,
+        392,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          392
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171564",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "0",
+      "bounds": [
+        0,
+        432,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          432
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171565",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "0",
+      "bounds": [
+        0,
+        472,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          472
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171566",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "0",
+      "bounds": [
+        0,
+        512,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          512
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171567",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "0",
+      "bounds": [
+        0,
+        552,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          552
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171568",
+      "parent": "6671:171552",
+      "type": "TEXT",
+      "name": "0",
+      "bounds": [
+        0,
+        592,
+        9,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          592
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171569",
+      "parent": "6671:171368",
+      "type": "FRAME",
+      "name": "Frame 1321320216",
+      "bounds": [
+        14,
+        27,
+        313,
+        88
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          14
+        ],
+        [
+          0,
+          1,
+          27
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "VERTICAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 14,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171570",
+      "parent": "6671:171569",
+      "type": "FRAME",
+      "name": "Frame 1321320215",
+      "bounds": [
+        0,
+        0,
+        313,
+        26
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 6,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171571",
+      "parent": "6671:171570",
+      "type": "FRAME",
+      "name": "Frame 1321318576",
+      "bounds": [
+        0,
+        0,
+        157,
+        26
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 8,
+        "counterGap": 0,
+        "padding": [
+          5,
+          6,
+          5,
+          6
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171572",
+      "parent": "6671:171571",
+      "type": "FRAME",
+      "name": "Frame 1321319549",
+      "bounds": [
+        6,
+        5,
+        150,
+        16
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          5
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 4,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171573",
+      "parent": "6671:171572",
+      "type": "TEXT",
+      "name": "健康",
+      "bounds": [
+        0,
+        0,
+        24,
+        16
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "RIGHT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171574",
+      "parent": "6671:171572",
+      "type": "FRAME",
+      "name": "Frame 1321319141",
+      "bounds": [
+        28,
+        5,
+        70,
+        6
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          28
+        ],
+        [
+          0,
+          1,
+          5
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171580",
+      "parent": "6671:171572",
+      "type": "TEXT",
+      "name": "风险",
+      "bounds": [
+        102,
+        0,
+        24,
+        16
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          102
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171581",
+      "parent": "6671:171572",
+      "type": "INSTANCE",
+      "name": "1.Basics/2.Icon图标/Fill/Help",
+      "bounds": [
+        130,
+        0,
+        16,
+        16
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          130
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "NONE",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 0,
+        "strokeAlign": "CENTER"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171582",
+      "parent": "6671:171570",
+      "type": "FRAME",
+      "name": "Frame 1321319553",
+      "bounds": [
+        163,
+        0,
+        65,
+        26
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          163
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "MAX",
+        "gap": 4,
+        "counterGap": 0,
+        "padding": [
+          7,
+          4,
+          7,
+          5
+        ],
+        "clips": false,
+        "sizingH": "HUG",
+        "sizingV": "HUG",
+        "radii": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171583",
+      "parent": "6671:171582",
+      "type": "FRAME",
+      "name": "Frame 1321319549",
+      "bounds": [
+        5,
+        7,
+        56,
+        12
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          0,
+          1,
+          7
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 4,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "HUG",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171584",
+      "parent": "6671:171583",
+      "type": "TEXT",
+      "name": "区域·5",
+      "bounds": [
+        0,
+        0,
+        44,
+        12
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "RIGHT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171586",
+      "parent": "6671:171570",
+      "type": "FRAME",
+      "name": "Frame 1321319554",
+      "bounds": [
+        234,
+        0,
+        79,
+        26
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          234
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "MAX",
+        "gap": 4,
+        "counterGap": 0,
+        "padding": [
+          7,
+          5,
+          7,
+          4
+        ],
+        "clips": false,
+        "sizingH": "HUG",
+        "sizingV": "HUG",
+        "radii": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171587",
+      "parent": "6671:171586",
+      "type": "FRAME",
+      "name": "Frame 1321319549",
+      "bounds": [
+        4,
+        7,
+        70,
+        12
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          7
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "AUTO",
+        "counterSizing": "AUTO",
+        "primaryAlign": "MIN",
+        "counterAlign": "CENTER",
+        "gap": 4,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "HUG",
+        "sizingV": "HUG",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171588",
+      "parent": "6671:171587",
+      "type": "TEXT",
+      "name": "健康度·3",
+      "bounds": [
+        0,
+        0,
+        58,
+        12
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "WIDTH_AND_HEIGHT",
+        "alignH": "RIGHT",
+        "alignV": "CENTER",
+        "truncation": "DISABLED",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171590",
+      "parent": "6671:171569",
+      "type": "FRAME",
+      "name": "Badge",
+      "bounds": [
+        0,
+        40,
+        313,
+        48
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          40
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "primaryAlign": "CENTER",
+        "counterAlign": "CENTER",
+        "gap": 4,
+        "counterGap": 0,
+        "padding": [
+          4,
+          8,
+          4,
+          8
+        ],
+        "clips": false,
+        "sizingH": "FILL",
+        "sizingV": "FIXED",
+        "radii": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171591",
+      "parent": "6671:171590",
+      "type": "INSTANCE",
+      "name": " Outline / bell",
+      "bounds": [
+        8,
+        16,
+        16,
+        16
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          8
+        ],
+        [
+          0,
+          1,
+          16
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "NONE",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171592",
+      "parent": "6671:171590",
+      "type": "TEXT",
+      "name": "Label",
+      "bounds": [
+        28,
+        4,
+        277,
+        40
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          28
+        ],
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": null,
+      "textLayout": {
+        "autoResize": "TRUNCATE",
+        "alignH": "LEFT",
+        "alignV": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": null
+      },
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    },
+    {
+      "id": "6671:171593",
+      "parent": "6671:171590",
+      "type": "INSTANCE",
+      "name": " Outline / arrow-ios-right",
+      "bounds": [
+        82,
+        12,
+        16,
+        16
+      ],
+      "transform": [
+        [
+          1,
+          0,
+          82
+        ],
+        [
+          0,
+          1,
+          12
+        ]
+      ],
+      "visible": false,
+      "opacity": 1,
+      "rotation": 0,
+      "layout": {
+        "mode": "NONE",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "primaryAlign": "MIN",
+        "counterAlign": "MIN",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clips": false,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED",
+        "radii": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "smoothing": 0,
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE"
+      },
+      "textLayout": null,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      }
+    }
+  ]
+}

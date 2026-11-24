@@ -1,0 +1,416 @@
+{
+  "retrieved": "2026-11-05",
+  "data": {
+    "id": "7210:4344",
+    "name": "一问一看规范",
+    "type": "PAGE",
+    "children": [
+      {
+        "id": "7210:4345",
+        "name": "一问品牌色规范",
+        "type": "FRAME"
+      },
+      {
+        "id": "14794:18738",
+        "name": "一问品牌色规范",
+        "type": "FRAME"
+      },
+      {
+        "id": "7210:4490",
+        "name": "一问LOGO及形态入口",
+        "type": "FRAME"
+      },
+      {
+        "id": "8255:1646",
+        "name": "Group 1321316716",
+        "type": "GROUP"
+      },
+      {
+        "id": "8100:6863",
+        "name": "Group 1321316658",
+        "type": "GROUP"
+      },
+      {
+        "id": "8255:1668",
+        "name": "一问",
+        "type": "FRAME"
+      },
+      {
+        "id": "8438:2787",
+        "name": "Group 1321316718",
+        "type": "GROUP"
+      },
+      {
+        "id": "8438:2811",
+        "name": "Group 1321316718 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18888",
+        "name": "微信图片_20250821095112_25 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18889",
+        "name": "微信图片_20250821094923 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18890",
+        "name": "微信图片_20250821094940 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18891",
+        "name": "微信图片_20250821094957",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18892",
+        "name": "微信图片_20250821095001",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18893",
+        "name": "微信图片_20250821095004",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18894",
+        "name": "微信图片_20250821095030",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18895",
+        "name": "微信图片_20250821095034",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18896",
+        "name": "微信图片_20250821095046",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9955:18897",
+        "name": "微信图片_20250821095051",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9970:18899",
+        "name": "2ce5d40d9f1123db5fa14c70f5ce0129 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9970:18900",
+        "name": "b4c1fa515f83ef0e8a5012f4754acad9 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "9970:18901",
+        "name": "a5e6ae57f110ecbe7b994567f48f7f38 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11398:462",
+        "name": "颜色",
+        "type": "FRAME"
+      },
+      {
+        "id": "11398:638",
+        "name": "字体",
+        "type": "FRAME"
+      },
+      {
+        "id": "14945:5",
+        "name": "提炼组件",
+        "type": "FRAME"
+      },
+      {
+        "id": "15109:32269",
+        "name": "图表交互说明",
+        "type": "SECTION"
+      },
+      {
+        "id": "14978:14380",
+        "name": "组织选择器",
+        "type": "SECTION"
+      },
+      {
+        "id": "14978:14832",
+        "name": "高级筛选",
+        "type": "SECTION"
+      },
+      {
+        "id": "14978:14973",
+        "name": "日历",
+        "type": "SECTION"
+      },
+      {
+        "id": "11398:776",
+        "name": "文案",
+        "type": "FRAME"
+      },
+      {
+        "id": "11800:2",
+        "name": "图表",
+        "type": "FRAME"
+      },
+      {
+        "id": "14986:23097",
+        "name": "chats",
+        "type": "FRAME"
+      },
+      {
+        "id": "14986:23316",
+        "name": "chats",
+        "type": "FRAME"
+      },
+      {
+        "id": "11885:21481",
+        "name": "图表颜色使用规则",
+        "type": "FRAME"
+      },
+      {
+        "id": "11398:916",
+        "name": "补零规则​： 在YYYY年M月D日格式中，月份和日期的个位数不补零​（例如 2025年8月25日）",
+        "type": "TEXT"
+      },
+      {
+        "id": "11398:917",
+        "name": "间距规范",
+        "type": "FRAME"
+      },
+      {
+        "id": "11398:1016",
+        "name": "一看",
+        "type": "TEXT"
+      },
+      {
+        "id": "11398:1017",
+        "name": "一问",
+        "type": "TEXT"
+      },
+      {
+        "id": "11526:5",
+        "name": "Rectangle 34626035",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11527:10",
+        "name": "Rectangle 34626039",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11528:18",
+        "name": "Rectangle 34626043",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11527:12",
+        "name": "Rectangle 34626041",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11528:19",
+        "name": "Rectangle 34626044",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11527:6",
+        "name": "Rectangle 34626038",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11527:11",
+        "name": "Rectangle 34626040",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11528:20",
+        "name": "Rectangle 34626045",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11527:13",
+        "name": "Rectangle 34626042",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11528:21",
+        "name": "Rectangle 34626046",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11526:7",
+        "name": "Rectangle 34626036",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11527:5",
+        "name": "Rectangle 34626037",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11526:11",
+        "name": "70%",
+        "type": "TEXT"
+      },
+      {
+        "id": "11527:4",
+        "name": "大物业板块：40亿",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:14",
+        "name": "大物业板块：40亿",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:22",
+        "name": "大物业板块：40亿",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:16",
+        "name": "大物业板块：40亿",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:23",
+        "name": "大物业板块：40亿",
+        "type": "TEXT"
+      },
+      {
+        "id": "11527:8",
+        "name": "新业务：44.3亿",
+        "type": "TEXT"
+      },
+      {
+        "id": "11527:7",
+        "name": "50%",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:15",
+        "name": "50%",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:24",
+        "name": "50%",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:17",
+        "name": "50%",
+        "type": "TEXT"
+      },
+      {
+        "id": "11528:25",
+        "name": "50%",
+        "type": "TEXT"
+      },
+      {
+        "id": "11527:9",
+        "name": "80%",
+        "type": "TEXT"
+      },
+      {
+        "id": "11526:9",
+        "name": "30",
+        "type": "TEXT"
+      },
+      {
+        "id": "11530:2",
+        "name": "Rectangle 34626047",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11530:3",
+        "name": "Rectangle 34626048",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "11526:12",
+        "name": "经营收入：88.3亿",
+        "type": "TEXT"
+      },
+      {
+        "id": "14794:18736",
+        "name": "57301747988064_.pic_hd 1",
+        "type": "RECTANGLE"
+      },
+      {
+        "id": "14815:2",
+        "name": "设计策略",
+        "type": "FRAME"
+      },
+      {
+        "id": "14985:20582",
+        "name": "组织选择器",
+        "type": "SECTION"
+      },
+      {
+        "id": "14985:20966",
+        "name": "日历",
+        "type": "SECTION"
+      },
+      {
+        "id": "14985:21657",
+        "name": "交互规则说明",
+        "type": "SECTION"
+      },
+      {
+        "id": "14987:27453",
+        "name": "指标详情框架规则",
+        "type": "SECTION"
+      },
+      {
+        "id": "15112:40485",
+        "name": "颜色 / 完善版",
+        "type": "FRAME"
+      },
+      {
+        "id": "15112:40945",
+        "name": "字体 / 完善版",
+        "type": "FRAME"
+      },
+      {
+        "id": "15112:41237",
+        "name": "提炼组件 / 分类整理",
+        "type": "FRAME"
+      },
+      {
+        "id": "15112:43531",
+        "name": "文案 / 完善版",
+        "type": "FRAME"
+      },
+      {
+        "id": "15112:43872",
+        "name": "图表 / 完善版",
+        "type": "FRAME"
+      },
+      {
+        "id": "15112:48054",
+        "name": "图表颜色使用规则 / 完善版",
+        "type": "FRAME"
+      },
+      {
+        "id": "15112:48244",
+        "name": "间距规范 / 完善版",
+        "type": "FRAME"
+      },
+      {
+        "id": "15112:48470",
+        "name": "一看",
+        "type": "TEXT"
+      },
+      {
+        "id": "15112:48471",
+        "name": "移动图表规则补充 / 2026-10-21",
+        "type": "FRAME"
+      }
+    ]
+  },
+  "detailStatus": "Five subsequent detail reads returned Starter MCP tool call limit."
+}

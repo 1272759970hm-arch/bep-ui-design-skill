@@ -1,0 +1,29 @@
+{
+  "sourceFile": "2oSqZAFWhrtQoOytyamFOn",
+  "brand": {
+    "id": "4424:66204",
+    "width": 110,
+    "height": 110,
+    "format": "PNG",
+    "scale": 1
+  },
+  "navigation": {
+    "id": "4424:66066",
+    "width": 375,
+    "height": 68,
+    "svgViewportHeight": 76,
+    "format": "SVG_STRING",
+    "outlineText": true,
+    "tabSources": [
+      "I4424:66066;27:21336",
+      "I4424:66066;27:21338",
+      "I4424:66066;27:21339"
+    ],
+    "stateBinding": {
+      "on": "#00B2B2",
+      "offIcon": "#757D8A",
+      "offText": "#9199A2",
+      "geometry": "exported tab paths"
+    }
+  }
+}

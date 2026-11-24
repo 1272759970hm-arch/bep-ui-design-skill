@@ -1,0 +1,186 @@
+{
+  "title": "环图十态 · 原始组件与绑定核对",
+  "description": "五个单环、五个多环原始SVG。保留文字的SVG依赖本机字体；未分发商业字体。多环仅原样参考，不将页头数值当作三个轨道比率。",
+  "screens": [
+    {
+      "name": "独立多环 · 负值",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "multi",
+            "state": "negative"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "独立多环 · 零",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "multi",
+            "state": "zero"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "独立多环 · 正常",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "multi",
+            "state": "normal"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "独立多环 · 100%",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "multi",
+            "state": "hundred"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "独立多环 · 超百",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "multi",
+            "state": "over"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "单环 · 零",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "single",
+            "state": "zero"
+          }
+        },
+        {
+          "type": "progressRing",
+          "section": "数据绑定模板（同值）",
+          "props": {
+            "value": 0.0,
+            "name": "收费率"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "单环 · 正常",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "single",
+            "state": "normal"
+          }
+        },
+        {
+          "type": "progressRing",
+          "section": "数据绑定模板（同值）",
+          "props": {
+            "value": 79.75,
+            "name": "收费率"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "单环 · 100%",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "single",
+            "state": "hundred"
+          }
+        },
+        {
+          "type": "progressRing",
+          "section": "数据绑定模板（同值）",
+          "props": {
+            "value": 100.0,
+            "name": "收费率"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "单环 · 超百",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "single",
+            "state": "over"
+          }
+        },
+        {
+          "type": "progressRing",
+          "section": "数据绑定模板（同值）",
+          "props": {
+            "value": 107.05,
+            "name": "收费率"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    },
+    {
+      "name": "单环 · 负值",
+      "components": [
+        {
+          "type": "nativeRingState",
+          "section": "Figma原始SVG",
+          "props": {
+            "kind": "single",
+            "state": "negative"
+          }
+        },
+        {
+          "type": "progressRing",
+          "section": "数据绑定模板（同值）",
+          "props": {
+            "value": -6.2,
+            "name": "收费率"
+          }
+        }
+      ],
+      "note": "原始状态样本；多环不由页头单一数值反推各轨。"
+    }
+  ]
+}

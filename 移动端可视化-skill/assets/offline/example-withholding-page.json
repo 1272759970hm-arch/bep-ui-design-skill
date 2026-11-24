@@ -1,0 +1,274 @@
+{
+  "title": "一看移动端 · 微信代扣",
+  "description": "模拟数据。包含扣费金额分析、签约／解约分析与三个独立排名指标。",
+  "screens": [
+    {
+      "name": "签约与解约",
+      "header": {
+        "title": "微信代扣",
+        "date": "2026年7月"
+      },
+      "components": [
+        {
+          "type": "withholdingPayment",
+          "props": {
+            "expected": 500,
+            "paid": 490.51,
+            "unit": "万元",
+            "basis": "amount"
+          }
+        },
+        {
+          "type": "withholdingAnalysis",
+          "props": {
+            "signing": {
+              "periods": [
+                {
+                  "label": "5月",
+                  "eligible": 1000,
+                  "signed": 600
+                },
+                {
+                  "label": "6月",
+                  "eligible": 1100,
+                  "signed": 704
+                },
+                {
+                  "label": "7月",
+                  "eligible": 1200,
+                  "signed": 840
+                }
+              ]
+            },
+            "cancellation": {
+              "periods": [
+                {
+                  "label": "5月",
+                  "eligible": 600,
+                  "signed": 18
+                },
+                {
+                  "label": "6月",
+                  "eligible": 704,
+                  "signed": 22
+                },
+                {
+                  "label": "7月",
+                  "eligible": 840,
+                  "signed": 42
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "withholdingRankings",
+          "props": {
+            "payment": {
+              "scopes": [
+                {
+                  "id": "peers",
+                  "label": "同级项目",
+                  "kind": "peers",
+                  "selfId": "org3",
+                  "complete": true,
+                  "totalPeers": 6,
+                  "columns": [
+                    "排名",
+                    "项目名称",
+                    "扣费成功率"
+                  ],
+                  "rows": [
+                    {
+                      "id": "org1",
+                      "name": "示例项目1",
+                      "rank": 1,
+                      "values": [
+                        100
+                      ]
+                    },
+                    {
+                      "id": "org2",
+                      "name": "示例项目2",
+                      "rank": 2,
+                      "values": [
+                        99.5
+                      ]
+                    },
+                    {
+                      "id": "org3",
+                      "name": "本项目",
+                      "rank": 3,
+                      "values": [
+                        98.1
+                      ]
+                    },
+                    {
+                      "id": "org4",
+                      "name": "示例项目4",
+                      "rank": 4,
+                      "values": [
+                        93.5
+                      ]
+                    },
+                    {
+                      "id": "org5",
+                      "name": "示例项目5",
+                      "rank": 5,
+                      "values": [
+                        90
+                      ]
+                    },
+                    {
+                      "id": "org6",
+                      "name": "示例项目6",
+                      "rank": 6,
+                      "values": [
+                        0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "signing": {
+              "scopes": [
+                {
+                  "id": "peers",
+                  "label": "同级项目",
+                  "kind": "peers",
+                  "selfId": "org3",
+                  "complete": true,
+                  "totalPeers": 6,
+                  "columns": [
+                    "排名",
+                    "项目名称",
+                    "签约率"
+                  ],
+                  "rows": [
+                    {
+                      "id": "org1",
+                      "name": "示例项目1",
+                      "rank": 1,
+                      "values": [
+                        100
+                      ]
+                    },
+                    {
+                      "id": "org2",
+                      "name": "示例项目2",
+                      "rank": 2,
+                      "values": [
+                        80
+                      ]
+                    },
+                    {
+                      "id": "org3",
+                      "name": "本项目",
+                      "rank": 3,
+                      "values": [
+                        70
+                      ]
+                    },
+                    {
+                      "id": "org4",
+                      "name": "示例项目4",
+                      "rank": 4,
+                      "values": [
+                        55
+                      ]
+                    },
+                    {
+                      "id": "org5",
+                      "name": "示例项目5",
+                      "rank": 5,
+                      "values": [
+                        40
+                      ]
+                    },
+                    {
+                      "id": "org6",
+                      "name": "示例项目6",
+                      "rank": 6,
+                      "values": [
+                        null
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "cancellation": {
+              "scopes": [
+                {
+                  "id": "peers",
+                  "label": "同级项目",
+                  "kind": "peers",
+                  "selfId": "org4",
+                  "complete": true,
+                  "totalPeers": 6,
+                  "columns": [
+                    "排名",
+                    "项目名称",
+                    "解约率"
+                  ],
+                  "rows": [
+                    {
+                      "id": "org1",
+                      "name": "示例项目1",
+                      "rank": 1,
+                      "values": [
+                        0
+                      ]
+                    },
+                    {
+                      "id": "org2",
+                      "name": "示例项目2",
+                      "rank": 2,
+                      "values": [
+                        1.6
+                      ]
+                    },
+                    {
+                      "id": "org3",
+                      "name": "示例项目3",
+                      "rank": 3,
+                      "values": [
+                        3.7
+                      ]
+                    },
+                    {
+                      "id": "org4",
+                      "name": "本项目",
+                      "rank": 4,
+                      "values": [
+                        5
+                      ]
+                    },
+                    {
+                      "id": "org5",
+                      "name": "示例项目5",
+                      "rank": 5,
+                      "values": [
+                        9.5
+                      ]
+                    },
+                    {
+                      "id": "org6",
+                      "name": "示例项目6",
+                      "rank": 6,
+                      "values": [
+                        null
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "note": "模拟数据。签约分母为已收楼户数。解约分母为示例明确给定的当期已签约户数。"
+    }
+  ]
+}

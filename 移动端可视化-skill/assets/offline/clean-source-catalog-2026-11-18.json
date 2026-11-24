@@ -1,0 +1,250 @@
+{
+  "fileKey": "2oSqZAFWhrtQoOytyamFOn",
+  "pageId": "7958:101240",
+  "authorization": "用户指定纯净版；只以对应原版组件作为本批规范来源",
+  "rawRecords": [
+    {
+      "path": "assets/offline/evidence/clean-7958-115518-card.json",
+      "root": "7958:115518",
+      "rows": 58,
+      "sha256": "8c29e55f3a6d5e1115519a8a07721f868dc8dc272ed1f0034d8d2a69b26e3f7f"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-115552-card.json",
+      "root": "7958:115552",
+      "rows": 17,
+      "sha256": "5cfca1413e1263e6412d0dd111ac057944ac7fd2f72f468d46047cfceeedb4b5"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-115563-card.json",
+      "root": "7958:115563",
+      "rows": 31,
+      "sha256": "6c38a059c65e86ef13d3d30aa376ba11076a6c1f5e24666eed94fab1aeb72c67"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-115585-card.json",
+      "root": "7958:115585",
+      "rows": 19,
+      "sha256": "3876e754606e3fe6b08cb75315245f3ac204ca46206c15912982f802dd6c4f62"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-115599-card.json",
+      "root": "7958:115599",
+      "rows": 17,
+      "sha256": "687b82449d6048fe79178a33558207bfaa81f4c24e8ed2794757581d6f5e5cec"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-115610-card.json",
+      "root": "7958:115610",
+      "rows": 15,
+      "sha256": "38429df80072aa6cf0f788da6c169dd677e04ff6c6fdbc22201f89c37f6df23a"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123867-header.json",
+      "root": "7958:123867",
+      "rows": 6,
+      "sha256": "ea77cbf7021d7e76ab96f5e5be2285e50565e884a1329b27e55c876ec5ee8cd7"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123868-navigation.json",
+      "root": "7958:123868",
+      "rows": 54,
+      "sha256": "981c99c20a7f5e0cde4154278f9d0783cbb8a1ecb93d300717c20d9302fdb480"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123872-summary.json",
+      "root": "7958:123872",
+      "rows": 64,
+      "sha256": "305531ef2593b0d5ac871c29ab196b803220011440cfaddae9e1e936f617abd6"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123876-chart.json",
+      "root": "7958:123876",
+      "rows": 19,
+      "sha256": "af6dd8a843445f2fb16bd40e271dc8083393c7fa1388e37a0131029227771281"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123878-chart.json",
+      "root": "7958:123878",
+      "rows": 6,
+      "sha256": "d1f0055f983f68796f3d660294c41506a1978b66f5170dad97f247b5bfd830e2"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-124700-ring.json",
+      "root": "7958:124700",
+      "rows": 12,
+      "sha256": "a2bba08926000e32e7019ec0a9a785877855c1364b10565b54ef9cf144ccb6a5"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-124753-ring.json",
+      "root": "7958:124753",
+      "rows": 12,
+      "sha256": "16368b6ec6dc0acc043f63ac3c648b60b712f975ea8ef39eedb6c11fc61ee19a"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-124806-ring.json",
+      "root": "7958:124806",
+      "rows": 12,
+      "sha256": "1a97e1dc00efc3da432d5af91c98b681d97f15924211a0524933d0745fd636a1"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-124859-ring.json",
+      "root": "7958:124859",
+      "rows": 12,
+      "sha256": "3edbc1a2d0ce08acb4d048ba8eee34680edef0f45c18421e180b4144abe8c883"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-124912-ring.json",
+      "root": "7958:124912",
+      "rows": 15,
+      "sha256": "9ca34668afd4edfb1a60130ea50ebd1bfbf9e759c5e011dfd765119e33a94dfc"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-124965-ring.json",
+      "root": "7958:124965",
+      "rows": 10,
+      "sha256": "05279d95f57cc4f1d58f86d4ee26796aa76b365f491a1cb8ac0d20601eb86838"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-125033-ring.json",
+      "root": "7958:125033",
+      "rows": 10,
+      "sha256": "80a6d0bf455228772b7cf9100c50342df36d619c5e4ab192b9f5f23f4124739c"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-125101-ring.json",
+      "root": "7958:125101",
+      "rows": 10,
+      "sha256": "afd4255685952636a349faa5bf756e35ef6719864eba4319f350757d7e570ec0"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-125169-ring.json",
+      "root": "7958:125169",
+      "rows": 11,
+      "sha256": "ebe0dedf1616fe99f03362b74953877bbad1d3457568485bd2cdaa87d84443b1"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-125237-ring.json",
+      "root": "7958:125237",
+      "rows": 10,
+      "sha256": "fc682adf9da06ba0ddfe673be79ddb1ef58457d6fab7c63fa92d10dc3e726732"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-122825-date-day.json",
+      "root": "7958:122825",
+      "rows": 57,
+      "sha256": "ebc32c6ffbd7c8e7c64429e6f40c5e01726320e69c927c30085d76e8c78ecb0c"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-122864-date-month.json",
+      "root": "7958:122864",
+      "rows": 52,
+      "sha256": "0e5f8165aedc3d50a6baa49ea979a7f78f33ae077ee08d415fcae4963ffcbb32"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-122903-date-year.json",
+      "root": "7958:122903",
+      "rows": 47,
+      "sha256": "576ec07c905561b46e869487292725c3cc56b436f11a5285564d3f8ed7a4d3af"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123885-ranking-title.json",
+      "root": "7958:123885",
+      "rows": 17,
+      "sha256": "d7fbe3b15e942d7dc4563c20a1ad8d7792e9ebf190fa0fb48cbd5a88a74c6019"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123892-peer-ranking.json",
+      "root": "7958:123892",
+      "rows": 68,
+      "sha256": "2b42eb2dd03a0c8ee9dc75ccbd68c166d211271549e58ef52113c3a5bb79c854"
+    },
+    {
+      "path": "assets/offline/evidence/clean-7958-123900-subordinate-ranking.json",
+      "root": "7958:123900",
+      "rows": 121,
+      "sha256": "4dc01139ea1b1c54e02b416905b024e42cae1830658f6bfa43c0e5c874732a09"
+    }
+  ],
+  "distinctNodeIds": 777,
+  "nativeAssets": [
+    {
+      "path": "assets/offline/native/clean-7958-115502-background.svg",
+      "sha256": "2cc1c2569791f6ed80e2cb2232e3e706ff392f0665017fbbac42286cb2126818"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-123876.svg",
+      "sha256": "f939a37db7e8977a835dace16f09472c8b1c8f2f4f43a63f9c17509634f8337b"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-123878.svg",
+      "sha256": "2f3fea45f0f87530ee6d1e7b2b0afea0ce587487093d467e1906318f0ca4240e"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-124700.svg",
+      "sha256": "fc5f8722d1c5fb07c75b6bf7013de505bf6fd6fff82e4546a7d3b172beb2fa0f"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-124753.svg",
+      "sha256": "28d3ba914fbe2f6df3e70e36ea7352b2e715c7ccab58394aff4d5fb7516aea28"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-124806.svg",
+      "sha256": "b33c2185019e0b3eb63ba1231993075f01f3edca8597ded9460c1af18f53c731"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-124859.svg",
+      "sha256": "b383de7d4304f6fa4bc4804779d46705d51a952f7f85e2b12363da964d5e43f6"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-124912.svg",
+      "sha256": "7be3a8b30515a32c2980c7981e97b976af55f2ae276a66494169caba69647203"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-124965.svg",
+      "sha256": "4620fad2caa579e01b0797ff9b2a8354ce32f8bf42d658cf241059bd9ef8cfcf"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-125033.svg",
+      "sha256": "4accf402531c9018cd3016bd52590f81dfd765c908405b5039f183863e056c05"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-125101.svg",
+      "sha256": "d48763b32c45986a5ea37706371685e6ae0fc5318332592c2cdd871dcb3c0e86"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-125169.svg",
+      "sha256": "5e6586b32442c005d0d254a30316c146018bb8be95f55685a5ff95e39400ff79"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-125237.svg",
+      "sha256": "4a8c93bd5b2bec8d2800d50a93e3fc9f455c4c7afee0b9052e907192348cc26a"
+    },
+    {
+      "path": "assets/offline/native/clean-ai-hint-background.svg",
+      "sha256": "637ce5230fb2c4fc9e1df25fb2c69f7ee6719e22a1b27aa655177ada396f71ad"
+    },
+    {
+      "path": "assets/offline/native/clean-indicator-selected-curve.svg",
+      "sha256": "cc29a46b7455ef47e9f9eefbe515c32b6f93a993f4318578035a1dfb0df9b68a"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-123885.svg",
+      "sha256": "7057627aeb8bcf612e46813ef5f9330b35aa4a784e34294cfaf232a7dad1e25f"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-123892.svg",
+      "sha256": "05be5f6b6d8d21b651d90b7b26bb514037a2f1246144c70c5ac437e888f7470a"
+    },
+    {
+      "path": "assets/offline/native/clean-7958-123900.svg",
+      "sha256": "4d0d87f183096ccf8e5356e294ae611efd9987525cfdfb3119960e7d25ce7d3d"
+    }
+  ],
+  "visualEvidence": "7958:123866详情模板及7958:123884排名卡截图已查看；尚非输出模板同数据视觉验收",
+  "incomplete": [
+    "完整摘要含原始位图的3.47MB SVG未保存到本地；逐层参数和独立AI底形已保存",
+    "十态样本已取得，任意负值/多圈动态适配与同数据视觉验收仍待完成",
+    "其余业务页面及完整排名运行结构仍待适配；高级筛选本次HTTP连接错误后审批超时，未取得新参数"
+  ]
+}

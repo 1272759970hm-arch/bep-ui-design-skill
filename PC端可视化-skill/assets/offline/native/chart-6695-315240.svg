@@ -1,0 +1,52 @@
+<svg width="343" height="303" viewBox="0 0 343 303" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="343" height="303" rx="12" fill="white"/>
+<rect x="12" y="17.5" width="10" height="3" rx="1.5" fill="#57D5E6"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="96" y="24.04">6145.31&#x4e07;&#x5143;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="26" y="24.04">&#x672c;&#x671f;&#x5e94;&#x6536;&#xff1a;</tspan></text>
+<rect x="173" y="17.5" width="10" height="3" rx="1.5" fill="#66A6FF"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="257" y="24.04">1128.47&#x4e07;&#x5143;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="187" y="24.04">&#x6536;&#x6b3e;&#x91d1;&#x989d;&#xff1a;</tspan></text>
+<rect x="12" y="49.5" width="10" height="3" rx="1.5" fill="#3DC7F8"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="96" y="56.04">894.4&#x4e07;&#x5143;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="26" y="56.04">&#x8ffd;&#x7f34;&#x91d1;&#x989d;&#xff1a;</tspan></text>
+<rect x="174" y="46.5" width="8" height="8" rx="4" fill="white" stroke="#33C1C1" stroke-width="2"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="243" y="56.04">190.42&#x4e07;&#x5143;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="187" y="56.04">&#x6536;&#x8d39;&#x7387;&#xff1a;</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="12.5918" y="92.04">100&#x4e07;</tspan></text>
+<path d="M53 87H290" stroke="#E5E5E5" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect opacity="0.08" x="119" y="87" width="48" height="170" fill="#00B2B2"/>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="295.016" y="92.04">100%</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="13.2109" y="126.04">80&#x4e07;</tspan></text>
+<path d="M52 121H291" stroke="#E5E5E5" stroke-width="0.5" stroke-dasharray="2 2"/>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="300.635" y="126.04">80%</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="13.2109" y="160.04">60&#x4e07;</tspan></text>
+<path d="M52 155H291" stroke="#E5E5E5" stroke-width="0.5" stroke-dasharray="2 2"/>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="300.635" y="160.04">60%</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="13.2109" y="194.04">40&#x4e07;</tspan></text>
+<path d="M52 189H291" stroke="#E5E5E5" stroke-width="0.5" stroke-dasharray="2 2"/>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="300.635" y="194.04">40%</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="13.2109" y="228.04">20&#x4e07;</tspan></text>
+<path d="M52 223H291" stroke="#E5E5E5" stroke-width="0.5" stroke-dasharray="2 2"/>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="300.635" y="228.04">20%</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="21.6055" y="262.04">0&#x4e07;</tspan></text>
+<path d="M48 257H295" stroke="#E5E5E5" stroke-width="0.5"/>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="309.029" y="262.04">0%</tspan></text>
+<rect x="68" y="87" width="12" height="170" fill="#33C1C1"/>
+<rect x="84" y="106" width="12" height="76" fill="#3DC7F8"/>
+<rect x="84" y="182" width="12" height="75" fill="#66A6FF"/>
+<rect x="129" y="135" width="12" height="122" fill="#33C1C1"/>
+<rect x="145" y="154" width="12" height="58" fill="#3DC7F8"/>
+<rect x="145" y="212" width="12" height="45" fill="#66A6FF"/>
+<rect x="188" y="113" width="12" height="144" fill="#33C1C1"/>
+<path d="M204 129H216V186H204V129Z" fill="#3DC7F8"/>
+<rect x="204" y="186" width="12" height="71" fill="#66A6FF"/>
+<rect x="247" y="145" width="12" height="112" fill="#33C1C1"/>
+<rect x="263" y="164" width="12" height="44" fill="#3DC7F8"/>
+<rect x="263" y="208" width="12" height="49" fill="#66A6FF"/>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="67.5" y="281.04">&#x5168;&#x90e8;</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="120.5" y="281.04">&#x5c0f;&#x4e1a;&#x4e3b;</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="185.08" y="281.04">2007</tspan></text>
+<text fill="#CCCFD6" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="240.5" y="281.04">&#x7b2c;&#x4e09;&#x65b9;</tspan></text>
+<path d="M143.842 259.248C144.219 258.918 144.781 258.918 145.158 259.248L149.446 263H165.5C167.709 263 169.5 264.791 169.5 267V283C169.5 285.209 167.709 287 165.5 287H123.5C121.291 287 119.5 285.209 119.5 283V267C119.5 264.791 121.291 263 123.5 263H139.554L143.842 259.248Z" fill="#33C1C1"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="123.5" y="279.704">&#x5c0f;&#x4e1a;&#x4e3b;</tspan></text>
+</svg>

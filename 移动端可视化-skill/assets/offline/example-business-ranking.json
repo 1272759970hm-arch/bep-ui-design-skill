@@ -1,0 +1,139 @@
+{
+  "title": "同级与下辖排名 · 离线核对",
+  "description": "模拟数据；完整同级序位用于计算邻位，同级组织名称在HTML数据写入前脱敏；下辖下钻仅发出本地事件。",
+  "screens": [
+    {
+      "name": "同级／下辖与列搜索",
+      "components": [
+        {
+          "type": "businessRanking",
+          "props": {
+            "scopes": [
+              {
+                "id": "peers",
+                "label": "同级 · 杭州大项目",
+                "kind": "peers",
+                "selfId": "org4",
+                "complete": true,
+                "totalPeers": 7,
+                "columns": [
+                  "排名",
+                  "项目名称",
+                  "充电收益（万元）",
+                  "类型"
+                ],
+                "rows": [
+                  {
+                    "id": "org1",
+                    "rank": 1,
+                    "name": "未脱敏组织1",
+                    "values": [
+                      8300,
+                      "自营"
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "org2",
+                    "rank": 2,
+                    "name": "未脱敏组织2",
+                    "values": [
+                      7600,
+                      "自营"
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "org3",
+                    "rank": 3,
+                    "name": "未脱敏组织3",
+                    "values": [
+                      6900,
+                      "自营"
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "org4",
+                    "rank": 4,
+                    "name": "凤凰城",
+                    "values": [
+                      6200,
+                      "业主"
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "org5",
+                    "rank": 5,
+                    "name": "未脱敏组织5",
+                    "values": [
+                      5500,
+                      "自营"
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "org6",
+                    "rank": 6,
+                    "name": "未脱敏组织6",
+                    "values": [
+                      4800,
+                      "自营"
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "org7",
+                    "rank": 7,
+                    "name": "未脱敏组织7",
+                    "values": [
+                      4100,
+                      "自营"
+                    ],
+                    "canDrill": true
+                  }
+                ],
+                "appearance": "indicatorDetail"
+              },
+              {
+                "id": "sub",
+                "label": "下辖 · 项目",
+                "kind": "subordinates",
+                "columns": [
+                  "排名",
+                  "项目名称",
+                  "充电收益（万元）",
+                  "类型"
+                ],
+                "rows": [
+                  {
+                    "id": "p1",
+                    "rank": 1,
+                    "name": "凤凰城",
+                    "values": [
+                      4200,
+                      "自营"
+                    ],
+                    "canDrill": true
+                  },
+                  {
+                    "id": "p2",
+                    "rank": 2,
+                    "name": "城市花园",
+                    "values": [
+                      3100,
+                      "业主"
+                    ],
+                    "canDrill": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "note": "并列序位、后端分页、服务端权限与下载未定义。所有输入排名数据须已获准展示。"
+    }
+  ]
+}

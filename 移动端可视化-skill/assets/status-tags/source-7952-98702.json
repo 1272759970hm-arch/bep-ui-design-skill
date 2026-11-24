@@ -1,0 +1,334 @@
+{
+  "source": {
+    "fileKey": "2oSqZAFWhrtQoOytyamFOn",
+    "nodeId": "7952:98702",
+    "extractedAt": "2026-11-18"
+  },
+  "instances": [
+    {
+      "id": "7952:98685",
+      "name": "3.DataDisplay/5.Tag标示/边框标示-未生效",
+      "width": 52,
+      "height": 22,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "main": {
+        "id": "7952:98670",
+        "name": "3.DataDisplay/5.Tag标示/边框标示-未生效",
+        "key": "2e6d89ed58cee4347db4f26f7c0da1c49d9d375a"
+      },
+      "texts": [
+        {
+          "id": "I7952:98685;0:31638",
+          "text": "未生效",
+          "segments": [
+            {
+              "characters": "未生效",
+              "start": 0,
+              "end": 3,
+              "fontSize": 12,
+              "fontName": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7333333492279053,
+                    "g": 0.7333333492279053,
+                    "b": 0.7333333492279053
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "svg": "<svg width=\"52\" height=\"22\" viewBox=\"0 0 52 22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0.5\" y=\"0.5\" width=\"51\" height=\"21\" rx=\"1.5\" fill=\"#FAFAFA\" stroke=\"#D9D9D9\"/>\n<text fill=\"#BBBBBB\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"12\" letter-spacing=\"0px\"><tspan x=\"8\" y=\"15.32\">&#x672a;&#x751f;&#x6548;</tspan></text>\n</svg>\n"
+    },
+    {
+      "id": "7952:98686",
+      "name": "3.DataDisplay/5.Tag标示/边框标示-提示",
+      "width": 40,
+      "height": 22,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "main": {
+        "id": "7952:98673",
+        "name": "3.DataDisplay/5.Tag标示/边框标示-提示",
+        "key": "a041e389b152be5ba5f8d3aa637668d9e1f1bfb0"
+      },
+      "texts": [
+        {
+          "id": "I7952:98686;0:31768",
+          "text": "提示",
+          "segments": [
+            {
+              "characters": "提示",
+              "start": 0,
+              "end": 2,
+              "fontSize": 12,
+              "fontName": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0.4274509847164154,
+                    "b": 0.6078431606292725
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "svg": "<svg width=\"40\" height=\"22\" viewBox=\"0 0 40 22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0.5\" y=\"0.5\" width=\"39\" height=\"21\" rx=\"1.5\" fill=\"#E6F0F5\" stroke=\"#CCE2EB\"/>\n<text fill=\"#006D9B\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"12\" letter-spacing=\"0px\"><tspan x=\"8\" y=\"15.32\">&#x63d0;&#x793a;</tspan></text>\n</svg>\n"
+    },
+    {
+      "id": "7952:98687",
+      "name": "3.DataDisplay/5.Tag标示/边框标示-正常",
+      "width": 40,
+      "height": 22,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "main": {
+        "id": "7952:98676",
+        "name": "3.DataDisplay/5.Tag标示/边框标示-正常",
+        "key": "2928d59af02e2b9cf07486f26a2f2913b512367b"
+      },
+      "texts": [
+        {
+          "id": "I7952:98687;0:31660",
+          "text": "正常",
+          "segments": [
+            {
+              "characters": "正常",
+              "start": 0,
+              "end": 2,
+              "fontSize": 12,
+              "fontName": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.23137255012989044,
+                    "g": 0.7333333492279053,
+                    "b": 0.24313725531101227
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "svg": "<svg width=\"40\" height=\"22\" viewBox=\"0 0 40 22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0.5\" y=\"0.5\" width=\"39\" height=\"21\" rx=\"1.5\" fill=\"#EBF8EC\" stroke=\"#D8F1D8\"/>\n<text fill=\"#3BBB3E\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"12\" letter-spacing=\"0px\"><tspan x=\"8\" y=\"15.32\">&#x6b63;&#x5e38;</tspan></text>\n</svg>\n"
+    },
+    {
+      "id": "7952:98688",
+      "name": "3.DataDisplay/5.Tag标示/边框标示-严重",
+      "width": 40,
+      "height": 22,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "main": {
+        "id": "7952:98679",
+        "name": "3.DataDisplay/5.Tag标示/边框标示-严重",
+        "key": "d798838d760e34a9281934414f33340a33e9229b"
+      },
+      "texts": [
+        {
+          "id": "I7952:98688;0:31630",
+          "text": "严重",
+          "segments": [
+            {
+              "characters": "严重",
+              "start": 0,
+              "end": 2,
+              "fontSize": 12,
+              "fontName": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 0.6509804129600525,
+                    "b": 0.2705882489681244
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "svg": "<svg width=\"40\" height=\"22\" viewBox=\"0 0 40 22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0.5\" y=\"0.5\" width=\"39\" height=\"21\" rx=\"1.5\" fill=\"#FFF6EC\" stroke=\"#FFEDDA\"/>\n<text fill=\"#FFA645\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"12\" letter-spacing=\"0px\"><tspan x=\"8\" y=\"15.32\">&#x4e25;&#x91cd;</tspan></text>\n</svg>\n"
+    },
+    {
+      "id": "7952:98689",
+      "name": "3.DataDisplay/5.Tag标示/边框标示-危险",
+      "width": 40,
+      "height": 22,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "main": {
+        "id": "7952:98682",
+        "name": "3.DataDisplay/5.Tag标示/边框标示-危险",
+        "key": "df1a4ab3135a4008a81a869a00902892cadb0d38"
+      },
+      "texts": [
+        {
+          "id": "I7952:98689;0:31846",
+          "text": "危险",
+          "segments": [
+            {
+              "characters": "危险",
+              "start": 0,
+              "end": 2,
+              "fontSize": 12,
+              "fontName": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.3686274588108063,
+                    "b": 0.3294117748737335
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "svg": "<svg width=\"40\" height=\"22\" viewBox=\"0 0 40 22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0.5\" y=\"0.5\" width=\"39\" height=\"21\" rx=\"1.5\" fill=\"#FFEFEE\" stroke=\"#FFDFDD\"/>\n<text fill=\"#FE5E54\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"12\" letter-spacing=\"0px\"><tspan x=\"8\" y=\"15.32\">&#x5371;&#x9669;</tspan></text>\n</svg>\n"
+    }
+  ]
+}

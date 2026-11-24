@@ -1,0 +1,34 @@
+{
+  "version": "1.3.4-trial.2",
+  "negativeTests": 6,
+  "examples": [
+    {
+      "page": "01-经营情况.validation.json",
+      "status": "partial",
+      "summary": {
+        "pass": 91,
+        "fail": 0,
+        "pending": 2
+      }
+    },
+    {
+      "page": "02-排名.validation.json",
+      "status": "partial",
+      "summary": {
+        "pass": 73,
+        "fail": 0,
+        "pending": 2
+      }
+    },
+    {
+      "page": "03-主页.validation.json",
+      "status": "partial",
+      "summary": {
+        "pass": 22,
+        "fail": 0,
+        "pending": 3
+      }
+    }
+  ],
+  "fullVisualParity": false
+}

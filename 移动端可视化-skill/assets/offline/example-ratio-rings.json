@@ -1,0 +1,117 @@
+{
+  "title": "一看移动端 · 独立比率单环与多环",
+  "description": "模拟数据。点选主体查看分子和分母。",
+  "screens": [
+    {
+      "name": "签约率",
+      "header": {
+        "title": "签约率",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "ratioRings",
+          "props": {
+            "title": "签约率",
+            "items": [
+              {
+                "name": "签约率",
+                "numerator": 463,
+                "denominator": 560,
+                "unit": "户",
+                "numeratorLabel": "已签约户数",
+                "denominatorLabel": "已收楼户数",
+                "comparisonValue": 3.2
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。每项按自己的分子和分母计算。"
+    },
+    {
+      "name": "主体收费率",
+      "header": {
+        "title": "主体收费率",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "ratioRings",
+          "props": {
+            "title": "主体收费率",
+            "items": [
+              {
+                "name": "小业主",
+                "numerator": 87,
+                "denominator": 100,
+                "unit": "万元",
+                "numeratorLabel": "实收",
+                "denominatorLabel": "应收"
+              },
+              {
+                "name": "非风险客商",
+                "numerator": 72,
+                "denominator": 80,
+                "unit": "万元",
+                "numeratorLabel": "实收",
+                "denominatorLabel": "应收"
+              },
+              {
+                "name": "风险客商",
+                "numerator": 37,
+                "denominator": 50,
+                "unit": "万元",
+                "numeratorLabel": "实收",
+                "denominatorLabel": "应收"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。每项按自己的分子和分母计算。"
+    },
+    {
+      "name": "超百、负值与零分母",
+      "header": {
+        "title": "超百、负值与零分母",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "ratioRings",
+          "props": {
+            "title": "超百、负值与零分母",
+            "items": [
+              {
+                "name": "超额收缴",
+                "numerator": 120,
+                "denominator": 100,
+                "unit": "万元",
+                "numeratorLabel": "实收",
+                "denominatorLabel": "应收"
+              },
+              {
+                "name": "负值冲正",
+                "numerator": -5,
+                "denominator": 50,
+                "unit": "万元",
+                "numeratorLabel": "实收",
+                "denominatorLabel": "应收"
+              },
+              {
+                "name": "无应收",
+                "numerator": 0,
+                "denominator": 0,
+                "unit": "万元",
+                "numeratorLabel": "实收",
+                "denominatorLabel": "应收"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。每项按自己的分子和分母计算。"
+    }
+  ]
+}

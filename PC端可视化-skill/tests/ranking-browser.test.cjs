@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs');
+const {chromium}=require(process.env.YIKAN_PLAYWRIGHT_PATH||'playwright');
+(async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
+ const page=await browser.newPage({viewport:{width:375,height:900}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('file://'+path.resolve(__dirname,'../assets/offline/两轮充电-离线六态.html'));
+ await page.locator('.yk-trend').screenshot({path:path.resolve(__dirname,'../assets/offline/趋势轴格式-核对.png')});
+ const card=page.locator('.yk-ranking').first(),scroll=card.locator('.yk-table-scroll');
+ await card.scrollIntoViewIfNeeded();await page.waitForTimeout(100);
+ assert.ok(await card.evaluate(el=>el.classList.contains('yk-shadow-right')&&!el.classList.contains('yk-shadow-left')));
+ await scroll.evaluate(el=>el.scrollLeft=50);await page.waitForTimeout(100);
+ assert.ok(await card.evaluate(el=>el.classList.contains('yk-shadow-right')&&el.classList.contains('yk-shadow-left')));
+ await scroll.evaluate(el=>el.scrollLeft=el.scrollWidth);await page.waitForTimeout(100);
+ assert.ok(await card.evaluate(el=>!el.classList.contains('yk-shadow-right')&&el.classList.contains('yk-shadow-left')));
+ await card.locator('[data-ranking-expand]').click();assert.equal(await page.locator('dialog[open]').count(),1);
+ const dialog=page.locator('dialog[open]');await dialog.locator('input').fill('凤凰城');assert.equal(await dialog.locator('tbody tr:visible').count(),1);
+ await page.keyboard.press('Escape');await page.waitForSelector('dialog',{state:'detached'});assert.equal(await page.locator('dialog').count(),0);
+ assert.equal(await page.locator('.phone .yk-ranking').first().locator('input').inputValue(),'凤凰城');
+ assert.ok(await page.evaluate(()=>document.activeElement.hasAttribute('data-ranking-expand')));
+ await page.locator('.phone .yk-ranking').first().locator('[data-ranking-expand]').click();await page.locator('.yk-ranking-close').click();await page.waitForSelector('dialog',{state:'detached'});
+ assert.equal(await page.locator('dialog').count(),0);assert.equal(await page.evaluate(()=>document.body.style.overflow),'');
+ assert.deepEqual(errors,[]);const result={date:'2026-11-05',scrollEdges:['right','both','left'],fullscreen:true,searchInFullscreen:true,escapeRestore:true,buttonRestore:true,focusRestore:true,pageErrors:errors,note:'Local behavior verification; not pixel parity with Figma.'};
+ fs.writeFileSync(path.resolve(__dirname,'ranking-browser-validation.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1);});

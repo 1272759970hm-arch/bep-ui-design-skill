@@ -1,0 +1,258 @@
+{
+  "title": "主页 · 卡片与背景试用",
+  "description": "原稿样本／模拟组织数据。主页卡片字号及同环比容器已按槽位修正；组织切换使用本地示例数据。",
+  "screens": [
+    {
+      "name": "项目主页",
+      "homeHeader": {
+        "organizations": [
+          {
+            "id": "area",
+            "name": "华东区域",
+            "selectable": false
+          },
+          {
+            "id": "a",
+            "name": "安庆碧桂园",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "b",
+            "name": "潮州碧桂园西区",
+            "parentId": "area",
+            "selectable": true
+          },
+          {
+            "id": "unit",
+            "name": "潮州西区一期",
+            "parentId": "b",
+            "selectable": true
+          }
+        ],
+        "value": "a",
+        "peerIds": [
+          "b"
+        ],
+        "showBrand": true
+      },
+      "homeProfiles": {
+        "a": {
+          "project": {
+            "origin": "集团开发",
+            "area": "240952.79㎡",
+            "fee": "商业 4.5"
+          },
+          "highlight": {
+            "label": "本年累计主营收费率",
+            "value": "86.56%"
+          },
+          "cards": [
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "实收金额",
+                "value": "988.20",
+                "unit": "亿",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152733",
+                "children": [
+                  {
+                    "name": "收费率",
+                    "value": "89.56",
+                    "unit": "%",
+                    "change": 3.23
+                  },
+                  {
+                    "name": "预存金额",
+                    "value": "999.40",
+                    "unit": "万",
+                    "change": 3.23
+                  },
+                  {
+                    "name": "期末欠费(本金)",
+                    "value": "2345.87",
+                    "unit": "万",
+                    "change": 3.23
+                  }
+                ]
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "总体满意度",
+                "value": "90.34",
+                "unit": "%",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152767"
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "电梯在线率",
+                "value": "94.63",
+                "unit": "%",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152778",
+                "second": {
+                  "name": "停车场临停收入",
+                  "value": "67.85",
+                  "unit": "万",
+                  "updated": "25/07",
+                  "comparisonValue": -3.23
+                }
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "主营税前利润率",
+                "value": "52.72",
+                "unit": "%",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152800"
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "两轮充电资金流水",
+                "value": "94.63",
+                "unit": "万",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152814"
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "零售GMV",
+                "value": "67.85",
+                "unit": "万",
+                "updated": "25/07",
+                "comparisonValue": -3.23,
+                "source": "6671:152825"
+              }
+            }
+          ]
+        },
+        "b": {
+          "project": {
+            "origin": "集团开发",
+            "area": "187402㎡",
+            "fee": "住宅 3.2"
+          },
+          "highlight": {
+            "label": "本年累计主营收费率",
+            "value": "82.70%"
+          },
+          "cards": [
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "实收金额",
+                "value": "988.20",
+                "unit": "亿",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152733",
+                "children": [
+                  {
+                    "name": "收费率",
+                    "value": "89.56",
+                    "unit": "%",
+                    "change": 3.23
+                  },
+                  {
+                    "name": "预存金额",
+                    "value": "999.40",
+                    "unit": "万",
+                    "change": 3.23
+                  },
+                  {
+                    "name": "期末欠费(本金)",
+                    "value": "2345.87",
+                    "unit": "万",
+                    "change": 3.23
+                  }
+                ]
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "总体满意度",
+                "value": "90.34",
+                "unit": "%",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152767"
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "电梯在线率",
+                "value": "94.63",
+                "unit": "%",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152778",
+                "second": {
+                  "name": "停车场临停收入",
+                  "value": "67.85",
+                  "unit": "万",
+                  "updated": "25/07",
+                  "comparisonValue": -3.23
+                }
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "主营税前利润率",
+                "value": "52.72",
+                "unit": "%",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152800"
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "两轮充电资金流水",
+                "value": "94.63",
+                "unit": "万",
+                "updated": "25/07",
+                "comparisonValue": 3.23,
+                "source": "6671:152814"
+              }
+            },
+            {
+              "type": "homeCard",
+              "props": {
+                "name": "零售GMV",
+                "value": "67.85",
+                "unit": "万",
+                "updated": "25/07",
+                "comparisonValue": -3.23,
+                "source": "6671:152825"
+              }
+            }
+          ]
+        }
+      },
+      "components": [],
+      "note": "模拟数据",
+      "homeNavigation": true
+    }
+  ]
+}

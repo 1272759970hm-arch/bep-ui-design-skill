@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>履约任务详情 — BEP-S 独立生成测试</title>
+<link rel="stylesheet" href="styles.css" />
+<!--
+  本页面由 Claude 仅依据 component-registry.json / design-tokens.json / mobile-ui-rules.md /
+  page-patterns.md / validation.md / missing-components.json / design-system-conflicts.json /
+  interaction-adaptive-tokens.json / icon-library.json 生成，参照用户提供的"履约任务详情"原型截图
+  做信息架构和布局。原型截图右下角的灰色"演示"胶囊是截图工具自身的浮层标记，不是页面设计的一部分，
+  未包含在本次生成结果中。生成过程未调用 Figma MCP。
+-->
+</head>
+<body>
+  <main class="page" data-bep-page="履约任务详情">
+
+    <header class="navbar"
+      data-bep-component="导航栏"
+      data-bep-status="REMOTE_INSTANCE"
+      data-bep-source="component-registry"
+      data-bep-verified="true">
+      <button class="navbar__back" aria-label="返回" type="button">
+        <svg width="12" height="12" viewBox="0 0 1024 1024" fill="currentColor" aria-hidden="true"
+          data-bep-component="Icon(arrow-left)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"/>
+        </svg>
+      </button>
+      <h1 class="navbar__title">履约任务详情</h1>
+    </header>
+
+    <div class="content">
+
+      <div class="alert-banner"
+        data-bep-component="提示横幅 Alert Banner"
+        data-bep-status="AI_PROPOSED"
+        data-bep-source="missing-components"
+        data-bep-verified="false"
+        data-bep-note="库内NOT_FOUND，跟Toast(浮层/自动消失)不是一回事，这是页面内容流里常驻的一块，已记录进missing-components.json">
+        配送异常：骑手反馈用户失联，已尝试多次联系无果
+      </div>
+
+      <section class="card"
+        data-bep-component="卡片（基础单卡）"
+        data-bep-status="SPEC_ONLY"
+        data-bep-source="component-library"
+        data-bep-verified="false"
+        data-bep-note="默认无投影无描边，纯背景色区隔">
+        <h2 class="card__title">金额</h2>
+
+        <div class="amount-row"
+          data-bep-component="单元格（标签左值右）"
+          data-bep-status="SPEC_ONLY"
+          data-bep-source="component-library"
+          data-bep-verified="false">
+          <span class="amount-row__label">商品金额</span>
+          <span class="amount-row__value">¥285.90</span>
+        </div>
+        <div class="amount-row">
+          <span class="amount-row__label">优惠金额</span>
+          <span class="amount-row__value">-¥0.00</span>
+        </div>
+        <div class="amount-row">
+          <span class="amount-row__label">配送费</span>
+          <span class="amount-row__value">¥8.00</span>
+        </div>
+        <div class="amount-row amount-row--total">
+          <span class="amount-row__label">实付金额</span>
+          <span class="amount-row__value">¥293.90</span>
+        </div>
+      </section>
+
+      <section class="card"
+        data-bep-component="卡片（基础单卡）"
+        data-bep-status="SPEC_ONLY"
+        data-bep-source="component-library"
+        data-bep-verified="false">
+        <h2 class="card__title">履约记录</h2>
+
+        <div class="timeline"
+          data-bep-component="时间轴"
+          data-bep-status="SPEC_ONLY"
+          data-bep-source="component-library"
+          data-bep-verified="false"
+          data-bep-note="完成/进行中两态有文档依据；'配送失败'节点用品牌色标记为时间轴当前位置，是AI_DESIGN_DECISION，不是把错误语义改成了品牌色">
+          <div class="timeline-item">
+            <div class="timeline-item__rail">
+              <div class="timeline-item__dot"></div>
+              <div class="timeline-item__line"></div>
+            </div>
+            <div class="timeline-item__body">
+              <div class="timeline-item__title">备货完成，进入待配送</div>
+              <div class="timeline-item__meta">张伟 · 2026-08-14 14:37:03</div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__rail">
+              <div class="timeline-item__dot"></div>
+              <div class="timeline-item__line"></div>
+            </div>
+            <div class="timeline-item__body">
+              <div class="timeline-item__title">开始配送</div>
+              <div class="timeline-item__meta">张伟 · 2026-08-14 14:47:03</div>
+            </div>
+          </div>
+          <div class="timeline-item timeline-item--current">
+            <div class="timeline-item__rail">
+              <div class="timeline-item__dot"></div>
+              <div class="timeline-item__line"></div>
+            </div>
+            <div class="timeline-item__body">
+              <div class="timeline-item__title">配送失败：用户失联</div>
+              <div class="timeline-item__meta">张伟 · 2026-08-14 15:57:03</div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="timeline-expand"
+          data-bep-component="展开/收起（组合模块）"
+          data-bep-status="AI_PROPOSED"
+          data-bep-source="ai-decision"
+          data-bep-verified="false">
+          展开全部 5 条记录
+          <svg viewBox="0 0 1024 1024" fill="currentColor" aria-hidden="true"
+            data-bep-component="Icon(chevron-down)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"/>
+          </svg>
+        </button>
+      </section>
+
+    </div>
+
+    <div class="action-bar">
+      <button type="button" class="btn-secondary"
+        data-bep-component="按钮/次要"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-note="尺寸(164x48近似)已通过mainComponent解析确认，具体描边视觉细节未逐像素核实">查看记录</button>
+      <button type="button" class="btn-primary"
+        data-bep-component="按钮/主要"
+        data-bep-status="SPEC_ONLY"
+        data-bep-source="missing-components"
+        data-bep-verified="false"
+        data-bep-note="Primary Button已穷举确认NOT_FOUND，按按钮规范画板(48px/圆角4px)手工搭建">处理异常</button>
+    </div>
+
+  </main>
+</body>
+</html>

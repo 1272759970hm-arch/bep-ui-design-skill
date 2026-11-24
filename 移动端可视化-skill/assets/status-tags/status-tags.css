@@ -1,0 +1,28 @@
+/* Source: Figma 2oSqZAFWhrtQoOytyamFOn / 7952:98702, 2026-11-18. */
+.yk-status-tag {
+  display: inline-flex;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  padding: 0 7px;
+  border: 1px solid var(--yk-tag-border);
+  border-radius: 2px;
+  background: var(--yk-tag-bg);
+  color: var(--yk-tag-text);
+  font-family: "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.yk-status-tag[data-tone="inactive"] { --yk-tag-text:#BBBBBB; --yk-tag-bg:#FAFAFA; --yk-tag-border:#D9D9D9; }
+.yk-status-tag[data-tone="info"] { --yk-tag-text:#006D9B; --yk-tag-bg:#E6F0F5; --yk-tag-border:#CCE2EB; }
+.yk-status-tag[data-tone="normal"] { --yk-tag-text:#3BBB3E; --yk-tag-bg:#EBF8EC; --yk-tag-border:#D8F1D8; }
+.yk-status-tag[data-tone="severe"] { --yk-tag-text:#FFA645; --yk-tag-bg:#FFF6EC; --yk-tag-border:#FFEDDA; }
+.yk-status-tag[data-tone="danger"] { --yk-tag-text:#FE5E54; --yk-tag-bg:#FFEFEE; --yk-tag-border:#FFDFDD; }
+/* Household-efficiency mapping confirmed by the user on 2026-11-18. */
+.yk-status-tag[data-status="高户效"] { --yk-tag-text:#3BBB3E; --yk-tag-bg:#EBF8EC; --yk-tag-border:#D8F1D8; }
+.yk-status-tag[data-status="低户效"] { --yk-tag-text:#FFA645; --yk-tag-bg:#FFF6EC; --yk-tag-border:#FFEDDA; }

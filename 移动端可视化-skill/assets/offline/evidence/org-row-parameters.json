@@ -1,0 +1,216 @@
+[
+  {
+    "id": "6671:131691",
+    "type": "FRAME",
+    "name": "搜索",
+    "w": 375,
+    "h": 90,
+    "x": 0,
+    "y": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "children": [
+      {
+        "id": "6671:131692",
+        "type": "FRAME",
+        "name": "Frame 194183",
+        "w": 343,
+        "h": 36,
+        "x": 16,
+        "y": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9607843160629272,
+              "g": 0.9647058844566345,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "font": null,
+        "size": null,
+        "line": null
+      },
+      {
+        "id": "6671:131700",
+        "type": "FRAME",
+        "name": "Frame 1321318413",
+        "w": 64,
+        "h": 24,
+        "x": 16,
+        "y": 56,
+        "fills": [],
+        "text": null,
+        "font": null,
+        "size": null,
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "6671:131702",
+    "type": "FRAME",
+    "name": "Frame 1321318433",
+    "w": 375,
+    "h": 627,
+    "x": 0,
+    "y": 90,
+    "fills": [],
+    "children": [
+      {
+        "id": "6671:131703",
+        "type": "RECTANGLE",
+        "name": "Rectangle 34625868",
+        "w": 375,
+        "h": 12,
+        "x": 0,
+        "y": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9607843160629272,
+              "g": 0.9647058844566345,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "font": null,
+        "size": null,
+        "line": null
+      },
+      {
+        "id": "6671:131704",
+        "type": "FRAME",
+        "name": "title",
+        "w": 375,
+        "h": 24,
+        "x": 0,
+        "y": 20,
+        "fills": [],
+        "text": null,
+        "font": null,
+        "size": null,
+        "line": null
+      },
+      {
+        "id": "6671:131709",
+        "type": "FRAME",
+        "name": "Frame 195725",
+        "w": 375,
+        "h": 575,
+        "x": 0,
+        "y": 52,
+        "fills": [],
+        "text": null,
+        "font": null,
+        "size": null,
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "6671:131711",
+    "type": "INSTANCE",
+    "name": "普通列表",
+    "w": 375,
+    "h": 44,
+    "x": 0,
+    "y": 44,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "children": [
+      {
+        "id": "I6671:131711;1112:16025",
+        "type": "FRAME",
+        "name": "图标列表",
+        "w": 375,
+        "h": 52,
+        "x": 0,
+        "y": -4,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "font": null,
+        "size": null,
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "6671:131701",
+    "type": "TEXT",
+    "name": "请选择",
+    "w": 64,
+    "h": 24,
+    "x": 0,
+    "y": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.6000000238418579,
+          "g": 0.6000000238418579,
+          "b": 0.6000000238418579
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:cdb117176dfee4697312f065a00ae47cf0ce6ba1/5720:198"
+          }
+        }
+      }
+    ],
+    "children": []
+  }
+]

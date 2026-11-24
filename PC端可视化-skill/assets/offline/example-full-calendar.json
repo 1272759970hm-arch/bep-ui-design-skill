@@ -1,0 +1,189 @@
+{
+  "title": "一看移动端 · 完整日历",
+  "description": "年度、月度、按日三种完整选择页。日期和有数据圆点均为跑测输入。",
+  "screens": [
+    {
+      "name": "年度",
+      "components": [
+        {
+          "type": "dateControl",
+          "props": {
+            "picker": "calendar",
+            "value": {
+              "year": 2024,
+              "month": 2,
+              "day": 29,
+              "granularity": "year"
+            },
+            "years": [
+              2023,
+              2024,
+              2025
+            ],
+            "today": {
+              "year": 2024,
+              "month": 4,
+              "day": 9,
+              "granularity": "day"
+            },
+            "min": {
+              "year": 2023,
+              "month": 12,
+              "day": 15,
+              "granularity": "day"
+            },
+            "max": {
+              "year": 2024,
+              "month": 9,
+              "day": 12,
+              "granularity": "day"
+            },
+            "dataPeriods": [
+              {
+                "year": 2023,
+                "month": 12,
+                "day": 19,
+                "granularity": "year"
+              },
+              {
+                "year": 2024,
+                "month": 2,
+                "day": 29,
+                "granularity": "year"
+              },
+              {
+                "year": 2024,
+                "month": 4,
+                "day": 9,
+                "granularity": "year"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟日期范围与历史有数据标记。"
+    },
+    {
+      "name": "月度",
+      "components": [
+        {
+          "type": "dateControl",
+          "props": {
+            "picker": "calendar",
+            "value": {
+              "year": 2024,
+              "month": 2,
+              "day": 29,
+              "granularity": "month"
+            },
+            "years": [
+              2023,
+              2024,
+              2025
+            ],
+            "today": {
+              "year": 2024,
+              "month": 4,
+              "day": 9,
+              "granularity": "day"
+            },
+            "min": {
+              "year": 2023,
+              "month": 12,
+              "day": 15,
+              "granularity": "day"
+            },
+            "max": {
+              "year": 2024,
+              "month": 9,
+              "day": 12,
+              "granularity": "day"
+            },
+            "dataPeriods": [
+              {
+                "year": 2023,
+                "month": 12,
+                "day": 19,
+                "granularity": "month"
+              },
+              {
+                "year": 2024,
+                "month": 2,
+                "day": 29,
+                "granularity": "month"
+              },
+              {
+                "year": 2024,
+                "month": 4,
+                "day": 9,
+                "granularity": "month"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟日期范围与历史有数据标记。"
+    },
+    {
+      "name": "按日",
+      "components": [
+        {
+          "type": "dateControl",
+          "props": {
+            "picker": "calendar",
+            "value": {
+              "year": 2024,
+              "month": 2,
+              "day": 29,
+              "granularity": "day"
+            },
+            "years": [
+              2023,
+              2024,
+              2025
+            ],
+            "today": {
+              "year": 2024,
+              "month": 4,
+              "day": 9,
+              "granularity": "day"
+            },
+            "min": {
+              "year": 2023,
+              "month": 12,
+              "day": 15,
+              "granularity": "day"
+            },
+            "max": {
+              "year": 2024,
+              "month": 9,
+              "day": 12,
+              "granularity": "day"
+            },
+            "dataPeriods": [
+              {
+                "year": 2023,
+                "month": 12,
+                "day": 19,
+                "granularity": "day"
+              },
+              {
+                "year": 2024,
+                "month": 2,
+                "day": 29,
+                "granularity": "day"
+              },
+              {
+                "year": 2024,
+                "month": 4,
+                "day": 9,
+                "granularity": "day"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟日期范围与历史有数据标记。"
+    }
+  ]
+}

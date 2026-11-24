@@ -1,0 +1,179 @@
+/* BEP-S 履约工作台 — 1:1 还原用户原型截图的测试生成
+   颜色/间距/圆角 Token 来源见 index.html 各模块 data-bep-* 属性；
+   无对应 Token 的数值以下方注释单独标注为 AI_PROPOSED。 */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #EDEEF1;
+  font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", -apple-system, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.page {
+  width: 375px;
+  min-height: 812px;
+  background: #F7F8FA; /* color.fill.1，页面底色，用于跟白色卡片形成色差 */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.statusbar {
+  height: 44px;
+  background: #FFFFFF;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 20px;
+  font-size: 15px; font-weight: 600; color: #22262F;
+  flex-shrink: 0;
+}
+.statusbar__right { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 400; }
+.statusbar__battery { width: 22px; height: 11px; border: 1px solid #22262F; border-radius: 2px; display: inline-block; position: relative; }
+.statusbar__battery::after { content: ""; position: absolute; inset: 1.5px; right: 3px; background: #22262F; border-radius: 1px; }
+
+/* 导航栏：真实组件44px高，标题18px是组件真实实现值(非全局24px Token) */
+.navbar {
+  height: 44px; /* spacing.navbar.height */
+  background: #FFFFFF;
+  display: flex; align-items: center; justify-content: center; position: relative;
+  flex-shrink: 0;
+}
+.navbar__title { font-size: 18px; font-weight: 500; color: #22262F; } /* 组件真实实现值，见limitations */
+.navbar__store {
+  position: absolute; right: 16px; top: 0; bottom: 0;
+  display: flex; align-items: center; gap: 4px;
+  font-size: 14px; color: #444F60; /* color.text.4 */
+}
+
+.content { flex: 1; overflow-y: auto; padding: 12px 16px 16px; display: flex; flex-direction: column; gap: 12px; } /* spacing.module.gap */
+
+/* 卡片通用：默认无投影无描边 */
+.card {
+  background: #FFFFFF;
+  border-radius: 6px; /* radius.card */
+  padding: 16px;
+  position: relative;
+}
+
+.stat-card__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+.stat-card__title { font-size: 16px; font-weight: 500; color: #22262F; }
+
+.tag { display: inline-block; border-radius: 2px; } /* radius.tag */
+.tag--plain {
+  font-size: 12px;
+  padding: 2px 8px;
+  background: #F2F3F5; /* color.fill.2 */
+  color: #9199A2; /* color.text.3 */
+}
+.tag--info {
+  font-size: 12px;
+  padding: 2px 8px;
+  background: rgba(69,132,255,0.1); /* color.auxiliary.3 10%透明度，AI_DESIGN_DECISION */
+  color: #4584FF; /* color.auxiliary.3 */
+}
+.tag--small { font-size: 12px; padding: 1px 6px; }
+
+.stat-row { display: flex; justify-content: space-between; }
+.stat-row--3 { justify-content: flex-start; gap: 32px; } /* AI_PROPOSED，3项间距按视觉估算，无对应Token */
+.stat-item { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.stat-item__num { font-size: 22px; font-weight: 600; color: #22262F; } /* font.size档位, AI_PROPOSED加粗(库内font.weight只到Medium，此处近似) */
+.stat-item__num--danger { color: #FF3636; } /* color.danger.6 */
+.stat-item__num--brand { color: #00B1B4; } /* color.brand.3 USER_OVERRIDE */
+.stat-item__label { font-size: 12px; color: #9199A2; } /* color.text.3 */
+
+/* 宫格 */
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding: 20px 8px;
+}
+.grid__item { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.grid__icon {
+  width: 34px; height: 34px; /* dimensions.iconSlice */
+  border-radius: 10px; /* AI_PROPOSED，图标容器圆角未在Token中定义 */
+  display: flex; align-items: center; justify-content: center;
+}
+.grid__icon svg { width: 24px; height: 24px; }
+.grid__icon--teal { background: rgba(0,177,180,0.12); color: #00B1B4; } /* color.brand.3 浅底 */
+.grid__icon--blue { background: rgba(69,132,255,0.12); color: #4584FF; } /* color.auxiliary.3 浅底 */
+.grid__icon--orange { background: rgba(255,125,0,0.12); color: #FF7D00; } /* color.auxiliary.1 浅底 */
+.grid__icon--red { background: rgba(245,63,63,0.12); color: #F53F3F; } /* color.auxiliary.red 浅底 */
+.grid__label { font-size: 12px; color: #444F60; } /* color.text.4 */
+
+.section-head { display: flex; align-items: center; justify-content: space-between; padding: 0 2px; }
+.section-title { font-size: 16px; font-weight: 500; color: #22262F; }
+.section-more { display: flex; align-items: center; gap: 2px; font-size: 13px; color: #00B1B4; text-decoration: none; } /* color.brand.3 */
+.section-more .icon { color: #00B1B4; }
+
+/* 任务卡片 */
+.task-card { padding: 16px; }
+.tag--corner {
+  position: absolute;
+  top: 0; right: 0;
+  background: #FF3636; /* color.danger.6 */
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 6px 0 6px 0;
+}
+.task-card__head { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; padding-right: 70px; }
+.task-card__store { font-size: 16px; font-weight: 500; color: #22262F; }
+.task-card__row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 14px; }
+.task-card__row-label { color: #9199A2; } /* color.text.3 */
+.task-card__row-value { color: #22262F; display: flex; align-items: center; gap: 4px; }
+.task-card__row-value .icon { color: #9199A2; }
+
+.task-card__divider {
+  height: 0.5px; background: #EEEEEE; /* color.line.1 / border.hairline */
+  margin: 12px 0;
+}
+
+.product-row { display: flex; align-items: center; gap: 12px; }
+.product-row__thumb {
+  width: 60px; height: 60px; flex-shrink: 0;
+  background: #F2F3F5; /* color.fill.2 */
+  border-radius: 6px; /* radius.card，适用于≤120px卡片场景 */
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; color: #9199A2;
+}
+.product-row__info { flex: 1; min-width: 0; }
+.product-row__name { font-size: 15px; color: #22262F; margin-bottom: 4px; }
+.product-row__spec { font-size: 12px; color: #9199A2; }
+.product-row__price-block { text-align: right; flex-shrink: 0; }
+.product-row__price { font-size: 15px; font-weight: 500; color: #22262F; }
+.product-row__qty { font-size: 12px; color: #9199A2; margin-top: 4px; }
+
+/* 底部导航 */
+.tabbar {
+  height: 56px; /* spacing.tabbar.height */
+  border-top: 0.5px solid #EEEEEE; /* border.hairline */
+  background: #FFFFFF;
+  display: flex;
+  flex-shrink: 0;
+}
+.tabbar__item {
+  flex: 1;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  color: #9199A2; font-size: 10px;
+}
+.tabbar__item svg { width: 22px; height: 22px; }
+.tabbar__item--active { color: #00B1B4; } /* color.brand.3 USER_OVERRIDE */
+
+.home-indicator {
+  height: 34px; /* spacing.safeArea.bottom */
+  background: #FFFFFF;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.home-indicator::after { content: ""; width: 134px; height: 5px; border-radius: 3px; background: #22262F; }
+
+.icon { display: inline-block; }
+.icon--12 { width: 12px; height: 12px; }
+.icon--14 { width: 14px; height: 14px; }

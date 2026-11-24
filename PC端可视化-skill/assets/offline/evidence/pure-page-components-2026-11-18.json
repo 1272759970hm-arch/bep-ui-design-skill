@@ -1,0 +1,807 @@
+[
+  {
+    "id": "7958:123866",
+    "name": "模板",
+    "width": 375,
+    "height": 1531,
+    "children": [
+      {
+        "id": "7958:123867",
+        "name": "header",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:123868",
+            "name": "Header",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:123872",
+            "name": "指标",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "7958:123873",
+        "name": "chats",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:123874",
+            "name": "Tabs",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "7958:123875",
+            "name": "Frame 1321319998",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:123884",
+        "name": "Frame 1321320001",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:123885",
+            "name": "Labels",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:123892",
+            "name": "Frame 1321320020",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:123899",
+            "name": "Rectangle 34626359",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "7958:123900",
+            "name": "Table",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:123919",
+        "name": "Home Indicator",
+        "type": "INSTANCE",
+        "children": [
+          {
+            "id": "I7958:123919;102:5492",
+            "name": "Home Indicator",
+            "type": "RECTANGLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7958:115501",
+    "name": "首页",
+    "width": 375,
+    "height": 1243,
+    "children": [
+      {
+        "id": "7958:115502",
+        "name": "background",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115503",
+            "name": "Rectangle 34625968",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:115504",
+            "name": "Rectangle 34626075",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:115505",
+            "name": "Ellipse 1244",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:115506",
+            "name": "Ellipse 1241",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:115507",
+            "name": "Ellipse 881",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:115508",
+            "name": "Ellipse 1246",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:115509",
+            "name": "Ellipse 880",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:115510",
+            "name": "Ellipse 883",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:115511",
+            "name": "Ellipse 881",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:115512",
+            "name": "Subtract",
+            "type": "VECTOR"
+          }
+        ]
+      },
+      {
+        "id": "7958:115513",
+        "name": "Frame 1321319746",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115514",
+            "name": "Tab Bar",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "7958:115515",
+            "name": "Home Indicator",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "7958:115516",
+        "name": "list",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115517",
+            "name": "主营",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:115584",
+            "name": "财经",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:115598",
+            "name": "增值",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:115621",
+        "name": "Frame 1321320017",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115622",
+            "name": "Frame 1321319007",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:115633",
+            "name": "Frame 1321319750",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:115641",
+        "name": "Frame 1321318425",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115642",
+            "name": "Rectangle 34626355",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:115643",
+            "name": "紫蓝湾项目",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:115644",
+        "name": "Frame 1321318425",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115645",
+            "name": "Rectangle 34626355",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:115646",
+            "name": "潮州碧桂园·天玺湾",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:115647",
+        "name": "Frame 1321319957",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115648",
+            "name": "安庆碧桂园",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:115649",
+            "name": "路径",
+            "type": "VECTOR"
+          }
+        ]
+      },
+      {
+        "id": "7958:115650",
+        "name": "Image",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115651",
+            "name": "Rectangle 34626364",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:115652",
+            "name": "000 2",
+            "type": "RECTANGLE"
+          }
+        ]
+      },
+      {
+        "id": "7958:115653",
+        "name": "操作栏",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115654",
+            "name": "Frame 1321319649",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:115659",
+            "name": "Frame 1321320022",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:115661",
+        "name": "Header",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:115662",
+            "name": "状态栏",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "7958:115663",
+            "name": "Mobile Header",
+            "type": "INSTANCE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7958:116669",
+    "name": "首页-沉浸式背景",
+    "width": 375,
+    "height": 812,
+    "children": [
+      {
+        "id": "7958:116670",
+        "name": "background",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116671",
+            "name": "Rectangle 34625968",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:116672",
+            "name": "Rectangle 34626075",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:116673",
+            "name": "Ellipse 1244",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:116674",
+            "name": "Ellipse 1241",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:116675",
+            "name": "Ellipse 881",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:116676",
+            "name": "Ellipse 1246",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:116677",
+            "name": "Ellipse 880",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:116678",
+            "name": "Ellipse 883",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:116679",
+            "name": "Ellipse 881",
+            "type": "ELLIPSE"
+          },
+          {
+            "id": "7958:116680",
+            "name": "Subtract",
+            "type": "VECTOR"
+          }
+        ]
+      },
+      {
+        "id": "7958:116681",
+        "name": "list",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116682",
+            "name": "主营",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:116749",
+            "name": "财经",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:116763",
+            "name": "增值",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:116786",
+        "name": "Frame 1321320017",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116787",
+            "name": "Frame 1321319007",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:116798",
+            "name": "Frame 1321319750",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:116806",
+        "name": "Frame 1321318425",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116807",
+            "name": "Rectangle 34626355",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:116808",
+            "name": "紫蓝湾项目",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:116809",
+        "name": "Frame 1321318425",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116810",
+            "name": "Rectangle 34626355",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:116811",
+            "name": "潮州碧桂园·天玺湾",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:116812",
+        "name": "Frame 1321319957",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116813",
+            "name": "安庆碧桂园",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:116814",
+            "name": "路径",
+            "type": "VECTOR"
+          }
+        ]
+      },
+      {
+        "id": "7958:116815",
+        "name": "Image",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116816",
+            "name": "Rectangle 34626364",
+            "type": "VECTOR"
+          },
+          {
+            "id": "7958:116817",
+            "name": "000 2",
+            "type": "RECTANGLE"
+          }
+        ]
+      },
+      {
+        "id": "7958:116818",
+        "name": "操作栏",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116819",
+            "name": "Frame 1321319649",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:116824",
+            "name": "Frame 1321320022",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:116826",
+            "name": "Frame 1321320023",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:116828",
+        "name": "Home Indicator",
+        "type": "INSTANCE",
+        "children": [
+          {
+            "id": "I7958:116828;102:5492",
+            "name": "Home Indicator",
+            "type": "RECTANGLE"
+          }
+        ]
+      },
+      {
+        "id": "7958:116829",
+        "name": "Frame 1321319746",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:116830",
+            "name": "Tab Bar",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:116870",
+            "name": "Home Indicator",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "7958:116871",
+        "name": "状态栏",
+        "type": "INSTANCE",
+        "children": [
+          {
+            "id": "I7958:116871;83:3964",
+            "name": "Time",
+            "type": "BOOLEAN_OPERATION"
+          },
+          {
+            "id": "I7958:116871;83:3972",
+            "name": "Frame 1321318162",
+            "type": "FRAME"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7958:124028",
+    "name": "Frame 1321320046",
+    "width": 415,
+    "height": 1436,
+    "children": [
+      {
+        "id": "7958:124029",
+        "name": "Frame 1321319001",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124030",
+            "name": "1、日期组件",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124031",
+            "name": "1.1、指标详情页通过切换日期查看历史数据； 1.2、日期组件分为年度、月度、按日，通过页面快捷按钮切换日期维度可快速查看本年、本月、本日指标数据，一般情况默认按年度显示； 1.3、若当前维度为“年度”日期选择器默认打开年列表，也可在日期选择器中切换维度，确认选择后页面中快捷按钮切换为相同维度；“月度”“按日”交互同理",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124032",
+            "name": "具体样式参照“日历”公共组件",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124033",
+            "name": "Filter",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "7958:124034",
+            "name": "Filter",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "7958:124035",
+            "name": "Filter",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "7958:124036",
+            "name": "Group 1321317230",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:124049",
+            "name": "Frame 1321319006",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:124052",
+            "name": "Frame 1321319007",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:124055",
+            "name": "Frame 1321319008",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:124066",
+            "name": "Frame 1321319009",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:124069",
+            "name": "Frame 1321319010",
+            "type": "FRAME"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7958:124072",
+    "name": "Frame 1321320047",
+    "width": 415,
+    "height": 1478,
+    "children": [
+      {
+        "id": "7958:124073",
+        "name": "Frame 1321319001",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124074",
+            "name": "1、高级筛选",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124075",
+            "name": "1.1、点击高级筛选icon，打开高级筛选页，对数据进行筛选",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124076",
+            "name": "具体样式参照“高级筛选”公共组件",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:124077",
+        "name": "Frame 1321319002",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124078",
+            "name": "2、页面Tabs",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124079",
+            "name": "2.1、同页面包含多个指标，点击切换不同指标 2.2、此Tabs非固定组件，如当前仅有一个指标，此组件隐藏",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:124080",
+        "name": "Frame 1321319003",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124081",
+            "name": "3、数据分类",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124082",
+            "name": "3.1、一个指标包含多个分类，点击切换不同数据分类 3.2、此组件非固定组件，如当前指标仅有一个分类，此组件隐藏",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:124083",
+        "name": "Frame 1321319004",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124084",
+            "name": "4、指标数据",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124085",
+            "name": "4.1、指标数据包含指标名称、指标释义icon、指标更新时间、指标值以及指标同环比； 4.2、点击“指标释义icon”打开指标释义弹窗； 4.3、指标同环比，同环比上升为绿色，下降为红色；“年度”看板只有同比，“月度”看板同环比同时存在，“按日”看板只有环比；",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:124086",
+        "name": "Frame 1321319005",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124087",
+            "name": "5、指标AI解读",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124088",
+            "name": "5.1、在指标达到特定条件下出现AI解读，默认显示一行文本，点击可查看更多",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:124089",
+        "name": "Frame 1321319006",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124090",
+            "name": "6、指标分析维度",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124091",
+            "name": "6.1、点击切换指标不同分析维度，具体维度内容参照具体指标",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:124092",
+        "name": "Frame 1321319008",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124093",
+            "name": "7、全屏查看",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124094",
+            "name": "7.1、点击全屏查看整个排名卡片",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "id": "7958:124095",
+        "name": "Frame 1321319007",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124096",
+            "name": "8、排名范围选择器",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124097",
+            "name": "8.1、默认展示当前组织所在上级组织同级排名，例如“本项目所在 大项目 排名52/77”； 8.2、点击组织选择器可切换排名范围，项目排名：大项目、地区、区域，大项目：地区、区域，地区仅有区域排名，区域仅有全国排名，仅有一个排名范围的不可点击选择",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124098",
+            "name": "Frame 1321320071",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:124101",
+            "name": "Cells",
+            "type": "FRAME"
+          },
+          {
+            "id": "7958:124106",
+            "name": "Cells",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "7958:124111",
+        "name": "Frame 1321319009",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "7958:124112",
+            "name": "9、排名切换",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124113",
+            "name": "9.1、默认展示当前组织直接下级排名 9.2、点击可切换下级排名对象，如总部：区域/地区/大项目/项目/管家，区域：地区/大项目/项目/管家，地区：大项目/项目/管家，大项目：项目/管家，项目无切换；具体可切换对象按产品需求适配",
+            "type": "TEXT"
+          },
+          {
+            "id": "7958:124114",
+            "name": "Multiselect",
+            "type": "INSTANCE"
+          }
+        ]
+      }
+    ]
+  }
+]

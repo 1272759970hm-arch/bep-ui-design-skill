@@ -1,0 +1,8 @@
+{
+  "_README": "真实 PRD 结构化模板。复制本文件为 <项目>-prd.json 后填写：source 必须为 \"prd\"；requirements 逐条来自真实 PRD 的功能/字段/业务流程/交互逻辑；type 支持 text（可见文本）/ css-class（class 出现次数）/ selector（CSS 选择器声明数）/ regex（源码正则）/ semantic（语义条目，静态无法验证，一律 NOT_CHECKED）。forbid 列出 PRD 明确禁止出现的内容。",
+  "id": "PRD-XXXX",
+  "source": "prd",
+  "title": "<填写真实需求名称>",
+  "requirements": [],
+  "forbid": []
+}

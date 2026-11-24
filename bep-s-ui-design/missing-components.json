@@ -1,0 +1,106 @@
+{
+  "$schemaVersion": "1.0",
+  "registryDate": "2025-08-17",
+  "count": 11,
+  "items": [
+    {
+      "name": "Primary Button 主要按钮",
+      "status": "NOT_FOUND",
+      "specAvailable": true,
+      "currentFallback": "按按钮规范画板手工搭建：48px高/圆角4px/color.brand.3填充/白字",
+      "priority": "P0",
+      "reason": "全库穷举核实（对所有name*=按钮/name*=button实例做mainComponent解析）确认不存在，只有次要按钮是真实组件；甚至发现一处图层名字叫'主要按钮'实际mainComponent却是开关组件，属历史命名遗留",
+      "recommendation": "几乎每个业务页面都需要主操作按钮，是出现频率最高的缺口，建议优先在源组件库里补一个真实的Primary Button组件"
+    },
+    {
+      "name": "Textarea 多行文本输入",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "Input实例拉高模拟（必须在报告中明确标注'非真实Textarea，是Input变形使用'，禁止包装成真实组件）",
+      "priority": "P1",
+      "reason": "输入框规范画板提到过'多行文本'这个Variant名字，但全文件按name*=多行搜索为空，没有对应的真实实例或独立SPEC_FRAME",
+      "recommendation": "凡是问题描述/备注类字段都会用到，建议尽快补一个真实的Textarea组件或至少一个独立的多行文本规范画板"
+    },
+    {
+      "name": "Checkbox / Unselected 未选中小方框",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "按选中态footprint(20x20)手工绘制空心方框，勾选后换成真实的'复选-默认-选中'实例",
+      "priority": "P1",
+      "reason": "对全文件50个候选选择类主组件做穷举扫描，只找到'复选-默认-选中'及其禁用态是真实组件，未选中态没有任何真实主组件",
+      "recommendation": "影响所有需要默认未选中态复选框的场景（协议勾选、筛选项等），使用频率仅次于Primary Button和Textarea"
+    },
+    {
+      "name": "Badge 徽标/角标独立组件",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "8px圆点(Shape)+ color.danger.6 Token，定位规则'图标区域五等分定位'；需要数字时用圆点/胶囊+Text Token文字",
+      "priority": "P1",
+      "reason": "底部导航画板发现真实的8px圆点标注和定位说明文字，证明设计意图存在，但没有抽成独立可复用组件",
+      "recommendation": "TabBar/Grid入口的未读提醒场景会用到，建议基于已发现的8px圆点规格补一个正式Badge组件"
+    },
+    {
+      "name": "Progress Bar 水平百分比进度条",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "少量固定步骤用Steps；带时间戳的过程记录用Timeline；确需百分比条视为库内空白，走新建流程",
+      "priority": "P1",
+      "reason": "仅在示例页'履约任务详情'发现一个未文档化的自定义图层'prog'，不能作为组件依据",
+      "recommendation": "使用频率较低，多数进度场景可以用Steps/Timeline替代，暂不紧急；2025-08 用户提供的「任务执行」原型截图里出现了真实业务场景（催收任务完成进度18/36户、50%、应达100%阈值线），说明这不是低频需求，建议把优先级从 P2 上调到 P1。"
+    },
+    {
+      "name": "Skeleton 骨架屏",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "过渡期可用Empty或Toast(加载态)顶替",
+      "priority": "P2",
+      "reason": "全文件未检索到任何骨架屏相关命名",
+      "recommendation": "移动端加载体验的常见组件，但当前有Toast加载态可以过渡使用，优先级中等"
+    },
+    {
+      "name": "Rating 评分/星级",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "视为库内空白，无可用替代方案",
+      "priority": "P2",
+      "reason": "全文件未检索到任何评分相关命名",
+      "recommendation": "只在特定业务场景（评价/打分）需要，优先级较低，出现需求时再考虑新建"
+    },
+    {
+      "name": "FAB 悬浮操作按钮",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "用Button(含图标/大按钮变体)通过页面布局定位实现，不单独定义新组件规格",
+      "priority": "P2",
+      "reason": "Button组件已覆盖'含图标'需求，缺的只是'悬浮定位'这一层布局，不是组件本身的缺口",
+      "recommendation": "优先级较低，现有Button变体配合布局基本可以满足"
+    },
+    {
+      "name": "小尺寸按钮 Small/Compact Button",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "按钮规范画板只有常规(48px)和大(96px)两档高度，没有小尺寸变体；按视觉比例手工估算约32-36px高，AI_PROPOSED",
+      "priority": "P1",
+      "reason": "2025-08「任务执行」原型截图里的列表行内操作按钮（'去完成'）明显小于常规按钮的48px，按钮规范画板没有第三档尺寸可参照",
+      "recommendation": "列表行内操作按钮是高频场景（几乎每个列表页的行内CTA都需要），建议在源库补一个小尺寸按钮规格"
+    },
+    {
+      "name": "筛选/更多图标等未在图标库中确认的业务图标（筛选/上门/电话等）",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "按视觉近似手绘SVG，AI_PROPOSED，不冒充是图标COMPONENT_SET里的真实图标",
+      "priority": "P2",
+      "reason": "component-registry.json 已确认的业务图标集(购物车/定位/搜索/已收藏/消息/火/安全/删除/音乐/分享/编辑/标签/勋章/错误工单/文件等)里没有'筛选(sliders)'、'上门(home-visit)'、'电话(phone-call)'这几个，2025-08「任务执行」原型截图里用到了",
+      "recommendation": "如果这类业务场景（任务执行/催收）会持续做页面，建议把这几个图标也纳入组件库图标集"
+    },
+    {
+      "name": "提示横幅 Alert Banner（页面内嵌式，非浮层Toast）",
+      "status": "NOT_FOUND",
+      "specAvailable": false,
+      "currentFallback": "用color.danger.1浅底+color.danger.6文字手工搭建，非真实组件；跟Toast的区别是这个是页面内容流里常驻的一块，不是浮层/自动消失的提示",
+      "priority": "P2",
+      "reason": "2025-08「履约任务详情」原型截图顶部有一条常驻的异常提示横幅，Toast组件(SPEC_ONLY)语义是浮层轻提示，跟这个'页面内嵌警示条'不是一回事，库内没有对应的Banner组件",
+      "recommendation": "详情页/列表页顶部的异常状态提示是常见场景，建议补一个Banner组件，跟Toast明确区分开"
+    }
+  ]
+}

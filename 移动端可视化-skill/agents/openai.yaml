@@ -1,0 +1,6 @@
+interface:
+  display_name: "一看移动端设计（HTML测试版）"
+  short_description: "使用本地规范、素材和组件生成移动看板，无需Figma连接；先分析业务与选图"
+  default_prompt: "使用 $chart-skill，按需求与数据生成移动端高保真页面，必须实际写出自包含.html文件并在最终回复附下载链接或文件附件，预览图不能替代HTML；使用随包离线组件，无需Figma连接，说明已验证操作与差异。"
+policy:
+  allow_implicit_invocation: true

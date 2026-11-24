@@ -1,0 +1,80 @@
+{
+  "title": "日期与组织选择 · 离线交互核对",
+  "description": "底部选择器参数来自原稿；取消回滚、日期边界与查询事件为本地明确实现。示例按固定日期跑测。",
+  "screens": [
+    {
+      "name": "日期选择测试",
+      "components": [
+        {
+          "type": "dateControl",
+          "props": {
+            "value": {
+              "year": 2024,
+              "month": 1,
+              "day": 31,
+              "granularity": "day"
+            },
+            "years": [
+              2023,
+              2024,
+              2025,
+              2026
+            ],
+            "today": {
+              "year": 2025,
+              "month": 11,
+              "day": 5
+            },
+            "min": {
+              "year": 2023,
+              "month": 1,
+              "day": 1
+            },
+            "max": {
+              "year": 2026,
+              "month": 12,
+              "day": 31
+            }
+          }
+        },
+        {
+          "type": "organizationControl",
+          "props": {
+            "nodes": [
+              {
+                "id": "all-east",
+                "name": "华东区域",
+                "parentId": null,
+                "selectable": false,
+                "level": "区域"
+              },
+              {
+                "id": "district",
+                "name": "杭州地区",
+                "parentId": "all-east",
+                "selectable": true,
+                "level": "地区"
+              },
+              {
+                "id": "project-a",
+                "name": "凤凰城",
+                "parentId": "district",
+                "selectable": true,
+                "level": "项目"
+              },
+              {
+                "id": "project-b",
+                "name": "城市花园",
+                "parentId": "district",
+                "selectable": true,
+                "level": "项目"
+              }
+            ],
+            "value": "project-a"
+          }
+        }
+      ],
+      "note": "临时选择仅在确定后提交；取消与Esc不提交。年份、上下界由需求配置，不推定所有指标默认可查询范围。"
+    }
+  ]
+}

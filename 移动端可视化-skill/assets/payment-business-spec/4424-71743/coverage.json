@@ -1,0 +1,10 @@
+{
+  "source": "4424:71743",
+  "name": "项目收费率",
+  "sectionTraversal": 1686,
+  "detailedUniqueNodes": 633,
+  "pageCount": 4,
+  "scope": "All analysis-card subtrees, header text, page identities and textual notes; repeated ranking/navigation graphics omitted; duplicate note root removed",
+  "configuredReactionsObserved": 0,
+  "verification": "read-only source audit and screenshot; not runtime interaction verification"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "规范执行核对",
+  "description": "标签、同环比和AI提示的实现检查；示例数据。",
+  "screens": [
+    {
+      "name": "局部规范检查",
+      "components": [
+        {
+          "type": "statusTag",
+          "props": {
+            "status": "高户效"
+          },
+          "section": "高户效"
+        },
+        {
+          "type": "statusTag",
+          "props": {
+            "status": "低户效"
+          },
+          "section": "低户效"
+        },
+        {
+          "type": "comparison",
+          "props": {
+            "value": 3.23,
+            "variant": "compact"
+          },
+          "section": "小号同环比"
+        },
+        {
+          "type": "comparison",
+          "props": {
+            "value": -3.23,
+            "variant": "mini"
+          },
+          "section": "迷你同环比"
+        },
+        {
+          "type": "aiHint",
+          "props": {
+            "text": "示例解读，点击查看完整信息",
+            "detail": "这是用于检查组件表现的模拟内容。",
+            "demo": true
+          },
+          "section": "AI提示"
+        }
+      ]
+    }
+  ]
+}

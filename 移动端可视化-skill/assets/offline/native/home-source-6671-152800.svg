@@ -1,0 +1,40 @@
+<svg width="368" height="118" viewBox="0 0 368 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_6671_152800)">
+<g clip-path="url(#clip0_6671_152800)">
+<path d="M12.9004 22.8999C12.9004 16.2725 18.273 10.8999 24.9004 10.8999H342.9C349.528 10.8999 354.9 16.2725 354.9 22.8999V90.8999C354.9 97.5273 349.528 102.9 342.9 102.9H24.9004C18.273 102.9 12.9004 97.5273 12.9004 90.8999V22.8999Z" fill="white" fill-opacity="0.6" shape-rendering="crispEdges"/>
+<g filter="url(#filter1_f_6671_152800)">
+<circle cx="62.4004" cy="-28.6001" r="58.5" fill="#949CF8"/>
+</g>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="18" letter-spacing="0em"><tspan x="28.9004" y="49.3799">&#x4e3b;&#x8425;&#x7a0e;&#x524d;&#x5229;&#x6da6;&#x7387;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="12" letter-spacing="0em"><tspan x="28.9004" y="80.2199">&#x66f4;&#x65b0;25/07</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="30" font-weight="bold" letter-spacing="0em"><tspan x="249.9" y="57.0349">52.72</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="16" letter-spacing="0em"><tspan x="325.9" y="57.2119">%</tspan></text>
+<rect x="251.9" y="66.8999" width="88" height="20" rx="10" fill="white" fill-opacity="0.6"/>
+<text fill="#0FD486" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="256.9" y="81.9399">&#x540c;</tspan></text>
+<text fill="#0FD486" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="272.9" y="81.9399">3.23%</tspan></text>
+<rect x="317.9" y="69.8999" width="14" height="14" rx="7" fill="#0FD486"/>
+<path d="M325.143 82.9639H324.656L323.847 76.1836H320.9L324.9 70.8359L328.9 76.1836H325.953L325.143 82.9639Z" fill="white"/>
+</g>
+<path d="M342.9 9.8999C350.08 9.8999 355.9 15.7202 355.9 22.8999V90.8999C355.9 98.0796 350.08 103.9 342.9 103.9H24.9004C17.7207 103.9 11.9004 98.0796 11.9004 90.8999V22.8999C11.9004 15.7202 17.7207 9.8999 24.9004 9.8999H342.9Z" stroke="white" stroke-width="2" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_d_6671_152800" x="0.000391006" y="-9.72748e-05" width="367.8" height="117.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="5.45"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.385845 0 0 0 0 0.586445 0 0 0 0 0.586445 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6671_152800"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6671_152800" result="shape"/>
+</filter>
+<filter id="filter1_f_6671_152800" x="-86.4996" y="-177.5" width="297.8" height="297.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="45.2" result="effect1_foregroundBlur_6671_152800"/>
+</filter>
+<clipPath id="clip0_6671_152800">
+<path d="M12.9004 22.8999C12.9004 16.2725 18.273 10.8999 24.9004 10.8999H342.9C349.528 10.8999 354.9 16.2725 354.9 22.8999V90.8999C354.9 97.5273 349.528 102.9 342.9 102.9H24.9004C18.273 102.9 12.9004 97.5273 12.9004 90.8999V22.8999Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

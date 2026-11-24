@@ -1,0 +1,745 @@
+{
+  "root": "7958:115610",
+  "name": "零售",
+  "rows": [
+    {
+      "id": "7958:115610",
+      "parent": "7958:115598",
+      "type": "FRAME",
+      "name": "零售",
+      "x": 0,
+      "y": 108,
+      "width": 342,
+      "height": 92,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 12,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "itemSpacing": 12,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": true,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 10.899999618530273,
+          "boundVariables": {},
+          "color": {
+            "r": 0.38584545254707336,
+            "g": 0.5864445567131042,
+            "b": 0.5864445567131042,
+            "a": 0.11999999731779099
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "id": "7958:115611",
+      "parent": "7958:115610",
+      "type": "ELLIPSE",
+      "name": "Ellipse 2242",
+      "x": -9,
+      "y": -94,
+      "width": 117,
+      "height": 117,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.20000000298023224,
+            "g": 0.7568627595901489,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 90.4000015258789,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "7958:115612",
+      "parent": "7958:115610",
+      "type": "FRAME",
+      "name": "Frame 1321319747",
+      "x": 16,
+      "y": 16,
+      "width": 311,
+      "height": 60,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 60,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:115613",
+      "parent": "7958:115612",
+      "type": "FRAME",
+      "name": "Frame 1321318426",
+      "x": 0,
+      "y": 0,
+      "width": 78,
+      "height": 60,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 3,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 10,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:115616",
+      "parent": "7958:115612",
+      "type": "FRAME",
+      "name": "Frame 1321320018",
+      "x": 219,
+      "y": 0,
+      "width": 92,
+      "height": 60,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 4,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MAX",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:115614",
+      "parent": "7958:115613",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 3,
+      "width": 78,
+      "height": 26,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "effects": [],
+      "characters": "零售GMV",
+      "segments": [
+        {
+          "characters": "零售GMV",
+          "start": 0,
+          "end": 5,
+          "fontSize": 18,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 26
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7958:115615",
+      "parent": "7958:115613",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 39,
+      "width": 59,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "effects": [],
+      "characters": "更新25/07",
+      "segments": [
+        {
+          "characters": "更新25/07",
+          "start": 0,
+          "end": 7,
+          "fontSize": 12,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5686274766921997,
+                "g": 0.6000000238418579,
+                "b": 0.6352941393852234
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7958:115617",
+      "parent": "7958:115616",
+      "type": "FRAME",
+      "name": "Frame 1321318411",
+      "x": 0,
+      "y": 0,
+      "width": 92,
+      "height": 36,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 2,
+      "primaryAxisAlignItems": "MAX",
+      "counterAxisAlignItems": "MAX",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:115620",
+      "parent": "7958:115616",
+      "type": "INSTANCE",
+      "name": "标签 Tag-比率",
+      "x": 4,
+      "y": 40,
+      "width": 88,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.06009864807128906,
+            "g": 0.8325007557868958,
+            "b": 0.5235399603843689
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 0.5,
+      "cornerRadius": 100,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 5,
+      "paddingBottom": 0,
+      "paddingLeft": 5,
+      "itemSpacing": 2,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:115618",
+      "parent": "7958:115617",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 0,
+      "width": 74,
+      "height": 36,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "effects": [],
+      "characters": "67.85",
+      "segments": [
+        {
+          "characters": "67.85",
+          "start": 0,
+          "end": 5,
+          "fontSize": 30,
+          "fontName": {
+            "family": "DIN",
+            "style": "Bold"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 36
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7958:115619",
+      "parent": "7958:115617",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 76,
+      "y": 12,
+      "width": 16,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "effects": [],
+      "characters": "万",
+      "segments": [
+        {
+          "characters": "万",
+          "start": 0,
+          "end": 1,
+          "fontSize": 16,
+          "fontName": {
+            "family": "DIN",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:115620;77:15783",
+      "parent": "7958:115620",
+      "type": "TEXT",
+      "name": "环",
+      "x": 5,
+      "y": 0,
+      "width": 14,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.21662785112857819,
+            "b": 0.3733024001121521
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "characters": "同",
+      "segments": [
+        {
+          "characters": "同",
+          "start": 0,
+          "end": 1,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.21662785112857819,
+                "b": 0.3733024001121521
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:115620;102:5547",
+      "parent": "7958:115620",
+      "type": "TEXT",
+      "name": "3.23%",
+      "x": 21,
+      "y": 0,
+      "width": 43,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.21662785112857819,
+            "b": 0.3733024001121521
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "characters": "3.23%",
+      "segments": [
+        {
+          "characters": "3.23%",
+          "start": 0,
+          "end": 5,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.21662785112857819,
+                "b": 0.3733024001121521
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:115620;77:15784",
+      "parent": "7958:115620",
+      "type": "INSTANCE",
+      "name": "Fill/arrow-circle",
+      "x": 66,
+      "y": 3,
+      "width": 14,
+      "height": 14,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.21662785112857819,
+            "b": 0.3733024001121521
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 200,
+      "layoutMode": "NONE",
+      "paddingTop": 1,
+      "paddingRight": 3,
+      "paddingBottom": 1,
+      "paddingLeft": 3,
+      "itemSpacing": 10,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "I7958:115620;77:15784;77:15452",
+      "parent": "I7958:115620;77:15784",
+      "type": "VECTOR",
+      "name": "Union",
+      "x": 3,
+      "y": 0.93603515625,
+      "width": 8,
+      "height": 12.1279296875,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "cornerRadius": 0,
+      "effects": []
+    }
+  ]
+}

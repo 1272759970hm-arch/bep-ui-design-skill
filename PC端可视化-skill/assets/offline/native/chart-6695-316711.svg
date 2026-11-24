@@ -1,0 +1,21 @@
+<svg width="343" height="265" viewBox="0 0 343 265" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="343" height="265" rx="12" fill="white"/>
+<text fill="#33C1C1" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="63.5" y="31.04">&#x5708;&#x9009;&#x5ba2;&#x6237;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0px"><tspan x="63.5" y="51.9">433.8&#x4e07;</tspan></text>
+<text fill="#56B8FF" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="144.5" y="31.04">&#x89e6;&#x8fbe;&#x5ba2;&#x6237;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0px"><tspan x="144.5" y="51.9">425.1&#x4e07;</tspan></text>
+<text fill="#3DC7F8" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="223.5" y="31.04">&#x56de;&#x6536;&#x5ba2;&#x6237;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0px"><tspan x="223.5" y="51.9">22.6&#x4e07;</tspan></text>
+<rect x="63.5" y="87" width="42" height="162" fill="#33C1C1"/>
+<path d="M105.5 87L165.5 134.388V249H105.5V87Z" fill="#F7F8FA"/>
+<path d="M187.5 119L247.5 169V249H187.5V119Z" fill="#F7F8FA"/>
+<rect x="146.5" y="119" width="42" height="130" fill="#56B8FF"/>
+<rect x="225.5" y="151" width="42" height="98" fill="#3DC7F8"/>
+<path d="M105.5 209H159.5L166 219L159.5 229H105.5V209Z" fill="white" fill-opacity="0.96"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0px"><tspan x="113.5" y="223.9">97.9%</tspan></text>
+<path d="M188.5 209H242.5L249 219L242.5 229H188.5V209Z" fill="white" fill-opacity="0.96"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0px"><tspan x="196.5" y="223.9">5.8%</tspan></text>
+<line x1="63.25" y1="88" x2="63.25" y2="63" stroke="#CCCFD6" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="146.25" y1="120" x2="146.25" y2="63" stroke="#CCCFD6" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="225.25" y1="152" x2="225.25" y2="63" stroke="#CCCFD6" stroke-width="0.5" stroke-dasharray="2 2"/>
+</svg>

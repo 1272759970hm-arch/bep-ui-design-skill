@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>BEP-S 标签样式全览（2026-11-05 版）</title>
+<style>
+:root{
+  --brand:#00B1B4; --brand-pressed:#00686A;
+  --tag-brand-bg:rgba(0,177,180,.10);    --tag-brand-text:#00B1B4;
+  --tag-success-bg:rgba(0,180,42,.10);   --tag-success-text:#00B42A;
+  --tag-warning-bg:rgba(255,166,69,.10); --tag-warning-text:#FFA645;
+  --tag-danger-bg:rgba(245,63,63,.10);   --tag-danger-text:#F53F3F;
+  --tag-neutral-bg:rgba(111,135,158,.10);--tag-neutral-text:#6F879E;
+  --tag-info-bg:rgba(69,132,255,.10);    --tag-info-text:#4584FF;
+
+  --text-1:#22262F; --text-2:#444F60; --text-3:#9199A2; --text-4:#CCCFD6;
+  --line:#EEEEEE; --page-bg:#F7F8FA; --fill-2:#F2F3F5; --card:#FFFFFF;
+  --r-card:8px; --r-btn:4px; --r-tag:2px;
+  --font:-apple-system,BlinkMacSystemFont,"PingFang SC","Source Han Sans SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  --mono:"SF Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page-bg);color:var(--text-1);font-family:var(--font);
+     font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:40px 32px 96px}
+
+/* ---------- 头部 ---------- */
+.head{padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:8px}
+.head h1{margin:0 0 10px;font-size:28px;font-weight:600;letter-spacing:-.3px}
+.head .meta{color:var(--text-3);font-size:13px}
+.head .meta b{color:var(--brand);font-weight:600}
+.mantra{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+.mantra span{background:#fff;border:1px solid var(--line);border-radius:20px;
+  padding:6px 14px;font-size:13px;color:var(--text-2)}
+.mantra span b{color:var(--brand);font-weight:600}
+
+.tip{margin-top:16px;background:#fff;border-left:3px solid var(--brand);
+     border-radius:0 var(--r-card) var(--r-card) 0;padding:12px 16px;
+     font-size:13px;color:var(--text-2)}
+.tip b{color:var(--text-1)}
+
+/* ---------- 章节 ---------- */
+section{margin-top:44px}
+h2{display:flex;align-items:center;gap:10px;margin:0 0 6px;font-size:18px;font-weight:600}
+h2 .no{font-family:var(--mono);font-size:12px;color:#fff;background:var(--brand);
+       border-radius:4px;padding:2px 7px;font-weight:500;letter-spacing:.5px}
+.sub{color:var(--text-3);font-size:13px;margin:0 0 18px}
+
+/* ---------- 标签本体 ---------- */
+.tag{display:inline-flex;align-items:center;justify-content:center;border-radius:var(--r-tag);
+     font-size:12px;line-height:1;padding:2px 8px;height:20px;white-space:nowrap;font-weight:400}
+.tag.lg{font-size:14px;height:22px}
+.c-brand  {background:var(--tag-brand-bg);  color:var(--tag-brand-text)}
+.c-success{background:var(--tag-success-bg);color:var(--tag-success-text)}
+.c-warning{background:var(--tag-warning-bg);color:var(--tag-warning-text)}
+.c-danger {background:var(--tag-danger-bg); color:var(--tag-danger-text)}
+.c-neutral{background:var(--tag-neutral-bg);color:var(--tag-neutral-text)}
+.c-info   {background:var(--tag-info-bg);   color:var(--tag-info-text)}
+
+/* ---------- 卡片网格 ---------- */
+.grid{display:grid;gap:12px}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:860px){.g3,.g2{grid-template-columns:1fr 1fr}}
+
+.cell{background:#fff;border-radius:var(--r-card);padding:16px;position:relative}
+span.id{display:block;text-align:right;font-family:var(--mono);font-size:11px;
+        color:var(--text-4);letter-spacing:.4px;margin-bottom:4px}
+.cell span.id{position:absolute;top:10px;right:12px;margin:0}
+.cell .demo{height:64px;display:flex;align-items:center;justify-content:center;
+            background:var(--page-bg);border-radius:6px;margin-bottom:12px}
+.cell .name{font-size:13px;font-weight:600;margin-bottom:6px}
+.cell dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-size:12px}
+.cell dt{color:var(--text-3);white-space:nowrap}
+.cell dd{margin:0;font-family:var(--mono);font-size:11.5px;color:var(--text-2);
+         overflow-wrap:anywhere}
+.cell .use{margin-top:8px;font-size:12px;color:var(--text-3);line-height:1.5}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;
+     vertical-align:-1px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
+
+/* ---------- 表格 ---------- */
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--r-card);
+      overflow:hidden;font-size:13px}
+th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:middle}
+th{background:#FAFBFC;font-weight:600;color:var(--text-2);font-size:12px;letter-spacing:.3px}
+tr:last-child td{border-bottom:0}
+td.mono{font-family:var(--mono);font-size:11.5px;color:var(--text-2)}
+td.id{font-family:var(--mono);font-size:11px;color:var(--text-4);white-space:nowrap}
+
+/* ---------- 尺寸标注 ---------- */
+.dim{background:#fff;border-radius:var(--r-card);padding:20px 24px;display:flex;
+     gap:32px;flex-wrap:wrap;align-items:center}
+.dimrow{display:flex;align-items:center;gap:14px}
+.dimrow .k{font-family:var(--mono);font-size:12px;color:var(--text-3);min-width:96px}
+.dimspec{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--text-2)}
+.dimspec b{color:var(--text-1);font-family:var(--mono);font-size:12px}
+
+/* ---------- 角标演示卡 ---------- */
+.card-demo{background:#fff;border-radius:var(--r-card);padding:16px;position:relative;
+           min-height:104px;display:flex;flex-direction:column;justify-content:flex-end}
+.card-demo .t{font-size:15px;font-weight:600;margin-bottom:6px}
+.card-demo .d{font-size:12px;color:var(--text-3);line-height:1.5}
+.badge{position:absolute;top:0;right:0;height:27px;padding:4px 8px;font-size:12px;line-height:1;
+       border-radius:0 var(--r-card) 0 var(--r-card);
+       display:inline-flex;align-items:center;white-space:nowrap}
+
+/* ---------- 真实场景 ---------- */
+.scene{background:#fff;border-radius:var(--r-card);padding:0;overflow:hidden;max-width:375px}
+.scene .li{padding:14px 16px;border-bottom:1px solid var(--line)}
+.scene .li:last-child{border-bottom:0}
+.scene .row1{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.scene .src{font-size:12px;color:var(--text-3);display:flex;align-items:center;gap:4px}
+.scene .ttl{font-size:15px;font-weight:600;margin:2px 0 4px}
+.scene .desc{font-size:13px;color:var(--text-2);line-height:1.55;
+             display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.scene .row3{display:flex;align-items:center;gap:8px;margin-top:8px}
+.scene .row3 .time{margin-left:auto;font-size:12px;color:var(--text-3)}
+
+/* ---------- 反例 ---------- */
+.bad{background:#fff;border-radius:var(--r-card);padding:16px;border:1px solid #FFE0E0}
+.bad .demo{height:60px;background:var(--page-bg);border-radius:6px;display:flex;
+           align-items:center;justify-content:center;margin-bottom:12px}
+.bad .why{font-size:12px;color:#C33;line-height:1.55}
+.bad .why b{color:#A00}
+.bad span.id{position:absolute;top:10px;right:12px;margin:0;color:#E0A0A0}
+.bad{position:relative}
+
+/* ---------- 代码块 ---------- */
+pre{background:#1B1D21;color:#D8DEE9;border-radius:var(--r-card);padding:20px 22px;
+    overflow:auto;font-family:var(--mono);font-size:12.5px;line-height:1.75;margin:0}
+pre .c{color:#5E6A7A}
+pre .k{color:#7FDBCA}
+pre .v{color:#F2C98A}
+
+/* ---------- 自检 ---------- */
+.check{background:#fff;border-radius:var(--r-card);padding:8px 20px}
+.check div{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid var(--line);
+           font-size:13px;color:var(--text-2);align-items:flex-start}
+.check div:last-child{border-bottom:0}
+.check .n{font-family:var(--mono);font-size:11px;color:var(--brand);
+          border:1px solid rgba(0,177,180,.35);border-radius:4px;padding:1px 6px;
+          flex:0 0 auto;margin-top:1px}
+.foot{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);
+      font-size:12px;color:var(--text-3);line-height:1.8}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="head">
+    <h1>BEP-S 标签样式全览</h1>
+    <div class="meta">版本 <b>2026-11-05</b> ｜ 依据：真实业务页面 18 处标签实测（FOUND_IN_DRAFT）+ 组件库画板 107:3399 对照 ｜ 共 <b>21</b> 个检查项</div>
+    <div class="mantra">
+      <span>标签底 <b>10%</b> 同源</span>
+      <span>筛选胶囊 <b>14%</b></span>
+      <span>二级胶囊 <b>16%</b></span>
+      <span>中性绝不发灰发实</span>
+    </div>
+    <div class="tip">
+      <b>怎么给我反馈：</b>每一项右上角都有编号（如 <span style="font-family:var(--mono)">T-03</span>）。哪里不对直接说编号 + 应该改成什么，我按编号改。
+    </div>
+  </div>
+
+  <!-- ================= 01 色值总表 ================= -->
+  <section>
+    <h2><span class="no">01</span>色值总表</h2>
+    <p class="sub">六个语义档，底色一律 10% 透明度，文字取该色相实色。底与字必须同源同色相。</p>
+    <table>
+      <thead>
+        <tr><th style="width:64px">编号</th><th style="width:120px">语义档</th><th style="width:130px">样例</th><th>底色</th><th>文字色</th><th style="width:34%">用在哪</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="id">T-01</td>
+          <td><span class="dot" style="background:#00B1B4"></span>品牌 / 进行中</td>
+          <td><span class="tag c-brand">进行中</span></td>
+          <td class="mono">rgba(0,177,180,0.10)</td>
+          <td class="mono">#00B1B4</td>
+          <td>处理中、跟进中、观察中、执行中等"还活着"的状态</td>
+        </tr>
+        <tr>
+          <td class="id">T-02</td>
+          <td><span class="dot" style="background:#00B42A"></span>成功 / 已完成</td>
+          <td><span class="tag c-success">已完成</span></td>
+          <td class="mono">rgba(0,180,42,0.10)</td>
+          <td class="mono">#00B42A</td>
+          <td>已完成、已通过、已解决、已归档（正向闭环）</td>
+        </tr>
+        <tr>
+          <td class="id">T-03</td>
+          <td><span class="dot" style="background:#FFA645"></span>警告 / 待处理</td>
+          <td><span class="tag c-warning">待响应</span></td>
+          <td class="mono">rgba(255,166,69,0.10)</td>
+          <td class="mono">#FFA645</td>
+          <td>待响应、待处理、快超时、需关注（要人动但没坏）</td>
+        </tr>
+        <tr>
+          <td class="id">T-04</td>
+          <td><span class="dot" style="background:#F53F3F"></span>错误 / 异常</td>
+          <td><span class="tag c-danger">已超时</span></td>
+          <td class="mono">rgba(245,63,63,0.10)</td>
+          <td class="mono">#F53F3F</td>
+          <td>超时、逾期、异常、驳回、高风险（已经坏了）</td>
+        </tr>
+        <tr>
+          <td class="id">T-05</td>
+          <td><span class="dot" style="background:#6F879E"></span>中性 / 未开始</td>
+          <td><span class="tag c-neutral">未开始</span></td>
+          <td class="mono">rgba(111,135,158,0.10)</td>
+          <td class="mono">#6F879E</td>
+          <td>未开始、已结束、已关闭、未知、分类信息（不表态）</td>
+        </tr>
+        <tr>
+          <td class="id">T-06</td>
+          <td><span class="dot" style="background:#4584FF"></span>信息 / 提示</td>
+          <td><span class="tag c-info">新版本</span></td>
+          <td class="mono">rgba(69,132,255,0.10)</td>
+          <td class="mono">#4584FF</td>
+          <td>仅用于"新/推荐/说明"这类纯信息标记，业务状态别用它<br><span style="color:#C33">※ 页面稿暂无实例，按同法推算，标 INFERRED</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ================= 02 行内标签 大档 ================= -->
+  <section>
+    <h2><span class="no">02</span>行内标签 · 大档</h2>
+    <p class="sub">高 22px ／ 字号 14px ／ 内边距 8+2 ／ 圆角 2px。跟标题同一行时用这档。</p>
+    <div class="grid g3">
+      <div class="cell"><span class="id">P-01</span>
+        <div class="demo"><span class="tag lg c-brand">进行中</span></div>
+        <div class="name">品牌 · 大</div>
+        <dl><dt>底色</dt><dd>rgba(0,177,180,.10)</dd><dt>文字</dt><dd>#00B1B4</dd></dl>
+      </div>
+      <div class="cell"><span class="id">P-02</span>
+        <div class="demo"><span class="tag lg c-success">已完成</span></div>
+        <div class="name">成功 · 大</div>
+        <dl><dt>底色</dt><dd>rgba(0,180,42,.10)</dd><dt>文字</dt><dd>#00B42A</dd></dl>
+      </div>
+      <div class="cell"><span class="id">P-03</span>
+        <div class="demo"><span class="tag lg c-warning">待响应</span></div>
+        <div class="name">警告 · 大</div>
+        <dl><dt>底色</dt><dd>rgba(255,166,69,.10)</dd><dt>文字</dt><dd>#FFA645</dd></dl>
+      </div>
+      <div class="cell"><span class="id">P-04</span>
+        <div class="demo"><span class="tag lg c-danger">已超时</span></div>
+        <div class="name">错误 · 大</div>
+        <dl><dt>底色</dt><dd>rgba(245,63,63,.10)</dd><dt>文字</dt><dd>#F53F3F</dd></dl>
+      </div>
+      <div class="cell"><span class="id">P-05</span>
+        <div class="demo"><span class="tag lg c-neutral">未开始</span></div>
+        <div class="name">中性 · 大</div>
+        <dl><dt>底色</dt><dd>rgba(111,135,158,.10)</dd><dt>文字</dt><dd>#6F879E</dd></dl>
+      </div>
+      <div class="cell"><span class="id">P-06</span>
+        <div class="demo"><span class="tag lg c-info">新版本</span></div>
+        <div class="name">信息 · 大</div>
+        <dl><dt>底色</dt><dd>rgba(69,132,255,.10)</dd><dt>文字</dt><dd>#4584FF</dd></dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 03 行内标签 小档 ================= -->
+  <section>
+    <h2><span class="no">03</span>行内标签 · 小档</h2>
+    <p class="sub">高 20px ／ 字号 12px ／ 内边距 8+2 ／ 圆角 2px。卡片底部信息行、表格单元格里用这档。</p>
+    <div class="grid g3">
+      <div class="cell"><span class="id">S-01</span>
+        <div class="demo"><span class="tag c-brand">进行中</span></div>
+        <div class="name">品牌 · 小</div>
+        <dl><dt>底色</dt><dd>rgba(0,177,180,.10)</dd><dt>文字</dt><dd>#00B1B4</dd></dl>
+      </div>
+      <div class="cell"><span class="id">S-02</span>
+        <div class="demo"><span class="tag c-success">已完成</span></div>
+        <div class="name">成功 · 小</div>
+        <dl><dt>底色</dt><dd>rgba(0,180,42,.10)</dd><dt>文字</dt><dd>#00B42A</dd></dl>
+      </div>
+      <div class="cell"><span class="id">S-03</span>
+        <div class="demo"><span class="tag c-warning">待响应</span></div>
+        <div class="name">警告 · 小</div>
+        <dl><dt>底色</dt><dd>rgba(255,166,69,.10)</dd><dt>文字</dt><dd>#FFA645</dd></dl>
+      </div>
+      <div class="cell"><span class="id">S-04</span>
+        <div class="demo"><span class="tag c-danger">已超时</span></div>
+        <div class="name">错误 · 小</div>
+        <dl><dt>底色</dt><dd>rgba(245,63,63,.10)</dd><dt>文字</dt><dd>#F53F3F</dd></dl>
+      </div>
+      <div class="cell"><span class="id">S-05</span>
+        <div class="demo"><span class="tag c-neutral">未开始</span></div>
+        <div class="name">中性 · 小</div>
+        <dl><dt>底色</dt><dd>rgba(111,135,158,.10)</dd><dt>文字</dt><dd>#6F879E</dd></dl>
+      </div>
+      <div class="cell"><span class="id">S-06</span>
+        <div class="demo"><span class="tag c-info">新版本</span></div>
+        <div class="name">信息 · 小</div>
+        <dl><dt>底色</dt><dd>rgba(69,132,255,.10)</dd><dt>文字</dt><dd>#4584FF</dd></dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 04 卡片角标 ================= -->
+  <section>
+    <h2><span class="no">04</span>卡片状态角标</h2>
+    <p class="sub">高 27px ／ 字号 12px ／ 内边距 8+4 ／ 圆角 <b>0 · 8 · 0 · 8</b>（只有右上、左下两角圆）／ 绝对定位贴卡片右上角。这是"嵌进卡片角落"的形态，不是四角小圆角的贴纸。</p>
+    <div class="grid g3">
+      <div><span class="id">B-01</span>
+        <div class="card-demo"><span class="badge c-brand">进行中</span>
+          <div class="t">1栋楼道墙面返潮</div><div class="d">业主反馈已处理，待复验</div></div>
+        <div style="font-size:12px;color:var(--text-3);margin-top:8px">品牌档 · rgba(0,177,180,.10) + #00B1B4</div>
+      </div>
+      <div><span class="id">B-02</span>
+        <div class="card-demo"><span class="badge c-success">已完成</span>
+          <div class="t">3栋大堂门禁维修</div><div class="d">08-24 已完工，业主已确认</div></div>
+        <div style="font-size:12px;color:var(--text-3);margin-top:8px">成功档 · rgba(0,180,42,.10) + #00B42A</div>
+      </div>
+      <div><span class="id">B-03</span>
+        <div class="card-demo"><span class="badge c-warning">待响应</span>
+          <div class="t">2栋垃圾分类点位异味</div><div class="d">已派单，等待片区负责人接单</div></div>
+        <div style="font-size:12px;color:var(--text-3);margin-top:8px">警告档 · rgba(255,166,69,.10) + #FFA645</div>
+      </div>
+      <div><span class="id">B-04</span>
+        <div class="card-demo"><span class="badge c-danger">已超时</span>
+          <div class="t">5栋消防通道堆物</div><div class="d">超时 26 小时未闭环</div></div>
+        <div style="font-size:12px;color:var(--text-3);margin-top:8px">错误档 · rgba(245,63,63,.10) + #F53F3F</div>
+      </div>
+      <div><span class="id">B-05</span>
+        <div class="card-demo"><span class="badge c-neutral">已归档</span>
+          <div class="t">地库照明巡检</div><div class="d">09-12 归档，无异常</div></div>
+        <div style="font-size:12px;color:var(--text-3);margin-top:8px">中性档 · rgba(111,135,158,.10) + #6F879E</div>
+      </div>
+      <div><span class="id">B-06</span>
+        <div class="card-demo" style="background:var(--page-bg);border:1px dashed var(--text-4);justify-content:center">
+          <div class="d" style="text-align:center;line-height:1.9">
+            <span style="font-family:var(--mono);font-size:11px;color:var(--text-3)">border-radius</span><br>
+            <span style="font-family:var(--mono);font-size:13px;color:var(--text-1)">0 &nbsp;8px &nbsp;0 &nbsp;8px</span>
+          </div>
+        </div>
+        <div style="font-size:12px;color:var(--text-3);margin-top:8px">几何示意：左上 0 / 右上 8 / 右下 0 / 左下 8</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 05 尺寸规格 ================= -->
+  <section>
+    <h2><span class="no">05</span>尺寸与内边距</h2>
+    <p class="sub">三档形态的全部数值。行高一律 1（不要 ×1.4，标签是单行紧凑块）。</p>
+    <div class="dim">
+      <div class="dimrow"><span class="k">行内 · 大</span>
+        <span class="tag lg c-brand">进行中</span>
+        <div class="dimspec"><span>高 <b>22</b></span><span>字 <b>14</b></span><span>内边距 <b>8 / 2</b></span><span>圆角 <b>2</b></span></div>
+      </div>
+      <div class="dimrow"><span class="k">行内 · 小</span>
+        <span class="tag c-brand">进行中</span>
+        <div class="dimspec"><span>高 <b>20</b></span><span>字 <b>12</b></span><span>内边距 <b>8 / 2</b></span><span>圆角 <b>2</b></span></div>
+      </div>
+      <div class="dimrow"><span class="k">角标</span>
+        <span class="badge c-brand" style="position:static;height:27px">进行中</span>
+        <div class="dimspec"><span>高 <b>27</b></span><span>字 <b>12</b></span><span>内边距 <b>8 / 4</b></span><span>圆角 <b>0 8 0 8</b></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 06 真实场景 ================= -->
+  <section>
+    <h2><span class="no">06</span>真实场景组合</h2>
+    <p class="sub">标签不是孤立摆设——看它在卡片里跟标题、正文、元信息的比例关系是否舒服。</p>
+    <div class="grid g2">
+      <div class="scene">
+        <div class="li">
+          <div class="row1"><span class="src">💬 泮浦湾5座业主群</span><span class="badge c-warning" style="position:static;height:22px;padding:2px 8px;border-radius:var(--r-tag);margin-left:auto">待响应</span></div>
+          <div class="ttl">1栋1层大堂门禁设施维修</div>
+          <div class="desc">业主反馈1栋1层大堂门禁无法刷卡开启，已持续两天，多名业主通行受影响。</div>
+          <div class="row3"><span class="tag c-danger">高关注</span><span class="tag c-neutral">普通关注</span><span class="time">08-24 09:12</span></div>
+        </div>
+        <div class="li">
+          <div class="row1"><span class="src">💬 泮浦湾5座业主群</span><span class="tag c-success" style="margin-left:auto">已完成</span></div>
+          <div class="ttl">1栋楼道垃圾环境清洁</div>
+          <div class="desc">1栋2层楼道堆放装修垃圾，业主反馈已放置三天并产生异味。</div>
+          <div class="row3"><span class="tag c-neutral">普通关注</span><span class="time">08-24 08:40</span></div>
+        </div>
+        <div class="li">
+          <div class="row1"><span class="src">💬 泮浦湾3座业主群</span><span class="tag c-neutral" style="margin-left:auto">已归档</span></div>
+          <div class="ttl">地库照明巡检异常</div>
+          <div class="desc">地库 B2 层东侧照明闪烁，已更换灯管并复验正常。</div>
+          <div class="row3"><span class="tag c-brand">观察中</span><span class="time">09-12 17:05</span></div>
+        </div>
+      </div>
+      <div>
+        <table>
+          <thead><tr><th style="width:34%">业务文案</th><th style="width:26%">用哪档</th><th>判断依据</th></tr></thead>
+          <tbody>
+            <tr><td>待响应 / 待处理 / 处理中</td><td><span class="tag c-warning">T-03 警告</span></td><td>需要人动，但还没坏</td></tr>
+            <tr><td>观察中 / 跟进中 / 执行中</td><td><span class="tag c-brand">T-01 品牌</span></td><td>正在进行，无风险</td></tr>
+            <tr><td>已完成 / 已解决 / 已通过</td><td><span class="tag c-success">T-02 成功</span></td><td>正向闭环</td></tr>
+            <tr><td>超时 / 逾期 / 驳回 / 异常</td><td><span class="tag c-danger">T-04 错误</span></td><td>已经出问题了</td></tr>
+            <tr><td>未开始 / 已结束 / 已关闭</td><td><span class="tag c-neutral">T-05 中性</span></td><td>不表态、不催办</td></tr>
+            <tr><td>高关注 / 普通关注</td><td><span class="tag c-danger">T-04</span> <span class="tag c-neutral">T-05</span></td><td>优先级用"错误+中性"对比，别再引入新色</td></tr>
+          </tbody>
+        </table>
+        <div class="tip" style="margin-top:12px">
+          <b>一条硬规则：</b>同一屏里标签最多出现 <b>2 种</b>语义色（一个主状态 + 一个优先级/分类）。三种以上颜色混排会让列表看起来像"仪表盘报警墙"。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 07 反例 ================= -->
+  <section>
+    <h2><span class="no">07</span>反例（这四种以前都犯过）</h2>
+    <p class="sub">下面每个都是错的，旁边写了为什么。看见类似形态直接判错。</p>
+    <div class="grid g2">
+      <div class="bad"><span class="id">X-01</span>
+        <div class="demo"><span class="tag" style="background:rgba(0,177,180,.16);color:#00B1B4">进行中</span></div>
+        <div class="why"><b>底色 16% —— 太重。</b>标签在页面里是"轻标记"，16% 的底会跟卡片本身抢注意力，看着发闷发糊。标签只能是 10%；16% 是胶囊 Tab 二级选中态的档位。</div>
+      </div>
+      <div class="bad"><span class="id">X-02</span>
+        <div class="demo"><span class="tag" style="background:#F2F3F5;color:#444F60">未开始</span></div>
+        <div class="why"><b>中性用灰底黑字 —— 太实。</b>#F2F3F5 + #444F60 的观感是"禁用按钮"，不是标签。中性必须用石板灰 10% 底 rgba(111,135,158,.10) + #6F879E 字。</div>
+      </div>
+      <div class="bad"><span class="id">X-03</span>
+        <div class="demo"><span class="tag" style="background:rgba(255,166,69,.10);color:#FF7D00">待响应</span></div>
+        <div class="why"><b>底字不同源 —— 色相打架。</b>底是 255,166,69（暖橙），字是 255,125,0（正橙），叠在一起像"一个标签里放了两种黄"。字必须取底的同色相实色 <b>#FFA645</b>。</div>
+      </div>
+      <div class="bad"><span class="id">X-04</span>
+        <div class="demo" style="position:relative;display:block;padding:0">
+          <div style="position:absolute;top:11px;left:50%;transform:translateX(-50%);height:27px;padding:4px 8px;border-radius:2px;background:rgba(245,63,63,.10);color:#F53F3F;font-size:12px;line-height:1;display:inline-flex;align-items:center">已超时</div>
+        </div>
+        <div class="why"><b>四角统一小圆角 —— 像贴纸。</b>角标只在右上 + 左下两角给 8px 圆角（0 8px 0 8px），才能"嵌"进卡片角落。四角都给 2px 会像贴在卡片外面的便利贴。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 08 代码 ================= -->
+  <section>
+    <h2><span class="no">08</span>可直接复制的 CSS</h2>
+    <p class="sub">颜色全部走 CSS 变量，页面里不要出现裸色值。</p>
+<pre><span class="c">/* ---- 变量：底 10% + 同源实色字 ---- */</span>
+:root{
+  <span class="k">--tag-brand-bg</span>:rgba(0,177,180,.10);    <span class="k">--tag-brand-text</span>:<span class="v">#00B1B4</span>;
+  <span class="k">--tag-success-bg</span>:rgba(0,180,42,.10);   <span class="k">--tag-success-text</span>:<span class="v">#00B42A</span>;
+  <span class="k">--tag-warning-bg</span>:rgba(255,166,69,.10); <span class="k">--tag-warning-text</span>:<span class="v">#FFA645</span>;
+  <span class="k">--tag-danger-bg</span>:rgba(245,63,63,.10);   <span class="k">--tag-danger-text</span>:<span class="v">#F53F3F</span>;
+  <span class="k">--tag-neutral-bg</span>:rgba(111,135,158,.10);<span class="k">--tag-neutral-text</span>:<span class="v">#6F879E</span>;
+  <span class="k">--r-card</span>:8px; <span class="k">--r-tag</span>:2px;
+}
+
+<span class="c">/* ---- 行内标签：默认小档 20px / 12px ---- */</span>
+.tag{
+  display:inline-flex; align-items:center; justify-content:center;
+  height:20px; padding:2px 8px; border-radius:var(--r-tag);
+  font-size:12px; line-height:1; white-space:nowrap;
+}
+<span class="c">/* 大档：跟标题同行时用 */</span>
+.tag.lg{ height:22px; font-size:14px; }
+
+.tag-brand  {background:var(--tag-brand-bg);  color:var(--tag-brand-text)}
+.tag-success{background:var(--tag-success-bg);color:var(--tag-success-text)}
+.tag-warning{background:var(--tag-warning-bg);color:var(--tag-warning-text)}
+.tag-danger {background:var(--tag-danger-bg); color:var(--tag-danger-text)}
+.tag-neutral{background:var(--tag-neutral-bg);color:var(--tag-neutral-text)}
+
+<span class="c">/* ---- 卡片状态角标：贴右上角，只在右上+左下给圆角 ---- */</span>
+.tag-badge{
+  position:absolute; top:0; right:0;
+  height:27px; padding:4px 8px;
+  border-radius:0 var(--r-card) 0 var(--r-card);
+  font-size:12px; line-height:1;
+  display:inline-flex; align-items:center; white-space:nowrap;
+}
+<span class="c">/* 父卡片必须 position:relative，且 overflow:hidden 或自身圆角 >= 8px */</span></pre>
+  </section>
+
+  <!-- ================= 09 自检 ================= -->
+  <section>
+    <h2><span class="no">09</span>交付前 6 条自检</h2>
+    <p class="sub">写完页面照着念一遍，全过再发出去。</p>
+    <div class="check">
+      <div><span class="n">C1</span><span>所有标签底色都是 <b>10%</b>？搜一遍代码里有没有 <span style="font-family:var(--mono)">.16</span> 被用在标签上。</span></div>
+      <div><span class="n">C2</span><span>每档的底和字<b>同源</b>？橙底配橙字、红底配红字，不能跨色相。</span></div>
+      <div><span class="n">C3</span><span>中性标签是 <b>rgba(111,135,158,.10) + #6F879E</b>？不是 <span style="font-family:var(--mono)">#F2F3F5</span> 灰底黑字。</span></div>
+      <div><span class="n">C4</span><span>角标圆角是 <b>0 8px 0 8px</b>、高 27、贴右上角？父卡片加了 <span style="font-family:var(--mono)">position:relative</span>？</span></div>
+      <div><span class="n">C5</span><span>同一屏里语义色 <b>≤ 2 种</b>？超过就是报警墙。</span></div>
+      <div><span class="n">C6</span><span>标签都是<b>不可点</b>的？能点的应该是胶囊（chip），别给标签加 hover 和 cursor:pointer。</span></div>
+    </div>
+  </section>
+
+  <div class="foot">
+    依据：真实业务页面 11 屏 18 处标签实测（FOUND_IN_DRAFT）＋ 组件库画板 107:3399「标签」对照存档（组件库仍为 16% 旧标准，不回抄）。<br>
+    三档浅底分工固定：<b>语义标签 10%</b> / 页面筛选胶囊 14% / 胶囊 Tab 二级 16%。<br>
+    对应 skill 文件：<span style="font-family:var(--mono)">component-library.md §6.3</span>、<span style="font-family:var(--mono)">design-tokens.md §1.2</span>、<span style="font-family:var(--mono)">constraints.md C-04 / C-75</span>、<span style="font-family:var(--mono)">design-system-conflicts.json #11</span>。
+  </div>
+
+</div>
+</body>
+</html>

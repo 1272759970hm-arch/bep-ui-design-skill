@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "values": [
+    {
+      "text": "高户效",
+      "height": 22,
+      "width": 52,
+      "font": "\"PingFang SC\", sans-serif",
+      "size": "12px",
+      "line": "20px",
+      "color": "rgb(59, 187, 62)",
+      "border": "1px",
+      "bg": "rgb(235, 248, 236)"
+    },
+    {
+      "text": "低户效",
+      "height": 22,
+      "width": 52,
+      "font": "\"PingFang SC\", sans-serif",
+      "size": "12px",
+      "line": "20px",
+      "color": "rgb(255, 166, 69)",
+      "border": "1px",
+      "bg": "rgb(255, 246, 236)"
+    },
+    {
+      "text": "环3.23%\n\n\n\n\n",
+      "height": 18,
+      "width": 76.75,
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "size": "12px",
+      "line": "20px",
+      "color": "rgb(15, 212, 134)",
+      "border": "1px",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "text": "环3.23%\n\n\n\n\n",
+      "height": 12,
+      "width": 54.625,
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "size": "10px",
+      "line": "12px",
+      "color": "rgb(255, 55, 95)",
+      "border": "0px",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "aiBeforeHeight": "40px",
+      "aiOverflow": "visible"
+    }
+  ]
+}

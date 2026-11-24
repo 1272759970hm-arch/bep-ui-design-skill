@@ -1,0 +1,14 @@
+{
+  "_README": "示例规格文件：仅用于演示 Design QA 需求还原校验器的字段格式与状态语义。source 固定为 sample，不是真实 PRD；任何基于本文件的结论都不得作为需求验收依据。真实校验请复制本文件、把 source 改为 prd、填入真实 PRD 条目。",
+  "id": "SAMPLE-DEMO-001",
+  "source": "sample",
+  "title": "示例：大促商品列表页（格式演示，非真实 PRD）",
+  "requirements": [
+    { "id": "R01", "text": "商品卡展示「到手价」前缀", "type": "text", "match": "到手价", "required": true },
+    { "id": "R02", "text": "商品流提供加购圆钮", "type": "css-class", "match": "addbtn", "min": 1, "required": true },
+    { "id": "R03", "text": "快捷筛选 Tabs 具备选中态", "type": "selector", "match": ".chip.on", "min": 1, "required": true },
+    { "id": "R04", "text": "下单与支付业务流程完整", "type": "semantic", "required": true },
+    { "id": "R05", "text": "页面标题含「大促」", "type": "regex", "match": "大促|会场", "required": false }
+  ],
+  "forbid": ["测试占位文案"]
+}

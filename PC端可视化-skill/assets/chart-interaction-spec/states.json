@@ -1,0 +1,102 @@
+[
+  {
+    "page": "4424:69843",
+    "type": "独立多环",
+    "state": "负值",
+    "headerValue": "-96.20",
+    "chart": "I4424:69853;156:6579",
+    "main": "4424:49904",
+    "chartNodes": 11,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:69896",
+    "type": "独立多环",
+    "state": "零",
+    "headerValue": "0.00",
+    "chart": "I4424:69906;156:6579",
+    "main": "4424:49904",
+    "chartNodes": 11,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:69949",
+    "type": "独立多环",
+    "state": "正常",
+    "headerValue": "96.20",
+    "chart": "I4424:69959;156:6579",
+    "main": "4424:49904",
+    "chartNodes": 11,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:70002",
+    "type": "独立多环",
+    "state": "100%",
+    "headerValue": "100.00",
+    "chart": "I4424:70012;156:6579",
+    "main": "4424:49904",
+    "chartNodes": 11,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:70055",
+    "type": "独立多环",
+    "state": "超百",
+    "headerValue": "106.20",
+    "chart": "I4424:70065;156:6579",
+    "main": "4424:49904",
+    "chartNodes": 14,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:70108",
+    "type": "单环",
+    "state": "零",
+    "headerValue": "0.00",
+    "chart": "I4424:70118;156:6579",
+    "main": "4424:49886",
+    "chartNodes": 9,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:70176",
+    "type": "单环",
+    "state": "正常",
+    "headerValue": "79.75",
+    "chart": "I4424:70186;156:6579",
+    "main": "4424:49886",
+    "chartNodes": 9,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:70244",
+    "type": "单环",
+    "state": "100%",
+    "headerValue": "100.00",
+    "chart": "I4424:70254;156:6579",
+    "main": "4424:49886",
+    "chartNodes": 9,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:70312",
+    "type": "单环",
+    "state": "超百",
+    "headerValue": "107.05",
+    "chart": "I4424:70322;156:6579",
+    "main": "4424:49886",
+    "chartNodes": 10,
+    "configuredAnalysisReactions": 0
+  },
+  {
+    "page": "4424:70380",
+    "type": "单环",
+    "state": "负值",
+    "headerValue": "-6.20",
+    "chart": "I4424:70390;156:6579",
+    "main": "4424:49886",
+    "chartNodes": 9,
+    "configuredAnalysisReactions": 0
+  }
+]

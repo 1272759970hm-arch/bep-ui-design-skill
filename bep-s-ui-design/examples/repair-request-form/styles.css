@@ -1,0 +1,327 @@
+/*
+  BEP-S 报修申请 — 页面样式
+  所有变量名对应 design-tokens.json 的 key，取值来源在注释里标注：
+    FOUND_IN_FIGMA = 直接取自 design-tokens.json，可信度最高
+    (SPEC_FRAME)    = 取自 SPEC_ONLY 组件的规范画板尺寸，来源真实但组件本身不是真实Instance
+    INFERRED        = design-tokens.json 里标记为 INFERRED 的推算值
+    AI_PROPOSED     = design-tokens.json 里标记为 AI_PROPOSED / NOT_DEFINED 的兜底值，非正式规范
+*/
+
+:root {
+  /* ---- Color Token — 全部 FOUND_IN_FIGMA (design-tokens.json > color) ---- */
+  --color-brand-3: #00B1B4; /* USER_OVERRIDE 2025-08，原Figma读值 #006D9B，见 design-tokens.json */
+  --color-white: #FFFFFF;
+  --color-fill-1: #F7F8FA;
+  --color-fill-2: #F2F3F5;
+  --color-line-1: #EEEEEE;
+  --color-text-3: #9199A2;
+  --color-text-4: #444F60;
+  --color-text-5: #22262F;
+  --color-danger-6: #FF3636;
+
+  /* ---- Typography Token — FOUND_IN_FIGMA (design-tokens.json > typography.font.size) ---- */
+  --font-size-caption: 14px;   /* 非常用字号/标签级 —— mobile-ui-rules.md 的字号用途表 */
+  --font-size-body: 18px;      /* 常用字号，Input/选择触发行组件内置就是18px */
+  --font-size-navtitle: 18px;  /* NavBar 真实组件内置字号实测18px，注意与design-tokens全局"页面标题24px"冲突，
+                                   见 design-system-conflicts.json 第1条：本页遵循真实组件实现(18px) */
+  --font-weight-regular: 400;  /* Regular */
+  --font-weight-medium: 500;   /* Medium（Noto Sans SC 环境替代Semibold用Medium，design-tokens.json font.family.runtimeSubstitute） */
+  --line-height-ratio: 1.5;    /* FOUND_IN_FIGMA */
+
+  /* ---- Spacing Token — FOUND_IN_FIGMA (design-tokens.json > spacing) ---- */
+  --spacing-page-marginX: 16px;
+  --spacing-module-gap: 12px;
+  --spacing-navbar-height: 44px;
+  --spacing-safeArea-bottom: 34px;
+
+  /* ---- Radius Token — FOUND_IN_FIGMA (design-tokens.json > radius) ---- */
+  --radius-button: 4px;
+
+  /* ---- Shadow / Border Token — FOUND_IN_FIGMA (design-tokens.json > shadow) ---- */
+  --border-hairline: 0.5px solid var(--color-line-1);
+
+  /* ---- 组件真实尺寸 — FOUND_IN_FIGMA (component-registry.json 对应组件 dimensions) ---- */
+  --size-field-height: 60px;      /* 输入框 / 选择触发行 组件 dimensions.height */
+  --size-upload-tile: 96px;       /* 上传 组件 dimensions.width/height */
+  --size-icon-default: 24px;      /* icon.size.default */
+  --size-star: 10px;               /* 必填星号 组件宽度（来自Figma嵌套节点观察） */
+
+  /* ---- (SPEC_FRAME) 来源：按钮规范画板，组件本身是 SPEC_ONLY，但这两个尺寸数字是真实画板量出来的 ---- */
+  --size-button-height: 48px;
+  --size-button-radius: var(--radius-button);
+
+  /* ---- INFERRED（design-tokens.json 标记为 INFERRED，非正式Token，仅作建议间距） ---- */
+  --spacing-inferred-label-to-control: 8px;
+
+  /* ---- AI_PROPOSED（design-tokens.json 标记为 AI_PROPOSED/NOT_DEFINED，非官方规范，兜底渲染需要而给出） ---- */
+  --ai-proposed-textarea-height: 100px;      /* design-tokens.json aiProposedExtra.textarea.height */
+  /* 上传组件"未上传"占位态的内部视觉（虚线框/图标大小/内部间距）：component-registry.json 对"上传"
+     只验证到外框 96x96 尺寸，没有采集内部子节点结构，以下几个值是 AI 对占位态的视觉近似，非Figma读值 */
+  --ai-proposed-upload-border: 1px dashed var(--color-line-1);
+  --ai-proposed-upload-inner-gap: 4px;
+  --ai-proposed-upload-plus-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-fill-1); /* 浏览器视口底色，页面本体仍是375px白色卡片 */
+}
+
+body {
+  font-family: "Noto Sans SC", "PingFang SC", -apple-system, sans-serif;
+  /* 字体来源说明：design-tokens.json font.family.runtimeSubstitute —— 当前渲染环境用 Noto Sans SC，
+     与设计系统定义的思源黑体(Source Han Sans)是同一字库项目的两个发行版本，视觉等效，非随意替换 */
+  color: var(--color-text-5);
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.page {
+  width: 375px; /* 移动端设计基准，FOUND_IN_FIGMA */
+  min-height: 100vh;
+  background: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============ NavBar：REMOTE_INSTANCE，component-registry.json "导航栏" ============ */
+.navbar {
+  height: var(--spacing-navbar-height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--spacing-page-marginX);
+  border-bottom: var(--border-hairline);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.navbar__back {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-text-5);
+}
+
+.navbar__title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: var(--font-size-navtitle);
+  font-weight: var(--font-weight-medium);
+  margin: 0;
+  pointer-events: none;
+}
+
+/* ============ 表单内容容器 ============ */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-module-gap);
+  /* 底部不再叠加 safe-area token 当"提交按钮前的间距"用——safe-area-bottom 的语义是页面最底部的安全区，
+     只应该用一次，放在 .submit-bar 上；这里和提交按钮之间的间距改用 module-gap，语义更准确 */
+  padding: var(--spacing-page-marginX) var(--spacing-page-marginX) 0;
+  margin: 0;
+}
+
+/* ============ 字段行：Input / 选择触发行 共用外观，REMOTE_INSTANCE ============
+   2025-08 布局更正：此前误做成"标题在上、内容在下"的堆叠结构。
+   经用户提供的 Figma「表单」组合范式截图核实，真实结构是"标签左、值/占位符右"的单行布局，
+   已按 component-registry.json 更正后的 dimensions.layoutPattern 重做。 */
+.field {
+  width: 100%;
+  min-height: var(--size-field-height);
+  border-bottom: var(--border-hairline);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.field--trigger {
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: var(--border-hairline);
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+}
+
+.field__label {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-5); /* NOT_DEFINED 推测值，见 design-tokens.json icon.inputTitle.color，本页按AI_PROPOSED使用 */
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0; /* 标签保持自身宽度，不被右侧内容挤压换行 */
+  white-space: nowrap;
+}
+
+.required {
+  color: var(--color-danger-6); /* NOT_DEFINED 推测值，见 design-tokens.json icon.requiredStar.color，本页按AI_PROPOSED使用 */
+  font-size: var(--size-star);
+  line-height: 1;
+}
+
+.field__value {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-5);
+  margin-left: auto; /* 把值(以及跟在它后面的箭头图标)推到行右侧，标签留在左侧 */
+  text-align: right;
+}
+
+.field__value--placeholder {
+  color: var(--color-text-3); /* AI_DESIGN_DECISION：占位符用 text-3(次要/弱) 语义色，非Figma直接读取的占位符专属Token */
+}
+
+.field__chevron {
+  width: var(--size-icon-default);
+  height: var(--size-icon-default);
+  color: var(--color-text-3);
+  margin-left: var(--spacing-inferred-label-to-control); /* INFERRED，值文字和箭头之间的小间距 */
+  flex-shrink: 0;
+}
+
+/* ============ Input 原生输入框：REMOTE_INSTANCE 外观 + 原生 input 元素 ============ */
+.field__input {
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: var(--font-size-body);
+  font-family: inherit;
+  color: var(--color-text-5);
+  background: none;
+  flex: 1;
+  min-width: 0;
+  margin-left: var(--spacing-inferred-label-to-control); /* INFERRED，标签和输入区之间的小间距 */
+  text-align: right; /* 与选择触发行的值对齐方式保持一致 */
+}
+
+.field__input::placeholder {
+  color: var(--color-text-3);
+}
+
+/* ============ 问题描述：AI_PROPOSED，Input 变形使用，非真实 Textarea ============
+   这一块保留"标签在上、内容在下"的堆叠结构（不跟随上面单行布局的更正）——
+   因为多行文本本来就没法和值放在同一行，这是问题描述这个字段自身的结构限制导致的例外，
+   AI_DESIGN_DECISION，不是套用了错误的布局假设 */
+.field--textarea {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: var(--spacing-inferred-label-to-control); /* INFERRED */
+  min-height: var(--ai-proposed-textarea-height);
+  padding: var(--spacing-inferred-label-to-control) 0; /* 复用同一个INFERRED间距变量做上下留白，不另起新数值 */
+}
+
+.field__textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: var(--font-size-body);
+  font-family: inherit;
+  color: var(--color-text-5);
+  background: none;
+  width: 100%;
+  flex: 1;
+  padding: 0;
+}
+
+.field__textarea::placeholder {
+  color: var(--color-text-3);
+}
+
+/* ============ 上传：REMOTE_INSTANCE，96x96 缩略图占位态 ============
+   同样保留堆叠结构（标签在上、缩略图在下）——上传区是块状媒体内容，不是文字值，
+   不适用"标签左值右"的单行模式，AI_DESIGN_DECISION 例外 */
+.field--upload {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: var(--spacing-inferred-label-to-control); /* INFERRED */
+  border-bottom: none;
+  padding: var(--spacing-inferred-label-to-control) 0;
+}
+
+.upload-row {
+  display: flex;
+  gap: var(--spacing-inferred-label-to-control);
+}
+
+.upload-tile {
+  width: var(--size-upload-tile);
+  height: var(--size-upload-tile);
+  border: var(--ai-proposed-upload-border); /* AI_PROPOSED，见上方变量注释 */
+  border-radius: var(--radius-button);
+  background: var(--color-fill-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ai-proposed-upload-inner-gap); /* AI_PROPOSED */
+  color: var(--color-text-3);
+  font-size: var(--font-size-caption);
+  cursor: pointer;
+}
+
+.upload-tile__plus {
+  font-size: var(--ai-proposed-upload-plus-size); /* AI_PROPOSED */
+  line-height: 1;
+  color: var(--color-text-3);
+}
+
+.field__hint {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+  margin-top: 4px;
+}
+
+/* ============ 提交按钮：SPEC_ONLY，无真实Primary Button组件，按按钮规范画板手工搭建 ============ */
+.submit-bar {
+  /* 唯一一处使用 safe-area-bottom token 的地方：页面真正的最底部安全区 */
+  margin-top: var(--spacing-module-gap);
+  padding: 0 var(--spacing-page-marginX) var(--spacing-safeArea-bottom);
+  flex-shrink: 0;
+}
+
+.btn-primary {
+  width: 100%;
+  height: var(--size-button-height);
+  border-radius: var(--size-button-radius);
+  background: var(--color-brand-3);
+  color: var(--color-white);
+  border: none;
+  font-size: var(--font-size-body); /* 18px，沿用组件内文字常用字号，按钮专属字号库内未定义 */
+  font-weight: var(--font-weight-medium); /* INFERRED，design-tokens.json aiProposedExtra.button.primary.fontWeight */
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  opacity: 0.85; /* AI_PROPOSED：库内无按钮按下态色值，用透明度模拟，未采用真实色板 */
+}
+
+/* ============ 响应式：小于375px的窄屏，避免横向溢出 ============ */
+@media (max-width: 375px) {
+  .page {
+    width: 100%;
+  }
+  body {
+    padding: 0;
+  }
+}

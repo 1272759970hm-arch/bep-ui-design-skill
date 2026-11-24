@@ -1,0 +1,1356 @@
+{
+  "items": [
+    {
+      "id": "6671:145683",
+      "name": "Frame 1321320004",
+      "w": 375,
+      "h": 812,
+      "children": [
+        {
+          "id": "6671:145684",
+          "name": "Rectangle 34625454",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 812
+        },
+        {
+          "id": "6671:145685",
+          "name": "Group 1321317230",
+          "type": "FRAME",
+          "x": 0,
+          "y": 374,
+          "w": 375,
+          "h": 438
+        }
+      ],
+      "texts": [
+        {
+          "id": "6671:145688",
+          "text": "高级筛选",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 16,
+          "line": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "parent": {
+            "id": "6671:145687",
+            "name": "Frame 1321319480",
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 24,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "6671:145692",
+          "text": "单位性质",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145691",
+            "name": "Frame 1321319965",
+            "x": 0,
+            "y": 40,
+            "w": 343,
+            "h": 68,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "I6671:145695;146:3111",
+          "text": "自有区域",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145695",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145696;146:3111",
+          "text": "股权公司",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145696",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145697;146:3111",
+          "text": "其他",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145697",
+            "name": "Button",
+            "x": 235.3333282470703,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "6671:145699",
+          "text": "区域分类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145698",
+            "name": "Frame 1321319968",
+            "x": 0,
+            "y": 124,
+            "w": 343,
+            "h": 112,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "I6671:145702;146:3111",
+          "text": "A类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145702",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145703;146:3111",
+          "text": "B类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145703",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145704;146:3111",
+          "text": "C类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145704",
+            "name": "Button",
+            "x": 235.3333282470703,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145705;146:3111",
+          "text": "D类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145705",
+            "name": "Button",
+            "x": 0,
+            "y": 44,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145706;146:3111",
+          "text": "E类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145706",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 44,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "6671:145708",
+          "text": "账单主体类型",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145707",
+            "name": "Frame 1321319969",
+            "x": 0,
+            "y": 252,
+            "w": 343,
+            "h": 68,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "I6671:145711;146:3111",
+          "text": "小业主",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145711",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145712;146:3111",
+          "text": "大业主",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145712",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145715;404:15119",
+          "text": "重置",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 16,
+          "line": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "parent": {
+            "id": "6671:145715",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 111,
+            "h": 44,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145716;146:3187",
+          "text": "确定",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 16,
+          "line": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "parent": {
+            "id": "6671:145716",
+            "name": "Button",
+            "x": 123,
+            "y": 0,
+            "w": 220,
+            "h": 44,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0.6980392336845398,
+                  "b": 0.6980392336845398
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "6671:145744",
+      "name": "Frame 1321320004",
+      "w": 375,
+      "h": 812,
+      "children": [
+        {
+          "id": "6671:145745",
+          "name": "Rectangle 34625454",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 812
+        },
+        {
+          "id": "6671:145746",
+          "name": "Group 1321317230",
+          "type": "FRAME",
+          "x": 0,
+          "y": 290,
+          "w": 375,
+          "h": 522
+        }
+      ],
+      "texts": [
+        {
+          "id": "6671:145749",
+          "text": "高级筛选",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 16,
+          "line": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "parent": {
+            "id": "6671:145748",
+            "name": "Frame 1321319480",
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 24,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "6671:145753",
+          "text": "单位性质",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145752",
+            "name": "Frame 1321319965",
+            "x": 0,
+            "y": 40,
+            "w": 343,
+            "h": 68,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "I6671:145756;146:3111",
+          "text": "自有区域",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145756",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145757;146:3111",
+          "text": "股权公司",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145757",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145758;146:3111",
+          "text": "其他",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145758",
+            "name": "Button",
+            "x": 235.3333282470703,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "6671:145760",
+          "text": "区域分类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145759",
+            "name": "Frame 1321319968",
+            "x": 0,
+            "y": 124,
+            "w": 343,
+            "h": 112,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "I6671:145763;146:3111",
+          "text": "A类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145763",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145764;146:3111",
+          "text": "B类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145764",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145765;146:3111",
+          "text": "C类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145765",
+            "name": "Button",
+            "x": 235.3333282470703,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145766;146:3111",
+          "text": "D类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145766",
+            "name": "Button",
+            "x": 0,
+            "y": 44,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145767;146:3111",
+          "text": "E类",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145767",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 44,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "6671:145769",
+          "text": "账单主体类型",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145768",
+            "name": "Frame 1321319969",
+            "x": 0,
+            "y": 252,
+            "w": 343,
+            "h": 68,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "I6671:145772;146:3111",
+          "text": "小业主",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145772",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145773;146:3111",
+          "text": "大业主",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145773",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "6671:145775",
+          "text": "大业主客商类别",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145774",
+            "name": "Frame 1321319970",
+            "x": 0,
+            "y": 336,
+            "w": 343,
+            "h": 112,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "6671:145783",
+          "text": "风险客商类型",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145782",
+            "name": "Frame 1321319971",
+            "x": 0,
+            "y": 336,
+            "w": 343,
+            "h": 68,
+            "fills": [],
+            "radius": 0
+          }
+        },
+        {
+          "id": "I6671:145786;146:3111",
+          "text": "非风险客商",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145786",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145787;146:3111",
+          "text": "风险客商",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 14,
+          "line": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "parent": {
+            "id": "6671:145787",
+            "name": "Button",
+            "x": 117.66666412353516,
+            "y": 0,
+            "w": 107.66666412353516,
+            "h": 34,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9686274528503418,
+                  "g": 0.9725490212440491,
+                  "b": 0.9803921580314636
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d6f70e12729a8ce209c13a5629c96f3e16e63561/330:24"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145790;404:15119",
+          "text": "重置",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 16,
+          "line": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "parent": {
+            "id": "6671:145790",
+            "name": "Button",
+            "x": 0,
+            "y": 0,
+            "w": 111,
+            "h": 44,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9306000471115112,
+                  "g": 0.9900000095367432,
+                  "b": 0.9868736267089844
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5d54e529596b5de2e1413a6bfed7e6bbe8e5c84b/348:16"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        },
+        {
+          "id": "I6671:145791;146:3187",
+          "text": "确定",
+          "font": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "size": 16,
+          "line": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "parent": {
+            "id": "6671:145791",
+            "name": "Button",
+            "x": 123,
+            "y": 0,
+            "w": 220,
+            "h": 44,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0.6980392336845398,
+                  "b": 0.6980392336845398
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+                  }
+                }
+              }
+            ],
+            "radius": 4
+          }
+        }
+      ]
+    }
+  ]
+}

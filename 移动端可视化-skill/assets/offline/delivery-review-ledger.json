@@ -1,0 +1,365 @@
+{
+  "primaryFileKey": "coPS7naE76ZG6pErhZZOB8",
+  "policyDate": "2026-11-18",
+  "items": [
+    {
+      "type": "fundingBar",
+      "previousSource": "6671:175157 / 6671:175264",
+      "deliveryReview": "partial-existing-snapshot",
+      "visualAcceptance": "not-established-by-this-audit",
+      "deliveryNodes": [
+        "10044:65926",
+        "10044:66027"
+      ],
+      "checked": "逐槽位字体参数；明细主值16/24、单位14/24已修正；未核对当前在线版本或全部图形"
+    },
+    {
+      "type": "deviceComposition",
+      "previousSource": "5790:97172",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "progressRing",
+      "previousSource": "4424:69842 / five single-ring states",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:124965",
+          "7958:125033",
+          "7958:125101",
+          "7958:125169",
+          "7958:125237"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "multiRing",
+      "previousSource": "4424:74002",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:124700",
+          "7958:124753",
+          "7958:124806",
+          "7958:124859",
+          "7958:124912"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "donut",
+      "previousSource": "5533:66598 / 4424:72130",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:123876",
+          "7958:123878"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "trend",
+      "previousSource": "5635:74035/73983",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "ranking",
+      "previousSource": "5721:75298 / 4424:69018",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "aiHint",
+      "previousSource": "5533:69935",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:123872"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "comparison",
+      "previousSource": "1515:414/460/452/468",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:123872",
+          "7958:115518"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "homeCard",
+      "previousSource": "4424:66070/66104/66115",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:115518",
+          "7958:115552",
+          "7958:115563",
+          "7958:115585",
+          "7958:115599",
+          "7958:115610"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "warning",
+      "previousSource": "4424:85610/86517",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "bars",
+      "previousSource": "4424:85061",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "horizontalBars",
+      "previousSource": "4424:78086",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "funnel",
+      "previousSource": "references/chart-types.md",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "radar",
+      "previousSource": "4424:83479",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "header/tabs",
+      "previousSource": "4424:69018 / 5533:67710",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:123867",
+          "7958:123868",
+          "7958:123872"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "nativeRingState",
+      "previousSource": "4424:69842",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit",
+      "curatedReview": {
+        "status": "parameters-and-assets-extracted",
+        "nodes": [
+          "7958:124700",
+          "7958:124753",
+          "7958:124806",
+          "7958:124859",
+          "7958:124912",
+          "7958:124965",
+          "7958:125033",
+          "7958:125101",
+          "7958:125169",
+          "7958:125237"
+        ],
+        "fullVisualAcceptance": false
+      }
+    },
+    {
+      "type": "dateControl",
+      "previousSource": "6695:311818/311834/311850; 6671:132073/132304/132460",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "organizationControl",
+      "previousSource": "6671:131690/131711",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "filterControl",
+      "previousSource": "6671:145683/145744/145797/145798",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "businessRanking",
+      "previousSource": "6671:154337/154340/154366",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "warningRanking",
+      "previousSource": "6671:171367/170726/171178/171633",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "stageConversion",
+      "previousSource": "6695:316711",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "cashflowInline",
+      "previousSource": "6695:315631",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "actualTarget",
+      "previousSource": "6695:316767",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "chargeRateTarget",
+      "previousSource": "6695:316799",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "contractTrend",
+      "previousSource": "6695:316197",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "withholdingAnalysis",
+      "previousSource": "4424:71307/71453/71596",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "withholdingPayment",
+      "previousSource": "4424:71313",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "withholdingRankings",
+      "previousSource": "4424:71307/71453/71596",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "satisfactionRadar",
+      "previousSource": "6695:316308/316438",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "signedPeriodBars",
+      "previousSource": "6695:315326",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "yearAmountRings",
+      "previousSource": "6695:316042",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "receiptComposition",
+      "previousSource": "6695:315962",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "monthlyRevenueGauge",
+      "previousSource": "6695:316886",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "categoryColumns",
+      "previousSource": "6695:315115/315240",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "periodCurves",
+      "previousSource": "6695:314803/314937",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "ratioRings",
+      "previousSource": "6695:315922/316135",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "homePerformanceCard",
+      "previousSource": "6671:164095/164148/164196",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "homeProfitExplanation",
+      "previousSource": "4424:72991",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "homeCashflowTargets",
+      "previousSource": "4424:72760",
+      "deliveryReview": "pending",
+      "visualAcceptance": "not-established-by-this-audit"
+    },
+    {
+      "type": "statusTag",
+      "previousSource": "7952:98702",
+      "deliveryReview": "explicit-user-exception",
+      "visualAcceptance": "not-established-by-this-audit",
+      "adoptedSource": "2oSqZAFWhrtQoOytyamFOn/7952:98702",
+      "reason": "用户明确指定标签节点及高绿低橙映射"
+    },
+    {
+      "type": "detailRanking",
+      "previousSource": null,
+      "deliveryReview": "curated-source-parameter-adaptation",
+      "visualAcceptance": "local-render-reviewed-not-full-pixel-parity",
+      "curatedReview": {
+        "source": [
+          "7958:123884",
+          "7958:123885",
+          "7958:123892",
+          "7958:123900"
+        ],
+        "status": "template-integrated-and-browser-tested",
+        "fullVisualAcceptance": false,
+        "checked": "44/90/94列宽、14/22金额、16/24名次、前三18圆形Counter、同级脱敏与整卡全屏"
+      }
+    }
+  ],
+  "curatedPage": "2oSqZAFWhrtQoOytyamFOn/7958:101240"
+}

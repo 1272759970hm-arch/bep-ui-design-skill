@@ -1,0 +1,2519 @@
+{
+  "source": "6695:316197",
+  "svgFile": "native/chart-6695-316197.svg",
+  "elements": [
+    {
+      "index": 0,
+      "parentIndex": null,
+      "tag": "svg",
+      "attributes": {
+        "width": "343",
+        "height": "608",
+        "viewBox": "0 0 343 608",
+        "fill": "none"
+      },
+      "text": null
+    },
+    {
+      "index": 1,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "width": "343",
+        "height": "608",
+        "rx": "12",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 2,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "16",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 3,
+      "parentIndex": 2,
+      "tag": "tspan",
+      "attributes": {
+        "x": "16",
+        "y": "33.76"
+      },
+      "text": "微信代扣签约率"
+    },
+    {
+      "index": 4,
+      "parentIndex": 0,
+      "tag": "g",
+      "attributes": {
+        "clip-path": "url(#clip0_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 5,
+      "parentIndex": 4,
+      "tag": "rect",
+      "attributes": {
+        "x": "217",
+        "y": "16",
+        "width": "110",
+        "height": "24",
+        "rx": "4",
+        "fill": "#F7F8FA"
+      },
+      "text": null
+    },
+    {
+      "index": 6,
+      "parentIndex": 4,
+      "tag": "g",
+      "attributes": {
+        "filter": "url(#filter0_dd_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 7,
+      "parentIndex": 6,
+      "tag": "rect",
+      "attributes": {
+        "x": "219",
+        "y": "18",
+        "width": "52",
+        "height": "20",
+        "rx": "4",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 8,
+      "parentIndex": 6,
+      "tag": "text",
+      "attributes": {
+        "fill": "#00B2B2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 9,
+      "parentIndex": 8,
+      "tag": "tspan",
+      "attributes": {
+        "x": "227",
+        "y": "32.32"
+      },
+      "text": "签约率"
+    },
+    {
+      "index": 10,
+      "parentIndex": 4,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 11,
+      "parentIndex": 10,
+      "tag": "tspan",
+      "attributes": {
+        "x": "281",
+        "y": "32.32"
+      },
+      "text": "解约率"
+    },
+    {
+      "index": 12,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "opacity": "0.1",
+        "d": "M251.5 136C251.5 180.183 215.683 216 171.5 216C127.317 216 91.5 180.183 91.5 136C91.5 91.8172 127.317 56 171.5 56C215.683 56 251.5 91.8172 251.5 136ZM107.5 136C107.5 171.346 136.154 200 171.5 200C206.846 200 235.5 171.346 235.5 136C235.5 100.654 206.846 72 171.5 72C136.154 72 107.5 100.654 107.5 136Z",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 13,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M171.5 64.0682C171.5 60.7168 174.221 57.9754 177.562 58.2358C195.806 59.6574 213.044 67.4606 226.185 80.3798C240.772 94.7224 249.142 114.222 249.489 134.677C249.836 155.132 242.133 174.904 228.04 189.733C215.345 203.091 198.382 211.474 180.197 213.514C176.867 213.887 174.054 211.24 173.94 207.89C173.826 204.541 176.457 201.762 179.781 201.341C194.781 199.44 208.742 192.422 219.243 181.373C231.143 168.851 237.647 152.155 237.354 134.883C237.061 117.611 229.994 101.145 217.676 89.034C206.806 78.3474 192.616 71.8063 177.56 70.4156C174.223 70.1073 171.5 67.4196 171.5 64.0682Z",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 14,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#0FD486",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "10",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 15,
+      "parentIndex": 14,
+      "tag": "tspan",
+      "attributes": {
+        "x": "144.5",
+        "y": "114.6"
+      },
+      "text": "环"
+    },
+    {
+      "index": 16,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#0FD486",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "10",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 17,
+      "parentIndex": 16,
+      "tag": "tspan",
+      "attributes": {
+        "x": "156.5",
+        "y": "114.6"
+      },
+      "text": "3.23%"
+    },
+    {
+      "index": 18,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M192.673 115.331H192.326L191.747 110.488H189.643L192.5 106.668L195.357 110.488H193.252L192.673 115.331Z",
+        "fill": "#0FD486"
+      },
+      "text": null
+    },
+    {
+      "index": 19,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "28",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 20,
+      "parentIndex": 19,
+      "tag": "tspan",
+      "attributes": {
+        "x": "126.5",
+        "y": "141.08"
+      },
+      "text": "49.46"
+    },
+    {
+      "index": 21,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 22,
+      "parentIndex": 21,
+      "tag": "tspan",
+      "attributes": {
+        "x": "201.5",
+        "y": "139.04"
+      },
+      "text": "%"
+    },
+    {
+      "index": 23,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 24,
+      "parentIndex": 23,
+      "tag": "tspan",
+      "attributes": {
+        "x": "136",
+        "y": "161.04"
+      },
+      "text": "代扣签约率"
+    },
+    {
+      "index": 25,
+      "parentIndex": 0,
+      "tag": "g",
+      "attributes": {
+        "clip-path": "url(#clip1_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 26,
+      "parentIndex": 25,
+      "tag": "rect",
+      "attributes": {
+        "opacity": "0.1",
+        "x": "16",
+        "y": "239",
+        "width": "8",
+        "height": "8",
+        "rx": "2",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 27,
+      "parentIndex": 25,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 28,
+      "parentIndex": 27,
+      "tag": "tspan",
+      "attributes": {
+        "x": "28",
+        "y": "248.04"
+      },
+      "text": "已收楼户数"
+    },
+    {
+      "index": 29,
+      "parentIndex": 25,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 30,
+      "parentIndex": 29,
+      "tag": "tspan",
+      "attributes": {
+        "x": "120.316",
+        "y": "248.04"
+      },
+      "text": "504户"
+    },
+    {
+      "index": 31,
+      "parentIndex": 0,
+      "tag": "g",
+      "attributes": {
+        "clip-path": "url(#clip2_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 32,
+      "parentIndex": 31,
+      "tag": "rect",
+      "attributes": {
+        "x": "183.5",
+        "y": "239",
+        "width": "8",
+        "height": "8",
+        "rx": "2",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 33,
+      "parentIndex": 31,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 34,
+      "parentIndex": 33,
+      "tag": "tspan",
+      "attributes": {
+        "x": "195.5",
+        "y": "248.04"
+      },
+      "text": "已签约户数"
+    },
+    {
+      "index": 35,
+      "parentIndex": 31,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 36,
+      "parentIndex": 35,
+      "tag": "tspan",
+      "attributes": {
+        "x": "290.496",
+        "y": "248.04"
+      },
+      "text": "461户"
+    },
+    {
+      "index": 37,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "16",
+        "y": "270",
+        "width": "311",
+        "height": "192",
+        "rx": "8",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 38,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "64.5",
+        "y": "447",
+        "width": "10",
+        "height": "10",
+        "rx": "2",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 39,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "fill-rule": "evenodd",
+        "clip-rule": "evenodd",
+        "d": "M68.6101 454.5C68.4951 454.5 68.3851 454.452 68.3063 454.369L66.2801 452.211C66.1222 452.043 66.1309 451.78 66.2984 451.622C66.4663 451.465 66.7301 451.473 66.8872 451.64L68.6059 453.47L72.1092 449.636C72.2651 449.465 72.5284 449.454 72.6984 449.609C72.868 449.764 72.8797 450.028 72.7247 450.197L68.9176 454.364C68.8397 454.45 68.7288 454.499 68.613 454.5H68.6101Z",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 40,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 41,
+      "parentIndex": 40,
+      "tag": "tspan",
+      "attributes": {
+        "x": "78.5",
+        "y": "456.32"
+      },
+      "text": "已收楼户数"
+    },
+    {
+      "index": 42,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "146.5",
+        "y": "447",
+        "width": "10",
+        "height": "10",
+        "rx": "2",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 43,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "fill-rule": "evenodd",
+        "clip-rule": "evenodd",
+        "d": "M150.61 454.5C150.495 454.5 150.385 454.452 150.306 454.369L148.28 452.211C148.122 452.043 148.131 451.78 148.298 451.622C148.466 451.465 148.73 451.473 148.887 451.64L150.606 453.47L154.109 449.636C154.265 449.465 154.528 449.454 154.698 449.609C154.868 449.764 154.88 450.028 154.725 450.197L150.918 454.364C150.84 454.45 150.729 454.499 150.613 454.5H150.61Z",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 44,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 45,
+      "parentIndex": 44,
+      "tag": "tspan",
+      "attributes": {
+        "x": "160.5",
+        "y": "456.32"
+      },
+      "text": "已签约户数"
+    },
+    {
+      "index": 46,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "228.5",
+        "y": "447",
+        "width": "10",
+        "height": "10",
+        "rx": "2",
+        "fill": "#959CF9"
+      },
+      "text": null
+    },
+    {
+      "index": 47,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "fill-rule": "evenodd",
+        "clip-rule": "evenodd",
+        "d": "M232.61 454.5C232.495 454.5 232.385 454.452 232.306 454.369L230.28 452.211C230.122 452.043 230.131 451.78 230.298 451.622C230.466 451.465 230.73 451.473 230.887 451.64L232.606 453.47L236.109 449.636C236.265 449.465 236.528 449.454 236.698 449.609C236.868 449.764 236.88 450.028 236.725 450.197L232.918 454.364C232.84 454.45 232.729 454.499 232.613 454.5H232.61Z",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 48,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 49,
+      "parentIndex": 48,
+      "tag": "tspan",
+      "attributes": {
+        "x": "242.5",
+        "y": "456.32"
+      },
+      "text": "签约率"
+    },
+    {
+      "index": 50,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 51,
+      "parentIndex": 50,
+      "tag": "tspan",
+      "attributes": {
+        "x": "16.793",
+        "y": "284.32"
+      },
+      "text": "100"
+    },
+    {
+      "index": 52,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M40 280H289",
+        "stroke": "#E5E6EB",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 53,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 54,
+      "parentIndex": 53,
+      "tag": "tspan",
+      "attributes": {
+        "x": "296.156",
+        "y": "284.32"
+      },
+      "text": "100%"
+    },
+    {
+      "index": 55,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 56,
+      "parentIndex": 55,
+      "tag": "tspan",
+      "attributes": {
+        "x": "21.6094",
+        "y": "310.32"
+      },
+      "text": "80"
+    },
+    {
+      "index": 57,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M40 306H289",
+        "stroke": "#E5E6EB",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 58,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 59,
+      "parentIndex": 58,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.973",
+        "y": "310.32"
+      },
+      "text": "80%"
+    },
+    {
+      "index": 60,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 61,
+      "parentIndex": 60,
+      "tag": "tspan",
+      "attributes": {
+        "x": "21.6094",
+        "y": "336.32"
+      },
+      "text": "60"
+    },
+    {
+      "index": 62,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M40 332H289",
+        "stroke": "#E5E6EB",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 63,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 64,
+      "parentIndex": 63,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.973",
+        "y": "336.32"
+      },
+      "text": "60%"
+    },
+    {
+      "index": 65,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 66,
+      "parentIndex": 65,
+      "tag": "tspan",
+      "attributes": {
+        "x": "21.6094",
+        "y": "362.32"
+      },
+      "text": "40"
+    },
+    {
+      "index": 67,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M40 358H289",
+        "stroke": "#E5E6EB",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 68,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 69,
+      "parentIndex": 68,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.973",
+        "y": "362.32"
+      },
+      "text": "40%"
+    },
+    {
+      "index": 70,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 71,
+      "parentIndex": 70,
+      "tag": "tspan",
+      "attributes": {
+        "x": "21.6094",
+        "y": "388.32"
+      },
+      "text": "20"
+    },
+    {
+      "index": 72,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M40 384H289",
+        "stroke": "#E5E6EB",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 73,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 74,
+      "parentIndex": 73,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.973",
+        "y": "388.32"
+      },
+      "text": "20%"
+    },
+    {
+      "index": 75,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 76,
+      "parentIndex": 75,
+      "tag": "tspan",
+      "attributes": {
+        "x": "28.8047",
+        "y": "414.32"
+      },
+      "text": "0"
+    },
+    {
+      "index": 77,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M40 410H289",
+        "stroke": "#E5E6EB",
+        "stroke-width": "0.5"
+      },
+      "text": null
+    },
+    {
+      "index": 78,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 79,
+      "parentIndex": 78,
+      "tag": "tspan",
+      "attributes": {
+        "x": "308.168",
+        "y": "414.32"
+      },
+      "text": "0%"
+    },
+    {
+      "index": 80,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "44.333",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 81,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "52.333",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 82,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 83,
+      "parentIndex": 82,
+      "tag": "tspan",
+      "attributes": {
+        "x": "48.9251",
+        "y": "428.32"
+      },
+      "text": "1"
+    },
+    {
+      "index": 84,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "65",
+        "y": "356",
+        "width": "6",
+        "height": "54",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 85,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "73",
+        "y": "385",
+        "width": "6",
+        "height": "25",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 86,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 87,
+      "parentIndex": 86,
+      "tag": "tspan",
+      "attributes": {
+        "x": "68.4027",
+        "y": "428.32"
+      },
+      "text": "2"
+    },
+    {
+      "index": 88,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "85.666",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 89,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "93.666",
+        "y": "385",
+        "width": "6",
+        "height": "25",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 90,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 91,
+      "parentIndex": 90,
+      "tag": "tspan",
+      "attributes": {
+        "x": "89.0687",
+        "y": "428.32"
+      },
+      "text": "3"
+    },
+    {
+      "index": 92,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "106.333",
+        "y": "356",
+        "width": "6",
+        "height": "54",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 93,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "114.333",
+        "y": "385",
+        "width": "6",
+        "height": "25",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 94,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 95,
+      "parentIndex": 94,
+      "tag": "tspan",
+      "attributes": {
+        "x": "109.736",
+        "y": "428.32"
+      },
+      "text": "4"
+    },
+    {
+      "index": 96,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "127",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 97,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "135",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 98,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 99,
+      "parentIndex": 98,
+      "tag": "tspan",
+      "attributes": {
+        "x": "130.403",
+        "y": "428.32"
+      },
+      "text": "5"
+    },
+    {
+      "index": 100,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "147.666",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 101,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "155.666",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 102,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 103,
+      "parentIndex": 102,
+      "tag": "tspan",
+      "attributes": {
+        "x": "151.069",
+        "y": "428.32"
+      },
+      "text": "6"
+    },
+    {
+      "index": 104,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "168.333",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 105,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "176.333",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 106,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 107,
+      "parentIndex": 106,
+      "tag": "tspan",
+      "attributes": {
+        "x": "172.052",
+        "y": "428.32"
+      },
+      "text": "7"
+    },
+    {
+      "index": 108,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "189",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 109,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "197",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 110,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 111,
+      "parentIndex": 110,
+      "tag": "tspan",
+      "attributes": {
+        "x": "192.403",
+        "y": "428.32"
+      },
+      "text": "8"
+    },
+    {
+      "index": 112,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "209.666",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 113,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "217.666",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 114,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 115,
+      "parentIndex": 114,
+      "tag": "tspan",
+      "attributes": {
+        "x": "213.069",
+        "y": "428.32"
+      },
+      "text": "9"
+    },
+    {
+      "index": 116,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "230.333",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 117,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "238.333",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 118,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 119,
+      "parentIndex": 118,
+      "tag": "tspan",
+      "attributes": {
+        "x": "231.327",
+        "y": "428.32"
+      },
+      "text": "10"
+    },
+    {
+      "index": 120,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "251",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 121,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "259",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 122,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 123,
+      "parentIndex": 122,
+      "tag": "tspan",
+      "attributes": {
+        "x": "253.184",
+        "y": "428.32"
+      },
+      "text": "11"
+    },
+    {
+      "index": 124,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "271.666",
+        "y": "306",
+        "width": "6",
+        "height": "104",
+        "rx": "3",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 125,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "279.666",
+        "y": "360",
+        "width": "6",
+        "height": "50",
+        "rx": "3",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 126,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 127,
+      "parentIndex": 126,
+      "tag": "tspan",
+      "attributes": {
+        "x": "272.66",
+        "y": "428.32"
+      },
+      "text": "12"
+    },
+    {
+      "index": 128,
+      "parentIndex": 0,
+      "tag": "g",
+      "attributes": {
+        "clip-path": "url(#clip3_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 129,
+      "parentIndex": 128,
+      "tag": "g",
+      "attributes": {
+        "clip-path": "url(#clip4_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 130,
+      "parentIndex": 129,
+      "tag": "path",
+      "attributes": {
+        "d": "M41 298.726C46.915 295.35 61.221 290.623 71.1252 298.726C83.5054 308.854 90.6584 310.276 102.488 298.726C114.318 287.176 119.683 292.507 131.238 305.123C142.793 317.739 152.284 316.14 159.437 311.964C166.59 307.788 182.548 295.616 195.34 295.616C206.772 295.616 221.203 305.656 243.898 303.524C266.595 301.391 274.401 283 283.377 283C292.353 283 300.572 290.73 308 299.259",
+        "stroke": "#959CF9",
+        "stroke-width": "1.5",
+        "stroke-linecap": "round"
+      },
+      "text": null
+    },
+    {
+      "index": 131,
+      "parentIndex": 0,
+      "tag": "line",
+      "attributes": {
+        "x1": "175.5",
+        "y1": "280.5",
+        "x2": "175.5",
+        "y2": "409.5",
+        "stroke": "black",
+        "stroke-opacity": "0.1",
+        "stroke-linecap": "round",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 132,
+      "parentIndex": 0,
+      "tag": "g",
+      "attributes": {
+        "filter": "url(#filter1_d_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 133,
+      "parentIndex": 132,
+      "tag": "circle",
+      "attributes": {
+        "cx": "175.654",
+        "cy": "301.654",
+        "r": "2.65352",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 134,
+      "parentIndex": 132,
+      "tag": "circle",
+      "attributes": {
+        "cx": "175.654",
+        "cy": "301.654",
+        "r": "1.90352",
+        "stroke": "#959CF9",
+        "stroke-width": "1.5"
+      },
+      "text": null
+    },
+    {
+      "index": 135,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M174.341 414.576C174.719 414.246 175.281 414.246 175.659 414.576L180.997 419.247C181.692 419.855 181.262 421 180.339 421H169.661C168.738 421 168.308 419.855 169.003 419.247L174.341 414.576Z",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 136,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "163",
+        "y": "416",
+        "width": "24",
+        "height": "16",
+        "rx": "2",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 137,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 138,
+      "parentIndex": 137,
+      "tag": "tspan",
+      "attributes": {
+        "x": "165.719",
+        "y": "428.32"
+      },
+      "text": "7月"
+    },
+    {
+      "index": 139,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "16",
+        "y": "478",
+        "width": "311",
+        "height": "114",
+        "rx": "4",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 140,
+      "parentIndex": 0,
+      "tag": "mask",
+      "attributes": {
+        "id": "path-98-inside-1_6695_316197",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 141,
+      "parentIndex": 140,
+      "tag": "path",
+      "attributes": {
+        "d": "M16 478H119.667V502H16V478Z"
+      },
+      "text": null
+    },
+    {
+      "index": 142,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M119.667 502V501.5H16V502V502.5H119.667V502Z",
+        "fill": "#E5E6EB",
+        "mask": "url(#path-98-inside-1_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 143,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 144,
+      "parentIndex": 143,
+      "tag": "tspan",
+      "attributes": {
+        "x": "16",
+        "y": "492.32"
+      },
+      "text": "类型"
+    },
+    {
+      "index": 145,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "16",
+        "y": "517",
+        "width": "8",
+        "height": "8",
+        "rx": "2",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 146,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 147,
+      "parentIndex": 146,
+      "tag": "tspan",
+      "attributes": {
+        "x": "28",
+        "y": "526.04"
+      },
+      "text": "已收楼户数"
+    },
+    {
+      "index": 148,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "16",
+        "y": "547",
+        "width": "8",
+        "height": "8",
+        "rx": "2",
+        "fill": "#66A7FF"
+      },
+      "text": null
+    },
+    {
+      "index": 149,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 150,
+      "parentIndex": 149,
+      "tag": "tspan",
+      "attributes": {
+        "x": "28",
+        "y": "556.04"
+      },
+      "text": "已签约户数"
+    },
+    {
+      "index": 151,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "16",
+        "y": "577",
+        "width": "8",
+        "height": "8",
+        "rx": "2",
+        "fill": "#959CF9"
+      },
+      "text": null
+    },
+    {
+      "index": 152,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 153,
+      "parentIndex": 152,
+      "tag": "tspan",
+      "attributes": {
+        "x": "28",
+        "y": "586.04"
+      },
+      "text": "签约率"
+    },
+    {
+      "index": 154,
+      "parentIndex": 0,
+      "tag": "mask",
+      "attributes": {
+        "id": "path-107-inside-2_6695_316197",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 155,
+      "parentIndex": 154,
+      "tag": "path",
+      "attributes": {
+        "d": "M119.667 478H223.334V502H119.667V478Z"
+      },
+      "text": null
+    },
+    {
+      "index": 156,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M223.334 502V501.5H119.667V502V502.5H223.334V502Z",
+        "fill": "#E5E6EB",
+        "mask": "url(#path-107-inside-2_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 157,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 158,
+      "parentIndex": 157,
+      "tag": "tspan",
+      "attributes": {
+        "x": "187.334",
+        "y": "492.32"
+      },
+      "text": "实际值"
+    },
+    {
+      "index": 159,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 160,
+      "parentIndex": 159,
+      "tag": "tspan",
+      "attributes": {
+        "x": "172.803",
+        "y": "526.04"
+      },
+      "text": "67.42万"
+    },
+    {
+      "index": 161,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 162,
+      "parentIndex": 161,
+      "tag": "tspan",
+      "attributes": {
+        "x": "175.578",
+        "y": "556.04"
+      },
+      "text": "78.14万"
+    },
+    {
+      "index": 163,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 164,
+      "parentIndex": 163,
+      "tag": "tspan",
+      "attributes": {
+        "x": "172.064",
+        "y": "586.04"
+      },
+      "text": "54.02万"
+    },
+    {
+      "index": 165,
+      "parentIndex": 0,
+      "tag": "mask",
+      "attributes": {
+        "id": "path-113-inside-3_6695_316197",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 166,
+      "parentIndex": 165,
+      "tag": "path",
+      "attributes": {
+        "d": "M223.333 478H327V502H223.333V478Z"
+      },
+      "text": null
+    },
+    {
+      "index": 167,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M327 502V501.5H223.333V502V502.5H327V502Z",
+        "fill": "#E5E6EB",
+        "mask": "url(#path-113-inside-3_6695_316197)"
+      },
+      "text": null
+    },
+    {
+      "index": 168,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 169,
+      "parentIndex": 168,
+      "tag": "tspan",
+      "attributes": {
+        "x": "303",
+        "y": "492.32"
+      },
+      "text": "上期"
+    },
+    {
+      "index": 170,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 171,
+      "parentIndex": 170,
+      "tag": "tspan",
+      "attributes": {
+        "x": "276.469",
+        "y": "526.04"
+      },
+      "text": "76.80万"
+    },
+    {
+      "index": 172,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 173,
+      "parentIndex": 172,
+      "tag": "tspan",
+      "attributes": {
+        "x": "276.469",
+        "y": "556.04"
+      },
+      "text": "75.46万"
+    },
+    {
+      "index": 174,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#444F60",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 175,
+      "parentIndex": 174,
+      "tag": "tspan",
+      "attributes": {
+        "x": "275.73",
+        "y": "586.04"
+      },
+      "text": "62.06万"
+    },
+    {
+      "index": 176,
+      "parentIndex": 0,
+      "tag": "defs",
+      "attributes": {},
+      "text": null
+    },
+    {
+      "index": 177,
+      "parentIndex": 176,
+      "tag": "filter",
+      "attributes": {
+        "id": "filter0_dd_6695_316197",
+        "x": "215",
+        "y": "18",
+        "width": "60",
+        "height": "40",
+        "filterUnits": "userSpaceOnUse",
+        "color-interpolation-filters": "sRGB"
+      },
+      "text": null
+    },
+    {
+      "index": 178,
+      "parentIndex": 177,
+      "tag": "feFlood",
+      "attributes": {
+        "flood-opacity": "0",
+        "result": "BackgroundImageFix"
+      },
+      "text": null
+    },
+    {
+      "index": 179,
+      "parentIndex": 177,
+      "tag": "feColorMatrix",
+      "attributes": {
+        "in": "SourceAlpha",
+        "type": "matrix",
+        "values": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+        "result": "hardAlpha"
+      },
+      "text": null
+    },
+    {
+      "index": 180,
+      "parentIndex": 177,
+      "tag": "feMorphology",
+      "attributes": {
+        "radius": "4",
+        "operator": "erode",
+        "in": "SourceAlpha",
+        "result": "effect1_dropShadow_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 181,
+      "parentIndex": 177,
+      "tag": "feOffset",
+      "attributes": {
+        "dy": "16"
+      },
+      "text": null
+    },
+    {
+      "index": 182,
+      "parentIndex": 177,
+      "tag": "feGaussianBlur",
+      "attributes": {
+        "stdDeviation": "4"
+      },
+      "text": null
+    },
+    {
+      "index": 183,
+      "parentIndex": 177,
+      "tag": "feColorMatrix",
+      "attributes": {
+        "type": "matrix",
+        "values": "0 0 0 0 0.105882 0 0 0 0 0.180392 0 0 0 0 0.368627 0 0 0 0.03 0"
+      },
+      "text": null
+    },
+    {
+      "index": 184,
+      "parentIndex": 177,
+      "tag": "feBlend",
+      "attributes": {
+        "mode": "normal",
+        "in2": "BackgroundImageFix",
+        "result": "effect1_dropShadow_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 185,
+      "parentIndex": 177,
+      "tag": "feColorMatrix",
+      "attributes": {
+        "in": "SourceAlpha",
+        "type": "matrix",
+        "values": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+        "result": "hardAlpha"
+      },
+      "text": null
+    },
+    {
+      "index": 186,
+      "parentIndex": 177,
+      "tag": "feMorphology",
+      "attributes": {
+        "radius": "6",
+        "operator": "erode",
+        "in": "SourceAlpha",
+        "result": "effect2_dropShadow_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 187,
+      "parentIndex": 177,
+      "tag": "feOffset",
+      "attributes": {
+        "dy": "4"
+      },
+      "text": null
+    },
+    {
+      "index": 188,
+      "parentIndex": 177,
+      "tag": "feGaussianBlur",
+      "attributes": {
+        "stdDeviation": "4"
+      },
+      "text": null
+    },
+    {
+      "index": 189,
+      "parentIndex": 177,
+      "tag": "feColorMatrix",
+      "attributes": {
+        "type": "matrix",
+        "values": "0 0 0 0 0.105882 0 0 0 0 0.180392 0 0 0 0 0.368627 0 0 0 0.03 0"
+      },
+      "text": null
+    },
+    {
+      "index": 190,
+      "parentIndex": 177,
+      "tag": "feBlend",
+      "attributes": {
+        "mode": "normal",
+        "in2": "effect1_dropShadow_6695_316197",
+        "result": "effect2_dropShadow_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 191,
+      "parentIndex": 177,
+      "tag": "feBlend",
+      "attributes": {
+        "mode": "normal",
+        "in": "SourceGraphic",
+        "in2": "effect2_dropShadow_6695_316197",
+        "result": "shape"
+      },
+      "text": null
+    },
+    {
+      "index": 192,
+      "parentIndex": 176,
+      "tag": "filter",
+      "attributes": {
+        "id": "filter1_d_6695_316197",
+        "x": "173",
+        "y": "299",
+        "width": "5.30664",
+        "height": "5.30664",
+        "filterUnits": "userSpaceOnUse",
+        "color-interpolation-filters": "sRGB"
+      },
+      "text": null
+    },
+    {
+      "index": 193,
+      "parentIndex": 192,
+      "tag": "feFlood",
+      "attributes": {
+        "flood-opacity": "0",
+        "result": "BackgroundImageFix"
+      },
+      "text": null
+    },
+    {
+      "index": 194,
+      "parentIndex": 192,
+      "tag": "feColorMatrix",
+      "attributes": {
+        "in": "SourceAlpha",
+        "type": "matrix",
+        "values": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+        "result": "hardAlpha"
+      },
+      "text": null
+    },
+    {
+      "index": 195,
+      "parentIndex": 192,
+      "tag": "feOffset",
+      "attributes": {},
+      "text": null
+    },
+    {
+      "index": 196,
+      "parentIndex": 192,
+      "tag": "feComposite",
+      "attributes": {
+        "in2": "hardAlpha",
+        "operator": "out"
+      },
+      "text": null
+    },
+    {
+      "index": 197,
+      "parentIndex": 192,
+      "tag": "feColorMatrix",
+      "attributes": {
+        "type": "matrix",
+        "values": "0 0 0 0 0.337255 0 0 0 0 0.721569 0 0 0 0 1 0 0 0 0.25 0"
+      },
+      "text": null
+    },
+    {
+      "index": 198,
+      "parentIndex": 192,
+      "tag": "feBlend",
+      "attributes": {
+        "mode": "normal",
+        "in2": "BackgroundImageFix",
+        "result": "effect1_dropShadow_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 199,
+      "parentIndex": 192,
+      "tag": "feBlend",
+      "attributes": {
+        "mode": "normal",
+        "in": "SourceGraphic",
+        "in2": "effect1_dropShadow_6695_316197",
+        "result": "shape"
+      },
+      "text": null
+    },
+    {
+      "index": 200,
+      "parentIndex": 176,
+      "tag": "clipPath",
+      "attributes": {
+        "id": "clip0_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 201,
+      "parentIndex": 200,
+      "tag": "rect",
+      "attributes": {
+        "x": "217",
+        "y": "16",
+        "width": "110",
+        "height": "24",
+        "rx": "4",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 202,
+      "parentIndex": 176,
+      "tag": "clipPath",
+      "attributes": {
+        "id": "clip1_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 203,
+      "parentIndex": 202,
+      "tag": "rect",
+      "attributes": {
+        "x": "16",
+        "y": "232",
+        "width": "143.5",
+        "height": "22",
+        "rx": "8",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 204,
+      "parentIndex": 176,
+      "tag": "clipPath",
+      "attributes": {
+        "id": "clip2_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 205,
+      "parentIndex": 204,
+      "tag": "rect",
+      "attributes": {
+        "x": "183.5",
+        "y": "232",
+        "width": "143.5",
+        "height": "22",
+        "rx": "8",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 206,
+      "parentIndex": 176,
+      "tag": "clipPath",
+      "attributes": {
+        "id": "clip3_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 207,
+      "parentIndex": 206,
+      "tag": "rect",
+      "attributes": {
+        "width": "249",
+        "height": "107",
+        "fill": "white",
+        "transform": "translate(40 282)"
+      },
+      "text": null
+    },
+    {
+      "index": 208,
+      "parentIndex": 176,
+      "tag": "clipPath",
+      "attributes": {
+        "id": "clip4_6695_316197"
+      },
+      "text": null
+    },
+    {
+      "index": 209,
+      "parentIndex": 208,
+      "tag": "rect",
+      "attributes": {
+        "width": "269",
+        "height": "34",
+        "fill": "white",
+        "transform": "translate(40 282)"
+      },
+      "text": null
+    }
+  ]
+}

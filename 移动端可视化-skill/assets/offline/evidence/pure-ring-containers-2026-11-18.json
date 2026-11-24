@@ -1,0 +1,247 @@
+[
+  {
+    "page": "7958:124690",
+    "name": "收费率-账单主体",
+    "panel": "7958:124699",
+    "children": [
+      {
+        "id": "7958:124700",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:124701",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 190
+      }
+    ]
+  },
+  {
+    "page": "7958:124743",
+    "name": "收费率-账单主体",
+    "panel": "7958:124752",
+    "children": [
+      {
+        "id": "7958:124753",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:124754",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 190
+      }
+    ]
+  },
+  {
+    "page": "7958:124796",
+    "name": "收费率-账单主体",
+    "panel": "7958:124805",
+    "children": [
+      {
+        "id": "7958:124806",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:124807",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 190
+      }
+    ]
+  },
+  {
+    "page": "7958:124849",
+    "name": "收费率-账单主体",
+    "panel": "7958:124858",
+    "children": [
+      {
+        "id": "7958:124859",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:124860",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 190
+      }
+    ]
+  },
+  {
+    "page": "7958:124902",
+    "name": "收费率-账单主体",
+    "panel": "7958:124911",
+    "children": [
+      {
+        "id": "7958:124912",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:124913",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 190
+      }
+    ]
+  },
+  {
+    "page": "7958:124955",
+    "name": "进度0值",
+    "panel": "7958:124964",
+    "children": [
+      {
+        "id": "7958:124965",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:124966",
+        "name": "数据",
+        "type": "FRAME",
+        "width": 343,
+        "height": 60
+      },
+      {
+        "id": "7958:124985",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 92
+      }
+    ]
+  },
+  {
+    "page": "7958:125023",
+    "name": "进度正常",
+    "panel": "7958:125032",
+    "children": [
+      {
+        "id": "7958:125033",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:125034",
+        "name": "数据",
+        "type": "FRAME",
+        "width": 343,
+        "height": 60
+      },
+      {
+        "id": "7958:125053",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 92
+      }
+    ]
+  },
+  {
+    "page": "7958:125091",
+    "name": "进度百分百",
+    "panel": "7958:125100",
+    "children": [
+      {
+        "id": "7958:125101",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:125102",
+        "name": "数据",
+        "type": "FRAME",
+        "width": 343,
+        "height": 60
+      },
+      {
+        "id": "7958:125121",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 92
+      }
+    ]
+  },
+  {
+    "page": "7958:125159",
+    "name": "进度超百",
+    "panel": "7958:125168",
+    "children": [
+      {
+        "id": "7958:125169",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:125170",
+        "name": "数据",
+        "type": "FRAME",
+        "width": 343,
+        "height": 60
+      },
+      {
+        "id": "7958:125189",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 92
+      }
+    ]
+  },
+  {
+    "page": "7958:125227",
+    "name": "进度负值",
+    "panel": "7958:125236",
+    "children": [
+      {
+        "id": "7958:125237",
+        "name": "Chart Card ",
+        "type": "INSTANCE",
+        "width": 343,
+        "height": 192
+      },
+      {
+        "id": "7958:125238",
+        "name": "数据",
+        "type": "FRAME",
+        "width": 343,
+        "height": 60
+      },
+      {
+        "id": "7958:125257",
+        "name": "Table",
+        "type": "FRAME",
+        "width": 343,
+        "height": 92
+      }
+    ]
+  }
+]

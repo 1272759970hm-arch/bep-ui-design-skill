@@ -1,0 +1,24 @@
+﻿组件ID,名称,Key,组件集,实例数
+4424:48939,"类型=基础用法, 数量=3",e46d24d3e00ac2e29b9d20f2cbd0ace3fd5b4032,Tabs,3
+4424:48891,"Active=Yes, 类型=line",4bd8ba427be90bc597c04d93141b573a28cabc27,Tab-line,3
+4424:48898,"Active=No, 类型=line",2241ed4532eff614c85dfbfdcbb2dd359b6b1c53,Tab-line,6
+1515:904,Divider,a03fa6615ff7cc02bcc8548723d87343977441d1,,3
+4424:50100,Chart Card ,d805fcc82761cf687a5bf3abaaff66818fc4bafd,,3
+4424:49953,"类型=环形, 数量=3",b7c016c35abd821b71004585476b41ea70b24f88,环形图,1
+4424:50117,Type=Legend,5b2ae30d8482aa02162eefc4b3d38f0820b7fbbb,Table Cell (Mobile),9
+4424:48656,Dot & Label,257e6c20ff350889046bc99cc030e1b207b7dada,,13
+1564:502, Outline / info,57ba311a78169fd355904c93f417d43d7c93e361,,1
+4424:50023,"类型=环形, 数量=6",99b52cfb3d010b539fa10c835c8342dccc689b67,环形图,1
+4424:48957,"类型=分段选择器, 数量=2",9e35cb390c52aa7536d0ffb69503d0b18d988316,Tabs,1
+1515:481, Outline / swap,e172881a50fc53f5c7daf219d8a9d26e82fab809,,1
+4424:46869,"Type=Empty, Disabled=No",30cc2166c566129b6e44111f1ae972d6a06c161e,Checkbox,1
+4424:50265,"类型=单轴, 同期=No, 图示=Yes",a3df20c6cdef754aa5d3d74df3226ecadaae5e4a,坐标轴,1
+4424:46866,"Type=Checked, Disabled=No",0e94b047c6a0b9a50abd31876ad8baf330df0bdf,Checkbox,4
+4424:46442, Outline / checkmark,94e997851d036a6f47865ff799f7546334eec1f3,,4
+4424:50168,"Property 1=刻度, 类型=单轴",2463c587463a6b09fb7ae9b568399597e4c93391,Y轴,5
+4424:50175,"Property 1=零刻度, 类型=单轴",89aec612dcc68f1be964705e1c7fab3d01a5f2dd,Y轴,1
+4424:50218,Property 1=月份,3593a4434b89fe36d75943832ea9b02db1a41442,X轴,1
+4424:50252,"趋势=1, 类型=单值",1b40c079f0f287ac969335a0bc31d155e6cde652,Chart,1
+4424:50254,"趋势=2, 类型=累计",20aae4f7995cba471bcf8017ab1b739eb52aa80e,Chart,1
+4424:50256,"趋势=3, 类型=累计",ecaccb2dbade23591a1a392734b9b0bf3d4f7b3d,Chart,1
+4424:50260,"趋势=5, 类型=累计",cd34a62ac8b8a1e0969e41d111213814de839d46,Chart,1

@@ -1,0 +1,35 @@
+<svg width="343" height="326" viewBox="0 0 343 326" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="16" width="327" height="310" rx="12" fill="white"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="20" y="32.04">&#x5b9e;&#x9645;&#x503c;(XX&#x4ebf;&#x5143;)</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="32" letter-spacing="0em"><tspan x="20" y="61.52">66.6</tspan></text>
+<text fill="black" fill-opacity="0.85" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="87" y="61.04">%</tspan></text>
+<path d="M16 81C16 78.7909 17.7909 77 20 77H266V117H20C17.7909 117 16 115.209 16 113V81Z" fill="#66A6FF" fill-opacity="0.14"/>
+<path d="M16 81C16 78.7909 17.7909 77 20 77H155V117H20C17.7909 117 16 115.209 16 113V81Z" fill="#BEF7FF"/>
+<rect x="20" y="83" width="108" height="28" rx="4" fill="#66A6FF"/>
+<rect x="130" y="83" width="19" height="28" rx="4" fill="#00C3D0"/>
+<rect x="266" y="124" width="54" height="2" transform="rotate(-90 266 124)" fill="#8EAAD4"/>
+<text fill="#8EAAD4" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="276" y="91.04">&#x8d44;&#x91d1;&#x6d41;&#x6c34;</tspan></text>
+<text fill="#8EAAD4" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="16" letter-spacing="0px"><tspan x="276" y="112.96">3.84</tspan></text>
+<text fill="#8EAAD4" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="310" y="111.84">&#x4ebf;</tspan></text>
+<path d="M155 52L155 124" stroke="#8EAAD4" stroke-dasharray="4 2"/>
+<g clip-path="url(#clip0_7896_93819)">
+<rect x="55.25" y="162.5" width="9" height="9" rx="2" fill="#66A7FF"/>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="16" letter-spacing="0em"><tspan x="68.25" y="172.76">&#x5145;&#x7535;&#x6536;&#x76ca;</tspan></text>
+<path d="M171.5 152C171.5 145.373 176.873 140 183.5 140H315C321.627 140 327 145.373 327 152V194H171.5V152Z" fill="#33C1C1" fill-opacity="0.06"/>
+<rect x="210.75" y="162.5" width="9" height="9" rx="2" fill="#33C1C1"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="16" letter-spacing="0em"><tspan x="223.75" y="172.76">&#x589e;&#x503c;&#x6536;&#x76ca;</tspan></text>
+</g>
+<path d="M16 194H315C321.627 194 327 199.373 327 206V310H16V194Z" fill="#33C1C1" fill-opacity="0.06"/>
+<rect x="28" y="210" width="287" height="84" rx="8" fill="white"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="64" y="234.04">&#x672c;&#x671f;&#10;</tspan><tspan x="64" y="256.04">&#x589e;&#x503c;&#x6536;&#x76ca;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="64.7188" y="280.472">XX</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="14" letter-spacing="0em"><tspan x="84" y="279.523">&#x5143;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="223" y="234.04">&#x7d2f;&#x8ba1;&#10;</tspan><tspan x="223" y="256.04">&#x589e;&#x503c;&#x6536;&#x76ca;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="223.719" y="280.472">XX</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="DIN" font-size="14" letter-spacing="0em"><tspan x="243" y="279.523">&#x5143;</tspan></text>
+<defs>
+<clipPath id="clip0_7896_93819">
+<rect width="311" height="54" fill="white" transform="translate(16 140)"/>
+</clipPath>
+</defs>
+</svg>

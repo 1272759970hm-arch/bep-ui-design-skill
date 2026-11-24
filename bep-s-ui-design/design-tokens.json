@@ -1,0 +1,776 @@
+{
+  "$schemaVersion": "1.0",
+  "registryDate": "2026-11-03",
+  "sourceFile": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+  "usageRule": {
+    "FOUND_IN_FIGMA": "可以直接作为正式设计依据写入生成结果",
+    "INFERRED": "只能作为建议值，使用时必须声明'这是推算出来的建议值，不是库里明文定义的Token'，不得当正式Token使用",
+    "NOT_DEFINED": "库内没有定义，禁止自行发明一个'官方Token'",
+    "AI_PROPOSED": "库内完全没有相关线索，纯AI建议值，使用时必须声明'该值为AI建议值，并非当前设计系统正式规范'，禁止包装成BEP-S Token/Rule/Specification",
+    "USER_OVERRIDE": "用户直接下达的替换指令，优先级最高，高于FOUND_IN_FIGMA——因为用户的当前意图比历史读取的Figma数据更权威。使用时必须标注originalFigmaValue，让人知道这是改过的，不是Figma原状。",
+    "PLACEHOLDER_PENDING_DESIGN": "2025-08新增。用于'找遍了真实可用来源都不满足要求，业务方决定等设计团队出定制资产，当前先用占位内容撑版面'的场景——跟AI_PROPOSED不是一回事：AI_PROPOSED是'没有更好来源，AI给一个建议值/近似图形长期顶替'；PLACEHOLDER_PENDING_DESIGN是'明确知道当前内容不是最终方案，只是临时占位，必须在报告里说明后续要替换成谁出的定制资产'，不能被当作正式设计结论看待或直接拿去做视觉走查/验收。"
+  },
+  "color": {
+    "color.brand.1": {
+      "value": "#00B1B4",
+      "status": "USER_OVERRIDE",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "6%透明度，浅色/背景悬浮；⚠️ 2025-08 用户直接指令：主色替换为 #00B1B4（原Figma读值 #006D9B）。这不是对Figma读取错误的更正——#006D9B 是2025-08从色彩规范画板截图直接读到的真实值，读取本身没有问题。这是用户主动要求的覆盖，状态标记为 USER_OVERRIDE，不再是 FOUND_IN_FIGMA，因为它已经不是Figma里的原值了。",
+      "originalFigmaValue": "#006D9B"
+    },
+    "color.brand.2": {
+      "value": "#00B1B4",
+      "status": "USER_OVERRIDE",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "40%透明度，一般界面；⚠️ 2025-08 用户直接指令：主色替换为 #00B1B4（原Figma读值 #006D9B）。这不是对Figma读取错误的更正——#006D9B 是2025-08从色彩规范画板截图直接读到的真实值，读取本身没有问题。这是用户主动要求的覆盖，状态标记为 USER_OVERRIDE，不再是 FOUND_IN_FIGMA，因为它已经不是Figma里的原值了。",
+      "originalFigmaValue": "#006D9B"
+    },
+    "color.brand.3": {
+      "value": "#00B1B4",
+      "status": "USER_OVERRIDE",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "常规，品牌主色；⚠️ 2025-08 用户直接指令：主色替换为 #00B1B4（原Figma读值 #006D9B）。这不是对Figma读取错误的更正——#006D9B 是2025-08从色彩规范画板截图直接读到的真实值，读取本身没有问题。这是用户主动要求的覆盖，状态标记为 USER_OVERRIDE，不再是 FOUND_IN_FIGMA，因为它已经不是Figma里的原值了。",
+      "originalFigmaValue": "#006D9B"
+    },
+    "color.brand.4": {
+      "value": "#00686A",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11修正：点击态为品牌色加深实值 #00686A（旧记录写成'#00B1B4 20%黑叠加'，实际画板读值为 #00686A）"
+    },
+    "color.auxiliary.6": {
+      "value": "#00B42A",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "麦蓝绿"
+    },
+    "color.auxiliary.3": {
+      "value": "#4584FF",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "恋尾蓝"
+    },
+    "color.auxiliary.2": {
+      "value": "#FFCA3E",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "沥青黄"
+    },
+    "color.auxiliary.1": {
+      "value": "#FF7D00",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "海棠橙"
+    },
+    "color.auxiliary.red": {
+      "value": "#F53F3F",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "番茄红；原图层标签也标Auxiliary-1，疑似笔误，用前建议核实"
+    },
+    "color.line.1": {
+      "value": "#EEEEEE",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "分割线"
+    },
+    "color.fill.1": {
+      "value": "#F7F8FA",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "浅/常用背景"
+    },
+    "color.fill.2": {
+      "value": "#F2F3F5",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "常规/白底悬浮"
+    },
+    "color.fill.3": {
+      "value": "#E5E8EB",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "深/灰底"
+    },
+    "color.fill.4": {
+      "value": "#C9CDD4",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "重/特殊场景"
+    },
+    "color.white": {
+      "value": "#FFFFFF",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "纯白填充"
+    },
+    "color.text.2": {
+      "value": "#CCCFD6",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "提示信息/禁用"
+    },
+    "color.text.3": {
+      "value": "#9199A2",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "次要信息/弱"
+    },
+    "color.text.4": {
+      "value": "#444F60",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "次强调/正文辅题；同时是icon颜色Token"
+    },
+    "color.text.5": {
+      "value": "#22262F",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "极黑/正文标题"
+    },
+    "color.success.1": {
+      "value": "#E8FFEA",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "成功·浅色背景"
+    },
+    "color.success.2": {
+      "value": "#AFF0B5",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "成功·特殊场景"
+    },
+    "color.success.3": {
+      "value": "#7BE188",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "成功·弱用"
+    },
+    "color.success.6": {
+      "value": "#19CC2C",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "成功·常规"
+    },
+    "color.success.7": {
+      "value": "#009A29",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "成功·点击"
+    },
+    "color.warning.1": {
+      "value": "#FFF7E8",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "警告·浅色背景"
+    },
+    "color.warning.2": {
+      "value": "#FFE4BA",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "警告·特殊场景"
+    },
+    "color.warning.3": {
+      "value": "#FFC98F",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "警告·弱用（约）"
+    },
+    "color.warning.6": {
+      "value": "#FF8000",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "警告·常规"
+    },
+    "color.warning.7": {
+      "value": "#D25F00",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "警告·点击"
+    },
+    "color.danger.1": {
+      "value": "#FFECE8",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "错误·浅色背景"
+    },
+    "color.danger.2": {
+      "value": "#FDCDC5",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "错误·特殊场景"
+    },
+    "color.danger.3": {
+      "value": "#FBACA3",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "错误·弱用"
+    },
+    "color.danger.6": {
+      "value": "#FF3636",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "错误·常规"
+    },
+    "color.danger.7": {
+      "value": "#CB2634",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（视觉读取，文件未绑定Figma Variables，get_variable_defs返回为空）",
+      "verified": true,
+      "note": "错误·点击"
+    },
+    "color.brand.disabled": {
+      "value": "rgba(0,177,180,0.40)",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "主按钮禁用底"
+    },
+    "color.brand.tint16": {
+      "value": "rgba(0,177,180,0.16)",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "选中态浅底：胶囊 Tab 二级选中、轻量选中块。⚠️ 不用于语义标签——标签用 color.brand.tint10（10%）",
+      "scope": "胶囊Tab二级选中 / 轻量选中块"
+    },
+    "color.brand.tint10": {
+      "value": "rgba(0,177,180,0.10)",
+      "status": "FOUND_IN_DRAFT",
+      "source": "真实设计稿 11 屏 18 处标签实测（fileKey fPXf32BNenYcBTgjZCmxz9 / node 9040:24272）",
+      "verified": true,
+      "scope": "语义标签 Tag 浅底（品牌/进行中档）",
+      "note": "语义标签底一律 10%，与文字 #00B1B4 同源"
+    },
+    "color.brand.tint14": {
+      "value": "rgba(0,177,180,0.14)",
+      "status": "FOUND_IN_DRAFT",
+      "source": "真实设计稿筛选胶囊选中态实测",
+      "verified": true,
+      "scope": "页面级筛选胶囊选中底",
+      "note": "页面级 chip 选中用 14%，与标签 10%、二级胶囊 16% 三档分开，见 constraints C-68/C-73"
+    },
+    "color.tag.neutral": {
+      "value": "rgba(111,135,158,0.10)",
+      "status": "FOUND_IN_DRAFT",
+      "source": "真实设计稿中最常见的标签配色（18 处标签中 9 处）",
+      "verified": true,
+      "scope": "中性标签底（未开始/已结束/未知/分类信息）",
+      "note": "配 #6F879E 字。旧记录 #F2F3F5 底 + #444F60 字已作废——太实、太暗，看着像按钮"
+    },
+    "color.tag.neutralText": {
+      "value": "#6F879E",
+      "status": "FOUND_IN_DRAFT",
+      "source": "真实设计稿标签文字实测",
+      "verified": true,
+      "scope": "中性标签文字",
+      "note": "石板灰，介于 text.3 #9199A2 与 text.4 #444F60 之间"
+    },
+    "color.tag.warningText": {
+      "value": "#FFA645",
+      "status": "FOUND_IN_DRAFT",
+      "source": "真实设计稿警告标签文字实测（底 rgba(255,166,69,0.10)）",
+      "verified": true,
+      "scope": "警告/待处理标签文字",
+      "note": "旧记 #FF7D00 过深、#FFCA3E 过浅且与底不同源，均作废；底与字必须同为 255,166,69 色相"
+    },
+    "color.brand.soft": {
+      "value": "#F0F6F9",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "辅助按钮默认底"
+    },
+    "color.brand.softActive": {
+      "value": "#9AC5D8",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "辅助按钮点击态 / 线框按钮禁用描边"
+    }
+  },
+  "typography": {
+    "font.size": {
+      "value": [
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        22,
+        24
+      ],
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11修正：补入 11/12/17 三档（标签与大标签、辅助注脚在用）"
+    },
+    "font.size.careMode": {
+      "value": [
+        20,
+        22,
+        24,
+        26,
+        30,
+        32,
+        36
+      ],
+      "status": "FOUND_IN_FIGMA",
+      "source": "字体排版画板",
+      "verified": true,
+      "note": "关怀版/适老化放大字号，与基础字号的逐一对应表 NOT_DEFINED"
+    },
+    "font.weight": {
+      "value": [
+        "Regular",
+        "Medium",
+        "Semibold"
+      ],
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11修正：画板中 Semibold 亦在使用（导航栏标题、页面标题）"
+    },
+    "font.family.zh": {
+      "value": "Source Han Sans (思源黑体)",
+      "status": "FOUND_IN_FIGMA",
+      "source": "字体排版画板",
+      "verified": true
+    },
+    "font.family.runtimeSubstitute": {
+      "value": "Noto Sans SC",
+      "status": "AI_PROPOSED",
+      "source": "2025-08 Figma MCP 运行环境实测：PingFang SC 不可用，loadFontAsync 报错",
+      "verified": true,
+      "note": "该值为环境限制下的等效替代，非BEP-S正式规范；Noto Sans SC与思源黑体是同一字库项目的两个发行版本（Google/Adobe），视觉等效。可用字重 Black/Bold/DemiLight/Light/Medium/Regular/Thin，无Semibold，需要Semibold时用Medium顶替"
+    },
+    "font.family.fallback": {
+      "value": "iOS系统字体 / Android系统字体",
+      "status": "INFERRED",
+      "source": "字体排版画板",
+      "verified": true,
+      "note": "只标注了平台名，未标注具体字族（如SF Pro/Roboto）"
+    },
+    "font.lineHeight.ratio": {
+      "value": 1.4,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11修正：画板图层 lineHeight 实值为 140%（18→25.2、24→33.6、100→140）。画板注释文字写'1.5倍'属标注遗留，以渲染实值为准。旧记录 ×1.5 作废"
+    },
+    "font.lineHeight.px": {
+      "value": "字号 × 1.4",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11由 NOT_DEFINED 补齐"
+    }
+  },
+  "spacing": {
+    "spacing.page.marginX": {
+      "value": 16,
+      "status": "FOUND_IN_FIGMA",
+      "source": "间距规范画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "spacing.module.gap": {
+      "value": 12,
+      "status": "FOUND_IN_FIGMA",
+      "source": "间距规范画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "spacing.navbar.height": {
+      "value": 44,
+      "status": "FOUND_IN_FIGMA",
+      "source": "间距规范画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "spacing.statusbar.height": {
+      "value": 44,
+      "status": "FOUND_IN_FIGMA",
+      "source": "间距规范画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "spacing.tabbar.height": {
+      "value": 50,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11修正：底部导航组件实值 375×50（iPhone 678）。旧记录 56px 来自间距画板注释，与组件实现冲突，按组件优先取 50"
+    },
+    "spacing.safeArea.bottom": {
+      "value": 34,
+      "status": "FOUND_IN_FIGMA",
+      "source": "间距规范画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "spacing.fieldLabelToControl": {
+      "value": 8,
+      "status": "INFERRED",
+      "source": "从Input组件60px高度内部比例反推",
+      "verified": false,
+      "note": "非库内明文Token，使用时需声明为推算建议值"
+    },
+    "spacing.radioOptionGap": {
+      "value": 24,
+      "status": "INFERRED",
+      "source": "视觉留白经验值",
+      "verified": false,
+      "note": "无对应Token，使用时需声明"
+    },
+    "spacing.checkboxChipGap": {
+      "value": 8,
+      "status": "INFERRED",
+      "source": "视觉留白经验值",
+      "verified": false,
+      "note": "无对应Token，使用时需声明"
+    },
+    "spacing.tabbar.heightWithSafeArea": {
+      "value": 84,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "iPhone X 及之后：50 内容区 + 34 安全区"
+    },
+    "spacing.contentTop": {
+      "value": 12,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11由 NOT_DEFINED 补齐：导航下方首个模块间距"
+    }
+  },
+  "radius": {
+    "radius.button": {
+      "value": 4,
+      "status": "FOUND_IN_FIGMA",
+      "source": "圆角画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "radius.card": {
+      "value": 8,
+      "status": "USER_OVERRIDE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11修正：圆角画板标注'卡片矩形高度 h=220px 圆角为8px'，卡片画板主卡实值亦为 8px；用户确认统一 8px。旧记录 6px 作废",
+      "originalFigmaValue": 6
+    },
+    "radius.tag": {
+      "value": 2,
+      "status": "FOUND_IN_FIGMA",
+      "source": "标签画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "radius.inputField": {
+      "value": 0,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "2026-11修正：Input/选择触发行本身为直角列表行（0），圆角仅在内部内容框（6px）"
+    },
+    "radius.input": {
+      "value": 6,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "输入框内容框圆角"
+    },
+    "radius.pill": {
+      "value": "高度 ÷ 2",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "胶囊按钮/胶囊Tab；画板示例 h40→r20、h38→r21、h32→r21（画板取整值）"
+    }
+  },
+  "shadow": {
+    "shadow.card": {
+      "value": "x:0 y:2 blur:4 #02192A 10%",
+      "status": "FOUND_IN_FIGMA",
+      "source": "投影规范画板",
+      "verified": true,
+      "note": "⚠️ 2025-08 用户两次直接更正：卡片默认既不用投影也不用描边，只靠卡片背景色(白)跟页面背景色(color.fill.1/fill.2)的对比来区隔。这个投影数值本身仍FOUND_IN_FIGMA（规范画板确实记录了'有投影'变体），但默认不应用，投影和描边都只在用户明确要求时才加。"
+    },
+    "overlay.mask": {
+      "value": "#000000 60%透明度",
+      "status": "FOUND_IN_FIGMA",
+      "source": "投影规范备份画板",
+      "verified": true
+    },
+    "border.hairline": {
+      "value": "0.5px #EEEEEE",
+      "status": "FOUND_IN_FIGMA",
+      "source": "投影规范画板",
+      "verified": true
+    }
+  },
+  "icon": {
+    "icon.size.default": {
+      "value": 24,
+      "status": "FOUND_IN_FIGMA",
+      "source": "图标画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "icon.size.uploadType": {
+      "value": 30,
+      "status": "FOUND_IN_FIGMA",
+      "source": "图标画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "icon.size.grid": {
+      "value": 34,
+      "status": "FOUND_IN_FIGMA",
+      "source": "宫格画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "icon.size.avatar": {
+      "value": [
+        24,
+        48,
+        64
+      ],
+      "status": "FOUND_IN_FIGMA",
+      "source": "图标画板",
+      "verified": true,
+      "note": "单位px"
+    },
+    "icon.color": {
+      "value": "复用 color.text.*",
+      "status": "FOUND_IN_FIGMA",
+      "source": "色彩画板（画板标签'文字/图标 Text'）",
+      "verified": true,
+      "note": "2025-08更正：这条的本意是'图标跟随所在语境的文字色'，不是'无脑套用color.text.5'。真实踩坑：danger警示条里的感叹号图标被套成了黑色(color.text.5)，跟条内本身的color.danger.7红字完全不搭。判断顺序：图标所在容器/文字有语义色(danger/warning/brand)就跟语义色走；没有语义色的中性场景才退回color.text.*，且要按视觉权重选具体哪一级，不是统一用text.5。详见design-tokens.md『图标颜色踩坑记录』"
+    },
+    "icon.badge.dotSize": {
+      "value": 8,
+      "status": "FOUND_IN_FIGMA",
+      "source": "底部导航画板红点标注",
+      "verified": true,
+      "note": "单位px"
+    },
+    "icon.requiredStar.color": {
+      "value": "推测 color.danger.6 #FF3636",
+      "status": "NOT_DEFINED",
+      "source": "仅确认必填星号节点存在且可切换visible，未单独读取fill",
+      "verified": false
+    },
+    "icon.inputTitle.color": {
+      "value": "推测 color.text.5 #22262F",
+      "status": "NOT_DEFINED",
+      "source": "沿用组件自带默认色，未单独读取该节点fill hex",
+      "verified": false
+    },
+    "icon.size.small": {
+      "value": 16,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "单元格/标签内小图标"
+    },
+    "icon.size.tabbar": {
+      "value": 24,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "底部导航图标"
+    }
+  },
+  "aiProposedExtra": {
+    "textarea.height": {
+      "value": 100,
+      "status": "AI_PROPOSED",
+      "source": "库内无Textarea组件也无多行文本高度规范",
+      "verified": false,
+      "note": "该值为AI建议值，并非当前设计系统正式规范"
+    },
+    "checkbox.unselected.borderColor": {
+      "value": "color.fill.4 #C9CDD4 或 color.line.1 #EEEEEE（未最终定）",
+      "status": "AI_PROPOSED",
+      "source": "从已有Token里挑选，非库内对该场景的正式规定",
+      "verified": false,
+      "note": "该值为AI建议值，并非当前设计系统正式规范"
+    },
+    "button.primary.fontWeight": {
+      "value": "Medium",
+      "status": "INFERRED",
+      "source": "库内无明文规定按钮文字字重",
+      "verified": false,
+      "note": "比Regular更适合强调操作的推断，非确认值"
+    },
+    "spacing.density.high": {
+      "value": 12,
+      "status": "AI_PROPOSED",
+      "source": "直接复用 spacing.module.gap(12px, FOUND_IN_FIGMA)，不是新数值",
+      "verified": false,
+      "note": "该值为AI建议值，并非当前设计系统正式规范。visual-design-reasoning.md第9节Spatial Design的高密度档位，用于数据密集的表格/清单/五宫格类模块"
+    },
+    "spacing.density.medium": {
+      "value": 18,
+      "status": "AI_PROPOSED",
+      "source": "spacing.module.gap(12px) 的1.5倍，不是凭空定的新数字",
+      "verified": false,
+      "note": "该值为AI建议值，并非当前设计系统正式规范。中密度档位，用于常规卡片流"
+    },
+    "spacing.density.low": {
+      "value": 24,
+      "status": "AI_PROPOSED",
+      "source": "spacing.module.gap(12px) 的2倍，不是凭空定的新数字",
+      "verified": false,
+      "note": "该值为AI建议值，并非当前设计系统正式规范。低密度档位，用于Hero/焦点模块前后需要让用户视线停留的区域"
+    }
+  },
+  "reviewNote": "2026-11 全量复核：所有 FOUND_IN_FIGMA 条目已按组件库实值重新读取；变动项在 note 中标注\"2026-11修正\"",
+  "componentSize": {
+    "cell.height": {
+      "value": 60,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "单行单元格 375×60；多行/带描述 90；带大段说明 94"
+    },
+    "input.height": {
+      "value": 60,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "输入行 375×60"
+    },
+    "button.height": {
+      "value": 48,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "主/辅助/线框按钮高48，最小宽96，radius 4"
+    },
+    "button.heightSmall": {
+      "value": 32,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "小按钮，文字14px"
+    },
+    "tag.height": {
+      "value": 22,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "大标签 22（14px字）/ 小标签 20（12px字），radius 2"
+    },
+    "searchbar.height": {
+      "value": 36,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "全圆角胶囊 r18"
+    },
+    "switch.size": {
+      "value": "52×28",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "圆角14，开/关/加载中/禁用/不可操作 5 态"
+    },
+    "checkboxRow.height": {
+      "value": 48,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "单选/多选列表行高，图标 26×26；快捷单选胶囊 106×48"
+    },
+    "tab.height.primary": {
+      "value": 42,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "一级下划线 Tab"
+    },
+    "tab.height.capsule": {
+      "value": 38,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "独立胶囊 Tab（实心选中）"
+    },
+    "tab.height.secondaryCapsule": {
+      "value": 32,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "多级标签的二级胶囊（浅底选中）"
+    },
+    "dialog.minHeight": {
+      "value": 148,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "基础对话框最小高148，带遮罩，radius 8"
+    },
+    "popup.minHeight": {
+      "value": 272,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "底部弹出层最小高272，最高不超内容区80%"
+    },
+    "toast.height": {
+      "value": 38,
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "radius 4，文案≤16字，距屏幕两边最小16"
+    },
+    "grid.cell": {
+      "value": "75×84 / 75×106",
+      "status": "FOUND_IN_FIGMA",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verified": true,
+      "note": "宫格单元；带二级标题为 106 高"
+    }
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "id": "6695:316767",
+  "name": "目标条 / 实际与军令状 / 原项目图层",
+  "w": 311,
+  "h": 108,
+  "records": [
+    {
+      "id": "6695:316767",
+      "parent": "6695:316765",
+      "type": "FRAME",
+      "name": "目标条 / 实际与军令状 / 原项目图层",
+      "x": 8,
+      "y": 46,
+      "w": 311,
+      "h": 108,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "text": null
+    },
+    {
+      "id": "6695:316770",
+      "parent": "6695:316769",
+      "type": "TEXT",
+      "name": "实际值(36.5亿元)",
+      "x": 0,
+      "y": 0,
+      "w": 109,
+      "h": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "实际值(36.5亿元)",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 14,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316772",
+      "parent": "6695:316771",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 0,
+      "w": 67,
+      "h": 40,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "56.4",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Semibold"
+        },
+        "size": 32,
+        "line": {
+          "unit": "PIXELS",
+          "value": 40
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316773",
+      "parent": "6695:316771",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 67,
+      "y": 12,
+      "w": 14,
+      "h": 28,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.8500000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "size": 14,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316779",
+      "parent": "6695:316778",
+      "type": "TEXT",
+      "name": "分类一",
+      "x": 88,
+      "y": -2,
+      "w": 43,
+      "h": 20,
+      "visible": false,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "72.8%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "size": 14,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316784",
+      "parent": "6695:316783",
+      "type": "TEXT",
+      "name": "分类一",
+      "x": 88,
+      "y": -2,
+      "w": 43,
+      "h": 20,
+      "visible": false,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "72.8%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "size": 14,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316791",
+      "parent": "6695:316790",
+      "type": "TEXT",
+      "name": "军令状",
+      "x": 0,
+      "y": 0,
+      "w": 42,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5558025240898132,
+            "g": 0.6682431697845459,
+            "b": 0.8322190642356873
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "军令状",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 14,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316793",
+      "parent": "6695:316792",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 0,
+      "y": 0,
+      "w": 53,
+      "h": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5558025240898132,
+            "g": 0.6682431697845459,
+            "b": 0.8322190642356873
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "4006.5",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Semibold"
+        },
+        "size": 16,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316794",
+      "parent": "6695:316792",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 53,
+      "y": 1,
+      "w": 14,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5558025240898132,
+            "g": 0.6682431697845459,
+            "b": 0.8322190642356873
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "亿",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "size": 14,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    }
+  ],
+  "svgFile": "native/chart-6695-316767.svg",
+  "deferredSvg": false
+}

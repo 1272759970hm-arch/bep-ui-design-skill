@@ -1,0 +1,96 @@
+{
+  "title": "一看移动端 · 三类实收构成",
+  "description": "模拟数据。点选分类可查看对应金额和占比，合计独立显示。",
+  "screens": [
+    {
+      "name": "完整构成",
+      "header": {
+        "title": "实收构成",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "receiptComposition",
+          "props": {
+            "unit": "万元",
+            "items": [
+              {
+                "name": "收缴",
+                "value": 60
+              },
+              {
+                "name": "追缴",
+                "value": 25
+              },
+              {
+                "name": "预存",
+                "value": 15
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。三个分类属于同一可相加的整体。"
+    },
+    {
+      "name": "缺失、零值",
+      "header": {
+        "title": "实收构成",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "receiptComposition",
+          "props": {
+            "unit": "万元",
+            "items": [
+              {
+                "name": "收缴",
+                "value": null
+              },
+              {
+                "name": "追缴",
+                "value": 20
+              },
+              {
+                "name": "预存",
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。三个分类属于同一可相加的整体。"
+    },
+    {
+      "name": "合计为零",
+      "header": {
+        "title": "实收构成",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "receiptComposition",
+          "props": {
+            "unit": "万元",
+            "items": [
+              {
+                "name": "收缴",
+                "value": 0
+              },
+              {
+                "name": "追缴",
+                "value": 0
+              },
+              {
+                "name": "预存",
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。三个分类属于同一可相加的整体。"
+    }
+  ]
+}

@@ -1,0 +1,911 @@
+{
+  "root": "7958:123876",
+  "rows": [
+    {
+      "id": "7958:123876",
+      "parent": "7958:123875",
+      "type": "INSTANCE",
+      "name": "Chart Card ",
+      "x": 0,
+      "y": 0,
+      "width": 343,
+      "height": 192,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 8,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 16,
+      "paddingBottom": 0,
+      "paddingLeft": 16,
+      "itemSpacing": 10,
+      "clipsContent": false
+    },
+    {
+      "id": "I7958:123876;156:6579",
+      "parent": "7958:123876",
+      "type": "INSTANCE",
+      "name": "环形图",
+      "x": 16,
+      "y": 0,
+      "width": 311,
+      "height": 192,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "NONE",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "clipsContent": false
+    },
+    {
+      "id": "I7958:123876;156:6579;158:3292",
+      "parent": "I7958:123876;156:6579",
+      "type": "FRAME",
+      "name": "Frame 1321319747",
+      "x": 76,
+      "y": 17,
+      "width": 160,
+      "height": 160,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "NONE",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "clipsContent": false
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6508",
+      "parent": "I7958:123876;156:6579",
+      "type": "FRAME",
+      "name": "Frame 1321319746",
+      "x": 96,
+      "y": 79,
+      "width": 121,
+      "height": 60,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": -2,
+      "clipsContent": false
+    },
+    {
+      "id": "I7958:123876;156:6579;158:3220",
+      "parent": "I7958:123876;156:6579",
+      "type": "VECTOR",
+      "name": "路径 6",
+      "x": 255.5517578125,
+      "y": 72.3822021484375,
+      "width": 24.49657440185547,
+      "height": 4.020942211151123,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.7607843279838562,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:049fc5206582ecd76435cf4067cc3f8a33b6bd83/156:4"
+            }
+          }
+        }
+      ],
+      "strokeWeight": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;158:3225",
+      "parent": "I7958:123876;156:6579",
+      "type": "FRAME",
+      "name": "Frame 114",
+      "x": 255,
+      "y": 55,
+      "width": 44,
+      "height": 34,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": -6,
+      "clipsContent": false
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6484",
+      "parent": "I7958:123876;156:6579;158:3292",
+      "type": "ELLIPSE",
+      "name": "Ellipse 1",
+      "x": 0,
+      "y": 0,
+      "width": 160,
+      "height": 160,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.7607843279838562,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:049fc5206582ecd76435cf4067cc3f8a33b6bd83/156:4"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;205:4309",
+      "parent": "I7958:123876;156:6579;158:3292",
+      "type": "ELLIPSE",
+      "name": "Ellipse 7",
+      "x": -10,
+      "y": -10,
+      "width": 180,
+      "height": 180,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.7607843279838562,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:049fc5206582ecd76435cf4067cc3f8a33b6bd83/156:4"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6500",
+      "parent": "I7958:123876;156:6579;158:3292",
+      "type": "ELLIPSE",
+      "name": "Ellipse 2",
+      "x": -5,
+      "y": -5,
+      "width": 170,
+      "height": 170,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.18039216101169586,
+            "g": 0.7921568751335144,
+            "b": 0.8784313797950745
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:ee67180e4ea9752ded3dd2bf26cdfaa695f6cbae/156:6"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6502",
+      "parent": "I7958:123876;156:6579;158:3292",
+      "type": "ELLIPSE",
+      "name": "Ellipse 3",
+      "x": -5,
+      "y": -5,
+      "width": 170,
+      "height": 170,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.24705882370471954,
+            "g": 0.7803921699523926,
+            "b": 0.9725490212440491
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1ebb4189c91aab0bddaa27371642f0852f97af23/156:8"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6504",
+      "parent": "I7958:123876;156:6579;158:3292",
+      "type": "ELLIPSE",
+      "name": "Ellipse 4",
+      "x": -5,
+      "y": -5,
+      "width": 170,
+      "height": 170,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.33725491166114807,
+            "g": 0.7215686440467834,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:314457b6307c4f7f4a6c7dd47256157221356d3f/156:10"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6506",
+      "parent": "I7958:123876;156:6579;158:3292",
+      "type": "ELLIPSE",
+      "name": "Ellipse 5",
+      "x": -5,
+      "y": -5,
+      "width": 170,
+      "height": 170,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4000000059604645,
+            "g": 0.6549019813537598,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:b3c454b83e1b70231f89bfaf2161c7f82fb96856/156:12"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6530",
+      "parent": "I7958:123876;156:6579;158:3292",
+      "type": "ELLIPSE",
+      "name": "Ellipse 6",
+      "x": -5,
+      "y": -5,
+      "width": 170,
+      "height": 170,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5843137502670288,
+            "g": 0.6117647290229797,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:9ab15901b31d431ea5f06ec1ef57110c06828de1/156:14"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6463",
+      "parent": "I7958:123876;156:6579;156:6508",
+      "type": "FRAME",
+      "name": "Frame 189",
+      "x": 0,
+      "y": 0,
+      "width": 121,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "clipsContent": false
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6467",
+      "parent": "I7958:123876;156:6579;156:6508",
+      "type": "TEXT",
+      "name": "数据名称",
+      "x": 32.5,
+      "y": 38,
+      "width": 56,
+      "height": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "characters": "数据名称",
+      "segments": [
+        {
+          "characters": "数据名称",
+          "start": 0,
+          "end": 4,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5686274766921997,
+                "g": 0.6000000238418579,
+                "b": 0.6352941393852234
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:123876;156:6579;158:3226",
+      "parent": "I7958:123876;156:6579;158:3225",
+      "type": "TEXT",
+      "name": "数据一",
+      "x": 0,
+      "y": 0,
+      "width": 36,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "characters": "数据一",
+      "segments": [
+        {
+          "characters": "数据一",
+          "start": 0,
+          "end": 3,
+          "fontSize": 12,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5686274766921997,
+                "g": 0.6000000238418579,
+                "b": 0.6352941393852234
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:123876;156:6579;158:3227",
+      "parent": "I7958:123876;156:6579;158:3225",
+      "type": "TEXT",
+      "name": "40.24%",
+      "x": 0,
+      "y": 14,
+      "width": 44,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:011767b03e3c2ead4e51f1260bebc8f7672408bc/330:8"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "characters": "40.24%",
+      "segments": [
+        {
+          "characters": "40.24%",
+          "start": 0,
+          "end": 6,
+          "fontSize": 12,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.2666666805744171,
+                "g": 0.30980393290519714,
+                "b": 0.3764705955982208
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:011767b03e3c2ead4e51f1260bebc8f7672408bc/330:8"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6464",
+      "parent": "I7958:123876;156:6579;156:6463",
+      "type": "TEXT",
+      "name": "9920.00",
+      "x": 8,
+      "y": 0,
+      "width": 91,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "characters": "679.00",
+      "segments": [
+        {
+          "characters": "679.00",
+          "start": 0,
+          "end": 6,
+          "fontSize": 28,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 40
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:123876;156:6579;156:6466",
+      "parent": "I7958:123876;156:6579;156:6463",
+      "type": "TEXT",
+      "name": "万",
+      "x": 99,
+      "y": 8,
+      "width": 14,
+      "height": 32,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "characters": "万",
+      "segments": [
+        {
+          "characters": "万",
+          "start": 0,
+          "end": 1,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 32
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "svg": "<svg width=\"343\" height=\"192\" viewBox=\"0 0 343 192\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"343\" height=\"192\" rx=\"8\" fill=\"white\"/>\n<mask id=\"path-2-inside-1_7958_123876\" fill=\"white\">\n<path d=\"M172 17C189 17 205.557 22.4151 219.271 32.46C232.986 42.5049 243.144 56.6573 248.272 72.8647C253.401 89.0721 253.234 106.492 247.794 122.598C242.355 138.703 231.926 152.658 218.022 162.437L206.976 146.732C217.544 139.3 225.47 128.695 229.604 116.454C233.737 104.214 233.865 90.9748 229.967 78.6572C226.069 66.3395 218.349 55.5837 207.926 47.9496C197.503 40.3155 184.92 36.2 172 36.2V17Z\"/>\n</mask>\n<path d=\"M172 17C189 17 205.557 22.4151 219.271 32.46C232.986 42.5049 243.144 56.6573 248.272 72.8647C253.401 89.0721 253.234 106.492 247.794 122.598C242.355 138.703 231.926 152.658 218.022 162.437L206.976 146.732C217.544 139.3 225.47 128.695 229.604 116.454C233.737 104.214 233.865 90.9748 229.967 78.6572C226.069 66.3395 218.349 55.5837 207.926 47.9496C197.503 40.3155 184.92 36.2 172 36.2V17Z\" fill=\"#32C2C1\" stroke=\"white\" stroke-width=\"4\" mask=\"url(#path-2-inside-1_7958_123876)\"/>\n<mask id=\"path-3-inside-2_7958_123876\" fill=\"white\">\n<path d=\"M172 7C191.124 7 209.752 13.092 225.18 24.3925C240.609 35.693 252.037 51.6144 257.807 69.8478C263.576 88.0811 263.388 107.678 257.268 125.797C251.149 143.916 239.417 159.615 223.774 170.617L206.689 146.323C217.17 138.952 225.03 128.434 229.13 116.294C233.23 104.154 233.356 91.0243 229.49 78.808C225.625 66.5917 217.968 55.9243 207.631 48.353C197.294 40.7816 184.813 36.7 172 36.7V7Z\"/>\n</mask>\n<path d=\"M172 7C191.124 7 209.752 13.092 225.18 24.3925C240.609 35.693 252.037 51.6144 257.807 69.8478C263.576 88.0811 263.388 107.678 257.268 125.797C251.149 143.916 239.417 159.615 223.774 170.617L206.689 146.323C217.17 138.952 225.03 128.434 229.13 116.294C233.23 104.154 233.356 91.0243 229.49 78.808C225.625 66.5917 217.968 55.9243 207.631 48.353C197.294 40.7816 184.813 36.7 172 36.7V7Z\" fill=\"#32C2C1\" stroke=\"white\" stroke-width=\"4\" mask=\"url(#path-3-inside-2_7958_123876)\"/>\n<mask id=\"path-4-inside-3_7958_123876\" fill=\"white\">\n<path d=\"M220.883 166.537C207.102 176.225 190.753 181.6 173.912 181.979L173.357 157.335C185.315 157.066 196.923 153.25 206.707 146.371L220.883 166.537Z\"/>\n</mask>\n<path d=\"M220.883 166.537C207.102 176.225 190.753 181.6 173.912 181.979L173.357 157.335C185.315 157.066 196.923 153.25 206.707 146.371L220.883 166.537Z\" fill=\"#2ECAE0\" stroke=\"white\" stroke-width=\"4\" mask=\"url(#path-4-inside-3_7958_123876)\"/>\n<mask id=\"path-5-inside-4_7958_123876\" fill=\"white\">\n<path d=\"M173.874 181.979C155.918 182.375 138.298 177.073 123.542 166.834L137.595 146.582C148.071 153.852 160.582 157.616 173.33 157.335L173.874 181.979Z\"/>\n</mask>\n<path d=\"M173.874 181.979C155.918 182.375 138.298 177.073 123.542 166.834L137.595 146.582C148.071 153.852 160.582 157.616 173.33 157.335L173.874 181.979Z\" fill=\"#3FC7F8\" stroke=\"white\" stroke-width=\"4\" mask=\"url(#path-5-inside-4_7958_123876)\"/>\n<mask id=\"path-6-inside-5_7958_123876\" fill=\"white\">\n<path d=\"M123.522 166.82C112.446 159.13 103.359 148.915 97.0104 137.019C90.662 125.124 87.2347 111.888 87.0116 98.4064L111.658 97.9985C111.817 107.571 114.25 116.968 118.757 125.414C123.265 133.86 129.717 141.112 137.581 146.572L123.522 166.82Z\"/>\n</mask>\n<path d=\"M123.522 166.82C112.446 159.13 103.359 148.915 97.0104 137.019C90.662 125.124 87.2347 111.888 87.0116 98.4064L111.658 97.9985C111.817 107.571 114.25 116.968 118.757 125.414C123.265 133.86 129.717 141.112 137.581 146.572L123.522 166.82Z\" fill=\"#56B8FF\" stroke=\"white\" stroke-width=\"4\" mask=\"url(#path-6-inside-5_7958_123876)\"/>\n<mask id=\"path-7-inside-6_7958_123876\" fill=\"white\">\n<path d=\"M87.012 98.4253C86.7333 81.809 91.3317 65.4754 100.238 51.445L121.049 64.6559C114.725 74.6175 111.461 86.2144 111.658 98.012L87.012 98.4253Z\"/>\n</mask>\n<path d=\"M87.012 98.4253C86.7333 81.809 91.3317 65.4754 100.238 51.445L121.049 64.6559C114.725 74.6175 111.461 86.2144 111.658 98.012L87.012 98.4253Z\" fill=\"#66A7FF\" stroke=\"white\" stroke-width=\"4\" mask=\"url(#path-7-inside-6_7958_123876)\"/>\n<mask id=\"path-8-inside-7_7958_123876\" fill=\"white\">\n<path d=\"M100.249 51.4286C107.925 39.3423 118.53 29.391 131.08 22.4981C143.629 15.6052 157.717 11.9941 172.035 12L172.025 36.65C161.859 36.6458 151.857 39.2097 142.947 44.1037C134.036 48.9976 126.507 56.0631 121.057 64.6443L100.249 51.4286Z\"/>\n</mask>\n<path d=\"M100.249 51.4286C107.925 39.3423 118.53 29.391 131.08 22.4981C143.629 15.6052 157.717 11.9941 172.035 12L172.025 36.65C161.859 36.6458 151.857 39.2097 142.947 44.1037C134.036 48.9976 126.507 56.0631 121.057 64.6443L100.249 51.4286Z\" fill=\"#959CF9\" stroke=\"white\" stroke-width=\"4\" mask=\"url(#path-8-inside-7_7958_123876)\"/>\n<text fill=\"#22262F\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"28\" letter-spacing=\"0em\"><tspan x=\"120\" y=\"109.08\">679.00</tspan></text>\n<text fill=\"#22262F\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"14\" letter-spacing=\"0em\"><tspan x=\"211\" y=\"108.04\">&#x4e07;</tspan></text>\n<text fill=\"#9199A2\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"14\" letter-spacing=\"0em\"><tspan x=\"144.5\" y=\"133.04\">&#x6570;&#x636e;&#x540d;&#x79f0;</tspan></text>\n<path d=\"M271.552 72.3818L256.617 72.3818L247.055 76.4028\" stroke=\"#32C2C1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<text fill=\"#9199A2\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"12\" letter-spacing=\"0em\"><tspan x=\"271\" y=\"69.32\">&#x6570;&#x636e;&#x4e00;</tspan></text>\n<text fill=\"#444F60\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"12\" letter-spacing=\"0em\"><tspan x=\"271\" y=\"83.32\">40.24%</tspan></text>\n</svg>\n"
+}

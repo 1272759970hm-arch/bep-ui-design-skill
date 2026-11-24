@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-05",
+  "originalOutlinedStates": 10,
+  "singleBindings": 5,
+  "noExternalRequests": true,
+  "noPageErrors": true,
+  "phoneOverflow": [
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    }
+  ],
+  "note": "Native reference SVGs are exact exports. Dynamic bindings reuse original sample paths at the five known values; whole-component pixel parity is not asserted."
+}

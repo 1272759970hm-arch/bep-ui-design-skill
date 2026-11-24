@@ -1,0 +1,58 @@
+{
+  "states": 6,
+  "defaultTrendSeries": 5,
+  "categoryInvariant": true,
+  "categoryDetails": true,
+  "deviceCategoryBinding": true,
+  "seriesToggle": true,
+  "timePointBinding": true,
+  "rankingSearch": true,
+  "rankingSort": true,
+  "phoneOverflow": [
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "width": 375,
+      "scroll": 375
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": [],
+  "galleryErrors": [],
+  "fontCheck": {
+    "browserCheck": [
+      {
+        "family": "PingFang SC",
+        "available": true
+      },
+      {
+        "family": "DIN Bold",
+        "available": true
+      },
+      {
+        "family": "DIN Medium",
+        "available": true
+      }
+    ],
+    "note": "浏览器check不单独证明实际字形来自原字体"
+  },
+  "note": "本地浏览器行为检查，不等于原Figma逐像素一致验收"
+}

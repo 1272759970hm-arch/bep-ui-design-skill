@@ -1,0 +1,521 @@
+/*
+  BEP-S 任务执行页 — 样式
+  Token 来源标注同报修申请页的约定：
+    FOUND_IN_FIGMA / (SPEC_FRAME) / INFERRED / AI_PROPOSED，见变量注释。
+  本页额外提醒：原型截图用的是暖黄/橙配色，不是 BEP-S 已验证的品牌色，
+  全部替换成了 design-tokens.json 里真实的 color.brand.3 / 语义色，这是 AI_DESIGN_DECISION，不是照抄参考图。
+*/
+
+:root {
+  /* ---- Color Token — FOUND_IN_FIGMA ---- */
+  --color-brand-1: rgba(0, 177, 180, 0.06); /* USER_OVERRIDE 2025-08，原Figma读值 #006D9B */
+  --color-brand-3: #00B1B4; /* USER_OVERRIDE 2025-08，原Figma读值 #006D9B，见 design-tokens.json */
+  --color-white: #FFFFFF;
+  --color-fill-1: #F7F8FA;
+  --color-fill-2: #F2F3F5;
+  --color-fill-3: #E5E8EB;
+  --color-line-1: #EEEEEE;
+  --color-text-3: #9199A2;
+  --color-text-4: #444F60;
+  --color-text-5: #22262F;
+  --color-warning-1: #FFF7E8;
+  --color-warning-6: #FF8000;
+  --color-warning-7: #D25F00;
+  --color-danger-6: #FF3636;
+
+  /* ---- Typography ---- */
+  --font-size-caption: 14px;
+  --font-size-body: 16px;
+  --font-size-value: 18px;
+  --font-size-stat: 22px;
+  --font-size-navtitle: 18px; /* 与全局"页面标题24px"的已知冲突，见 design-system-conflicts.json 第1条 */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+
+  /* ---- Spacing — FOUND_IN_FIGMA ---- */
+  --spacing-page-marginX: 16px;
+  --spacing-module-gap: 12px;
+  --spacing-navbar-height: 44px;
+  --spacing-safeArea-bottom: 34px;
+  --spacing-inferred-gap-sm: 8px; /* INFERRED，沿用之前已确认的同一推算值 */
+
+  /* ---- Radius — FOUND_IN_FIGMA ---- */
+  --radius-button: 4px;
+  --radius-card: 6px;
+  --radius-tag: 2px;
+
+  /* ---- Shadow — FOUND_IN_FIGMA ---- */
+  --shadow-card: 0 2px 4px rgba(2, 25, 42, 0.10);
+  --border-hairline: 0.5px solid var(--color-line-1);
+
+  /* ---- 组件尺寸 ---- */
+  --size-icon-default: 24px;
+  --size-checkbox: 20px;
+
+  /* ---- AI_PROPOSED（本页新引入，均已在 missing-components.json 登记） ---- */
+  --ai-proposed-progressbar-height: 6px;
+  --ai-proposed-small-button-height: 34px;
+  --ai-proposed-method-card-height: 64px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-fill-2);
+}
+
+body {
+  font-family: "Noto Sans SC", "PingFang SC", -apple-system, sans-serif; /* 同源思源黑体替代，见 design-tokens.json 说明 */
+  color: var(--color-text-5);
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.page {
+  width: 375px;
+  min-height: 100vh;
+  background: var(--color-fill-1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============ NavBar：REMOTE_INSTANCE ============ */
+.navbar {
+  height: var(--spacing-navbar-height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--spacing-page-marginX);
+  background: var(--color-white);
+  border-bottom: var(--border-hairline);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.navbar__back {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--color-text-5);
+}
+
+.navbar__title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: var(--font-size-navtitle);
+  font-weight: var(--font-weight-medium);
+  margin: 0;
+  pointer-events: none;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-module-gap);
+  padding: var(--spacing-page-marginX) var(--spacing-page-marginX) var(--spacing-safeArea-bottom);
+}
+
+/* ============ 任务信息卡：SPEC_ONLY（卡片规范） ============ */
+.task-card {
+  /* 2025-08 二次更正：卡片既不用投影也不用描边，纯靠背景色跟页面背景(color.fill.1)的对比区隔 */
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--spacing-page-marginX);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.task-card__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.task-card__title-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.task-card__title {
+  font-size: var(--font-size-value);
+  font-weight: var(--font-weight-medium);
+  margin: 0;
+  color: var(--color-text-5);
+}
+
+.task-card__title-row svg {
+  color: var(--color-text-3);
+  flex-shrink: 0;
+}
+
+/* AI_DESIGN_DECISION：语义色改用品牌浅色调，不用原型的暖黄 */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: var(--radius-tag);
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-regular);
+  flex-shrink: 0;
+}
+
+.tag--progress {
+  background: var(--color-brand-1);
+  color: var(--color-brand-3);
+}
+
+.task-card__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-inferred-gap-sm);
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+}
+
+.task-card__meta .overdue {
+  color: var(--color-danger-6);
+}
+
+.task-card__stat-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.stat__value {
+  font-size: var(--font-size-stat);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-5);
+  line-height: 1.2;
+}
+
+.stat__label {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+  margin-top: 2px;
+}
+
+.stat--percent {
+  font-size: var(--font-size-body);
+  color: var(--color-text-4);
+  text-align: right;
+}
+
+.percent-value {
+  font-size: var(--font-size-stat);
+  color: var(--color-warning-6);
+  font-weight: var(--font-weight-medium);
+}
+
+/* ============ 进度条：NOT_FOUND，AI_PROPOSED 手工搭建 ============ */
+.progress {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.progress__track {
+  position: relative;
+  flex: 1;
+  height: var(--ai-proposed-progressbar-height);
+  background: var(--color-fill-3);
+  border-radius: calc(var(--ai-proposed-progressbar-height) / 2);
+  overflow: visible;
+}
+
+.progress__fill {
+  height: 100%;
+  background: var(--color-warning-6);
+  border-radius: calc(var(--ai-proposed-progressbar-height) / 2);
+}
+
+.progress__threshold {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 2px;
+  background: var(--color-danger-6);
+  right: 0;
+}
+
+.progress__threshold-label {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ============ 执行方式选择器：AI_DESIGN_DECISION 组合模块 ============ */
+.method-selector {
+  display: flex;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.method-card {
+  flex: 1;
+  min-width: 0;
+  height: var(--ai-proposed-method-card-height);
+  background: var(--color-white); /* 2025-08 二次更正：不用投影也不用描边 */
+  border: none; /* .method-card 是 <button>，必须显式清掉浏览器默认的按钮描边，否则会看起来像加了框 */
+  border-radius: var(--radius-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  position: relative;
+  padding: 0 4px;
+}
+
+.method-card--selected {
+  background: var(--color-brand-1); /* 选中态区分靠背景色 + 底部下划线指示条(.method-card__indicator)，不用描边 */
+}
+
+.method-card__row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-text-5);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+}
+
+.method-card__row svg {
+  color: var(--color-text-4);
+  flex-shrink: 0;
+}
+
+.method-card--selected .method-card__row,
+.method-card--selected .method-card__row svg {
+  color: var(--color-brand-3);
+}
+
+.method-card__row .info-icon {
+  color: var(--color-text-3);
+  width: 14px;
+  height: 14px;
+}
+
+.method-card__count {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+}
+
+.method-card__indicator {
+  position: absolute;
+  bottom: 8px;
+  width: 20px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--color-brand-3);
+}
+
+/* ============ 区块标题 ============ */
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-head h3 {
+  font-size: var(--font-size-value);
+  font-weight: var(--font-weight-medium);
+  margin: 0;
+  color: var(--color-text-5);
+}
+
+/* ============ 工具栏：全选 + 搜索栏(SPEC_ONLY) + 筛选(AI_PROPOSED) ============ */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.checkbox-square {
+  width: var(--size-checkbox);
+  height: var(--size-checkbox);
+  border: 1px solid var(--color-fill-3); /* AI_PROPOSED，未选中态无真实组件，见 missing-components.json */
+  border-radius: var(--radius-button);
+  background: var(--color-white);
+  flex-shrink: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.checkbox-all {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-caption);
+  color: var(--color-text-5);
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.search-bar {
+  flex: 1;
+  min-width: 0;
+  height: 36px; /* AI_PROPOSED，SearchBar 无真实高度规范 */
+  background: var(--color-white);
+  border-radius: 18px; /* AI_PROPOSED，胶囊形是从视觉观察来的，非规范画板数值 */
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 12px;
+}
+
+.search-bar svg {
+  color: var(--color-text-3);
+  flex-shrink: 0;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: var(--font-size-caption);
+  color: var(--color-text-5);
+  width: 100%;
+}
+
+.search-bar input::placeholder {
+  color: var(--color-text-3);
+}
+
+.filter-btn {
+  width: 36px;
+  height: 36px;
+  background: var(--color-white);
+  border: none;
+  border-radius: var(--radius-button);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-4);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* ============ 状态分组标题 ============ */
+.status-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-value);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-5);
+}
+
+.status-group-head .count {
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-3);
+}
+
+/* ============ 房屋列表：按"卡片"模式，不是Cell+Divider ============ */
+.house-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-module-gap);
+}
+
+.house-card {
+  /* 2025-08 二次更正：卡片既不用投影也不用描边，纯靠背景色跟页面背景对比区隔 */
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--spacing-page-marginX);
+  display: flex;
+  gap: var(--spacing-inferred-gap-sm);
+  margin: 0;
+}
+
+.house-card__checkbox {
+  margin-top: 2px;
+}
+
+.house-card__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.house-card__row-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.house-card__address {
+  font-size: var(--font-size-value);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-5);
+}
+
+.house-card__owner {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+  margin-top: 2px;
+}
+
+.house-card__amount {
+  font-size: var(--font-size-value);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-warning-7); /* AI_DESIGN_DECISION：金额用赭红色调呼应催收场景，非中性黑 */
+  white-space: nowrap;
+}
+
+.house-card__row-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.house-card__status {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+}
+
+/* ============ 「去完成」小按钮：NOT_FOUND，AI_PROPOSED ============ */
+.btn-small {
+  height: var(--ai-proposed-small-button-height);
+  padding: 0 16px;
+  border-radius: var(--radius-button);
+  background: var(--color-brand-3);
+  color: var(--color-white);
+  border: none;
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+}
+
+.btn-small:active {
+  opacity: 0.85;
+}
+
+@media (max-width: 375px) {
+  .page { width: 100%; }
+  body { padding: 0; }
+}

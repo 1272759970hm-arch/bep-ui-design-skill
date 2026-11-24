@@ -1,0 +1,1188 @@
+{
+  "styles": [
+    {
+      "id": "4424:66054",
+      "name": "background",
+      "type": "FRAME",
+      "w": 375,
+      "h": 1155,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [],
+      "clipsContent": false,
+      "cornerRadius": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "STRETCH"
+      },
+      "layoutPositioning": "AUTO",
+      "children": [
+        {
+          "id": "4424:66055",
+          "name": "Rectangle 34625968",
+          "type": "VECTOR",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.967529296875,
+                    "g": 1,
+                    "b": 0.9875112175941467,
+                    "a": 1
+                  },
+                  "position": 0.3418229818344116,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.8235294222831726,
+                    "g": 0.95686274766922,
+                    "b": 0.9647058844566345,
+                    "a": 1
+                  },
+                  "position": 0.42810776829719543,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.8207702040672302,
+                    "g": 0.9531529545783997,
+                    "b": 0.9626089334487915,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -0.14309264719486237,
+                  1.0001848936080933,
+                  0.14309263229370117
+                ],
+                [
+                  -0.9932936429977417,
+                  -0.45876461267471313,
+                  1.4932936429977417
+                ]
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "4424:66056",
+          "name": "Rectangle 34626075",
+          "type": "VECTOR",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8509804010391235,
+                "b": 0.8509804010391235
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "4424:66057",
+          "name": "Ellipse 1244",
+          "type": "VECTOR",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.20000000298023224,
+                    "g": 0.7019608020782471,
+                    "b": 0.9254902005195618,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.02604137361049652,
+                    "g": 0.6309791207313538,
+                    "b": 0.7983022928237915,
+                    "a": 1
+                  },
+                  "position": 0.7523330450057983,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.6533203125,
+                    "g": 0.9610472321510315,
+                    "b": 1,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.4885803759098053,
+                  1.00596284866333,
+                  -0.17190437018871307
+                ],
+                [
+                  -0.9649253487586975,
+                  0.8254266977310181,
+                  0.798917293548584
+                ]
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "LAYER_BLUR",
+              "visible": true,
+              "radius": 30,
+              "boundVariables": {},
+              "blurType": "NORMAL"
+            }
+          ]
+        },
+        {
+          "id": "4424:66058",
+          "name": "Ellipse 1241",
+          "type": "ELLIPSE",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.060843873769044876,
+                    "g": 0.6885800957679749,
+                    "b": 0.877760648727417,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.7423189878463745,
+                    "b": 0.7423189878463745,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.8545821309089661,
+                  -1.7290754318237305,
+                  1.358144760131836
+                ],
+                [
+                  1.7338337898254395,
+                  0.8442913293838501,
+                  -1.0968602895736694
+                ]
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "4424:66059",
+          "name": "Ellipse 881",
+          "type": "ELLIPSE",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.7764706015586853,
+                    "g": 0.9215686321258545,
+                    "b": 0.9411764740943909,
+                    "a": 1
+                  },
+                  "position": 0.11832287907600403,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.02005583979189396,
+                    "g": 0.7682181596755981,
+                    "b": 0.8833195567131042,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -0.18048115074634552,
+                  1.3071846961975098,
+                  0.004314211662858725
+                ],
+                [
+                  -1.3071846961975098,
+                  -0.10670849680900574,
+                  1.3001716136932373
+                ]
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "LAYER_BLUR",
+              "visible": true,
+              "radius": 54,
+              "boundVariables": {},
+              "blurType": "NORMAL"
+            }
+          ]
+        },
+        {
+          "id": "4424:66060",
+          "name": "Ellipse 1246",
+          "type": "ELLIPSE",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 0.800000011920929,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.053094085305929184,
+                    "g": 0.7637777924537659,
+                    "b": 0.9202975034713745,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.35686275362968445,
+                    "g": 0.8784313797950745,
+                    "b": 0.8745098114013672,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -0.17658041417598724,
+                  -1.4406242370605469,
+                  1.4827932119369507
+                ],
+                [
+                  1.4570581912994385,
+                  -0.07399211823940277,
+                  -0.3810272216796875
+                ]
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "4424:66061",
+          "name": "Ellipse 880",
+          "type": "ELLIPSE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.8959585428237915,
+                "b": 0.8976925611495972
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [
+            {
+              "type": "LAYER_BLUR",
+              "visible": true,
+              "radius": 54,
+              "boundVariables": {},
+              "blurType": "NORMAL"
+            }
+          ]
+        },
+        {
+          "id": "4424:66062",
+          "name": "Ellipse 883",
+          "type": "ELLIPSE",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.7764706015586853,
+                    "g": 0.9215686321258545,
+                    "b": 0.9411764740943909,
+                    "a": 1
+                  },
+                  "position": 0.11832287907600403,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.02005583979189396,
+                    "g": 0.7682181596755981,
+                    "b": 0.8833195567131042,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -0.18048115074634552,
+                  1.3071846961975098,
+                  0.004314211662858725
+                ],
+                [
+                  -1.3071846961975098,
+                  -0.10670849680900574,
+                  1.3001716136932373
+                ]
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "LAYER_BLUR",
+              "visible": true,
+              "radius": 54,
+              "boundVariables": {},
+              "blurType": "NORMAL"
+            }
+          ]
+        },
+        {
+          "id": "4424:66063",
+          "name": "Ellipse 881",
+          "type": "ELLIPSE",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.7764706015586853,
+                    "g": 0.9215686321258545,
+                    "b": 0.9411764740943909,
+                    "a": 1
+                  },
+                  "position": 0.11832287907600403,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.02005583979189396,
+                    "g": 0.7682181596755981,
+                    "b": 0.8833195567131042,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -0.18048115074634552,
+                  1.3071846961975098,
+                  0.004314211662858725
+                ],
+                [
+                  -1.3071846961975098,
+                  -0.10670849680900574,
+                  1.3001716136932373
+                ]
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "LAYER_BLUR",
+              "visible": true,
+              "radius": 54,
+              "boundVariables": {},
+              "blurType": "NORMAL"
+            }
+          ]
+        },
+        {
+          "id": "4424:66064",
+          "name": "Subtract",
+          "type": "VECTOR",
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0.4000000059604645
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.7803921699523926,
+                    "g": 0.9960784316062927,
+                    "b": 0.9921568632125854,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -1.0073620080947876,
+                  2.5807998180389404,
+                  -0.06166747212409973
+                ],
+                [
+                  -0.7012197971343994,
+                  0.01834622211754322,
+                  0.7429097294807434
+                ]
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "type": "DROP_SHADOW",
+              "visible": true,
+              "radius": 10.899999618530273,
+              "boundVariables": {},
+              "color": {
+                "r": 0.3843137323856354,
+                "g": 0.5882353186607361,
+                "b": 0.5882353186607361,
+                "a": 0.1599999964237213
+              },
+              "offset": {
+                "x": 0,
+                "y": 2
+              },
+              "spread": 0,
+              "blendMode": "NORMAL",
+              "showShadowBehindNode": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4424:66070",
+      "name": "收费",
+      "type": "FRAME",
+      "w": 343,
+      "h": 178,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "dashPattern": [],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 10.899999618530273,
+          "boundVariables": {},
+          "color": {
+            "r": 0.38584545254707336,
+            "g": 0.5864445567131042,
+            "b": 0.5864445567131042,
+            "a": 0.11999999731779099
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "clipsContent": true,
+      "cornerRadius": 12,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO"
+    },
+    {
+      "id": "4424:66071",
+      "name": "Ellipse 2242",
+      "type": "ELLIPSE",
+      "w": 117,
+      "h": 117,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.336181640625,
+            "g": 0.723409116268158,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 90.4000015258789,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cornerRadius": 0,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "ABSOLUTE"
+    },
+    {
+      "id": "4424:66072",
+      "name": "实收",
+      "type": "FRAME",
+      "w": 311,
+      "h": 60,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [],
+      "clipsContent": false,
+      "cornerRadius": 0,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "MIN",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO"
+    },
+    {
+      "id": "4424:66073",
+      "name": "Frame 1321318426",
+      "type": "FRAME",
+      "w": 72,
+      "h": 60,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [],
+      "clipsContent": false,
+      "cornerRadius": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO"
+    },
+    {
+      "id": "4424:66076",
+      "name": "Frame 1321320018",
+      "type": "FRAME",
+      "w": 108,
+      "h": 60,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [],
+      "clipsContent": false,
+      "cornerRadius": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MAX",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO"
+    },
+    {
+      "id": "4424:66081",
+      "name": "Vector 598",
+      "type": "VECTOR",
+      "w": 308,
+      "h": 0,
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.30000001192092896,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.6980392336845398,
+            "b": 0.6980392336845398
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "CENTER",
+      "dashPattern": [
+        5,
+        4
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO"
+    },
+    {
+      "id": "4424:66138",
+      "name": "Ellipse 2242",
+      "type": "ELLIPSE",
+      "w": 117,
+      "h": 117,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6117647290229797,
+            "b": 0.9725490212440491
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 90.4000015258789,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cornerRadius": 0,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "ABSOLUTE"
+    },
+    {
+      "id": "4424:66152",
+      "name": "Ellipse 2242",
+      "type": "ELLIPSE",
+      "w": 117,
+      "h": 117,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.20000000298023224,
+            "g": 0.7568627595901489,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 90.4000015258789,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cornerRadius": 0,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "ABSOLUTE"
+    },
+    {
+      "id": "4424:66185",
+      "name": "Frame 1321319750",
+      "type": "FRAME",
+      "w": 343,
+      "h": 40,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 0.5,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0.6980392336845398,
+                "b": 0.6980392336845398,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0.6980392336845398,
+                "b": 0.6980392336845398,
+                "a": 0.14000000059604645
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [],
+      "clipsContent": false,
+      "cornerRadius": 6,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "CENTER",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO"
+    },
+    {
+      "id": "4424:66206",
+      "name": "Frame 1321319649",
+      "type": "FRAME",
+      "w": 96,
+      "h": 36,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.6980392336845398,
+            "b": 0.6980392336845398
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8959585428237915,
+            "g": 0.8959585428237915,
+            "b": 0.8959585428237915
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "dashPattern": [],
+      "effects": [],
+      "clipsContent": false,
+      "cornerRadius": 200,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO"
+    },
+    {
+      "id": "4424:66066",
+      "name": "Tab Bar",
+      "type": "INSTANCE",
+      "w": 375,
+      "h": 68,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "dashPattern": [],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:eddfeaed561cbfd41b52cbcbc5758fa036951267/5612:265"
+            },
+            "spread": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:578f74c4745d8d1f6b70268aeacdabe1bf263ce4/564:229"
+            },
+            "radius": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:30982ce9825390a29c3cbec5b4cc7b50ba69b46b/564:231"
+            },
+            "offsetX": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:578f74c4745d8d1f6b70268aeacdabe1bf263ce4/564:229"
+            }
+          },
+          "color": {
+            "r": 0.0470588244497776,
+            "g": 0.0470588244497776,
+            "b": 0.05098039284348488,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": -1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "clipsContent": false,
+      "cornerRadius": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "main": {
+        "id": "1583:8439",
+        "name": "Tab Bar",
+        "key": "2715f0ffb527b6fafd3213f5449e1fa56c428c9e"
+      }
+    }
+  ],
+  "empty": [
+    {
+      "id": "4424:66734",
+      "main": "类型=up, 位置=首页, 尺寸=Default",
+      "key": "bfb262258af552a7fe1c445b0331a5f8b2ce5db4"
+    },
+    {
+      "id": "4424:66743",
+      "main": "类型=up, 位置=首页, 尺寸=小",
+      "key": "81cf9654051a3c2e3b40bf49e406efdb943898d8"
+    },
+    {
+      "id": "4424:66750",
+      "main": "类型=up, 位置=首页, 尺寸=小",
+      "key": "81cf9654051a3c2e3b40bf49e406efdb943898d8"
+    },
+    {
+      "id": "4424:66757",
+      "main": "类型=up, 位置=首页, 尺寸=小",
+      "key": "81cf9654051a3c2e3b40bf49e406efdb943898d8"
+    },
+    {
+      "id": "4424:66768",
+      "main": "类型=up, 位置=首页, 尺寸=Default",
+      "key": "bfb262258af552a7fe1c445b0331a5f8b2ce5db4"
+    },
+    {
+      "id": "4424:66779",
+      "main": "类型=up, 位置=首页, 尺寸=Default",
+      "key": "bfb262258af552a7fe1c445b0331a5f8b2ce5db4"
+    },
+    {
+      "id": "4424:66789",
+      "main": "类型=down, 位置=首页, 尺寸=Default",
+      "key": "687780ab06f3697d8a23c77bd7b00d489688a0b8"
+    },
+    {
+      "id": "4424:66803",
+      "main": "类型=up, 位置=首页, 尺寸=Default",
+      "key": "bfb262258af552a7fe1c445b0331a5f8b2ce5db4"
+    },
+    {
+      "id": "4424:66815",
+      "main": "类型=up, 位置=首页, 尺寸=Default",
+      "key": "bfb262258af552a7fe1c445b0331a5f8b2ce5db4"
+    },
+    {
+      "id": "4424:66826",
+      "main": "类型=down, 位置=首页, 尺寸=Default",
+      "key": "687780ab06f3697d8a23c77bd7b00d489688a0b8"
+    }
+  ],
+  "immersive": [
+    {
+      "id": "4424:67221",
+      "name": "首页-沉浸式背景",
+      "w": 375,
+      "h": 812,
+      "children": [
+        {
+          "id": "4424:67222",
+          "name": "background",
+          "type": "FRAME",
+          "w": 375,
+          "h": 724,
+          "y": 88
+        },
+        {
+          "id": "4424:67233",
+          "name": "list",
+          "type": "FRAME",
+          "w": 343,
+          "h": 802,
+          "y": 337
+        },
+        {
+          "id": "4424:67338",
+          "name": "Frame 1321320017",
+          "type": "FRAME",
+          "w": 343,
+          "h": 94,
+          "y": 226
+        },
+        {
+          "id": "4424:67358",
+          "name": "Frame 1321318425",
+          "type": "FRAME",
+          "w": 98,
+          "h": 32,
+          "y": 171
+        },
+        {
+          "id": "4424:67361",
+          "name": "Frame 1321318425",
+          "type": "FRAME",
+          "w": 98,
+          "h": 32,
+          "y": 171
+        },
+        {
+          "id": "4424:67364",
+          "name": "Frame 1321319957",
+          "type": "FRAME",
+          "w": 80,
+          "h": 38,
+          "y": 168
+        },
+        {
+          "id": "4424:67367",
+          "name": "Image",
+          "type": "FRAME",
+          "w": 114,
+          "h": 110,
+          "y": 104
+        },
+        {
+          "id": "4424:67370",
+          "name": "操作栏",
+          "type": "FRAME",
+          "w": 375,
+          "h": 68,
+          "y": 88
+        },
+        {
+          "id": "4424:67380",
+          "name": "Home Indicator",
+          "type": "INSTANCE",
+          "w": 375,
+          "h": 34,
+          "y": 778
+        },
+        {
+          "id": "4424:67381",
+          "name": "Frame 1321319746",
+          "type": "FRAME",
+          "w": 375,
+          "h": 82,
+          "y": 730
+        },
+        {
+          "id": "4424:67423",
+          "name": "状态栏",
+          "type": "INSTANCE",
+          "w": 375,
+          "h": 44,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "4424:67424",
+      "name": "首页-沉浸式背景",
+      "w": 375,
+      "h": 1155,
+      "children": [
+        {
+          "id": "4424:67425",
+          "name": "background",
+          "type": "FRAME",
+          "w": 375,
+          "h": 724,
+          "y": 88
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "dateCancelRollback": true,
+  "dateConfirmCommit": true,
+  "granularitySync": true,
+  "leapDayClamp": true,
+  "quickCurrentDate": true,
+  "organizationSearch": true,
+  "unselectableAncestor": true,
+  "organizationCancelRollback": true,
+  "noPageErrors": true,
+  "noExternalRequests": true,
+  "note": "Local query events are implemented; no backend query or server authorization is claimed."
+}

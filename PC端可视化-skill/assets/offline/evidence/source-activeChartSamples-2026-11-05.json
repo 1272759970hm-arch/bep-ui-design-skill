@@ -1,0 +1,898 @@
+[
+  {
+    "id": "6695:314798",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 698,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:314799",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 389,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:314800",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 389,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:314801",
+                "name": "单曲线 / 项目图例",
+                "type": "FRAME",
+                "w": 359,
+                "h": 357,
+                "visible": true
+              },
+              {
+                "id": "6695:314935",
+                "name": "多曲线 / 项目图例",
+                "type": "FRAME",
+                "w": 359,
+                "h": 389,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:315090",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 698,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:315091",
+            "name": "什么时候用",
+            "type": "FRAME",
+            "w": 859,
+            "h": 106,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315094",
+            "name": "数据与读数",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315097",
+            "name": "视觉实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315100",
+            "name": "交互边界",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315103",
+            "name": "不要混用",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:315110",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 728,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:315111",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 413,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:315112",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 413,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:315113",
+                "name": "基础柱 / 单系列",
+                "type": "FRAME",
+                "w": 359,
+                "h": 322,
+                "visible": true
+              },
+              {
+                "id": "6695:315238",
+                "name": "分组柱 / 多系列并列",
+                "type": "FRAME",
+                "w": 359,
+                "h": 387,
+                "visible": true
+              },
+              {
+                "id": "6695:315324",
+                "name": "正负分组柱 / 本期与同期",
+                "type": "FRAME",
+                "w": 359,
+                "h": 413,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:315507",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 728,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:315508",
+            "name": "什么时候用",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315511",
+            "name": "数据关系",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315514",
+            "name": "视觉实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315517",
+            "name": "选中与明细",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315520",
+            "name": "补充建议",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:315626",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 1102,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:315627",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 1102,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:315628",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 1102,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:315629",
+                "name": "现金流行内条 / 完整项目样例",
+                "type": "FRAME",
+                "w": 359,
+                "h": 1102,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:315897",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 728,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:315898",
+            "name": "什么时候用",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315901",
+            "name": "数据关系",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315904",
+            "name": "视觉实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315907",
+            "name": "交互边界",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:315910",
+            "name": "补充建议",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:315917",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 1046,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:315918",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 1046,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:315919",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 430,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:315920",
+                "name": "单环 / 独立比率",
+                "type": "FRAME",
+                "w": 359,
+                "h": 366,
+                "visible": true
+              },
+              {
+                "id": "6695:315960",
+                "name": "构成环 / 同一整体分段",
+                "type": "FRAME",
+                "w": 359,
+                "h": 405,
+                "visible": true
+              },
+              {
+                "id": "6695:316040",
+                "name": "小金额环 / 本年与往年构成",
+                "type": "FRAME",
+                "w": 359,
+                "h": 430,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "id": "6695:316132",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 600,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:316133",
+                "name": "独立多环 / 每轨各有分母",
+                "type": "FRAME",
+                "w": 359,
+                "h": 600,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:316172",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 728,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316173",
+            "name": "选图判断",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316176",
+            "name": "信息要求",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316179",
+            "name": "单环实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316182",
+            "name": "多环与构成实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316185",
+            "name": "边界与校验",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:316192",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 728,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:316193",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 692,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316194",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 692,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:316195",
+                "name": "代扣签约 / 户数柱与签约率曲线",
+                "type": "FRAME",
+                "w": 359,
+                "h": 692,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:316283",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 728,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316284",
+            "name": "什么时候用",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316287",
+            "name": "量纲与映射",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316290",
+            "name": "视觉实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316293",
+            "name": "口径边界",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316296",
+            "name": "补充建议",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:316303",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 728,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:316304",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 457,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316305",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 457,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:316306",
+                "name": "五维 / 问数满意度",
+                "type": "FRAME",
+                "w": 359,
+                "h": 457,
+                "visible": true
+              },
+              {
+                "id": "6695:316436",
+                "name": "六维 / widget满意度",
+                "type": "FRAME",
+                "w": 359,
+                "h": 429,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:316686",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 728,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316687",
+            "name": "什么时候用",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316690",
+            "name": "数据与比较组",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316693",
+            "name": "视觉实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316696",
+            "name": "适配建议",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316699",
+            "name": "交互与风险",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:316706",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 728,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:316707",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 349,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316708",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 349,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:316709",
+                "name": "圈选 → 触达 → 回收 / 项目图例",
+                "type": "FRAME",
+                "w": 359,
+                "h": 349,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:316742",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 728,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316743",
+            "name": "什么时候用",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316746",
+            "name": "读数规则",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316749",
+            "name": "视觉结构",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316752",
+            "name": "已发现数据疑点",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316755",
+            "name": "边界建议",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:316762",
+    "name": "图例与对应规则",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 728,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:316763",
+        "name": "图例区",
+        "type": "FRAME",
+        "w": 1110,
+        "h": 267,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316764",
+            "name": "项目图例行",
+            "type": "FRAME",
+            "w": 1110,
+            "h": 267,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:316765",
+                "name": "目标条 / 实际与军令状",
+                "type": "FRAME",
+                "w": 359,
+                "h": 192,
+                "visible": true
+              },
+              {
+                "id": "6695:316797",
+                "name": "目标条 / 收费率与缺口",
+                "type": "FRAME",
+                "w": 359,
+                "h": 239,
+                "visible": true
+              },
+              {
+                "id": "6695:316884",
+                "name": "月份仪表 / 经营收入",
+                "type": "FRAME",
+                "w": 359,
+                "h": 267,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6695:316924",
+        "name": "适用场景与规范",
+        "type": "FRAME",
+        "w": 859,
+        "h": 728,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316925",
+            "name": "选图判断",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316928",
+            "name": "信息要求",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316931",
+            "name": "目标条实测",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316934",
+            "name": "口径提醒",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          },
+          {
+            "id": "6695:316937",
+            "name": "未定义边界",
+            "type": "FRAME",
+            "w": 859,
+            "h": 136,
+            "visible": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6695:316944",
+    "name": "原项目坐标轴图例",
+    "type": "FRAME",
+    "w": 1993,
+    "h": 576,
+    "visible": true,
+    "children": [
+      {
+        "id": "6695:316946",
+        "name": "坐标轴交互规则",
+        "type": "FRAME",
+        "w": 1923,
+        "h": 497,
+        "visible": true,
+        "children": [
+          {
+            "id": "6695:316948",
+            "name": "Frame 1321319897",
+            "type": "FRAME",
+            "w": 1875,
+            "h": 255,
+            "visible": true,
+            "children": [
+              {
+                "id": "6695:316949",
+                "name": "Frame 1321319895",
+                "type": "FRAME",
+                "w": 343,
+                "h": 255,
+                "visible": true
+              },
+              {
+                "id": "6695:316990",
+                "name": "Frame 1321319896",
+                "type": "FRAME",
+                "w": 343,
+                "h": 255,
+                "visible": true
+              },
+              {
+                "id": "6695:317031",
+                "name": "Frame 1321319897",
+                "type": "FRAME",
+                "w": 343,
+                "h": 255,
+                "visible": true
+              },
+              {
+                "id": "6695:317072",
+                "name": "Frame 1321319898",
+                "type": "FRAME",
+                "w": 343,
+                "h": 255,
+                "visible": true
+              },
+              {
+                "id": "6695:317113",
+                "name": "Frame 1321319899",
+                "type": "FRAME",
+                "w": 343,
+                "h": 255,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

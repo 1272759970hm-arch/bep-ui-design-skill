@@ -1,0 +1,87 @@
+{
+  "title": "一看移动端 · 本期与同期正负柱",
+  "description": "模拟数据。可切换时间查看精确读数，也可暂时隐藏同期柱。两期共用相同量程和零基线。",
+  "screens": [
+    {
+      "name": "月度净现金流",
+      "header": {
+        "title": "月度净现金流",
+        "date": "2026年9月"
+      },
+      "components": [
+        {
+          "type": "signedPeriodBars",
+          "props": {
+            "unit": "万元",
+            "periods": [
+              {
+                "label": "4月",
+                "current": 120,
+                "previous": 100
+              },
+              {
+                "label": "5月",
+                "current": -40,
+                "previous": 20
+              },
+              {
+                "label": "6月",
+                "current": 80,
+                "previous": 60
+              },
+              {
+                "label": "7月",
+                "current": -20,
+                "previous": -10
+              },
+              {
+                "label": "8月",
+                "current": 160,
+                "previous": 130
+              },
+              {
+                "label": "9月",
+                "current": 60,
+                "previous": 50
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，同期为对应月份。差额＝本期－同期。"
+    },
+    {
+      "name": "零值与缺失",
+      "header": {
+        "title": "零值与缺失",
+        "date": "2026年9月"
+      },
+      "components": [
+        {
+          "type": "signedPeriodBars",
+          "props": {
+            "unit": "万元",
+            "periods": [
+              {
+                "label": "4月",
+                "current": -12,
+                "previous": -15
+              },
+              {
+                "label": "5月",
+                "current": 0,
+                "previous": null
+              },
+              {
+                "label": "6月",
+                "current": null,
+                "previous": -22
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，同期为对应月份。差额＝本期－同期。"
+    }
+  ]
+}

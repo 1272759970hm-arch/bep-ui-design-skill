@@ -1,0 +1,88 @@
+<svg width="343" height="346" viewBox="0 0 343 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="343" height="346" rx="12" fill="white"/>
+<line x1="16" y1="41.5" x2="327" y2="41.5" stroke="#E5E6EB"/>
+<g clip-path="url(#clip0_6695_316042)">
+<g opacity="0.5" filter="url(#filter0_d_6695_316042)">
+<rect x="16" y="40" width="104" height="2" fill="#00B2B2"/>
+</g>
+<text fill="#00B2B2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="40" y="26.04">&#x9884;&#x5b58;&#x660e;&#x7ec6;</tspan></text>
+</g>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="143.667" y="26.04">&#x6d3b;&#x52a8;&#x9884;&#x5b58;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="247.333" y="26.04">&#x8d8b;&#x52bf;&#x5206;&#x6790;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="16" y="82.04">&#x9884;&#x5b58;&#x51b2;&#x62b5;</tspan></text>
+<path d="M84 70.334C87.6812 70.3342 90.666 73.3191 90.666 77.001C90.6658 80.6827 87.6811 83.6668 84 83.667C80.3181 83.667 77.3332 80.6828 77.333 77.001C77.333 73.319 80.318 70.334 84 70.334ZM84 71.667C81.0593 71.667 78.666 74.0603 78.666 77.001C78.6662 79.9415 81.0594 82.334 84 82.334C86.9404 82.3338 89.3328 79.9414 89.333 77.001C89.333 74.0604 86.9405 71.6672 84 71.667ZM84 75.668C84.3677 75.6681 84.6668 75.9662 84.667 76.334V79.668C84.6666 80.0356 84.3676 80.3338 84 80.334C83.6322 80.334 83.3334 80.0357 83.333 79.668V76.334C83.3332 75.9661 83.6321 75.668 84 75.668ZM84 73.668C84.3677 73.6681 84.6668 73.9662 84.667 74.334C84.6668 74.7017 84.3677 75.0008 84 75.001C83.6321 75.001 83.3332 74.7018 83.333 74.334C83.3332 73.9661 83.6321 73.668 84 73.668Z" fill="#A5BFD9"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="22" letter-spacing="0em"><tspan x="16.1758" y="115.92">994.6</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="75" y="114.54">&#x4ebf;</tspan></text>
+<rect x="93.25" y="99.25" width="67.5" height="17.5" rx="8.75" stroke="#FF375F" stroke-opacity="0.3" stroke-width="0.5"/>
+<text fill="#FF375F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="12" letter-spacing="0em"><tspan x="98" y="112.32">&#x540c;</tspan></text>
+<text fill="#FF375F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="12" letter-spacing="0em"><tspan x="112" y="112.32">3.2%</tspan></text>
+<rect x="144" y="102" width="12" height="12" rx="6" fill="#FF375F"/>
+<path d="M149.792 102.803H150.209L150.903 108.614H153.428L150 113.198L146.571 108.614H149.098L149.792 102.803Z" fill="white"/>
+<rect x="16" y="135" width="8" height="8" rx="2" fill="#BE8BE2"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="28" y="144.04">&#x672c;&#x5e74;&#x9884;&#x5b58;&#x51b2;&#x62b5;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="114.607" y="144.04">444.5&#x4ebf;&#x5143;</tspan></text>
+<rect x="16" y="161" width="8" height="8" rx="2" fill="#66A7FF"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="28" y="170.04">&#x5f80;&#x5e74;&#x9884;&#x5b58;&#x51b2;&#x62b5;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="114.287" y="170.04">550.1&#x4ebf;&#x5143;</tspan></text>
+<circle cx="268" cy="121" r="53" stroke="#66A6FF" stroke-opacity="0.14" stroke-width="12"/>
+<g opacity="0.98">
+<mask id="path-24-inside-1_6695_316042" fill="white">
+<path d="M268 68.275C268 65.914 269.917 63.9833 272.271 64.1602C283.266 64.9863 293.82 68.988 302.627 75.7234C312.569 83.3269 319.732 93.9916 323.01 106.071C326.288 118.151 325.5 130.973 320.765 142.56C316.572 152.823 309.489 161.611 300.42 167.882C298.478 169.225 295.848 168.528 294.654 166.491C293.461 164.454 294.158 161.85 296.082 160.482C303.539 155.178 309.367 147.851 312.851 139.326C316.875 129.477 317.545 118.578 314.759 108.31C311.972 98.0428 305.884 88.9779 297.433 82.5148C290.118 76.9204 281.385 73.5448 272.27 72.7384C269.918 72.5304 268 70.636 268 68.275Z"/>
+</mask>
+<path d="M268 68.275C268 65.914 269.917 63.9833 272.271 64.1602C283.266 64.9863 293.82 68.988 302.627 75.7234C312.569 83.3269 319.732 93.9916 323.01 106.071C326.288 118.151 325.5 130.973 320.765 142.56C316.572 152.823 309.489 161.611 300.42 167.882C298.478 169.225 295.848 168.528 294.654 166.491C293.461 164.454 294.158 161.85 296.082 160.482C303.539 155.178 309.367 147.851 312.851 139.326C316.875 129.477 317.545 118.578 314.759 108.31C311.972 98.0428 305.884 88.9779 297.433 82.5148C290.118 76.9204 281.385 73.5448 272.27 72.7384C269.918 72.5304 268 70.636 268 68.275Z" stroke="#66A6FF" stroke-width="28" stroke-linecap="round" mask="url(#path-24-inside-1_6695_316042)"/>
+</g>
+<g opacity="0.98">
+<mask id="path-25-inside-2_6695_316042" fill="white">
+<path d="M293.35 167.231C294.485 169.301 293.733 171.916 291.583 172.893C285.031 175.87 277.963 177.585 270.749 177.934C262.108 178.351 253.487 176.796 245.537 173.387C237.587 169.978 230.517 164.804 224.862 158.258C219.208 151.712 215.118 143.964 212.902 135.603C210.686 127.241 210.402 118.485 212.072 109.998C213.742 101.51 217.321 93.5139 222.539 86.6149C227.758 79.716 234.477 74.0951 242.19 70.1783C248.63 66.9079 255.62 64.8971 262.787 64.2389C265.138 64.023 267.086 65.9216 267.125 68.2823C267.164 70.6429 265.278 72.5689 262.93 72.8159C257.062 73.4333 251.344 75.1189 246.062 77.8015C239.506 81.1309 233.794 85.9086 229.358 91.7727C224.923 97.6368 221.88 104.434 220.461 111.648C219.042 118.862 219.283 126.305 221.167 133.412C223.051 140.519 226.527 147.105 231.333 152.669C236.139 158.234 242.149 162.631 248.906 165.529C255.664 168.427 262.992 169.748 270.336 169.394C276.254 169.108 282.057 167.74 287.46 165.37C289.622 164.422 292.215 165.161 293.35 167.231Z"/>
+</mask>
+<path d="M293.35 167.231C294.485 169.301 293.733 171.916 291.583 172.893C285.031 175.87 277.963 177.585 270.749 177.934C262.108 178.351 253.487 176.796 245.537 173.387C237.587 169.978 230.517 164.804 224.862 158.258C219.208 151.712 215.118 143.964 212.902 135.603C210.686 127.241 210.402 118.485 212.072 109.998C213.742 101.51 217.321 93.5139 222.539 86.6149C227.758 79.716 234.477 74.0951 242.19 70.1783C248.63 66.9079 255.62 64.8971 262.787 64.2389C265.138 64.023 267.086 65.9216 267.125 68.2823C267.164 70.6429 265.278 72.5689 262.93 72.8159C257.062 73.4333 251.344 75.1189 246.062 77.8015C239.506 81.1309 233.794 85.9086 229.358 91.7727C224.923 97.6368 221.88 104.434 220.461 111.648C219.042 118.862 219.283 126.305 221.167 133.412C223.051 140.519 226.527 147.105 231.333 152.669C236.139 158.234 242.149 162.631 248.906 165.529C255.664 168.427 262.992 169.748 270.336 169.394C276.254 169.108 282.057 167.74 287.46 165.37C289.622 164.422 292.215 165.161 293.35 167.231Z" stroke="#949CF8" stroke-width="28" stroke-linecap="round" mask="url(#path-25-inside-2_6695_316042)"/>
+</g>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="22" letter-spacing="0em"><tspan x="232" y="118.92">994.6</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="291" y="119.04">&#x4ebf;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="240.5" y="141.04">&#x9884;&#x5b58;&#x51b2;&#x62b5;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="16" y="228.04">&#x9884;&#x5b58;&#x4f59;&#x989d;</tspan></text>
+<path d="M84 216.334C87.6812 216.334 90.666 219.319 90.666 223.001C90.6658 226.683 87.6811 229.667 84 229.667C80.3181 229.667 77.3332 226.683 77.333 223.001C77.333 219.319 80.318 216.334 84 216.334ZM84 217.667C81.0593 217.667 78.666 220.06 78.666 223.001C78.6662 225.941 81.0594 228.334 84 228.334C86.9404 228.334 89.3328 225.941 89.333 223.001C89.333 220.06 86.9405 217.667 84 217.667ZM84 221.668C84.3677 221.668 84.6668 221.966 84.667 222.334V225.668C84.6666 226.036 84.3676 226.334 84 226.334C83.6322 226.334 83.3334 226.036 83.333 225.668V222.334C83.3332 221.966 83.6321 221.668 84 221.668ZM84 219.668C84.3677 219.668 84.6668 219.966 84.667 220.334C84.6668 220.702 84.3677 221.001 84 221.001C83.6321 221.001 83.3332 220.702 83.333 220.334C83.3332 219.966 83.6321 219.668 84 219.668Z" fill="#A5BFD9"/>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="22" letter-spacing="0em"><tspan x="16.1758" y="261.92">994.6</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="75" y="260.54">&#x4ebf;</tspan></text>
+<rect x="93.25" y="245.25" width="67.5" height="17.5" rx="8.75" stroke="#FF375F" stroke-opacity="0.3" stroke-width="0.5"/>
+<text fill="#FF375F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="12" letter-spacing="0em"><tspan x="98" y="258.32">&#x540c;</tspan></text>
+<text fill="#FF375F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="12" letter-spacing="0em"><tspan x="112" y="258.32">3.2%</tspan></text>
+<rect x="144" y="248" width="12" height="12" rx="6" fill="#FF375F"/>
+<path d="M149.792 248.803H150.209L150.903 254.614H153.428L150 259.198L146.571 254.614H149.098L149.792 248.803Z" fill="white"/>
+<rect x="16" y="281" width="8" height="8" rx="2" fill="#BE8BE2"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="28" y="290.04">&#x672c;&#x5e74;&#x9884;&#x5b58;&#x4f59;&#x989d;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="114.607" y="290.04">444.5&#x4ebf;&#x5143;</tspan></text>
+<rect x="16" y="307" width="8" height="8" rx="2" fill="#66A7FF"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="28" y="316.04">&#x5f80;&#x5e74;&#x9884;&#x5b58;&#x4f59;&#x989d;</tspan></text>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="114.287" y="316.04">550.1&#x4ebf;&#x5143;</tspan></text>
+<circle cx="268" cy="267" r="53" stroke="#66A6FF" stroke-opacity="0.14" stroke-width="12"/>
+<g opacity="0.98">
+<mask id="path-46-inside-3_6695_316042" fill="white">
+<path d="M268 214.275C268 211.914 269.917 209.983 272.271 210.16C283.266 210.986 293.82 214.988 302.627 221.723C312.569 229.327 319.732 239.992 323.01 252.071C326.288 264.151 325.5 276.973 320.765 288.56C316.572 298.823 309.489 307.611 300.42 313.882C298.478 315.225 295.848 314.528 294.654 312.491C293.461 310.454 294.158 307.85 296.082 306.482C303.539 301.178 309.367 293.851 312.851 285.326C316.875 275.477 317.545 264.578 314.759 254.31C311.972 244.043 305.884 234.978 297.433 228.515C290.118 222.92 281.385 219.545 272.27 218.738C269.918 218.53 268 216.636 268 214.275Z"/>
+</mask>
+<path d="M268 214.275C268 211.914 269.917 209.983 272.271 210.16C283.266 210.986 293.82 214.988 302.627 221.723C312.569 229.327 319.732 239.992 323.01 252.071C326.288 264.151 325.5 276.973 320.765 288.56C316.572 298.823 309.489 307.611 300.42 313.882C298.478 315.225 295.848 314.528 294.654 312.491C293.461 310.454 294.158 307.85 296.082 306.482C303.539 301.178 309.367 293.851 312.851 285.326C316.875 275.477 317.545 264.578 314.759 254.31C311.972 244.043 305.884 234.978 297.433 228.515C290.118 222.92 281.385 219.545 272.27 218.738C269.918 218.53 268 216.636 268 214.275Z" stroke="#66A6FF" stroke-width="28" stroke-linecap="round" mask="url(#path-46-inside-3_6695_316042)"/>
+</g>
+<g opacity="0.98">
+<mask id="path-47-inside-4_6695_316042" fill="white">
+<path d="M293.35 313.231C294.485 315.301 293.733 317.916 291.583 318.893C285.031 321.87 277.963 323.585 270.749 323.934C262.108 324.351 253.487 322.796 245.537 319.387C237.587 315.978 230.517 310.804 224.862 304.258C219.208 297.712 215.118 289.964 212.902 281.603C210.686 273.241 210.402 264.485 212.072 255.998C213.742 247.51 217.321 239.514 222.539 232.615C227.758 225.716 234.477 220.095 242.19 216.178C248.63 212.908 255.62 210.897 262.787 210.239C265.138 210.023 267.086 211.922 267.125 214.282C267.164 216.643 265.278 218.569 262.93 218.816C257.062 219.433 251.344 221.119 246.062 223.802C239.506 227.131 233.794 231.909 229.358 237.773C224.923 243.637 221.88 250.434 220.461 257.648C219.042 264.862 219.283 272.305 221.167 279.412C223.051 286.519 226.527 293.105 231.333 298.669C236.139 304.234 242.149 308.631 248.906 311.529C255.664 314.427 262.992 315.748 270.336 315.394C276.254 315.108 282.057 313.74 287.46 311.37C289.622 310.422 292.215 311.161 293.35 313.231Z"/>
+</mask>
+<path d="M293.35 313.231C294.485 315.301 293.733 317.916 291.583 318.893C285.031 321.87 277.963 323.585 270.749 323.934C262.108 324.351 253.487 322.796 245.537 319.387C237.587 315.978 230.517 310.804 224.862 304.258C219.208 297.712 215.118 289.964 212.902 281.603C210.686 273.241 210.402 264.485 212.072 255.998C213.742 247.51 217.321 239.514 222.539 232.615C227.758 225.716 234.477 220.095 242.19 216.178C248.63 212.908 255.62 210.897 262.787 210.239C265.138 210.023 267.086 211.922 267.125 214.282C267.164 216.643 265.278 218.569 262.93 218.816C257.062 219.433 251.344 221.119 246.062 223.802C239.506 227.131 233.794 231.909 229.358 237.773C224.923 243.637 221.88 250.434 220.461 257.648C219.042 264.862 219.283 272.305 221.167 279.412C223.051 286.519 226.527 293.105 231.333 298.669C236.139 304.234 242.149 308.631 248.906 311.529C255.664 314.427 262.992 315.748 270.336 315.394C276.254 315.108 282.057 313.74 287.46 311.37C289.622 310.422 292.215 311.161 293.35 313.231Z" stroke="#949CF8" stroke-width="28" stroke-linecap="round" mask="url(#path-47-inside-4_6695_316042)"/>
+</g>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="22" letter-spacing="0em"><tspan x="232" y="264.92">994.6</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="291" y="265.04">&#x4ebf;</tspan></text>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0em"><tspan x="240.5" y="287.04">&#x9884;&#x5b58;&#x51b2;&#x62b5;</tspan></text>
+<defs>
+<filter id="filter0_d_6695_316042" x="-24" y="0" width="184" height="82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="20"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.305882 0 0 0 0 0.45098 0 0 0 0 0.972549 0 0 0 0.24 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6695_316042"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6695_316042" result="shape"/>
+</filter>
+<clipPath id="clip0_6695_316042">
+<rect width="103.667" height="42" fill="white" transform="translate(16)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "source": "QA 正例样例 PRD（与 good.html 完全对应）",
+  "goal": "查看工单列表并进入详情完成处理",
+  "roles": ["保洁员"],
+  "screens": ["list", "detail"],
+  "flow": ["进入列表 → 打开工单详情 → 打开处理弹层"],
+  "blocks": { "list": ["导航栏", "工单卡片", "空态"], "detail": ["KV 信息块", "操作按钮"] },
+  "fields": ["工单编号", "点位名称"],
+  "states": ["空", "加载", "失败"],
+  "outOfScope": ["审批流"],
+  "assumptions": [],
+  "requirements": [
+    { "id": "F-01", "text": "工单列表展示编号与点位", "screen": "list", "module": "工单卡片" },
+    { "id": "F-02", "text": "点击进入工单详情", "screen": "detail", "module": "KV 信息块" },
+    { "id": "F-03", "text": "详情可打开处理弹层", "screen": "detail", "module": "底部弹层" }
+  ]
+}

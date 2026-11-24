@@ -1,0 +1,247 @@
+{
+  "title": "一看移动端 · 主页与预警复用核对",
+  "description": "主页卡与详情排行采用原稿读数核对样式。预警排名使用明确标注的模拟数据，亮灯说明保留 2026/07/21 原稿。",
+  "screens": [
+    {
+      "name": "主页卡片 · 原稿数据",
+      "background": "homeBase",
+      "header": {
+        "title": "一看",
+        "date": "2025年7月"
+      },
+      "components": [
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "实收金额",
+            "value": "988.20",
+            "unit": "亿",
+            "updated": "25/07",
+            "comparisonValue": 3.23,
+            "source": "6671:152733",
+            "children": [
+              {
+                "name": "收费率",
+                "value": "89.56",
+                "unit": "%",
+                "change": 3.23
+              },
+              {
+                "name": "预存金额",
+                "value": "999.40",
+                "unit": "万",
+                "change": 3.23
+              },
+              {
+                "name": "期末欠费(本金)",
+                "value": "2345.87",
+                "unit": "万",
+                "change": 3.23
+              }
+            ]
+          }
+        },
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "总体满意度",
+            "value": "90.34",
+            "unit": "%",
+            "updated": "25/07",
+            "comparisonValue": 3.23,
+            "source": "6671:152767"
+          }
+        },
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "电梯在线率",
+            "value": "94.63",
+            "unit": "%",
+            "updated": "25/07",
+            "comparisonValue": 3.23,
+            "source": "6671:152778",
+            "second": {
+              "name": "停车场临停收入",
+              "value": "67.85",
+              "unit": "万",
+              "updated": "25/07",
+              "comparisonValue": -3.23
+            }
+          }
+        },
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "主营税前利润率",
+            "value": "52.72",
+            "unit": "%",
+            "updated": "25/07",
+            "comparisonValue": 3.23,
+            "source": "6671:152800"
+          }
+        },
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "两轮充电资金流水",
+            "value": "94.63",
+            "unit": "万",
+            "updated": "25/07",
+            "comparisonValue": 3.23,
+            "source": "6671:152814"
+          }
+        },
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "零售GMV",
+            "value": "67.85",
+            "unit": "万",
+            "updated": "25/07",
+            "comparisonValue": -3.23,
+            "source": "6671:152825"
+          }
+        }
+      ],
+      "note": "原稿卡片示例数据，用于离线核对。"
+    },
+    {
+      "name": "指标详情与预警 · 交互",
+      "header": {
+        "title": "实收金额",
+        "date": "2025年7月",
+        "value": "988.20",
+        "unit": "亿",
+        "summaryBackground": "detail",
+        "metricName": "实收金额"
+      },
+      "components": [
+        {
+          "type": "ranking",
+          "props": {
+            "title": "实收排名",
+            "appearance": "indicatorDetail",
+            "selfRank": 52,
+            "totalPeers": 77,
+            "columns": [
+              "排名",
+              "项目名称",
+              "收款金额",
+              "环比"
+            ],
+            "rows": [
+              [
+                1,
+                "***",
+                "854.08万",
+                "+67.20%"
+              ],
+              [
+                51,
+                "***",
+                "782.01万",
+                "−23.10%"
+              ],
+              [
+                52,
+                "康桥碧桂园",
+                "630.44万",
+                "+45.70%"
+              ],
+              [
+                53,
+                "***",
+                "328.85万",
+                "−18.40%"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "warningRanking",
+          "props": {
+            "title": "预警排名",
+            "showRules": true,
+            "metrics": [
+              {
+                "label": "物",
+                "name": "物业服务收入净增长"
+              },
+              {
+                "label": "生",
+                "name": "生活服务收入"
+              },
+              {
+                "label": "利",
+                "name": "归母税前利润"
+              },
+              {
+                "label": "现",
+                "name": "现金流净额"
+              }
+            ],
+            "rows": [
+              {
+                "rank": 3,
+                "name": "示例区域甲",
+                "category": "A类",
+                "lights": [
+                  "red",
+                  "green",
+                  "yellow",
+                  "red"
+                ]
+              },
+              {
+                "rank": 2,
+                "name": "示例区域乙",
+                "category": "A类",
+                "lights": [
+                  "yellow",
+                  "green",
+                  "green",
+                  "red"
+                ]
+              },
+              {
+                "rank": 2,
+                "name": "示例区域丙",
+                "category": "B类",
+                "lights": [
+                  "green",
+                  "red",
+                  "green",
+                  "green"
+                ]
+              },
+              {
+                "rank": 1,
+                "name": "示例区域丁",
+                "category": "B类",
+                "lights": [
+                  "green",
+                  "green",
+                  "green",
+                  "green"
+                ]
+              },
+              {
+                "rank": 4,
+                "name": "示例区域戊",
+                "category": "B类",
+                "lights": [
+                  "green",
+                  null,
+                  "green",
+                  "red"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "note": "实收排名使用原稿示例数据。预警排名的名次、灯色和示例组织为模拟数据。"
+    }
+  ]
+}

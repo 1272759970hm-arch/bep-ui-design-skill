@@ -1,0 +1,18 @@
+const assert=require('node:assert/strict');
+const y=require('../assets/offline/yikan.js');
+const query={value:{granularity:'day',year:2026,month:10,day:26},years:[2026],today:{year:2026,month:10,day:26}};
+const head=y.header({layout:'indicatorDetail',title:'一看',value:'3.84',unit:'亿元',query,metricName:'资金流水',metricInfo:'总流水包含实际收益与未计入金额',updated:'更新于10月26日',ai:{text:'测试解读'}});
+assert.match(head,/data-component="date-control"/);
+assert.match(head,/yk-detail-summary-face/);
+assert.doesNotMatch(head,/年度 · 月度 · 按日/);
+const rows=Array.from({length:7},(_,i)=>({id:'p'+i,rank:i+1,name:'项目'+i,values:[1000-i*50,+(5-i).toFixed(2)],canDrill:true}));
+const peer={id:'peer',kind:'peers',label:'地区',selfId:'p3',complete:true,totalPeers:7,columns:['排名','项目名称','收款金额','环比'],rows,rateColumn:3};
+const sub={id:'sub',kind:'subordinates',label:'管家',columns:['排名','管家姓名','收款金额','环比'],rows:rows.slice(0,3).map((r,i)=>({...r,name:"管家"+i})),rateColumn:3};
+const html=y.detailRanking({peer,subordinates:[sub]});
+assert.match(html,/data-component="detail-ranking"/);
+assert.match(html,/width:44px/);assert.match(html,/width:90px/);assert.match(html,/width:94px/);
+assert.doesNotMatch(html,/项目0|项目1|项目2|项目4/);
+assert.match(html,/项目3/);assert.match(html,/data-rank-medal="2"/);
+assert.match(html,/data-ranking-group-expand/);
+assert.throws(()=>y.detailRanking({peer:{...peer,rows:rows.slice(0,3)},subordinates:[]}));
+console.log('trial-release: header composition, native ranking columns, privacy and neighborhoods passed');

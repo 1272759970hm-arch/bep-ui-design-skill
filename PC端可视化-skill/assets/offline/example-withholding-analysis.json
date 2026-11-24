@@ -1,0 +1,59 @@
+{
+  "title": "一看移动端 · 微信代扣签约与解约",
+  "description": "模拟数据。切换签约率或解约率，并选择期间，核对环形摘要及趋势。",
+  "screens": [
+    {
+      "name": "签约与解约",
+      "header": {
+        "title": "微信代扣",
+        "date": "2026年7月"
+      },
+      "components": [
+        {
+          "type": "withholdingAnalysis",
+          "props": {
+            "signing": {
+              "periods": [
+                {
+                  "label": "5月",
+                  "eligible": 1000,
+                  "signed": 600
+                },
+                {
+                  "label": "6月",
+                  "eligible": 1100,
+                  "signed": 704
+                },
+                {
+                  "label": "7月",
+                  "eligible": 1200,
+                  "signed": 840
+                }
+              ]
+            },
+            "cancellation": {
+              "periods": [
+                {
+                  "label": "5月",
+                  "eligible": 600,
+                  "signed": 18
+                },
+                {
+                  "label": "6月",
+                  "eligible": 704,
+                  "signed": 22
+                },
+                {
+                  "label": "7月",
+                  "eligible": 840,
+                  "signed": 42
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "note": "模拟数据。签约分母为已收楼户数。解约分母为示例明确给定的当期已签约户数。"
+    }
+  ]
+}

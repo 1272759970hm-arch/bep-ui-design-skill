@@ -1,0 +1,91 @@
+{
+  "title": "一看移动端 · 主页经营卡",
+  "description": "模拟数据。涵盖金额、利润率解释项、金额差额与半年及年度目标。",
+  "screens": [
+    {
+      "name": "主页经营卡",
+      "background": "homeBase",
+      "header": {
+        "title": "一看",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "homePerformanceCard",
+          "props": {
+            "source": "6671:164095",
+            "scope": "集团整体",
+            "value": 998.65,
+            "unit": "亿元",
+            "completion": 52.7,
+            "comparisonValue": 3.2
+          }
+        },
+        {
+          "type": "homePerformanceCard",
+          "props": {
+            "source": "6671:164148",
+            "scope": "集团整体",
+            "value": 90.2,
+            "unit": "亿元",
+            "completion": 112.8,
+            "comparisonValue": -1.1
+          }
+        },
+        {
+          "type": "homeProfitExplanation",
+          "props": {
+            "updated": "10月26日",
+            "rate": 9.03,
+            "profit": 90.2,
+            "revenue": 998.65,
+            "unit": "亿元",
+            "yoy": 1.2,
+            "mom": -0.4
+          }
+        },
+        {
+          "type": "homePerformanceCard",
+          "props": {
+            "source": "6671:164196",
+            "scope": "国内＋海外＋股权",
+            "value": 678.3,
+            "unit": "亿元",
+            "gap": {
+              "value": 84.71,
+              "unit": "万元"
+            },
+            "yoyDelta": {
+              "value": -41.71,
+              "unit": "万元"
+            }
+          }
+        },
+        {
+          "type": "homeCashflowTargets",
+          "props": {
+            "updated": "25/07 12:38",
+            "unit": "万",
+            "month": {
+              "net": 988.2,
+              "yoyDelta": 138.32
+            },
+            "halfYear": {
+              "rate": -98.2,
+              "net": -123245.87,
+              "target": 125505,
+              "yoyDelta": -38.2
+            },
+            "year": {
+              "rate": -46.24,
+              "net": -101728,
+              "target": 220000,
+              "yoyDelta": 0
+            }
+          }
+        }
+      ],
+      "note": "模拟数据。同环比示例由业务字段传入。"
+    }
+  ]
+}

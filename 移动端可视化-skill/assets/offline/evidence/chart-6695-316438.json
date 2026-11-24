@@ -1,0 +1,2816 @@
+{
+  "id": "6695:316438",
+  "name": "六维 / widget满意度 / 原项目图层",
+  "w": 329,
+  "h": 345,
+  "records": [
+    {
+      "id": "6695:316438",
+      "parent": "6695:316436",
+      "type": "FRAME",
+      "name": "六维 / widget满意度 / 原项目图层",
+      "x": 8,
+      "y": 46,
+      "w": 329,
+      "h": 345,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "text": null
+    },
+    {
+      "id": "6695:316445",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "满意度概览",
+      "x": 16,
+      "y": 13,
+      "w": 75,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "满意度概览",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Semibold"
+        },
+        "size": 15,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316453",
+      "parent": "6695:316450",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 0,
+      "y": 0,
+      "w": 26,
+      "h": 16,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4000000059604645,
+            "g": 0.6509804129600525,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "保洁",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 12.666666984558105,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316457",
+      "parent": "6695:316454",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 11.82126235961914,
+      "y": -0.0005495018558576703,
+      "w": 48,
+      "h": 11,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4590625762939453,
+            "g": 0.4894956946372986,
+            "b": 0.5416666865348816
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "目标：100%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 8.44444465637207,
+        "line": {
+          "unit": "PIXELS",
+          "value": 10.133333206176758
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316458",
+      "parent": "6695:316448",
+      "type": "TEXT",
+      "name": "Caption",
+      "x": 6.755555629730225,
+      "y": 21.066665649414062,
+      "w": 20,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4000000059604645,
+            "g": 0.6509804129600525,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "88",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 16.88888931274414,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316464",
+      "parent": "6695:316461",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 0,
+      "y": 0,
+      "w": 26,
+      "h": 16,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "安防",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 12.666666984558105,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316468",
+      "parent": "6695:316465",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 11.821967124938965,
+      "y": 0.0006983280181884766,
+      "w": 48,
+      "h": 11,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4590625762939453,
+            "g": 0.4894956946372986,
+            "b": 0.5416666865348816
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "目标：100%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 8.44444465637207,
+        "line": {
+          "unit": "PIXELS",
+          "value": 10.133333206176758
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316469",
+      "parent": "6695:316459",
+      "type": "TEXT",
+      "name": "Caption",
+      "x": 6.755555629730225,
+      "y": 21.066665649414062,
+      "w": 20,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "79",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 16.88888931274414,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316475",
+      "parent": "6695:316472",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 0,
+      "y": 0,
+      "w": 26,
+      "h": 16,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "客服",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 12.666666984558105,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316479",
+      "parent": "6695:316476",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 11.819254875183105,
+      "y": 0.0004134972987230867,
+      "w": 48,
+      "h": 11,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4590625762939453,
+            "g": 0.4894956946372986,
+            "b": 0.5416666865348816
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "目标：100%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 8.44444465637207,
+        "line": {
+          "unit": "PIXELS",
+          "value": 10.133333206176758
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316480",
+      "parent": "6695:316470",
+      "type": "TEXT",
+      "name": "Caption",
+      "x": 6.755555629730225,
+      "y": 21.066665649414062,
+      "w": 20,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "91",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 16.88888931274414,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316486",
+      "parent": "6695:316483",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 0,
+      "y": 0,
+      "w": 26,
+      "h": 16,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "绿化",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 12.666666984558105,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316490",
+      "parent": "6695:316487",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 11.822021484375,
+      "y": 0.0004134972987230867,
+      "w": 48,
+      "h": 11,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4590625762939453,
+            "g": 0.4894956946372986,
+            "b": 0.5416666865348816
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "目标：100%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 8.44444465637207,
+        "line": {
+          "unit": "PIXELS",
+          "value": 10.133333206176758
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316491",
+      "parent": "6695:316481",
+      "type": "TEXT",
+      "name": "Caption",
+      "x": 6.755555629730225,
+      "y": 21.066665649414062,
+      "w": 20,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "95",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 16.88888931274414,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316497",
+      "parent": "6695:316494",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 0,
+      "y": 0,
+      "w": 26,
+      "h": 16,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "工程",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 12.666666984558105,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316501",
+      "parent": "6695:316498",
+      "type": "TEXT",
+      "name": "Header",
+      "x": 11.821452140808105,
+      "y": 0.0006983280181884766,
+      "w": 48,
+      "h": 11,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4590625762939453,
+            "g": 0.4894956946372986,
+            "b": 0.5416666865348816
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "目标：100%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 8.44444465637207,
+        "line": {
+          "unit": "PIXELS",
+          "value": 10.133333206176758
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316502",
+      "parent": "6695:316492",
+      "type": "TEXT",
+      "name": "Caption",
+      "x": 6.755555629730225,
+      "y": 21.066665649414062,
+      "w": 20,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "84",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 16.88888931274414,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316554",
+      "parent": "6695:316552",
+      "type": "TEXT",
+      "name": "整体评分",
+      "x": 8.44444465637207,
+      "y": 0,
+      "w": 48,
+      "h": 14,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "整体评分",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 11.822222709655762,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316555",
+      "parent": "6695:316551",
+      "type": "TEXT",
+      "name": "92",
+      "x": 4.222222328186035,
+      "y": 15.688888549804688,
+      "w": 18,
+      "h": 18,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "92",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 15.200000762939453,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316561",
+      "parent": "6695:316559",
+      "type": "TEXT",
+      "name": "最高·绿化",
+      "x": 8.44444465637207,
+      "y": 0,
+      "w": 60,
+      "h": 14,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "最高·绿化",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 11.822222709655762,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316562",
+      "parent": "6695:316558",
+      "type": "TEXT",
+      "name": "95",
+      "x": 4.222222328186035,
+      "y": 15.688888549804688,
+      "w": 18,
+      "h": 18,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "95",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 15.200000762939453,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316568",
+      "parent": "6695:316566",
+      "type": "TEXT",
+      "name": "待提升·安防",
+      "x": 8.44444465637207,
+      "y": 0,
+      "w": 71,
+      "h": 14,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "待提升·安防",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 11.822222709655762,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316569",
+      "parent": "6695:316565",
+      "type": "TEXT",
+      "name": "79",
+      "x": 4.222222328186035,
+      "y": 15.688888549804688,
+      "w": 18,
+      "h": 18,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "79",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 15.200000762939453,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316571",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 99,
+      "y": 14,
+      "w": 60,
+      "h": 20,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "安庆碧桂园",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Semibold"
+        },
+        "size": 12,
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316612",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "上下结构 / 图表说明",
+      "x": 134,
+      "y": 221,
+      "w": 56,
+      "h": 10,
+      "visible": false,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.550000011920929,
+            "g": 0.6000000238418579,
+            "b": 0.6700000166893005
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "本月六维满意度",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 8,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316617",
+      "parent": "6695:316615",
+      "type": "TEXT",
+      "name": "名称",
+      "x": 18,
+      "y": 14,
+      "w": 17,
+      "h": 10,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3799999952316284,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "整体",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 8.5,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316619",
+      "parent": "6695:316615",
+      "type": "TEXT",
+      "name": "分数",
+      "x": 75,
+      "y": 12.5,
+      "w": 13,
+      "h": 13,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.029999999329447746,
+            "g": 0.6700000166893005,
+            "b": 0.6200000047683716
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "92",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316622",
+      "parent": "6695:316620",
+      "type": "TEXT",
+      "name": "名称",
+      "x": 18,
+      "y": 14,
+      "w": 17,
+      "h": 10,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3799999952316284,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "保洁",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 8.5,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316624",
+      "parent": "6695:316620",
+      "type": "TEXT",
+      "name": "分数",
+      "x": 75,
+      "y": 12.5,
+      "w": 13,
+      "h": 13,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11999999731779099,
+            "g": 0.75,
+            "b": 0.6800000071525574
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "88",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316627",
+      "parent": "6695:316625",
+      "type": "TEXT",
+      "name": "名称",
+      "x": 18,
+      "y": 14,
+      "w": 17,
+      "h": 10,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3799999952316284,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "绿化",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 8.5,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316629",
+      "parent": "6695:316625",
+      "type": "TEXT",
+      "name": "分数",
+      "x": 75,
+      "y": 12.5,
+      "w": 13,
+      "h": 13,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.20000000298023224,
+            "g": 0.7799999713897705,
+            "b": 0.5099999904632568
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "95",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316633",
+      "parent": "6695:316631",
+      "type": "TEXT",
+      "name": "名称",
+      "x": 18,
+      "y": 14,
+      "w": 17,
+      "h": 10,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3799999952316284,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "安防",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 8.5,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316635",
+      "parent": "6695:316631",
+      "type": "TEXT",
+      "name": "分数",
+      "x": 75,
+      "y": 12.5,
+      "w": 13,
+      "h": 13,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.4000000059604645,
+            "g": 0.33000001311302185,
+            "b": 0.9200000166893005
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "79",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316638",
+      "parent": "6695:316636",
+      "type": "TEXT",
+      "name": "名称",
+      "x": 18,
+      "y": 14,
+      "w": 17,
+      "h": 10,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3799999952316284,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "工程",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 8.5,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316640",
+      "parent": "6695:316636",
+      "type": "TEXT",
+      "name": "分数",
+      "x": 75,
+      "y": 12.5,
+      "w": 13,
+      "h": 13,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9803921580314636,
+            "g": 0.5490196347236633,
+            "b": 0.0313725508749485
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "84",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316643",
+      "parent": "6695:316641",
+      "type": "TEXT",
+      "name": "名称",
+      "x": 18,
+      "y": 14,
+      "w": 17,
+      "h": 10,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3799999952316284,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "客服",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 8.5,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316645",
+      "parent": "6695:316641",
+      "type": "TEXT",
+      "name": "分数",
+      "x": 75,
+      "y": 12.5,
+      "w": 13,
+      "h": 13,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.20000000298023224,
+            "g": 0.550000011920929,
+            "b": 0.949999988079071
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "91",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500
+          }
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316646",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "上下结构 / 轴标签 整体",
+      "x": 152,
+      "y": 48,
+      "w": 24,
+      "h": 17,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "整体",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 12,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316647",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "上下结构 / 轴标签 保洁",
+      "x": 235,
+      "y": 94,
+      "w": 24,
+      "h": 17,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "保洁",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 12,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316648",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "上下结构 / 轴标签 绿化",
+      "x": 235,
+      "y": 175,
+      "w": 24,
+      "h": 17,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "绿化",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 12,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316649",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "上下结构 / 轴标签 安防",
+      "x": 154,
+      "y": 214,
+      "w": 24,
+      "h": 17,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "安防",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 12,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316650",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "上下结构 / 轴标签 工程",
+      "x": 71,
+      "y": 173,
+      "w": 24,
+      "h": 14,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "工程",
+        "font": {
+          "family": "Noto Sans SC",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "size": 12,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316651",
+      "parent": "6695:316438",
+      "type": "TEXT",
+      "name": "上下结构 / 轴标签 客服",
+      "x": 71,
+      "y": 93,
+      "w": 24,
+      "h": 17,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "客服",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 12,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316657",
+      "parent": "6695:316655",
+      "type": "TEXT",
+      "name": "指标矩阵 / 整体文字",
+      "x": 11.5,
+      "y": 0,
+      "w": 22,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3700000047683716,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "整体",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316658",
+      "parent": "6695:316654",
+      "type": "TEXT",
+      "name": "指标矩阵 / 整体数值",
+      "x": 46.75,
+      "y": 8,
+      "w": 29,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "92%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "segments": [
+          {
+            "characters": "92",
+            "start": 0,
+            "end": 2,
+            "fontSize": 15,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          },
+          {
+            "characters": "%",
+            "start": 2,
+            "end": 3,
+            "fontSize": 11,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5686274766921997,
+                  "g": 0.6000000238418579,
+                  "b": 0.6352941393852234
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          }
+        ],
+        "mixedStyle": true
+      }
+    },
+    {
+      "id": "6695:316662",
+      "parent": "6695:316660",
+      "type": "TEXT",
+      "name": "指标矩阵 / 保洁文字",
+      "x": 11.5,
+      "y": 0,
+      "w": 22,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3700000047683716,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "保洁",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316663",
+      "parent": "6695:316659",
+      "type": "TEXT",
+      "name": "指标矩阵 / 保洁数值",
+      "x": 46.75,
+      "y": 8,
+      "w": 29,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "88%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "segments": [
+          {
+            "characters": "88",
+            "start": 0,
+            "end": 2,
+            "fontSize": 15,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          },
+          {
+            "characters": "%",
+            "start": 2,
+            "end": 3,
+            "fontSize": 11,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5686274766921997,
+                  "g": 0.6000000238418579,
+                  "b": 0.6352941393852234
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          }
+        ],
+        "mixedStyle": true
+      }
+    },
+    {
+      "id": "6695:316667",
+      "parent": "6695:316665",
+      "type": "TEXT",
+      "name": "指标矩阵 / 绿化文字",
+      "x": 11.5,
+      "y": 0,
+      "w": 22,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3700000047683716,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "绿化",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316668",
+      "parent": "6695:316664",
+      "type": "TEXT",
+      "name": "指标矩阵 / 绿化数值",
+      "x": 46.75,
+      "y": 8,
+      "w": 29,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "95%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "segments": [
+          {
+            "characters": "95",
+            "start": 0,
+            "end": 2,
+            "fontSize": 15,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          },
+          {
+            "characters": "%",
+            "start": 2,
+            "end": 3,
+            "fontSize": 11,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5686274766921997,
+                  "g": 0.6000000238418579,
+                  "b": 0.6352941393852234
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          }
+        ],
+        "mixedStyle": true
+      }
+    },
+    {
+      "id": "6695:316673",
+      "parent": "6695:316671",
+      "type": "TEXT",
+      "name": "指标矩阵 / 安防文字",
+      "x": 11.5,
+      "y": 0,
+      "w": 22,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3700000047683716,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "安防",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316674",
+      "parent": "6695:316670",
+      "type": "TEXT",
+      "name": "指标矩阵 / 安防数值",
+      "x": 46.75,
+      "y": 8,
+      "w": 29,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "79%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "segments": [
+          {
+            "characters": "79",
+            "start": 0,
+            "end": 2,
+            "fontSize": 15,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          },
+          {
+            "characters": "%",
+            "start": 2,
+            "end": 3,
+            "fontSize": 11,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5686274766921997,
+                  "g": 0.6000000238418579,
+                  "b": 0.6352941393852234
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          }
+        ],
+        "mixedStyle": true
+      }
+    },
+    {
+      "id": "6695:316678",
+      "parent": "6695:316676",
+      "type": "TEXT",
+      "name": "指标矩阵 / 工程文字",
+      "x": 11.5,
+      "y": 0,
+      "w": 22,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3700000047683716,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "工程",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316679",
+      "parent": "6695:316675",
+      "type": "TEXT",
+      "name": "指标矩阵 / 工程数值",
+      "x": 46.75,
+      "y": 8,
+      "w": 29,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "84%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "segments": [
+          {
+            "characters": "84",
+            "start": 0,
+            "end": 2,
+            "fontSize": 15,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          },
+          {
+            "characters": "%",
+            "start": 2,
+            "end": 3,
+            "fontSize": 11,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5686274766921997,
+                  "g": 0.6000000238418579,
+                  "b": 0.6352941393852234
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          }
+        ],
+        "mixedStyle": true
+      }
+    },
+    {
+      "id": "6695:316683",
+      "parent": "6695:316681",
+      "type": "TEXT",
+      "name": "指标矩阵 / 客服文字",
+      "x": 11.5,
+      "y": 0,
+      "w": 22,
+      "h": 15,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3700000047683716,
+            "g": 0.4300000071525574,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "客服",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "size": 11,
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT"
+      }
+    },
+    {
+      "id": "6695:316684",
+      "parent": "6695:316680",
+      "type": "TEXT",
+      "name": "指标矩阵 / 客服数值",
+      "x": 46.75,
+      "y": 8,
+      "w": 29,
+      "h": 21,
+      "visible": true,
+      "opacity": 1,
+      "radii": null,
+      "effects": [],
+      "text": {
+        "characters": "91%",
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "segments": [
+          {
+            "characters": "91",
+            "start": 0,
+            "end": 2,
+            "fontSize": 15,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          },
+          {
+            "characters": "%",
+            "start": 2,
+            "end": 3,
+            "fontSize": 11,
+            "fontName": {
+              "family": "PingFang SC",
+              "style": "Medium"
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5686274766921997,
+                  "g": 0.6000000238418579,
+                  "b": 0.6352941393852234
+                },
+                "boundVariables": {}
+              }
+            ],
+            "textStyleId": ""
+          }
+        ],
+        "mixedStyle": true
+      }
+    }
+  ],
+  "svgBytes": 328394,
+  "deferredSvg": false,
+  "svgFile": "native/chart-6695-316438.svg"
+}

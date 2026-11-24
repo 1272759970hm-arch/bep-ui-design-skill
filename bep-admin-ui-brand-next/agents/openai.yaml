@@ -1,0 +1,4 @@
+interface:
+  display_name: "BeP Admin UI Brand"
+  short_description: "PC 端产品设计 + UX 交互 + UI 视觉 + 组件系统一体化：需求理解、信息架构、页面结构、交互与状态方案，并落地为 BeP 规范的 Figma 页面。"
+  default_prompt: "Use the BeP Admin UI Brand skill for PC admin product design. Start from the design decision layer: clarify business goal, users and tasks (design-process), shape the information architecture (information-architecture), page type and skeleton (page-type-rules), interaction and states (interaction-design), and PC density baseline (pc-ux-principles). Then generate the BeP-compliant Figma page with standard components and templates. After output, run the automated Design QA: build, validate-page, then design-qa.js (six dimensions, auto-fix, re-check) and attach its report (design-qa.md). Finally finish with the eight-dimension manual design review (design-review), confirming all NOT CHECKED items. Never mark uncheck content as PASS."

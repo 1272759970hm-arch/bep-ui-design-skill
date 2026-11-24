@@ -1,0 +1,41 @@
+const assert=require('node:assert/strict');
+const {readFileSync}=require('node:fs');
+const {resolve}=require('node:path');
+const {pathToFileURL}=require('node:url');
+const {chromium}=require(process.env.YIKAN_PLAYWRIGHT_PATH||'playwright');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:320,height:780},offline:true});
+  const errors=[],external=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('request',request=>{if(/^https?:/.test(request.url()))external.push(request.url());});
+  const file=resolve(__dirname,'../assets/offline/微信代扣整页-离线核对.html');
+  assert.doesNotMatch(readFileSync(file,'utf8'),/示例项目[1-6]/);
+  await page.goto(pathToFileURL(file).href);
+  assert.deepEqual(await page.evaluate(()=>yikanRenderErrors),[]);
+  assert.equal(await page.locator('.yk-withholding-payment').getByRole('img',{name:'扣费成功率 98.10%'}).count(),1);
+  const ranking=page.locator('[data-withholding-rank-panel="payment"]');
+  const cells=ranking.locator('tbody td:nth-child(3)');
+  assert.deepEqual(await cells.allTextContents(),['100%','99.5%','98.1%','93.5%']);
+  await ranking.locator('[data-sort-column="2"]').click();
+  assert.deepEqual(await cells.allTextContents(),['93.5%','98.1%','99.5%','100%']);
+  await ranking.locator('[data-rank-search-column]').selectOption('2');
+  await ranking.locator('[data-rank-search]').fill('100%');
+  assert.equal(await ranking.locator('tbody tr:visible').count(),1);
+  await page.locator('[data-withholding-rank-view="cancellation"]').click();
+  assert.ok(await page.locator('[data-withholding-panel="signing"]').isVisible());
+  await page.locator('[data-withholding-view="cancellation"]').click();
+  await page.locator('[data-withholding-rank-view="payment"]').click();
+  assert.ok(await page.locator('[data-withholding-panel="cancellation"]').isVisible());
+  assert.equal(await ranking.locator('tbody tr:visible').count(),1);
+  await ranking.getByRole('button',{name:'全屏查看排名'}).click();
+  assert.ok(await page.locator('dialog .yk-ranking').isVisible());
+  await page.keyboard.press('Escape');
+  await ranking.locator('.yk-ranking').waitFor({state:'visible'});
+  assert.ok(await page.locator('.phone').evaluate(phone=>phone.scrollWidth<=phone.clientWidth));
+  assert.deepEqual(errors,[]);
+  assert.deepEqual(external,[]);
+  console.log('320px offline: payment summary, numeric rate sort/search, independent tabs, fullscreen, peer redaction, no network.');
+ }finally{await browser.close();}
+})().catch(error=>{console.error(error);process.exit(1);});

@@ -1,0 +1,121 @@
+{
+  "title": "一看移动端 · 月份经营收入仪表",
+  "description": "选择月份核对年度目标完成率及累计实际，外圈颜色按各月给定的业务状态显示。",
+  "screens": [
+    {
+      "name": "年度目标与月度节奏",
+      "header": {
+        "title": "经营收入",
+        "date": "2026年"
+      },
+      "components": [
+        {
+          "type": "monthlyRevenueGauge",
+          "props": {
+            "unit": "亿元",
+            "annualTarget": 50,
+            "months": [
+              {
+                "month": 1,
+                "actual": 4,
+                "yoy": 1.1,
+                "status": "met"
+              },
+              {
+                "month": 2,
+                "actual": 9,
+                "yoy": 2.2,
+                "status": "met"
+              },
+              {
+                "month": 3,
+                "actual": 12,
+                "yoy": -1.1,
+                "status": "below"
+              },
+              {
+                "month": 4,
+                "actual": 18,
+                "yoy": 4,
+                "status": "met"
+              },
+              {
+                "month": 5,
+                "actual": 24,
+                "yoy": 7,
+                "status": "met"
+              },
+              {
+                "month": 6,
+                "actual": 29,
+                "yoy": 8,
+                "status": "met"
+              },
+              {
+                "month": 7,
+                "actual": 34,
+                "yoy": 5,
+                "status": "met"
+              },
+              {
+                "month": 8,
+                "actual": 40,
+                "yoy": -1.3,
+                "status": "below",
+                "sectors": [
+                  {
+                    "name": "住宅物业",
+                    "value": 30
+                  },
+                  {
+                    "name": "车位物业",
+                    "value": 8
+                  },
+                  {
+                    "name": "其他业务",
+                    "value": 2
+                  }
+                ],
+                "referenceValue": 46.5,
+                "referenceLabel": "军令状"
+              },
+              {
+                "month": 9,
+                "actual": 62.5,
+                "yoy": 9.1,
+                "status": "met"
+              }
+            ],
+            "selectedMonth": 8
+          }
+        }
+      ],
+      "note": "模拟数据。累计实际和年度目标使用同一业务范围。月份颜色来自独立输入。"
+    },
+    {
+      "name": "零目标与负值",
+      "header": {
+        "title": "经营收入",
+        "date": "2026年"
+      },
+      "components": [
+        {
+          "type": "monthlyRevenueGauge",
+          "props": {
+            "unit": "亿元",
+            "annualTarget": 0,
+            "months": [
+              {
+                "month": 1,
+                "actual": -2,
+                "status": "unrated"
+              }
+            ],
+            "selectedMonth": 1
+          }
+        }
+      ],
+      "note": "模拟数据。累计实际和年度目标使用同一业务范围。月份颜色来自独立输入。"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "title": "高级筛选 · 离线核对",
+  "description": "字段取自原稿，示例采用2026-02-25删减版本；本地交互尚未接业务数据。",
+  "screens": [
+    {
+      "name": "筛选确认、重置与条件联动",
+      "components": [
+        {
+          "type": "filterControl",
+          "props": {
+            "fields": [
+              {
+                "key": "nature",
+                "label": "单位性质",
+                "mode": "multi",
+                "options": [
+                  {
+                    "value": "owned",
+                    "label": "自有区域"
+                  },
+                  {
+                    "value": "equity",
+                    "label": "股权公司"
+                  },
+                  {
+                    "value": "other",
+                    "label": "其他"
+                  }
+                ]
+              },
+              {
+                "key": "region",
+                "label": "区域分类",
+                "mode": "multi",
+                "options": [
+                  {
+                    "value": "A",
+                    "label": "A类"
+                  },
+                  {
+                    "value": "B",
+                    "label": "B类"
+                  },
+                  {
+                    "value": "C",
+                    "label": "C类"
+                  },
+                  {
+                    "value": "D",
+                    "label": "D类"
+                  },
+                  {
+                    "value": "E",
+                    "label": "E类"
+                  }
+                ]
+              },
+              {
+                "key": "subject",
+                "label": "账单主体类型",
+                "mode": "multi",
+                "options": [
+                  {
+                    "value": "small",
+                    "label": "小业主"
+                  },
+                  {
+                    "value": "large",
+                    "label": "大业主"
+                  }
+                ]
+              },
+              {
+                "key": "risk",
+                "label": "风险客商类型",
+                "mode": "multi",
+                "showWhen": {
+                  "field": "subject",
+                  "values": [
+                    "large"
+                  ]
+                },
+                "options": [
+                  {
+                    "value": "nonrisk",
+                    "label": "非风险客商"
+                  },
+                  {
+                    "value": "risk",
+                    "label": "风险客商"
+                  }
+                ]
+              }
+            ],
+            "value": {
+              "nature": [],
+              "region": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "subject": [
+                "large"
+              ],
+              "risk": [
+                "nonrisk"
+              ]
+            },
+            "defaults": {
+              "nature": [],
+              "region": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "subject": [],
+              "risk": []
+            },
+            "version": "2026-02-25"
+          }
+        }
+      ],
+      "note": "单多选模式与隐藏字段清理策略是显式实现合同；不替代具体指标版本确认。"
+    }
+  ]
+}

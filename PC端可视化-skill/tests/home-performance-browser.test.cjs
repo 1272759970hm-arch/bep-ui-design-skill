@@ -1,0 +1,41 @@
+const assert=require('node:assert/strict');
+const {resolve}=require('node:path');
+const {pathToFileURL}=require('node:url');
+const {chromium}=require(process.env.YIKAN_PLAYWRIGHT_PATH||'playwright');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:320,height:780},offline:true});
+  const errors=[],external=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('request',request=>{if(/^https?:/.test(request.url()))external.push(request.url());});
+  await page.goto(pathToFileURL(resolve(__dirname,'../assets/offline/主页经营卡-离线核对.html')).href);
+  assert.deepEqual(await page.evaluate(()=>yikanRenderErrors),[]);
+  const income=page.locator('[data-source="6671:164095"]');
+  assert.match(await income.evaluate(node=>getComputedStyle(node).backgroundImage),/data:image\/svg\+xml;base64/);
+  assert.equal(await income.locator('[data-performance-value]').textContent(),'998.65亿元');
+  assert.equal(await income.locator('[data-performance-rate]').textContent(),'52.7%');
+  const profit=page.locator('[data-source="6671:164148"]');
+  assert.equal(await profit.locator('[data-performance-rate]').textContent(),'112.8%');
+  assert.equal(await profit.locator('[data-performance-fill]').evaluate(node=>node.style.width),'100%');
+  const profitRate=page.locator('[data-source="4424:72991"]');
+  assert.equal(await profitRate.locator('[data-profit-rate]').textContent(),'9.03%');
+  assert.deepEqual(await profitRate.locator('dt').allTextContents(),['税前利润（权责）','经营性收入（权责）']);
+  assert.deepEqual(await profitRate.locator('dd').allTextContents(),['90.2亿元','998.65亿元']);
+  assert.deepEqual(await profitRate.locator('.yk-comparison').evaluateAll(tags=>tags.map(tag=>tag.dataset.state)),['up','fall']);
+  const cashflow=page.locator('[data-source="6671:164196"]');
+  assert.deepEqual(await cashflow.locator('dd').allTextContents(),['84.71万元','−41.71万元']);
+  assert.equal(await cashflow.locator('[data-performance-fill]').count(),0);
+  const targets=page.locator('[data-source="4424:72760"]');
+  assert.equal(await targets.locator('[data-cashflow-current]').textContent(),'988.20万');
+  assert.deepEqual(await targets.locator('h4').allTextContents(),['半年度达成率','年度达成率']);
+  assert.deepEqual(await targets.locator('dt').allTextContents(),['半年度累计达成（净额）','半年度目标','年度累计达成（净额）','年度目标']);
+  assert.deepEqual(await targets.locator('.yk-comparison').evaluateAll(tags=>tags.map(tag=>tag.textContent.trim())),['同138.32万','同38.20万','同0.00万']);
+  assert.match(await targets.locator('.yk-cashflow-period strong').first().textContent(),/^-98\.20%$/);
+  assert.ok(await targets.evaluate(card=>card.scrollWidth<=card.clientWidth));
+  assert.ok(await page.locator('.phone').evaluate(phone=>phone.scrollWidth<=phone.clientWidth));
+  assert.deepEqual(errors,[]);
+  assert.deepEqual(external,[]);
+  console.log('320px offline: five cards, embedded gradient shape, above-target rate and distinct monetary fields.');
+ }finally{await browser.close();}
+})().catch(error=>{console.error(error);process.exit(1);});

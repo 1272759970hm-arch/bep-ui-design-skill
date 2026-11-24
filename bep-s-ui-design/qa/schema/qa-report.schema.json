@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bep-s-qa-report.schema.json",
+  "title": "BEP-S Design QA Report",
+  "description": "每次设计输出后必须生成的校验报告。没有实际检查的内容不得标记 PASS。",
+  "type": "object",
+  "required": ["meta", "statusSummary", "sections", "issues", "iterations", "unresolved", "conditionGaps"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["target", "artifactType", "generatedAt", "truthSourcesUsed", "engineVersion"],
+      "properties": {
+        "target": { "type": "string" },
+        "artifactType": { "enum": ["html", "page-json", "scripter-js", "unknown"] },
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "engineVersion": { "type": "string" },
+        "truthSourcesUsed": { "type": "array", "items": { "type": "string" } },
+        "truthSourcesMissing": { "type": "array", "items": { "type": "string" } },
+        "inputs": {
+          "type": "object",
+          "properties": {
+            "prd": { "type": ["string", "null"] },
+            "reference": { "type": ["string", "null"] },
+            "referenceKind": { "enum": ["figma", "prd-prototype", "other", null] }
+          }
+        }
+      }
+    },
+    "statusSummary": {
+      "type": "object",
+      "required": ["overall", "counts", "canClaimPass", "deliverable"],
+      "properties": {
+        "overall": { "$ref": "#/definitions/status" },
+        "counts": {
+          "type": "object",
+          "properties": {
+            "PASS": { "type": "integer" }, "FAIL": { "type": "integer" },
+            "WARNING": { "type": "integer" }, "BLOCKED": { "type": "integer" },
+            "NOT CHECKED": { "type": "integer" }
+          }
+        },
+        "canClaimPass": { "type": "boolean", "description": "存在任何 BLOCKED / NOT CHECKED 时为 false" },
+        "deliverable": { "type": "boolean", "description": "无 FAIL 且无 P0 问题，且无未解决硬性问题时为 true" }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "status", "summary", "ruleIds"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "status": { "$ref": "#/definitions/status" },
+          "summary": { "type": "string" },
+          "metrics": { "type": "object" },
+          "ruleIds": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ruleId", "status", "checkedCount", "evidence", "issues"],
+        "properties": {
+          "ruleId": { "type": "string" },
+          "dimension": { "type": "string" },
+          "status": { "$ref": "#/definitions/status" },
+          "checkedCount": { "type": "integer" },
+          "evidence": { "type": "array" },
+          "issues": { "type": "array" },
+          "note": { "type": "string" },
+          "iterations": { "type": "array" }
+        }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/issue" }
+    },
+    "iterations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["round", "phase", "statusSummary", "fixesApplied", "fixesSkipped"],
+        "properties": {
+          "round": { "type": "integer" },
+          "phase": { "enum": ["check", "fix", "recheck"] },
+          "statusSummary": { "type": "object" },
+          "fixesApplied": { "type": "array" },
+          "fixesSkipped": { "type": "array" }
+        }
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "description": "尚未解决的问题及原因",
+      "items": { "$ref": "#/definitions/issue" }
+    },
+    "conditionGaps": {
+      "type": "array",
+      "description": "校验条件不足清单，禁止假装完成校验",
+      "items": {
+        "type": "object",
+        "required": ["ruleId", "reason", "requiredEvidence"],
+        "properties": {
+          "ruleId": { "type": "string" },
+          "reason": { "type": "string" },
+          "requiredEvidence": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "fixRecords": { "type": "array" }
+  },
+  "definitions": {
+    "status": { "enum": ["PASS", "FAIL", "WARNING", "BLOCKED", "NOT CHECKED"] },
+    "issue": {
+      "type": "object",
+      "required": ["id", "description", "location", "spec", "severity", "suggestion", "verification"],
+      "properties": {
+        "id": { "type": "string" },
+        "ruleId": { "type": "string" },
+        "dimension": { "type": "string" },
+        "description": { "type": "string", "description": "问题描述" },
+        "location": {
+          "type": "object",
+          "description": "问题位置",
+          "properties": {
+            "file": { "type": "string" },
+            "line": { "type": ["integer", "null"] },
+            "selector": { "type": "string" },
+            "detail": { "type": "string" }
+          }
+        },
+        "spec": {
+          "type": "object",
+          "description": "对应规范",
+          "properties": {
+            "source": { "type": "string" },
+            "clause": { "type": "string" }
+          }
+        },
+        "severity": { "enum": ["P0", "P1", "P2", "ADVISORY"] },
+        "suggestion": { "type": "string", "description": "修复建议" },
+        "verification": {
+          "type": "object",
+          "description": "校验结果",
+          "properties": {
+            "status": { "$ref": "#/definitions/status" },
+            "checkedAt": { "type": "string" },
+            "detail": { "type": "string" }
+          }
+        },
+        "fixable": { "type": "boolean" },
+        "fixKind": { "type": ["string", "null"] },
+        "fixApplied": { "type": "boolean" }
+      }
+    }
+  }
+}

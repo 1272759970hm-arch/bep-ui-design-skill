@@ -1,0 +1,59 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>QA 正例样例</title>
+<style>
+:root{
+  --brand:#00B1B4; --brand-pressed:#00686A;
+  --tag-brand-bg:rgba(0,177,180,.10); --tag-brand-text:#00B1B4;
+  --bg:#F7F8FA; --white:#FFFFFF; --t1:#22262F; --line:#EEEEEE;
+  --mask:rgba(0,0,0,.6); --toast-bg:rgba(0,0,0,.7);
+  --r-card:8px; --r-btn:4px; --r-tag:2px;
+  --nav-h:44px; --status-h:44px; --tabbar-h:50px; --safe-b:34px;
+  --w:375px; --h:812px;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--t1);margin:0;font-family:'Noto Sans SC',sans-serif}
+.phone{width:375px;height:812px;margin:0 auto;background:var(--white);position:relative;overflow:hidden}
+.screen{display:none}.screen[data-active="true"]{display:block}
+.nv{height:44px;display:flex;align-items:center;padding:0 16px;font-size:18px;font-weight:500;border-bottom:.5px solid var(--line)}
+.tag{height:20px;padding:2px 8px;border-radius:var(--r-tag);background:var(--tag-brand-bg);color:var(--tag-brand-text);font-size:12px;line-height:1}
+.btn{height:48px;border-radius:var(--r-btn);background:var(--brand);color:var(--white);font-size:16px;font-weight:500;cursor:pointer;border:0;width:100%}
+.card{margin:16px;border-radius:var(--r-card);background:var(--white)}
+.row{height:60px;display:flex;align-items:center;gap:8px;padding:0 16px;border-bottom:.5px solid var(--line);font-size:16px;cursor:pointer}
+.empty{padding:40px 16px;text-align:center;font-size:14px;color:var(--t1)}
+.mask{position:absolute;inset:0;background:var(--mask);display:none}
+.sheet{position:absolute;left:0;right:0;bottom:0;height:276px;background:var(--white);border-radius:12px 12px 0 0;display:none}
+.toast{position:absolute;left:50%;bottom:100px;transform:translateX(-50%);height:38px;background:var(--toast-bg);color:var(--white);border-radius:var(--r-btn);padding:0 16px;display:none;align-items:center;font-size:14px}
+[data-open="true"].mask,[data-open="true"].sheet{display:block}
+[data-open="true"].toast{display:flex}
+</style>
+<body>
+<div class="phone">
+  <section class="screen" id="list" data-screen="list" data-active="true">
+    <div class="nv">工单列表</div>
+    <div class="card">
+      <div class="row" data-screen-go="detail" data-order="WO-001" data-id="WO-001"><span>公区-4栋-单元门</span><span class="tag" data-bep-status="SPEC_ONLY" data-bep-component="标签（普通）">进行中</span></div>
+    </div>
+    <div class="empty" data-empty="true">暂无工单</div>
+    <button class="btn" data-toast="功能开发中" style="width:calc(100% - 32px);margin:0 16px">新增</button>
+  </section>
+  <section class="screen" id="detail" data-screen="detail">
+    <div class="nv" data-back>工单详情</div>
+    <div class="card" data-order="WO-001">公区-4栋-单元门</div>
+    <button class="btn" data-sheet-open="handle" style="width:calc(100% - 32px);margin:0 16px">处理</button>
+  </section>
+  <div class="mask" data-mask="handle" data-open="false"></div>
+  <div class="sheet" data-sheet="handle" data-open="false"><div class="nv">填写处理结果</div><button class="btn" data-sheet-close="handle" style="width:calc(100% - 32px);margin:16px">关闭</button></div>
+  <div class="toast" data-open="false"></div>
+</div>
+<script>
+document.addEventListener('click', function(e){
+  var t = e.target.closest('[data-screen-go],[data-back],[data-sheet-open],[data-sheet-close],[data-mask],[data-toast]');
+  if (!t) return;
+  var a = t.getAttribute.bind(t);
+  if (a('data-screen-go')) { document.querySelectorAll('.screen').forEach(function(s){s.setAttribute('data-active', String(s.id===a('data-screen-go')));}); }
+  if (t.hasAttribute('data-back')) { document.querySelectorAll('.screen').forEach(function(s){s.setAttribute('data-active', String(s.id==='list'));}); }
+  if (a('data-sheet-open')) { document.querySelector('[data-sheet="'+a('data-sheet-open')+'"]').setAttribute('data-open','true'); }
+  if (a('data-sheet-close') || a('data-mask')) { document.querySelector('.sheet').setAttribute('data-open','false'); document.querySelector('.mask').setAttribute('data-open','false'); }
+  if (a('data-toast')) { var el=document.querySelector('.toast'); el.textContent=a('data-toast'); el.setAttribute('data-open','true'); setTimeout(function(){el.setAttribute('data-open','false');},1200); }
+});
+</script>
+</body></html>

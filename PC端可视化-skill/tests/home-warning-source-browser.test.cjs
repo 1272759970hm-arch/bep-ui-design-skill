@@ -1,0 +1,9 @@
+const assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs');
+const {chromium}=require(process.env.YIKAN_PLAYWRIGHT_PATH||'playwright');
+(async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
+ const base=path.resolve(__dirname,'../assets/offline'),manifest=JSON.parse(fs.readFileSync(path.join(base,'home-warning-source-catalog-2026-11-05.json'),'utf8'));
+ assert.equal(manifest.items.length,10);for(const item of manifest.items){assert.ok(fs.existsSync(path.join(base,item.svgFile)));assert.ok(fs.existsSync(path.join(base,item.parametersFile)));assert.ok(fs.existsSync(path.join(base,item.svgElementsFile)));}
+ const page=await browser.newPage({viewport:{width:1200,height:900}}),errors=[],external=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))external.push(r.url());});await page.goto('file://'+path.join(base,'一看原稿-主页与预警提取对照.html'));await page.waitForFunction(()=>Array.from(document.images).length===10&&Array.from(document.images).every(x=>x.complete&&x.naturalWidth>0));
+ await page.screenshot({path:path.join(base,'主页预警-桌面核对.png'),fullPage:true});await page.setViewportSize({width:375,height:900});await page.screenshot({path:path.join(base,'主页预警-手机核对.png')});
+ assert.deepEqual(errors,[]);assert.deepEqual(external,[]);const result={date:'2026-11-05',sourceSvgs:10,imagesLoaded:10,localReferencesExist:true,noExternalRequests:true,noPageErrors:true,note:'Source artifact rendering and references only; not dynamic component or full visual parity approval.'};fs.writeFileSync(path.join(__dirname,'home-warning-source-browser-validation.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1);});

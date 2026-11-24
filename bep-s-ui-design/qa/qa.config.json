@@ -1,0 +1,63 @@
+{
+  "$schemaVersion": "1.0",
+  "name": "BEP-S Design QA Engine",
+  "description": "可执行、可验证、可修复的设计质量校验引擎。所有校验依据只来自本 Skill 既有真值源，不凭空编造标准。",
+  "truthSources": {
+    "tokens": "design-tokens.json",
+    "registry": "component-registry.json",
+    "missing": "missing-components.json",
+    "conflicts": "design-system-conflicts.json",
+    "constraints": "constraints.md",
+    "htmlPrototype": "html-prototype.md",
+    "prdSpec": "prd-to-prototype.md",
+    "externalStandards": "interaction-adaptive-tokens.json",
+    "iconLibrary": "icon-library.json",
+    "emptyAssets": "assets/empty-states",
+    "pageSchema": "page.schema.json"
+  },
+  "statusPolicy": {
+    "allowed": ["PASS", "FAIL", "WARNING", "BLOCKED", "NOT CHECKED"],
+    "passGuard": "status=PASS 必须同时满足 checkedCount>0 且 evidence.length>0，否则强制降级为 NOT CHECKED",
+    "failSeverity": ["P0", "P1"],
+    "warningSeverity": ["P2", "ADVISORY"],
+    "blockedWhen": "requiredEvidence 中任一真值源/输入缺失或不可读 → 本规则未执行，标记 BLOCKED",
+    "notCheckedWhen": "规则本身可执行，但产物未携带必要标注或输入，实际未检查任何对象 → 标记 NOT CHECKED",
+    "forbidden": [
+      "未实际检查的内容标记 PASS",
+      "把 BLOCKED / NOT CHECKED 改写成 PASS",
+      "为了让校验通过而调整阈值、评分或规则目录",
+      "为了让校验通过而删除/新增业务功能点、屏幕或交互目标"
+    ]
+  },
+  "thresholds": {
+    "visualDiffPass": 0.12,
+    "visualDiffWarn": 0.25,
+    "maxIssuesPerRule": 20,
+    "maxIterations": 3,
+    "emptyAssetBase64MaxKB": 512,
+    "touchTargetMinPx": 44
+  },
+  "fixPolicy": {
+    "allowedKinds": ["TOKEN_SUBSTITUTION", "SPEC_VALUE_NORMALIZATION", "ASSET_INLINING"],
+    "rules": [
+      "只修复『可确定』问题：修复后的值必须来自真值源，且不改变业务语义",
+      "修复前必须写 .bak 备份",
+      "每轮修复后必须重新执行全套校验，不得直接沿用上一轮结论",
+      "不可自动修复的问题必须保留 FAIL/WARNING 并写明原因，不得静默忽略",
+      "达到 maxIterations 或本轮无进展即停止，输出最终报告"
+    ],
+    "forbidden": [
+      "修改业务逻辑或删除/新增功能点",
+      "新增或删除屏幕 / 交互目标来消除悬空引用",
+      "把虚构组件改名成真实组件来通过引用校验",
+      "调整规则阈值、评分或规则目录来降低失败数",
+      "把 BLOCKED / NOT CHECKED 改成 PASS"
+    ]
+  },
+  "browser": {
+    "chrome": "auto",
+    "defaultViewport": [375, 812],
+    "virtualTimeBudget": 2500
+  },
+  "python": "python3"
+}

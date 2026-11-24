@@ -1,0 +1,296 @@
+{
+  "title": "一看移动端 · 离线组件目录",
+  "description": "原生SVG素材＋实测参数代码移植。标为建议的类型、超范围规则和字体差异不冒充已完整还原。",
+  "screens": [
+    {
+      "name": "主页卡片与基础状态",
+      "header": {
+        "title": "一看",
+        "date": "总览 · 当日"
+      },
+      "components": [
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "实收金额",
+            "value": "988.20",
+            "unit": "亿",
+            "updated": "25/07",
+            "comparisonValue": 3.23,
+            "children": [
+              {
+                "name": "收费率",
+                "value": "75.90",
+                "unit": "%",
+                "change": 3.23
+              },
+              {
+                "name": "预存",
+                "value": "53.84",
+                "unit": "亿",
+                "change": -3.23
+              },
+              {
+                "name": "期末欠费",
+                "value": "8.19",
+                "unit": "亿",
+                "change": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "homeCard",
+          "props": {
+            "name": "满意度",
+            "value": "96.2",
+            "unit": "%",
+            "updated": "25/07",
+            "comparisonValue": -1.3,
+            "theme": "purple"
+          }
+        },
+        {
+          "type": "aiHint",
+          "props": {
+            "text": "演示经营解读，可点击查看详情",
+            "detail": "AI形象和紫色背景为已导出的原始资源，当前内容为模拟。",
+            "demo": true
+          }
+        },
+        {
+          "section": "同环比四态",
+          "type": "comparison",
+          "props": {
+            "value": 3.23
+          }
+        },
+        {
+          "section": "下降",
+          "type": "comparison",
+          "props": {
+            "value": -3.23
+          }
+        },
+        {
+          "section": "持平",
+          "type": "comparison",
+          "props": {
+            "value": 0
+          }
+        },
+        {
+          "section": "缺失",
+          "type": "comparison",
+          "props": {
+            "value": null
+          }
+        },
+        {
+          "section": "警示状态",
+          "type": "warning",
+          "props": {
+            "status": "yellow",
+            "text": "示例：该业务达到已配置的黄灯区间。"
+          }
+        }
+      ]
+    },
+    {
+      "name": "单环 / 独立多环 / 构成环",
+      "components": [
+        {
+          "section": "独立比率 · 单环",
+          "type": "progressRing",
+          "props": {
+            "name": "收费率",
+            "value": 96.2
+          }
+        },
+        {
+          "section": "独立三比率",
+          "type": "multiRing",
+          "props": {
+            "items": [
+              {
+                "name": "收费率",
+                "value": 82.3
+              },
+              {
+                "name": "在线率",
+                "value": 97.8
+              },
+              {
+                "name": "启用率",
+                "value": 76.4
+              }
+            ]
+          }
+        },
+        {
+          "section": "共同整体构成",
+          "type": "donut",
+          "props": {
+            "items": [
+              {
+                "name": "住宅服务费",
+                "value": 53.9
+              },
+              {
+                "name": "车位服务费",
+                "value": 27.9
+              },
+              {
+                "name": "照明分摊",
+                "value": 0.1
+              }
+            ],
+            "center": "81.9",
+            "label": "收益（万）"
+          }
+        }
+      ]
+    },
+    {
+      "name": "类别对比与其他类型",
+      "components": [
+        {
+          "section": "本期 / 同期正负柱",
+          "type": "bars",
+          "props": {
+            "labels": [
+              "1月",
+              "2月",
+              "3月",
+              "4月"
+            ],
+            "unit": "万元",
+            "series": [
+              {
+                "name": "本期",
+                "values": [
+                  22,
+                  -10,
+                  33,
+                  18
+                ]
+              },
+              {
+                "name": "同期",
+                "values": [
+                  18,
+                  -6,
+                  30,
+                  15
+                ],
+                "period": "previous"
+              }
+            ]
+          },
+          "caption": "柱宽/圆角/正负色/同期透明度按参数移植。"
+        },
+        {
+          "section": "分类总量与构成 · 建议模板",
+          "type": "bars",
+          "props": {
+            "labels": [
+              "A区",
+              "B区",
+              "C区"
+            ],
+            "stacked": true,
+            "series": [
+              {
+                "name": "住宅",
+                "values": [
+                  40,
+                  30,
+                  20
+                ],
+                "color": "#66A6FF"
+              },
+              {
+                "name": "车位",
+                "values": [
+                  30,
+                  20,
+                  10
+                ],
+                "color": "#33C1C1"
+              }
+            ]
+          }
+        },
+        {
+          "section": "横向类别比较 · 建议模板",
+          "type": "horizontalBars",
+          "props": {
+            "items": [
+              {
+                "name": "华东",
+                "value": 55
+              },
+              {
+                "name": "华南",
+                "value": 80
+              },
+              {
+                "name": "华北",
+                "value": 35
+              }
+            ],
+            "unit": "万"
+          }
+        },
+        {
+          "section": "阶段转化 · 建议模板",
+          "type": "funnel",
+          "props": {
+            "items": [
+              {
+                "name": "触达",
+                "value": 1000
+              },
+              {
+                "name": "意向",
+                "value": 650
+              },
+              {
+                "name": "签约",
+                "value": 300
+              }
+            ]
+          }
+        },
+        {
+          "section": "多维对比 · 建议模板",
+          "type": "radar",
+          "props": {
+            "items": [
+              {
+                "name": "规模",
+                "value": 80
+              },
+              {
+                "name": "效率",
+                "value": 70
+              },
+              {
+                "name": "质量",
+                "value": 90
+              },
+              {
+                "name": "增长",
+                "value": 60
+              },
+              {
+                "name": "稳定",
+                "value": 85
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

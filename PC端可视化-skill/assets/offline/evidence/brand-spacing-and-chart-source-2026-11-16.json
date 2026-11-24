@@ -1,0 +1,3134 @@
+{
+  "fileKey": "OY85mLprwU2KM2Kl4wfMN0",
+  "sourceDate": "2026-11-16",
+  "scope": "Visible text and non-image fills",
+  "boards": [
+    {
+      "id": "11398:917",
+      "name": "间距规范",
+      "count": 92,
+      "texts": [
+        {
+          "id": "11398:921",
+          "text": "间距规范 / Spacing specifications",
+          "segments": [
+            {
+              "t": "间距规范 ",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Semibold"
+              },
+              "z": 28,
+              "h": {
+                "unit": "PIXELS",
+                "value": 28
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "t": "/ Spacing specifications",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Medium"
+              },
+              "z": 28,
+              "h": {
+                "unit": "PIXELS",
+                "value": 28
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:922",
+          "text": "内容区与卡片边距距离为：16px",
+          "segments": [
+            {
+              "t": "内容区与卡片边距距离为：",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "t": "16px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.3686274588108063,
+                    "b": 0.3294117748737335
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:925",
+          "text": "两侧间距，内容区与顶部的间距，内容区与内容区间距、内容区与底部的间距",
+          "segments": [
+            {
+              "t": "两侧间距，内容区与顶部的间距，内容区与内容区间距、内容区与底部的间距",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 12,
+              "h": {
+                "unit": "PIXELS",
+                "value": 16.799999237060547
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.5764706134796143,
+                    "g": 0.6039215922355652,
+                    "b": 0.6392157077789307
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:926",
+          "text": "间距规范",
+          "segments": [
+            {
+              "t": "间距规范",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Semibold"
+              },
+              "z": 30,
+              "h": {
+                "unit": "PIXELS",
+                "value": 42
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:936",
+          "text": "状态栏 44px",
+          "segments": [
+            {
+              "t": "状态栏 44px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 18,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:937",
+          "text": "顶部导航栏 44px",
+          "segments": [
+            {
+              "t": "顶部导航栏 44px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 18,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:938",
+          "text": "底部 34px",
+          "segments": [
+            {
+              "t": "底部 34px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 18,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:941",
+          "text": "底部导航 56px",
+          "segments": [
+            {
+              "t": "底部导航 56px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 18,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:946",
+          "text": "状态栏 44px",
+          "segments": [
+            {
+              "t": "状态栏 44px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 18,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:947",
+          "text": "顶部导航栏 44px",
+          "segments": [
+            {
+              "t": "顶部导航栏 44px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 18,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:966",
+          "text": "16px",
+          "segments": [
+            {
+              "t": "16px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 12,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:975",
+          "text": "16px",
+          "segments": [
+            {
+              "t": "16px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 12,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:988",
+          "text": "12px",
+          "segments": [
+            {
+              "t": "12px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Medium"
+              },
+              "z": 12,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:993",
+          "text": "12px",
+          "segments": [
+            {
+              "t": "12px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Medium"
+              },
+              "z": 12,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:995",
+          "text": "设计尺寸: 375X812px",
+          "segments": [
+            {
+              "t": "设计尺寸: ",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "t": "375X812px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Medium"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:996",
+          "text": "说明：",
+          "segments": [
+            {
+              "t": "说明：",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Medium"
+              },
+              "z": 28,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:997",
+          "text": "卡片与边距距离为：16px",
+          "segments": [
+            {
+              "t": "卡片与",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "t": "边距距离",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "t": "为：",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "t": "16px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.3686274588108063,
+                    "b": 0.3294117748737335
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:998",
+          "text": "上下间距：12px",
+          "segments": [
+            {
+              "t": "上下间距：",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.29411765933036804,
+                    "g": 0.364705890417099,
+                    "b": 0.42352941632270813
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "t": "12px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 22,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.3686274588108063,
+                    "b": 0.3294117748737335
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:1008",
+          "text": "16px",
+          "segments": [
+            {
+              "t": "16px",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 12,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11398:1009",
+          "text": "内容区",
+          "segments": [
+            {
+              "t": "内容区",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 18,
+              "h": {
+                "unit": "AUTO"
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.8607271909713745,
+                    "g": 0.8607271909713745,
+                    "b": 0.8607271909713745
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "paints": [
+        {
+          "id": "11398:918",
+          "name": "字体大小",
+          "x": 0,
+          "y": 0,
+          "w": 2056,
+          "h": 1796,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:920",
+          "name": "bg",
+          "x": 0,
+          "y": 0,
+          "w": 1491,
+          "h": 80,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.10196078568696976,
+                "g": 0.13333334028720856,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:923",
+          "name": "形状结合",
+          "x": 79.6693115234375,
+          "y": 281.0023193359375,
+          "w": 0.338134765625,
+          "h": 0.015380859375,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.1568627506494522,
+                "g": 0.18431372940540314,
+                "b": 0.21960784494876862
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:929",
+          "name": "矩形",
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 812,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.9764705896377563,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:933",
+          "name": "矩形",
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 44,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.0941176488995552,
+                "g": 0.4588235318660736,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:934",
+          "name": "矩形备份",
+          "x": 0,
+          "y": 44,
+          "w": 375,
+          "h": 44,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.6509804129600525,
+                "b": 0.27450981736183167
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:935",
+          "name": "矩形备份 2",
+          "x": 0,
+          "y": 778,
+          "w": 375,
+          "h": 34,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5360100865364075,
+                "g": 0.5913366675376892,
+                "b": 0.9865262508392334
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:939",
+          "name": "矩形",
+          "x": 121,
+          "y": 793,
+          "w": 134,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.8980392217636108,
+                "b": 0.8980392217636108
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:940",
+          "name": "矩形",
+          "x": 0,
+          "y": 724,
+          "w": 375,
+          "h": 54,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.622808575630188,
+                "g": 0.8723675012588501,
+                "b": 0.6279016137123108
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:943",
+          "name": "矩形",
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 812,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.9764705896377563,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:944",
+          "name": "矩形",
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 44,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.0941176488995552,
+                "g": 0.4588235318660736,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:945",
+          "name": "矩形备份",
+          "x": 0,
+          "y": 44,
+          "w": 375,
+          "h": 44,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.6509804129600525,
+                "b": 0.27450981736183167
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:948",
+          "name": "矩形备份 6",
+          "x": 0,
+          "y": 778,
+          "w": 375,
+          "h": 34,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.00009999999747378752,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5360100865364075,
+                "g": 0.5913366675376892,
+                "b": 0.9865262508392334
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:949",
+          "name": "矩形备份 7",
+          "x": 121,
+          "y": 793,
+          "w": 134,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.8980392217636108,
+                "b": 0.8980392217636108
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:950",
+          "name": "矩形",
+          "x": 529,
+          "y": 401,
+          "w": 16,
+          "h": 724,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.7383955717086792,
+                "b": 0.8235484957695007
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:951",
+          "name": "矩形备份 3",
+          "x": 888,
+          "y": 401,
+          "w": 16,
+          "h": 724,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0.7383955717086792,
+                "b": 0.8235484957695007
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:952",
+          "name": "矩形",
+          "x": 545,
+          "y": 413,
+          "w": 343,
+          "h": 216,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9048629999160767,
+                "g": 0.9048629999160767,
+                "b": 0.9048629999160767
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:953",
+          "name": "矩形备份 4",
+          "x": 545,
+          "y": 641,
+          "w": 343,
+          "h": 176,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9048629999160767,
+                "g": 0.9048629999160767,
+                "b": 0.9048629999160767
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:954",
+          "name": "矩形备份 5",
+          "x": 545,
+          "y": 829,
+          "w": 343,
+          "h": 236,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9048629999160767,
+                "g": 0.9048629999160767,
+                "b": 0.9048629999160767
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:955",
+          "name": "矩形",
+          "x": 529,
+          "y": 401,
+          "w": 375,
+          "h": 12,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6383360624313354,
+                "g": 0.9035562872886658,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:956",
+          "name": "矩形备份 8",
+          "x": 529,
+          "y": 629,
+          "w": 375,
+          "h": 12,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6383360624313354,
+                "g": 0.9035562872886658,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:957",
+          "name": "矩形备份 9",
+          "x": 529,
+          "y": 817,
+          "w": 375,
+          "h": 12,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6383360624313354,
+                "g": 0.9035562872886658,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:958",
+          "name": "形状结合",
+          "x": 529,
+          "y": 509,
+          "w": 16,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:959",
+          "name": "矩形",
+          "x": 529,
+          "y": 509,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:960",
+          "name": "矩形备份 2",
+          "x": 529,
+          "y": 511,
+          "w": 16,
+          "h": 0.5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:961",
+          "name": "矩形备份",
+          "x": 544.5,
+          "y": 509,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:963",
+          "name": "形状结合",
+          "x": 0,
+          "y": 1.1368683772161603e-13,
+          "w": 46,
+          "h": 25.266592025756836,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:964",
+          "name": "矩形",
+          "x": 0,
+          "y": 0,
+          "w": 46,
+          "h": 20,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.6901960968971252,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:965",
+          "name": "路径 2",
+          "x": 18,
+          "y": 25.26659202575695,
+          "w": 5.266591548919678,
+          "h": 9.983650207519531,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.847000002861023,
+                "g": 0.847000002861023,
+                "b": 0.847000002861023
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:967",
+          "name": "形状结合备份",
+          "x": 888,
+          "y": 509,
+          "w": 16,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:968",
+          "name": "矩形",
+          "x": 888,
+          "y": 509,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:969",
+          "name": "矩形备份 2",
+          "x": 888,
+          "y": 511,
+          "w": 16,
+          "h": 0.5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:970",
+          "name": "矩形备份",
+          "x": 903.5,
+          "y": 509,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:972",
+          "name": "形状结合",
+          "x": 0,
+          "y": 1.1368683772161603e-13,
+          "w": 46,
+          "h": 25.266592025756836,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:973",
+          "name": "矩形",
+          "x": 0,
+          "y": 0,
+          "w": 46,
+          "h": 20,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.6901960968971252,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:974",
+          "name": "路径 2",
+          "x": 18,
+          "y": 25.26659202575695,
+          "w": 5.266591548919678,
+          "h": 9.983650207519531,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.847000002861023,
+                "g": 0.847000002861023,
+                "b": 0.847000002861023
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:976",
+          "name": "形状结合备份",
+          "x": 715,
+          "y": 629,
+          "w": 12,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.7058823704719543,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:977",
+          "name": "矩形",
+          "x": 715,
+          "y": 629,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:978",
+          "name": "矩形备份 2",
+          "x": 713,
+          "y": 629,
+          "w": 12,
+          "h": 0.5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:979",
+          "name": "矩形备份",
+          "x": 715,
+          "y": 640.5,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:980",
+          "name": "形状结合备份 2",
+          "x": 715,
+          "y": 817,
+          "w": 12,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.7058823704719543,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:981",
+          "name": "矩形",
+          "x": 715,
+          "y": 817,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:982",
+          "name": "矩形备份 2",
+          "x": 713,
+          "y": 817,
+          "w": 12,
+          "h": 0.5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:983",
+          "name": "矩形备份",
+          "x": 715,
+          "y": 828.5,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:985",
+          "name": "形状结合",
+          "x": 0,
+          "y": 0,
+          "w": 39.2665901184082,
+          "h": 20,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.6901960968971252,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:986",
+          "name": "矩形",
+          "x": 5.266591548919678,
+          "y": 0,
+          "w": 34,
+          "h": 20,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.6901960968971252,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:987",
+          "name": "路径 2",
+          "x": 0,
+          "y": 5.116669178009033,
+          "w": 5.266591548919678,
+          "h": 9.983650207519531,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.847000002861023,
+                "g": 0.847000002861023,
+                "b": 0.847000002861023
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:990",
+          "name": "形状结合",
+          "x": 0,
+          "y": 0,
+          "w": 39.2665901184082,
+          "h": 20,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.6901960968971252,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:991",
+          "name": "矩形",
+          "x": 5.266591548919678,
+          "y": 0,
+          "w": 34,
+          "h": 20,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.6901960968971252,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:992",
+          "name": "路径 2",
+          "x": 0,
+          "y": 5.116669178009033,
+          "w": 5.266591548919678,
+          "h": 9.983650207519531,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.847000002861023,
+                "g": 0.847000002861023,
+                "b": 0.847000002861023
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:999",
+          "name": "Rectangle 34626032",
+          "x": 561,
+          "y": 845,
+          "w": 311,
+          "h": 200,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:1000",
+          "name": "形状结合",
+          "x": 545,
+          "y": 928,
+          "w": 16,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5255580544471741,
+                "g": 0.8316556215286255,
+                "b": 0.4568420946598053
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:1001",
+          "name": "矩形",
+          "x": 545,
+          "y": 928,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:1002",
+          "name": "矩形备份 2",
+          "x": 545,
+          "y": 930,
+          "w": 16,
+          "h": 0.5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:1003",
+          "name": "矩形备份",
+          "x": 560.5,
+          "y": 928,
+          "w": 0.5,
+          "h": 5,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9607843160629272,
+                "g": 0.18431372940540314,
+                "b": 0.24313725531101227
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:1005",
+          "name": "形状结合",
+          "x": 0,
+          "y": 1.1368683772161603e-13,
+          "w": 46,
+          "h": 25.266592025756836,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5255580544471741,
+                "g": 0.8316556215286255,
+                "b": 0.4568420946598053
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:1006",
+          "name": "矩形",
+          "x": 0,
+          "y": 0,
+          "w": 46,
+          "h": 20,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.6901960968971252,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11398:1007",
+          "name": "路径 2",
+          "x": 18,
+          "y": 25.26659202575695,
+          "w": 5.266591548919678,
+          "h": 9.983650207519531,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.847000002861023,
+                "g": 0.847000002861023,
+                "b": 0.847000002861023
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11885:21481",
+      "name": "图表颜色使用规则",
+      "count": 65,
+      "texts": [
+        {
+          "id": "11885:21490",
+          "text": "1种颜色",
+          "segments": [
+            {
+              "t": "1种颜色",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 32,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11885:22660",
+          "text": "4种颜色",
+          "segments": [
+            {
+              "t": "4种颜色",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 32,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11885:22669",
+          "text": "5种颜色",
+          "segments": [
+            {
+              "t": "5种颜色",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 32,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11885:22680",
+          "text": "6种颜色",
+          "segments": [
+            {
+              "t": "6种颜色",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 32,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11885:22856",
+          "text": "7种颜色",
+          "segments": [
+            {
+              "t": "7种颜色",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 32,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11885:22634",
+          "text": "2种颜色",
+          "segments": [
+            {
+              "t": "2种颜色",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 32,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11885:22653",
+          "text": "3种颜色",
+          "segments": [
+            {
+              "t": "3种颜色",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Regular"
+              },
+              "z": 32,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11885:22638",
+          "text": "设计图表时，根据以下配色方案使用",
+          "segments": [
+            {
+              "t": "设计图表时，根据以下配色方案使用",
+              "f": {
+                "family": "PingFang SC",
+                "style": "Semibold"
+              },
+              "z": 40,
+              "h": {
+                "unit": "PIXELS",
+                "value": 74.66666412353516
+              },
+              "l": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "c": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0784313753247261,
+                    "g": 0.12156862765550613,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "paints": [
+        {
+          "id": "11885:22396",
+          "name": "Rectangle 5722",
+          "x": 144,
+          "y": 393,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 0.6509804129600525,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22662",
+          "name": "Rectangle 5722",
+          "x": 144,
+          "y": 701,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.20000000298023224,
+                "g": 0.7568627595901489,
+                "b": 0.7568627595901489
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22671",
+          "name": "Rectangle 5722",
+          "x": 144,
+          "y": 1007,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.20000000298023224,
+                "g": 0.7568627595901489,
+                "b": 0.7568627595901489
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22682",
+          "name": "Rectangle 5722",
+          "x": 144,
+          "y": 1315,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.20000000298023224,
+                "g": 0.7568627595901489,
+                "b": 0.7568627595901489
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22858",
+          "name": "Rectangle 5722",
+          "x": 144,
+          "y": 1633,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.20000000298023224,
+                "g": 0.7568627595901489,
+                "b": 0.7568627595901489
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22664",
+          "name": "Rectangle 5722",
+          "x": 360,
+          "y": 701,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 0.6509804129600525,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22673",
+          "name": "Rectangle 5722",
+          "x": 360,
+          "y": 1007,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 0.6509804129600525,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22684",
+          "name": "Rectangle 5722",
+          "x": 360,
+          "y": 1315,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 0.6509804129600525,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22860",
+          "name": "Rectangle 5722",
+          "x": 360,
+          "y": 1633,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 0.6509804129600525,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22666",
+          "name": "Rectangle 5722",
+          "x": 576,
+          "y": 701,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.23889651894569397,
+                "g": 0.7806023955345154,
+                "b": 0.9717923402786255
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22675",
+          "name": "Rectangle 5722",
+          "x": 576,
+          "y": 1007,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.23889651894569397,
+                "g": 0.7806023955345154,
+                "b": 0.9717923402786255
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22686",
+          "name": "Rectangle 5722",
+          "x": 576,
+          "y": 1315,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.23889651894569397,
+                "g": 0.7806023955345154,
+                "b": 0.9717923402786255
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22862",
+          "name": "Rectangle 5722",
+          "x": 576,
+          "y": 1633,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.23889651894569397,
+                "g": 0.7806023955345154,
+                "b": 0.9717923402786255
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22668",
+          "name": "Rectangle 5722",
+          "x": 792,
+          "y": 701,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5558025240898132,
+                "g": 0.6682431697845459,
+                "b": 0.8322190642356873
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22677",
+          "name": "Rectangle 5722",
+          "x": 792,
+          "y": 1007,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.336181640625,
+                "g": 0.723409116268158,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22688",
+          "name": "Rectangle 5722",
+          "x": 792,
+          "y": 1315,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.336181640625,
+                "g": 0.723409116268158,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22864",
+          "name": "Rectangle 5722",
+          "x": 792,
+          "y": 1633,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.336181640625,
+                "g": 0.723409116268158,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22679",
+          "name": "Rectangle 5722",
+          "x": 1008,
+          "y": 1007,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5558025240898132,
+                "g": 0.6682431697845459,
+                "b": 0.8322190642356873
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22690",
+          "name": "Rectangle 5722",
+          "x": 1008,
+          "y": 1315,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6117647290229797,
+                "b": 0.9725490212440491
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22866",
+          "name": "Rectangle 5722",
+          "x": 1008,
+          "y": 1633,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.1764705926179886,
+                "g": 0.7921568751335144,
+                "b": 0.8784313797950745
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22855",
+          "name": "Rectangle 5722",
+          "x": 1224,
+          "y": 1315,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5558025240898132,
+                "g": 0.6682431697845459,
+                "b": 0.8322190642356873
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22868",
+          "name": "Rectangle 5722",
+          "x": 1224,
+          "y": 1633,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6117647290229797,
+                "b": 0.9725490212440491
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22870",
+          "name": "Rectangle 5722",
+          "x": 1440,
+          "y": 1633,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5558025240898132,
+                "g": 0.6682431697845459,
+                "b": 0.8322190642356873
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22637",
+          "name": "Rectangle 5722",
+          "x": 518,
+          "y": 393,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.20000000298023224,
+                "g": 0.7568627595901489,
+                "b": 0.7568627595901489
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22655",
+          "name": "Rectangle 5722",
+          "x": 1116,
+          "y": 393,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.20000000298023224,
+                "g": 0.7568627595901489,
+                "b": 0.7568627595901489
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22641",
+          "name": "Rectangle 5722",
+          "x": 734,
+          "y": 393,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 0.6509804129600525,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22657",
+          "name": "Rectangle 5722",
+          "x": 1332,
+          "y": 393,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.4000000059604645,
+                "g": 0.6509804129600525,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22659",
+          "name": "Rectangle 5722",
+          "x": 1548,
+          "y": 393,
+          "w": 194,
+          "h": 134,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.23889651894569397,
+                "g": 0.7806023955345154,
+                "b": 0.9717923402786255
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "11885:22639",
+          "name": "点备份",
+          "x": 117,
+          "y": 212,
+          "w": 12,
+          "h": 12,
+          "f": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.19607843458652496,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

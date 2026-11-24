@@ -1,0 +1,936 @@
+{
+  "source": "6695:315240",
+  "svgFile": "native/chart-6695-315240.svg",
+  "elements": [
+    {
+      "index": 0,
+      "parentIndex": null,
+      "tag": "svg",
+      "attributes": {
+        "width": "343",
+        "height": "303",
+        "viewBox": "0 0 343 303",
+        "fill": "none"
+      },
+      "text": null
+    },
+    {
+      "index": 1,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "width": "343",
+        "height": "303",
+        "rx": "12",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 2,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "12",
+        "y": "17.5",
+        "width": "10",
+        "height": "3",
+        "rx": "1.5",
+        "fill": "#57D5E6"
+      },
+      "text": null
+    },
+    {
+      "index": 3,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 4,
+      "parentIndex": 3,
+      "tag": "tspan",
+      "attributes": {
+        "x": "96",
+        "y": "24.04"
+      },
+      "text": "6145.31万元"
+    },
+    {
+      "index": 5,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 6,
+      "parentIndex": 5,
+      "tag": "tspan",
+      "attributes": {
+        "x": "26",
+        "y": "24.04"
+      },
+      "text": "本期应收："
+    },
+    {
+      "index": 7,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "173",
+        "y": "17.5",
+        "width": "10",
+        "height": "3",
+        "rx": "1.5",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 8,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 9,
+      "parentIndex": 8,
+      "tag": "tspan",
+      "attributes": {
+        "x": "257",
+        "y": "24.04"
+      },
+      "text": "1128.47万元"
+    },
+    {
+      "index": 10,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 11,
+      "parentIndex": 10,
+      "tag": "tspan",
+      "attributes": {
+        "x": "187",
+        "y": "24.04"
+      },
+      "text": "收款金额："
+    },
+    {
+      "index": 12,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "12",
+        "y": "49.5",
+        "width": "10",
+        "height": "3",
+        "rx": "1.5",
+        "fill": "#3DC7F8"
+      },
+      "text": null
+    },
+    {
+      "index": 13,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 14,
+      "parentIndex": 13,
+      "tag": "tspan",
+      "attributes": {
+        "x": "96",
+        "y": "56.04"
+      },
+      "text": "894.4万元"
+    },
+    {
+      "index": 15,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 16,
+      "parentIndex": 15,
+      "tag": "tspan",
+      "attributes": {
+        "x": "26",
+        "y": "56.04"
+      },
+      "text": "追缴金额："
+    },
+    {
+      "index": 17,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "174",
+        "y": "46.5",
+        "width": "8",
+        "height": "8",
+        "rx": "4",
+        "fill": "white",
+        "stroke": "#33C1C1",
+        "stroke-width": "2"
+      },
+      "text": null
+    },
+    {
+      "index": 18,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#22262F",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 19,
+      "parentIndex": 18,
+      "tag": "tspan",
+      "attributes": {
+        "x": "243",
+        "y": "56.04"
+      },
+      "text": "190.42万元"
+    },
+    {
+      "index": 20,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#9199A2",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 21,
+      "parentIndex": 20,
+      "tag": "tspan",
+      "attributes": {
+        "x": "187",
+        "y": "56.04"
+      },
+      "text": "收费率："
+    },
+    {
+      "index": 22,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 23,
+      "parentIndex": 22,
+      "tag": "tspan",
+      "attributes": {
+        "x": "12.5918",
+        "y": "92.04"
+      },
+      "text": "100万"
+    },
+    {
+      "index": 24,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M53 87H290",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 25,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "opacity": "0.08",
+        "x": "119",
+        "y": "87",
+        "width": "48",
+        "height": "170",
+        "fill": "#00B2B2"
+      },
+      "text": null
+    },
+    {
+      "index": 26,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 27,
+      "parentIndex": 26,
+      "tag": "tspan",
+      "attributes": {
+        "x": "295.016",
+        "y": "92.04"
+      },
+      "text": "100%"
+    },
+    {
+      "index": 28,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 29,
+      "parentIndex": 28,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.2109",
+        "y": "126.04"
+      },
+      "text": "80万"
+    },
+    {
+      "index": 30,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 121H291",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 31,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 32,
+      "parentIndex": 31,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.635",
+        "y": "126.04"
+      },
+      "text": "80%"
+    },
+    {
+      "index": 33,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 34,
+      "parentIndex": 33,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.2109",
+        "y": "160.04"
+      },
+      "text": "60万"
+    },
+    {
+      "index": 35,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 155H291",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 36,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 37,
+      "parentIndex": 36,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.635",
+        "y": "160.04"
+      },
+      "text": "60%"
+    },
+    {
+      "index": 38,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 39,
+      "parentIndex": 38,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.2109",
+        "y": "194.04"
+      },
+      "text": "40万"
+    },
+    {
+      "index": 40,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 189H291",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 41,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 42,
+      "parentIndex": 41,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.635",
+        "y": "194.04"
+      },
+      "text": "40%"
+    },
+    {
+      "index": 43,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 44,
+      "parentIndex": 43,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.2109",
+        "y": "228.04"
+      },
+      "text": "20万"
+    },
+    {
+      "index": 45,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 223H291",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 46,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 47,
+      "parentIndex": 46,
+      "tag": "tspan",
+      "attributes": {
+        "x": "300.635",
+        "y": "228.04"
+      },
+      "text": "20%"
+    },
+    {
+      "index": 48,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 49,
+      "parentIndex": 48,
+      "tag": "tspan",
+      "attributes": {
+        "x": "21.6055",
+        "y": "262.04"
+      },
+      "text": "0万"
+    },
+    {
+      "index": 50,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M48 257H295",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5"
+      },
+      "text": null
+    },
+    {
+      "index": 51,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 52,
+      "parentIndex": 51,
+      "tag": "tspan",
+      "attributes": {
+        "x": "309.029",
+        "y": "262.04"
+      },
+      "text": "0%"
+    },
+    {
+      "index": 53,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "68",
+        "y": "87",
+        "width": "12",
+        "height": "170",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 54,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "84",
+        "y": "106",
+        "width": "12",
+        "height": "76",
+        "fill": "#3DC7F8"
+      },
+      "text": null
+    },
+    {
+      "index": 55,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "84",
+        "y": "182",
+        "width": "12",
+        "height": "75",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 56,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "129",
+        "y": "135",
+        "width": "12",
+        "height": "122",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 57,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "145",
+        "y": "154",
+        "width": "12",
+        "height": "58",
+        "fill": "#3DC7F8"
+      },
+      "text": null
+    },
+    {
+      "index": 58,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "145",
+        "y": "212",
+        "width": "12",
+        "height": "45",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 59,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "188",
+        "y": "113",
+        "width": "12",
+        "height": "144",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 60,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M204 129H216V186H204V129Z",
+        "fill": "#3DC7F8"
+      },
+      "text": null
+    },
+    {
+      "index": 61,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "204",
+        "y": "186",
+        "width": "12",
+        "height": "71",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 62,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "247",
+        "y": "145",
+        "width": "12",
+        "height": "112",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 63,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "263",
+        "y": "164",
+        "width": "12",
+        "height": "44",
+        "fill": "#3DC7F8"
+      },
+      "text": null
+    },
+    {
+      "index": 64,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "263",
+        "y": "208",
+        "width": "12",
+        "height": "49",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 65,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 66,
+      "parentIndex": 65,
+      "tag": "tspan",
+      "attributes": {
+        "x": "67.5",
+        "y": "281.04"
+      },
+      "text": "全部"
+    },
+    {
+      "index": 67,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 68,
+      "parentIndex": 67,
+      "tag": "tspan",
+      "attributes": {
+        "x": "120.5",
+        "y": "281.04"
+      },
+      "text": "小业主"
+    },
+    {
+      "index": 69,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 70,
+      "parentIndex": 69,
+      "tag": "tspan",
+      "attributes": {
+        "x": "185.08",
+        "y": "281.04"
+      },
+      "text": "2007"
+    },
+    {
+      "index": 71,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#CCCFD6",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 72,
+      "parentIndex": 71,
+      "tag": "tspan",
+      "attributes": {
+        "x": "240.5",
+        "y": "281.04"
+      },
+      "text": "第三方"
+    },
+    {
+      "index": 73,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M143.842 259.248C144.219 258.918 144.781 258.918 145.158 259.248L149.446 263H165.5C167.709 263 169.5 264.791 169.5 267V283C169.5 285.209 167.709 287 165.5 287H123.5C121.291 287 119.5 285.209 119.5 283V267C119.5 264.791 121.291 263 123.5 263H139.554L143.842 259.248Z",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 74,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 75,
+      "parentIndex": 74,
+      "tag": "tspan",
+      "attributes": {
+        "x": "123.5",
+        "y": "279.704"
+      },
+      "text": "小业主"
+    }
+  ]
+}

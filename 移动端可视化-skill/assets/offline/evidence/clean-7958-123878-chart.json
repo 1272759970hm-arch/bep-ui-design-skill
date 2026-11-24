@@ -1,0 +1,305 @@
+{
+  "root": "7958:123878",
+  "rows": [
+    {
+      "id": "7958:123878",
+      "parent": "7958:123877",
+      "type": "INSTANCE",
+      "name": "Table Cell (Mobile)",
+      "x": 16,
+      "y": 0,
+      "width": 311,
+      "height": 38,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 8,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 8,
+      "paddingRight": 0,
+      "paddingBottom": 8,
+      "paddingLeft": 0,
+      "itemSpacing": 8,
+      "clipsContent": true
+    },
+    {
+      "id": "I7958:123878;27:21031",
+      "parent": "7958:123878",
+      "type": "INSTANCE",
+      "name": "Dot & Label",
+      "x": 0,
+      "y": 8,
+      "width": 54,
+      "height": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 4,
+      "clipsContent": false
+    },
+    {
+      "id": "I7958:123878;27:21033",
+      "parent": "7958:123878",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 62,
+      "y": 8,
+      "width": 51,
+      "height": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2666666805744171,
+            "g": 0.30980393290519714,
+            "b": 0.3764705955982208
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:011767b03e3c2ead4e51f1260bebc8f7672408bc/330:8"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "characters": "40.24%",
+      "segments": [
+        {
+          "characters": "40.24%",
+          "start": 0,
+          "end": 6,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.2666666805744171,
+                "g": 0.30980393290519714,
+                "b": 0.3764705955982208
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:011767b03e3c2ead4e51f1260bebc8f7672408bc/330:8"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:123878;205:4017",
+      "parent": "7958:123878",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 121,
+      "y": 8,
+      "width": 190,
+      "height": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13333334028720856,
+            "g": 0.14901961386203766,
+            "b": 0.18431372940540314
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "characters": "3697.00万",
+      "segments": [
+        {
+          "characters": "3697.00万",
+          "start": 0,
+          "end": 8,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.13333334028720856,
+                "g": 0.14901961386203766,
+                "b": 0.18431372940540314
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7958:123878;27:21031;802:20950",
+      "parent": "I7958:123878;27:21031",
+      "type": "RECTANGLE",
+      "name": "Rectangle 34626316",
+      "x": 0,
+      "y": 7,
+      "width": 8,
+      "height": 8,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.7607843279838562,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:049fc5206582ecd76435cf4067cc3f8a33b6bd83/156:4"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 2
+    },
+    {
+      "id": "I7958:123878;27:21031;27:21393",
+      "parent": "I7958:123878;27:21031",
+      "type": "TEXT",
+      "name": "Label",
+      "x": 12,
+      "y": 0,
+      "width": 42,
+      "height": 22,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.6000000238418579,
+            "b": 0.6352941393852234
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "characters": "数据一",
+      "segments": [
+        {
+          "characters": "数据一",
+          "start": 0,
+          "end": 3,
+          "fontSize": 14,
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular"
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5686274766921997,
+                "g": 0.6000000238418579,
+                "b": 0.6352941393852234
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "svg": "<svg width=\"311\" height=\"38\" viewBox=\"0 0 311 38\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect y=\"15\" width=\"8\" height=\"8\" rx=\"2\" fill=\"#32C2C1\"/>\n<text fill=\"#9199A2\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"14\" letter-spacing=\"0em\"><tspan x=\"12\" y=\"24.04\">&#x6570;&#x636e;&#x4e00;</tspan></text>\n<text fill=\"#444F60\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"14\" letter-spacing=\"0em\"><tspan x=\"62\" y=\"24.04\">40.24%</tspan></text>\n<text fill=\"#22262F\" style=\"white-space: pre\" xml:space=\"preserve\" font-family=\"PingFang SC\" font-size=\"14\" letter-spacing=\"0em\"><tspan x=\"243.502\" y=\"24.04\">3697.00&#x4e07;</tspan></text>\n</svg>\n"
+}

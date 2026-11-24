@@ -1,0 +1,12 @@
+{
+  "source": "4424:69018",
+  "date": "2026-10-27",
+  "nodes": 2060,
+  "uniqueIds": 2060,
+  "texts": 580,
+  "instances": 613,
+  "mainComponents": 71,
+  "nativeIconSVGs": 19,
+  "readMode": "skipInvisibleInstanceChildren=true; 可遍历图层含隐藏层，非全库所有未使用变体",
+  "scope": "当前规范区；未扩展其他业务规范"
+}

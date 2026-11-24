@@ -1,0 +1,45 @@
+const assert=require('node:assert/strict');
+const {resolve}=require('node:path');
+const {pathToFileURL}=require('node:url');
+const {chromium}=require(process.env.YIKAN_PLAYWRIGHT_PATH||'playwright');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:320,height:780},offline:true});
+  const errors=[],external=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('request',request=>{if(/^https?:/.test(request.url()))external.push(request.url());});
+  await page.goto(pathToFileURL(resolve(__dirname,'../assets/offline/代扣签约与解约-离线核对.html')).href);
+  assert.deepEqual(await page.evaluate(()=>yikanRenderErrors),[]);
+  const signing=page.locator('[data-withholding-panel="signing"]');
+  const cancellation=page.locator('[data-withholding-panel="cancellation"]');
+  const ring=panel=>panel.locator('[data-contract-summary] svg');
+  assert.equal(await ring(signing).getAttribute('aria-label'),'签约率 70.00%');
+  assert.ok(await cancellation.isHidden());
+  await signing.locator('[data-contract-select]').selectOption('0');
+  assert.equal(await ring(signing).getAttribute('aria-label'),'签约率 60.00%');
+  assert.deepEqual(await signing.locator('.yk-withholding-metrics dd').allTextContents(),['1000户','600户']);
+  assert.deepEqual(await signing.locator('[data-contract-row]:visible td').allTextContents(),['1000户','600户','60%']);
+  await signing.locator('[data-contract-toggle=rate]').uncheck();
+  await signing.getByText('趋势分析',{exact:true}).click();
+  assert.ok(await signing.locator('.yk-contract-scroll').isHidden());
+  assert.ok(await ring(signing).isVisible());
+  await page.getByRole('button',{name:'解约率',exact:true}).click();
+  assert.ok(await signing.isHidden());
+  assert.equal(await ring(cancellation).getAttribute('aria-label'),'解约率 5.00%');
+  assert.deepEqual(await cancellation.locator('.yk-withholding-metrics dd').allTextContents(),['840户','42户']);
+  assert.deepEqual(await cancellation.locator('[data-contract-row]:visible td').allTextContents(),['840户','42户','5%']);
+  assert.ok(await cancellation.locator('[data-contract-toggle=rate]').isChecked());
+  assert.ok(await cancellation.locator('.yk-contract-scroll').isVisible());
+  if(process.env.YIKAN_WITHHOLDING_SCREENSHOT)await page.screenshot({path:process.env.YIKAN_WITHHOLDING_SCREENSHOT});
+  await page.getByRole('button',{name:'签约率',exact:true}).click();
+  assert.equal(await signing.locator('[data-contract-select]').inputValue(),'0');
+  assert.ok(await signing.locator('.yk-contract-scroll').isHidden());
+  await signing.getByText('趋势分析',{exact:true}).click();
+  assert.equal(await signing.locator('[data-contract-toggle=rate]').isChecked(),false);
+  assert.ok(await page.locator('.phone').evaluate(phone=>phone.scrollWidth<=phone.clientWidth));
+  assert.deepEqual(errors,[]);
+  assert.deepEqual(external,[]);
+  console.log('320px offline: ring and detail sync, switch uses separate data, and each view preserves period, legends and expansion.');
+ }finally{await browser.close();}
+})().catch(error=>{console.error(error);process.exit(1);});

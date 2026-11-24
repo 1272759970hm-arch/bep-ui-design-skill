@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>报修申请 — BEP-S 独立生成测试</title>
+<link rel="stylesheet" href="styles.css" />
+<!--
+  本页面由 Claude 仅依据 component-registry.json / design-tokens.json / mobile-ui-rules.md /
+  page-patterns.md / validation.md / missing-components.json / design-system-conflicts.json 生成，
+  生成过程未调用 Figma MCP、未读取/修改 Figma。
+
+  data-bep-* 标记约定：
+    data-bep-component  组件在 registry 里的名称（如果是非标准变形使用，会写明"(变形使用)"）
+    data-bep-status      REMOTE_INSTANCE / SPEC_ONLY / AI_PROPOSED / NOT_FOUND / COMPONENT_SET
+    data-bep-source       component-registry / missing-components / ai-decision
+    data-bep-verified     true / false / partial
+-->
+</head>
+<body>
+  <main class="page" data-bep-page="报修申请">
+
+    <!-- ===================== NavBar ===================== -->
+    <header class="navbar"
+      data-bep-component="导航栏"
+      data-bep-status="REMOTE_INSTANCE"
+      data-bep-source="component-registry"
+      data-bep-verified="true">
+      <button class="navbar__back" aria-label="返回" type="button">
+        <svg width="12" height="12" viewBox="0 0 1024 1024" fill="currentColor" aria-hidden="true"
+          data-bep-component="Icon(arrow-left)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"/>
+        </svg>
+      </button>
+      <h1 class="navbar__title">报修申请</h1>
+      <!-- 原组件右侧"说明助文"文案本次隐藏，未渲染 -->
+    </header>
+
+    <!-- ===================== 表单字段 ===================== -->
+    <form class="content" id="repair-form" novalidate>
+
+      <!-- 1. 报修地址：选择触发行 -->
+      <button type="button" class="field field--trigger"
+        data-bep-component="选择触发行"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-state="选择默认">
+        <span class="field__label">报修地址<span class="required" data-bep-component="必填星号" data-bep-status="REMOTE_INSTANCE" data-bep-source="component-registry" data-bep-verified="true">*</span></span>
+        <span class="field__value field__value--placeholder">请选择报修地址</span>
+        <svg class="field__chevron" viewBox="0 0 1024 1024" fill="currentColor" aria-hidden="true"
+          data-bep-component="Icon(chevron-right)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"/>
+        </svg>
+      </button>
+
+      <!-- 2. 报修类型：同一个"选择触发行"组件复用，AI_DESIGN_DECISION：没有用胶囊单选 -->
+      <button type="button" class="field field--trigger"
+        data-bep-component="选择触发行"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-state="选择默认"
+        data-bep-decision="AI_DESIGN_DECISION：报修类型选项数量不确定，用与地址/时间一致的选择触发行保持视觉统一，未采用胶囊单选">
+        <span class="field__label">报修类型<span class="required" data-bep-component="必填星号" data-bep-status="REMOTE_INSTANCE" data-bep-source="component-registry" data-bep-verified="true">*</span></span>
+        <span class="field__value field__value--placeholder">请选择报修类型</span>
+        <svg class="field__chevron" viewBox="0 0 1024 1024" fill="currentColor" aria-hidden="true"
+          data-bep-component="Icon(chevron-right)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"/>
+        </svg>
+      </button>
+
+      <!-- 3. 问题描述：AI_PROPOSED，Input 变形使用，非真实 Textarea（库内 NOT_FOUND，见 missing-components.json） -->
+      <label class="field field--textarea"
+        data-bep-component="Input（变形使用，非Textarea）"
+        data-bep-status="AI_PROPOSED"
+        data-bep-source="missing-components"
+        data-bep-verified="false"
+        data-bep-note="Textarea 在 component-registry.json 中为 NOT_FOUND 且无 SPEC_FRAME，本区域基于 Input 真实组件改造，高度100px为AI_PROPOSED建议值，非官方规范">
+        <span class="field__label">问题描述<span class="required" data-bep-component="必填星号" data-bep-status="REMOTE_INSTANCE" data-bep-source="component-registry" data-bep-verified="true">*</span></span>
+        <textarea class="field__textarea" placeholder="请描述您遇到的问题，例如漏水位置、故障现象等" rows="4"></textarea>
+      </label>
+
+      <!-- 4. 现场照片：上传组件，未上传占位态，非必填 -->
+      <div class="field field--upload"
+        data-bep-component="上传"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-state="未上传"
+        data-bep-note="96x96尺寸已验证，缩略图内部+号图标为视觉近似，非Figma导出资源">
+        <span class="field__label">现场照片</span>
+        <div class="upload-row">
+          <button type="button" class="upload-tile" aria-label="添加照片">
+            <span class="upload-tile__plus" aria-hidden="true">+</span>
+            <span>添加照片</span>
+          </button>
+        </div>
+        <span class="field__hint">最多可上传3张现场照片</span>
+      </div>
+
+      <!-- 5. 预约时间：选择触发行 -->
+      <button type="button" class="field field--trigger"
+        data-bep-component="选择触发行"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-state="选择默认">
+        <span class="field__label">预约时间<span class="required" data-bep-component="必填星号" data-bep-status="REMOTE_INSTANCE" data-bep-source="component-registry" data-bep-verified="true">*</span></span>
+        <span class="field__value field__value--placeholder">请选择预约时间</span>
+        <svg class="field__chevron" viewBox="0 0 1024 1024" fill="currentColor" aria-hidden="true"
+          data-bep-component="Icon(chevron-right)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"/>
+        </svg>
+      </button>
+
+      <!-- 6. 联系人：Input -->
+      <label class="field"
+        data-bep-component="输入框"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-state="默认/占位符">
+        <span class="field__label">联系人<span class="required" data-bep-component="必填星号" data-bep-status="REMOTE_INSTANCE" data-bep-source="component-registry" data-bep-verified="true">*</span></span>
+        <input class="field__input" type="text" placeholder="请输入联系人姓名" />
+      </label>
+
+      <!-- 7. 联系电话：Input -->
+      <label class="field"
+        data-bep-component="输入框"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-state="默认/占位符">
+        <span class="field__label">联系电话<span class="required" data-bep-component="必填星号" data-bep-status="REMOTE_INSTANCE" data-bep-source="component-registry" data-bep-verified="true">*</span></span>
+        <input class="field__input" type="tel" inputmode="numeric" placeholder="请输入联系电话" />
+      </label>
+
+    </form>
+
+    <!-- ===================== 提交按钮：SPEC_ONLY，无真实Primary Button ===================== -->
+    <div class="submit-bar">
+      <button type="submit" form="repair-form" class="btn-primary"
+        data-bep-component="按钮/主要"
+        data-bep-status="SPEC_ONLY"
+        data-bep-source="missing-components"
+        data-bep-verified="false"
+        data-bep-note="component-registry.json中Primary Button为NOT_FOUND，本按钮按按钮规范画板(SPEC_FRAME)尺寸手工搭建：48px高/圆角4px/color.brand.3填充">
+        提交报修
+      </button>
+    </div>
+
+  </main>
+</body>
+</html>

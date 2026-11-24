@@ -1,0 +1,62 @@
+{
+  "$schemaVersion": "1.0",
+  "name": "BEP-S Design QA Rule Catalog",
+  "description": "模块化规则目录。新增规则只需在此登记 + 在 checkers/ 下实现同名规则 ID，不需要改主流程。所有 specSource 必须指向本 Skill 既有文件，禁止凭空编造校验标准。",
+  "generatedFrom": [
+    "design-tokens.json", "component-registry.json", "missing-components.json",
+    "design-system-conflicts.json", "constraints.md", "html-prototype.md",
+    "prd-to-prototype.md", "interaction-adaptive-tokens.json",
+    "component-library.md §6.17", "assets/empty-states/"
+  ],
+  "statuses": ["PASS", "FAIL", "WARNING", "BLOCKED", "NOT CHECKED"],
+  "dimensions": [
+    { "id": "R1", "name": "需求还原校验", "checker": "r1-requirement.mjs", "goal": "完整覆盖 PRD 的功能、字段、业务流程、交互逻辑，无遗漏 / 擅自增加 / 错误理解" },
+    { "id": "R2", "name": "设计规范校验", "checker": "r2-design-token.mjs", "goal": "颜色 / 字体 / 字号 / 字重 / 间距 / 圆角 / 阴影 / 布局符合 Skill 定义的 Token，禁止非规范值" },
+    { "id": "R3", "name": "组件引用校验", "checker": "r3-component-ref.mjs", "goal": "组件来自指定组件库，名称 / 引用路径 / API / 属性 / 变体 / 插槽正确，禁止虚构组件" },
+    { "id": "R4", "name": "组件使用校验", "checker": "r4-component-usage.mjs", "goal": "优先复用标准组件，不重复造轮子、不错误组合、不滥用自定义样式" },
+    { "id": "R5", "name": "视觉还原校验", "checker": "r5-visual.mjs", "goal": "布局 / 尺寸 / 间距 / 对齐 / 层级 / 比例一致；有 Figma 参考时截图比对；原型仅作需求依据" },
+    { "id": "R6", "name": "交互逻辑校验", "checker": "r6-interaction.mjs", "goal": "按钮 / 弹窗 / 表单 / 下拉 / 状态切换完整，交互状态与反馈符合规范" }
+  ],
+  "rules": [
+    { "id": "R1-01", "dimension": "R1", "title": "PRD 功能点覆盖率 100%", "severity": "P0", "fixable": false, "specSource": "prd-to-prototype.md §6 / constraints.md C-93", "requiredEvidence": ["prd", "prdSpec", "artifact"], "kind": "COVERAGE" },
+    { "id": "R1-02", "dimension": "R1", "title": "不得擅自增加屏幕或业务能力", "severity": "P1", "fixable": false, "specSource": "prd-to-prototype.md §6 / SKILL.md Step 0 红线", "requiredEvidence": ["prd", "artifact"], "kind": "SCOPE" },
+    { "id": "R1-03", "dimension": "R1", "title": "需求卡八项与状态清单完整性", "severity": "P2", "fixable": false, "specSource": "prd-to-prototype.md 需求卡八项", "requiredEvidence": ["prd"], "kind": "COMPLETENESS" },
+    { "id": "R1-04", "dimension": "R1", "title": "每条功能点有明确落点（屏 + 模块）", "severity": "P1", "fixable": false, "specSource": "prd-to-prototype.md §6 PRD 覆盖率核对表", "requiredEvidence": ["prd", "prdSpec"], "kind": "MAPPING" },
+
+    { "id": "R2-01", "dimension": "R2", "title": ":root 变量色值命中 Token 真值表", "severity": "P1", "fixable": false, "specSource": "design-tokens.json color / html-prototype.md §3", "requiredEvidence": ["tokens", "artifact"], "kind": "TOKEN" },
+    { "id": "R2-02", "dimension": "R2", "title": "页面内不得出现裸色值", "severity": "P1", "fixable": true, "fixKind": "TOKEN_SUBSTITUTION", "specSource": "constraints.md C-82 / html-prototype.md §3", "requiredEvidence": ["tokens", "constraints", "artifact"], "kind": "TOKEN" },
+    { "id": "R2-03", "dimension": "R2", "title": "字号命中 font.size 合法档位", "severity": "P1", "fixable": false, "specSource": "design-tokens.json font.size / constraints.md C-11", "requiredEvidence": ["tokens", "constraints", "artifact"], "kind": "TOKEN" },
+    { "id": "R2-04", "dimension": "R2", "title": "圆角命中 radius 合法档位", "severity": "P1", "fixable": false, "specSource": "design-tokens.json radius / constraints.md", "requiredEvidence": ["tokens", "artifact"], "kind": "TOKEN" },
+    { "id": "R2-05", "dimension": "R2", "title": "圆角 / 尺寸不得写裸值，须走 CSS 变量", "severity": "P2", "fixable": true, "fixKind": "TOKEN_SUBSTITUTION", "specSource": "constraints.md C-82 / html-prototype.md §3", "requiredEvidence": ["tokens", "constraints", "artifact"], "kind": "TOKEN" },
+    { "id": "R2-06", "dimension": "R2", "title": "行高 = 字号 × 1.4", "severity": "P2", "fixable": false, "specSource": "design-tokens.json font.lineHeight.ratio / constraints.md C-10", "requiredEvidence": ["tokens", "constraints", "artifact"], "kind": "TOKEN" },
+    { "id": "R2-07", "dimension": "R2", "title": "字重只用 Regular / Medium / Semibold", "severity": "P2", "fixable": false, "specSource": "design-tokens.json font.weight / constraints.md C-12", "requiredEvidence": ["tokens", "constraints", "artifact"], "kind": "TOKEN" },
+
+    { "id": "R3-01", "dimension": "R3", "title": "组件引用必须命中真值库，禁止虚构组件", "severity": "P0", "fixable": false, "specSource": "component-registry.json / missing-components.json / SKILL.md Step 7C", "requiredEvidence": ["registry", "missing", "artifact"], "kind": "REFERENCE" },
+    { "id": "R3-02", "dimension": "R3", "title": "data-bep-status 必须诚实反映组件真实状态", "severity": "P0", "fixable": false, "specSource": "SKILL.md Step 7C 硬性红线 / component-registry.json status", "requiredEvidence": ["registry", "artifact"], "kind": "HONESTY" },
+    { "id": "R3-03", "dimension": "R3", "title": "NOT_FOUND 组件不得标成 REMOTE_INSTANCE", "severity": "P0", "fixable": false, "specSource": "missing-components.json / SKILL.md 禁止相似组件魔改", "requiredEvidence": ["missing", "artifact"], "kind": "HONESTY" },
+    { "id": "R3-04", "dimension": "R3", "title": "变形使用必须写成「X(变形使用)」并标非真实状态", "severity": "P1", "fixable": false, "specSource": "SKILL.md Step 7C 硬性红线", "requiredEvidence": ["registry", "artifact"], "kind": "HONESTY" },
+    { "id": "R3-05", "dimension": "R3", "title": "Figma Scripter 组件键合法 + 无 mkF 类型误用 + 语法通过", "severity": "P0", "fixable": false, "specSource": "component-registry.json componentKey / figma-scripter-toolkit 事故复盘（mkFT）", "requiredEvidence": ["registry", "artifact"], "kind": "CODE" },
+
+    { "id": "R4-01", "dimension": "R4", "title": "标签 tint 三档分离：Tag 10% / 筛选胶囊 14% / 二级 Tab 16%", "severity": "P1", "fixable": true, "fixKind": "SPEC_VALUE_NORMALIZATION", "specSource": "constraints.md C-04 / component-library.md §6.3 / design-tokens.json tint10|tint14|tint16", "requiredEvidence": ["tokens", "constraints", "artifact"], "kind": "USAGE" },
+    { "id": "R4-02", "dimension": "R4", "title": "已知规范冲突须显式裁决，不得静默统一", "severity": "ADVISORY", "fixable": false, "specSource": "design-system-conflicts.json / constraints.md §0 冲突裁决优先级", "requiredEvidence": ["conflicts", "artifact"], "kind": "CONFLICT" },
+    { "id": "R4-03", "dimension": "R4", "title": "缺省插画禁止外链，必须 base64 内嵌", "severity": "P0", "fixable": true, "fixKind": "ASSET_INLINING", "specSource": "constraints.md C-98 / html-prototype.md §7 / component-library.md §6.17", "requiredEvidence": ["emptyAssets", "constraints", "artifact"], "kind": "ASSET" },
+    { "id": "R4-04", "dimension": "R4", "title": "缺省插画必须透明底（不得带白色方块）", "severity": "P0", "fixable": false, "specSource": "constraints.md C-97 / component-library.md §6.17 白底陷阱", "requiredEvidence": ["emptyAssets", "constraints", "artifact"], "kind": "ASSET" },
+    { "id": "R4-05", "dimension": "R4", "title": "已有标准组件不得重复造轮子 / 滥用自定义样式", "severity": "P2", "fixable": false, "specSource": "component-registry.json visualRecipe / SKILL.md Component Reuse 原则", "requiredEvidence": ["registry", "artifact"], "kind": "REUSE" },
+    { "id": "R4-06", "dimension": "R4", "title": "图标必须命中 icon-library 或声明来源，禁止手绘近似冒充", "severity": "ADVISORY", "fixable": false, "specSource": "icon-library.json rule（原始 SVG path，非转述/回忆/近似画）/ missing-components.json 图标缺口", "requiredEvidence": ["iconLibrary", "artifact"], "kind": "ICON" },
+
+    { "id": "R5-01", "dimension": "R5", "title": "真实渲染不得空白（headless 截图实测）", "severity": "P0", "fixable": false, "specSource": "html-prototype.md §1 双击即开 / 历史 Scripter 空白事故复盘", "requiredEvidence": ["browser", "screenshot", "artifact"], "kind": "RENDER" },
+    { "id": "R5-02", "dimension": "R5", "title": "无水平溢出（DOM 实测 scrollWidth）", "severity": "P1", "fixable": false, "specSource": "mobile-ui-rules.md 375 基准 / page-patterns.md 实测范式", "requiredEvidence": ["browser", "artifact"], "kind": "LAYOUT" },
+    { "id": "R5-03", "dimension": "R5", "title": "与 Figma 参考图截图比对，给出差异区域", "severity": "P1", "fixable": false, "specSource": "page-patterns.md 实测页面范式 / visual-design-reasoning.md 视觉还原", "requiredEvidence": ["reference", "browser", "screenshot", "artifact"], "kind": "DIFF" },
+    { "id": "R5-04", "dimension": "R5", "title": "产品原型只作需求依据，不得当作视觉比对基准", "severity": "P0", "fixable": false, "specSource": "prd-to-prototype.md / SKILL.md 核心原则「原型不是最终设计」/ constraints.md C-95", "requiredEvidence": ["artifact"], "kind": "BOUNDARY" },
+    { "id": "R5-05", "dimension": "R5", "title": "375×812 基准与关键结构尺寸一致", "severity": "P2", "fixable": false, "specSource": "mobile-ui-rules.md / design-tokens.json componentSize", "requiredEvidence": ["tokens", "artifact"], "kind": "LAYOUT" },
+    { "id": "R5-06", "dimension": "R5", "title": "组件比例命中 registry dimensions", "severity": "ADVISORY", "fixable": false, "specSource": "component-registry.json dimensions / visualRecipe", "requiredEvidence": ["registry", "artifact"], "kind": "PROPORTION" },
+
+    { "id": "R6-01", "dimension": "R6", "title": "所有 cursor:pointer 元素必须有交互反馈，禁止死链", "severity": "P0", "fixable": false, "specSource": "html-prototype.md §5 / constraints.md C-84", "requiredEvidence": ["browser", "htmlPrototype", "artifact"], "kind": "INTERACTION" },
+    { "id": "R6-02", "dimension": "R6", "title": "data-screen-go 目标屏必须存在", "severity": "P0", "fixable": false, "specSource": "html-prototype.md §4/§5 交互契约", "requiredEvidence": ["browser", "artifact"], "kind": "INTERACTION" },
+    { "id": "R6-03", "dimension": "R6", "title": "弹层 / 遮罩 / sheet 目标必须存在且可关闭", "severity": "P1", "fixable": false, "specSource": "html-prototype.md §5 / §11 验收清单", "requiredEvidence": ["browser", "htmlPrototype", "artifact"], "kind": "INTERACTION" },
+    { "id": "R6-04", "dimension": "R6", "title": "12 条交互契约逐条实现", "severity": "P1", "fixable": false, "specSource": "html-prototype.md §5 / constraints.md C-84", "requiredEvidence": ["htmlPrototype", "browser", "artifact"], "kind": "CONTRACT" },
+    { "id": "R6-05", "dimension": "R6", "title": "列表页必须有可达空态", "severity": "P1", "fixable": false, "specSource": "html-prototype.md §6 状态覆盖 / §11 / SKILL.md Step 7C", "requiredEvidence": ["htmlPrototype", "browser", "artifact"], "kind": "STATE" },
+    { "id": "R6-06", "dimension": "R6", "title": "禁止清单：CDN / 外链资源 / alert() / confirm() / 前端框架", "severity": "P0", "fixable": false, "specSource": "html-prototype.md §8 禁止清单 / constraints.md C-80", "requiredEvidence": ["htmlPrototype", "artifact"], "kind": "FORBIDDEN" },
+    { "id": "R6-07", "dimension": "R6", "title": "触摸热区 ≥44pt（EXTERNAL_STANDARD，仅提示）", "severity": "ADVISORY", "fixable": false, "specSource": "interaction-adaptive-tokens.json touchTarget (Apple HIG / Material Design 3，非 BEP-S 正式规范)", "requiredEvidence": ["externalStandards", "browser", "artifact"], "kind": "ADVISORY" }
+  ]
+}

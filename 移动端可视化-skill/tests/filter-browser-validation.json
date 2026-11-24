@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "draftIsolation": true,
+  "cancelRollback": true,
+  "conditionalClear": true,
+  "noStaleRiskRestored": true,
+  "resetDraftOnly": true,
+  "resetConfirm": true,
+  "escapeRollback": true,
+  "focusRestore": true,
+  "noPageErrors": true,
+  "noExternalRequests": true,
+  "note": "Local interaction only. Field versions, query effects and business authorization remain explicit contracts."
+}

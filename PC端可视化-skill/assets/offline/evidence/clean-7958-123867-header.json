@@ -1,0 +1,277 @@
+{
+  "root": "7958:123867",
+  "rows": [
+    {
+      "id": "7958:123867",
+      "parent": "7958:123866",
+      "type": "FRAME",
+      "name": "header",
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 358,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:123868",
+      "parent": "7958:123867",
+      "type": "FRAME",
+      "name": "Header",
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 132,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": true,
+      "effects": []
+    },
+    {
+      "id": "7958:123869",
+      "parent": "7958:123868",
+      "type": "INSTANCE",
+      "name": "状态栏",
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 44,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "itemSpacing": 236,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "CENTER",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:123870",
+      "parent": "7958:123868",
+      "type": "INSTANCE",
+      "name": "Mobile Header",
+      "x": 0,
+      "y": 44,
+      "width": 375,
+      "height": 44,
+      "visible": true,
+      "opacity": 1,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 24,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "clipsContent": false,
+      "effects": []
+    },
+    {
+      "id": "7958:123871",
+      "parent": "7958:123868",
+      "type": "INSTANCE",
+      "name": "Filter",
+      "x": 0,
+      "y": 88,
+      "width": 375,
+      "height": 44,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "layoutMode": "HORIZONTAL",
+      "paddingTop": 5,
+      "paddingRight": 16,
+      "paddingBottom": 5,
+      "paddingLeft": 16,
+      "itemSpacing": 16,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "id": "7958:123872",
+      "parent": "7958:123867",
+      "type": "INSTANCE",
+      "name": "指标",
+      "x": 0,
+      "y": 132,
+      "width": 375,
+      "height": 226,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.945775032043457,
+                "g": 0.9880465269088745,
+                "b": 0.9880465269088745,
+                "a": 1
+              },
+              "position": 0.3366648256778717,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.8915500640869141,
+                "g": 0.9760929942131042,
+                "b": 0.9760929942131042,
+                "a": 1
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -0.5409569144248962,
+              -1.1206382513046265,
+              1.296444296836853
+            ],
+            [
+              81.43309783935547,
+              -0.6105892062187195,
+              -44.12533187866211
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "cornerRadius": 0,
+      "layoutMode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "clipsContent": true,
+      "effects": []
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "$schemaVersion": "1.0",
+  "registryDate": "2026-11-05",
+  "conflictPriorityOrder": [
+    "REAL_COMPONENT_CURRENT_IMPLEMENTATION",
+    "COMPONENT_VARIANT_PROPERTIES",
+    "COMPONENT_OWN_TOKEN",
+    "GLOBAL_DESIGN_TOKEN",
+    "PAGE_PATTERN_SPEC",
+    "GENERIC_MOBILE_UX_CONVENTION"
+  ],
+  "count": 14,
+  "conflicts": [
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "NavBar",
+      "field": "标题字号",
+      "globalValue": "24px（design-tokens.json: font.size 中'页面标题'档位）",
+      "componentValue": "18px（NavBar真实组件内置标题文字实测字号，Semibold/运行环境替换为Noto Sans SC Medium）",
+      "priority": "COMPONENT",
+      "decision": "保持真实Component实现（18px），不为了凑全局24px规范去修改真实组件",
+      "discoveredIn": "信息登记表单页测试（2025-08）",
+      "note": "每次用到NavBar都要在报告里引用这条记录，不需要重新调查"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "Cell / 表单字段（列表值文本、已填写内容文本、标题文案）",
+      "field": "文字颜色",
+      "globalValue": "color.text.5 = #22262F（design-tokens.json，色彩规范画板读值，标注'极黑/正文标题'）",
+      "componentValue": "#1D2129（用户提供的真实 Cell 卡片 + 表单页截图里，标题/内容值文本的实际颜色，两张截图一致）",
+      "priority": "COMPONENT",
+      "decision": "Cell/表单场景下的标题文案、已填写内容值文本，一律用 #1D2129，不用 design-tokens.json 里的 color.text.5(#22262F)——两者接近但不相等，以用户提供的真实实例截图色值为准。标签/占位提示文字颜色 #9199A2 跟已有 color.text.3 完全一致，没有冲突，继续用 color.text.3。这条不确定是'色彩规范画板本身记录不够精确'还是'不同组件各自real instance的fill值跟画板token有细微出入'（类似NavBar字号那条），暂不去改 design-tokens.json 的 color.text.5 全局定义，只在Cell/表单这个具体场景下按#1D2129使用，避免把可能只对这个场景成立的值错误地扩散成全局改动",
+      "discoveredIn": "用户提供真实Cell卡片+表单页截图直接指出色值（2025-08）",
+      "note": "每次生成Cell列表/表单页面都要在报告里引用这条记录，标签用color.text.3(#9199A2)，标题/内容值用#1D2129（不是color.text.5），不需要重新调查"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "页内标签栏 Tab（胶囊样式）",
+      "field": "选中态填充与适用范围",
+      "globalValue": "旧 component-library.md：'胶囊Tab 选中态=浅品牌色底 color.brand.1 + 品牌色字 color.brand.3'，且未区分单层/多级",
+      "componentValue": "画板 107:4417 实读：独立胶囊Tab（单层筛选）选中=实心 #00B1B4 底 + 白字 16px，容器白底 r21 h38；多级标签的二级胶囊选中=rgba(0,177,180,0.16) 浅底 + #00B1B4 字 14px，未选中 #F2F3F5 底，h32",
+      "priority": "COMPONENT",
+      "decision": "按组件实现分成两种样式：单层状态筛选用实心品牌色+白字；只有依附一级Tab的二级胶囊才用浅底彩字。旧文档把二级样式泛化到所有胶囊，属记录错误",
+      "discoveredIn": "2026-11 组件库全量复核（业主群事项列表 chips 返工）",
+      "note": "这是历史最常错的点，生成任何胶囊筛选先问自己：单层还是多级？"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "底部导航 TabBar",
+      "field": "高度",
+      "globalValue": "间距规范画板注释：底部导航 56px",
+      "componentValue": "底部导航画板真实组件：375×50（iPhone 678）/ 375×84（iPhone X 及之后，含 34 安全区）",
+      "priority": "COMPONENT",
+      "decision": "取 50 / 84，旧记录的 56px 作废",
+      "discoveredIn": "2026-11 全量复核",
+      "note": "页面总高核算用 44+44+50(+34)"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "字体排版",
+      "field": "行高倍率",
+      "globalValue": "字体画板注释文字：'1.5倍'",
+      "componentValue": "画板图层 lineHeight 实值一律 140%：18→25.2、16→22.4、14→19.6、24→33.6、100→140",
+      "priority": "COMPONENT",
+      "decision": "用 ×1.4，注释文字的 1.5 属标注遗留",
+      "discoveredIn": "2026-11 全量复核",
+      "note": "全部文字层按字号×1.4 落值"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "卡片 Card",
+      "field": "圆角",
+      "globalValue": "旧 design-tokens：radius.card 6px",
+      "componentValue": "圆角画板标注'卡片矩形高度 h=220px 圆角为8px'；卡片画板主卡实值 rounded-8px",
+      "priority": "COMPONENT",
+      "decision": "统一 8px（用户 2026-11 确认）；卡内标签/按钮仍用 4px，标签 2px",
+      "discoveredIn": "2026-11 全量复核",
+      "note": "卡内子元素不要继承 8px"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "全局品牌色",
+      "field": "库内残留旧色",
+      "globalValue": "USER_OVERRIDE 品牌色 #00B1B4",
+      "componentValue": "库内部分图层仍写 rgba(0,109,155,0.16)（旧品牌色 #006D9B 的 16% 叠加），如二级胶囊选中底、卡片内选中块",
+      "priority": "USER_OVERRIDE",
+      "decision": "一律换算为主色同透明度：浅底 rgba(0,177,180,0.16)（胶囊选中）、rgba(0,177,180,0.10)（语义标签），不要照抄旧色",
+      "discoveredIn": "2026-11 全量复核",
+      "note": "凡看到 0,109,155 三个数就是旧色残留，必须替换；替换时保留原本的透明度档位"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "页面底色",
+      "field": "灰底取值",
+      "globalValue": "组件库规范 fill.1 = #F7F8FA（页面底色）",
+      "componentValue": "真实设计稿（品质巡检 43 屏）中 9 屏页面底色为 #F2F3F5（= fill.2），仅 2 屏用 #F7F8FA",
+      "priority": "SPEC",
+      "decision": "新页面一律 #F7F8FA；#F2F3F5 认知为存量页面底色，禁止回抄（约束 C-67）",
+      "discoveredIn": "2026-11-03 品质巡检设计稿反推",
+      "note": "来源 fileKey fPXf32BNenYcBTgjZCmxz9 / node 9040:24272"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "筛选胶囊",
+      "field": "选中态",
+      "globalValue": "此前按组件库 Tag 记录为实心品牌色 #00B1B4 + 白字（2026-11 画布同步时曾按此改过 chips）",
+      "componentValue": "真实页面筛选胶囊选中态 = 品牌色 14% tint 底（rgba(0,178,178,0.14)）+ 品牌色文字，非实心",
+      "priority": "PAGE",
+      "decision": "区分两种胶囊：页面级筛选胶囊选中 = 14% tint（color.brand.tint14）；语义状态 Tag（组件级）= 10% 浅底标签（见冲突 #11，16% 已作废）。约束 C-68。此前画布把筛选 chips 改成实心的操作需要回退，待用户确认",
+      "discoveredIn": "2026-11-03 品质巡检设计稿反推",
+      "note": "巡检轨迹页选中 tab 另有语义黄 #FFD333 实心形态，属于业务引导色用法，不通用"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "全局行高",
+      "field": "lineHeight",
+      "globalValue": "组件库图层实值一律 ×1.4（2026-11 复核结论）",
+      "componentValue": "真实页面：单行控件行高≈字号；多行正文 14→22（×1.57）；大量文字为 leading-[normal]",
+      "priority": "PAGE",
+      "decision": "按场景配对落值（design-tokens.md §2 配对表）：单行≈字号、多行正文 14→22、长文 ×1.4；约束 C-71",
+      "discoveredIn": "2026-11-03 品质巡检设计稿反推",
+      "note": "真实稿 leading-[normal] 是未设置状态，不要模仿"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "标签 Tag（行内普通标签 + 卡片角标）",
+      "field": "浅底透明度 / 中性配色 / 警告字色 / 角标几何",
+      "globalValue": "旧 component-library.md §6.3 与 component-registry「标签（普通）」：浅底统一 = 主色 16% 透明度；中性档 = #F2F3F5 底 + #444F60 字；警告档字 = #FF7D00（早期记 #FFCA3E）；角标 = 四角统一 2px",
+      "componentValue": "两层实测——①组件库画板 107:3399「标签」：浅底仍为 16%（成功 rgba(0,180,42,0.16)+#00B42A、警示 rgba(255,125,0,0.16)+#FF7D00、错误 rgba(245,63,63,0.16)+#F53F3F、信息 rgba(69,132,255,0.16)+#4584FF、中性 rgba(145,153,162,0.16)+#9199A2，另有旧品牌色残留 rgba(0,109,155,0.16)）；②真实设计稿 11 屏 18 处标签：浅底一律 10%（rgba(245,63,63,0.10)/rgba(0,180,42,0.10)/rgba(111,135,158,0.10)/rgba(255,166,69,0.10)/rgba(0,177,180,0.10)），中性=石板灰 rgba(111,135,158,0.10)+#6F879E（占 9/18），警告字 #FFA645，角标几何 = absolute top-0 right-0、rounded-tr-8 rounded-bl-8、h27 px8 py4",
+      "priority": "PAGE",
+      "decision": "两层事实分层处理：组件库画板 16% 属旧标准，存档不回抄；页面输出一律按真实稿 10% 同源浅底 + 同源实色字。三档浅底分工固定为 标签 10% / 页面筛选胶囊 14% / 胶囊 Tab 二级 16%，不得混用（约束 C-04、C-75）",
+      "discoveredIn": "2026-11-05 用户指出标签颜色全错后的设计稿反查",
+      "note": "这条是历史上错得最广的一条，影响所有含标签的页面。判断口诀：标签看「10+同源」，胶囊看「14 或 16」，中性绝不发灰发实",
+      "verifiedLayers": {
+        "libraryArtboard": "FOUND_IN_FIGMA",
+        "realPages": "FOUND_IN_DRAFT"
+      }
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "空状态 Empty State",
+      "field": "标题文字颜色",
+      "globalValue": "组件库画板 138:3955 记录：标题 16px #444F60",
+      "componentValue": "真实业务页面截图（诉求识别智能体 工单列表「暂无已完成工单」）标题明显更深，目测接近 #22262F（= color.text.5 档）",
+      "priority": "PAGE",
+      "decision": "落地暂按深色档 #22262F；下次 Dev Mode 逐字读取该画板 text fill 后回填本条目。属'记录不够精确'还是'页面改动未回写组件库'尚未确认，不扩散到其他组件的标题色",
+      "discoveredIn": "2026-11-05 用户截图比对",
+      "note": "只影响空状态标题一处置值；查 component-library.md §6.17"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "弹出层 Popup（底部通栏形态）",
+      "field": "圆角 / 标题字号",
+      "globalValue": "画板 138:4669 visualRecipe：radius 8、标题 16 Medium（未分变体）",
+      "componentValue": "P-4 真实底部弹层 9148:28864 实读：只上两角 r12、标题 18 Medium、行高 58",
+      "priority": "COMPONENT",
+      "decision": "底部通栏形态取 r12 + 标题 18 Medium（真实帧实读优先）；中部/侧边浮层暂取 8，待对画板底部变体复核",
+      "discoveredIn": "2026-11-05 筛选弹层溯源",
+      "note": "画板数值未按 中部/底部/左侧/右侧 变体拆分，是冲突根源"
+    },
+    {
+      "type": "DESIGN_SYSTEM_CONFLICT",
+      "component": "一级 Tab（下划线）",
+      "field": "高度 / 字号 / 选中字色",
+      "globalValue": "§6.2 组件规范：h42 / 16px / 选中 Medium #00B1B4 / 24×2 全圆角指示条",
+      "componentValue": "P-1 页面范式（巡检与问题 9040:24273）：18px Semibold #22262F + 2px 短横线；四页设计实测帧为 48/16 Medium #1F1F1F",
+      "priority": "COMPONENT",
+      "decision": "按冲突优先级（真实组件 > 页面范式）取 §6.2：h42/16 Medium/品牌字；真实页面 48/18 两读数待核一次画板后收敛",
+      "discoveredIn": "2026-11-05 筛选弹层溯源",
+      "note": "三种读数并存，页面出稿前先声明用了哪一档"
+    }
+  ]
+}

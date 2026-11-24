@@ -1,0 +1,40 @@
+const assert=require('node:assert/strict');
+const {resolve}=require('node:path');
+const {pathToFileURL}=require('node:url');
+const {chromium}=require(process.env.YIKAN_PLAYWRIGHT_PATH||'playwright');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:320,height:780},offline:true});
+  const errors=[],external=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('request',request=>{if(/^https?:/.test(request.url()))external.push(request.url());});
+  await page.goto(pathToFileURL(resolve(__dirname,'../assets/offline/户数与签约率-离线核对.html')).href);
+  assert.deepEqual(await page.evaluate(()=>yikanRenderErrors),[]);
+  const chart=page.locator('.yk-contract-trend').first();
+  assert.deepEqual(await chart.locator('[data-contract-row]:visible td').allTextContents(),['1400户','1120户','80%']);
+  const last=chart.locator('[data-contract-period="5"]');
+  const column=last.locator('rect[data-contract-series=eligible]');
+  const line=chart.locator('[data-contract-series=rate] circle').last();
+  assert.equal(Number(await column.getAttribute('height')),91);
+  assert.equal(Number(await line.getAttribute('cy')),50);
+  await chart.locator('[data-contract-toggle=rate]').uncheck();
+  assert.ok(await line.isHidden());
+  await chart.locator('[data-contract-select]').selectOption('0');
+  assert.equal(await chart.locator('.is-current').getAttribute('data-contract-period'),'0');
+  assert.deepEqual(await chart.locator('[data-contract-row]:visible td').allTextContents(),['1000户','600户','60%']);
+  assert.ok(await line.isHidden());
+  await chart.locator('[data-contract-toggle=rate]').check();
+  assert.ok(await line.isVisible());
+  const boundary=page.locator('.yk-contract-trend').nth(1);
+  assert.deepEqual(await boundary.locator('[data-contract-row]:visible td').allTextContents(),['0户','0户','—']);
+  await boundary.locator('[data-contract-select]').selectOption('2');
+  assert.deepEqual(await boundary.locator('[data-contract-row]:visible td').allTextContents(),['140户','—','—']);
+  assert.equal(await boundary.locator('[data-contract-series=rate] circle').count(),1);
+  assert.ok(await page.locator('.phone').evaluateAll(phones=>phones.every(phone=>phone.scrollWidth<=phone.clientWidth)));
+  if(process.env.YIKAN_CONTRACT_SCREENSHOT)await page.screenshot({path:process.env.YIKAN_CONTRACT_SCREENSHOT,fullPage:true});
+  assert.deepEqual(errors,[]);
+  assert.deepEqual(external,[]);
+  console.log('320px offline: separate axis geometry, period and legend state, exact values, zero denominator, missing data, no network.');
+ }finally{await browser.close();}
+})().catch(error=>{console.error(error);process.exit(1);});

@@ -1,0 +1,3293 @@
+[
+  {
+    "id": "6695:311818",
+    "w": 375,
+    "h": 428,
+    "records": [
+      {
+        "id": "6695:311818",
+        "parent": "6695:311816",
+        "type": "FRAME",
+        "name": "Group 1321317230",
+        "x": 16,
+        "y": 60,
+        "w": 375,
+        "h": 428,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311819;27:20924;27:20909",
+        "parent": "I6695:311819;27:20924",
+        "type": "RECTANGLE",
+        "name": "Active Indicator",
+        "x": 0,
+        "y": 40,
+        "w": 114,
+        "h": 2,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311819;27:20924;27:20910",
+        "parent": "I6695:311819;27:20924",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311819;27:20924;27:20912",
+        "parent": "I6695:311819;27:20924;27:20910",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": "选择年份",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311819;27:20925;27:20917",
+        "parent": "I6695:311819;27:20925",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311819;27:20925;27:20919",
+        "parent": "I6695:311819;27:20925;27:20917",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "选择月份",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311819;27:20926;27:20917",
+        "parent": "I6695:311819;27:20926",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311819;27:20926;27:20919",
+        "parent": "I6695:311819;27:20926;27:20917",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "选择日期",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311820;539:15831;539:15897",
+        "parent": "I6695:311820;539:15831",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15831;539:15898",
+        "parent": "I6695:311820;539:15831;539:15897",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 355,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311820;539:15832;539:15897",
+        "parent": "I6695:311820;539:15832",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15832;539:15898",
+        "parent": "I6695:311820;539:15832;539:15897",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 355,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2024年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311820;539:15833;539:15877",
+        "parent": "I6695:311820;539:15833",
+        "type": "RECTANGLE",
+        "name": "line",
+        "x": 0,
+        "y": -0.5,
+        "w": 375,
+        "h": 0.5,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9333333373069763,
+              "g": 0.9333333373069763,
+              "b": 0.9333333373069763
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15833;539:15878",
+        "parent": "I6695:311820;539:15833",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15833;539:15879",
+        "parent": "I6695:311820;539:15833;539:15878",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 355,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311820;539:15833;539:15881",
+        "parent": "I6695:311820;539:15833",
+        "type": "RECTANGLE",
+        "name": "line",
+        "x": 0,
+        "y": 60,
+        "w": 375,
+        "h": 0.5,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9333333373069763,
+              "g": 0.9333333373069763,
+              "b": 0.9333333373069763
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15834;539:15897",
+        "parent": "I6695:311820;539:15834",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15834;539:15898",
+        "parent": "I6695:311820;539:15834;539:15897",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 355,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311820;539:15835;539:15897",
+        "parent": "I6695:311820;539:15835",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15835;539:15898",
+        "parent": "I6695:311820;539:15835;539:15897",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 355,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311820;539:15837",
+        "parent": "6695:311820",
+        "type": "RECTANGLE",
+        "name": "矩形",
+        "x": 0,
+        "y": 177,
+        "w": 375,
+        "h": 123.19999694824219,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 0.00009999999747378752
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0.5
+              ]
+            ]
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311820;539:15836",
+        "parent": "6695:311820",
+        "type": "RECTANGLE",
+        "name": "矩形",
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 123.19999694824219,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 0.00009999999747378752
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                5.620381904131993e-17,
+                1.0062196254730225,
+                -0.006219641771167517
+              ],
+              [
+                -1.0062196254730225,
+                5.620381904131993e-17,
+                0.5031098127365112
+              ]
+            ]
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311821",
+        "parent": "6695:311818",
+        "type": "FRAME",
+        "name": "Frame 1321319951",
+        "x": 0,
+        "y": 350,
+        "w": 375,
+        "h": 78,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311822",
+        "parent": "6695:311821",
+        "type": "FRAME",
+        "name": "button/中按钮/次要/Normal",
+        "x": 16,
+        "y": 0,
+        "w": 343,
+        "h": 44,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311825",
+        "parent": "6695:311821",
+        "type": "FRAME",
+        "name": "button/中按钮/次要/Normal",
+        "x": 16,
+        "y": 0,
+        "w": 343,
+        "h": 44,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311826;404:15119",
+        "parent": "6695:311826",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 66.75,
+        "y": 10,
+        "w": 32,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": "取消",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311827;146:3187",
+        "parent": "6695:311827",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 66.75,
+        "y": 10,
+        "w": 32,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": "确定",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "6695:311829",
+        "parent": "6695:311828",
+        "type": "RECTANGLE",
+        "name": "Rectangle 109",
+        "x": 0,
+        "y": 45,
+        "w": 375,
+        "h": 32,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311830;0:1377",
+        "parent": "6695:311830",
+        "type": "RECTANGLE",
+        "name": "Home Indicator",
+        "x": 0,
+        "y": 21,
+        "w": 134,
+        "h": 5,
+        "cornerRadius": 100,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "6695:311834",
+    "w": 375,
+    "h": 428,
+    "records": [
+      {
+        "id": "6695:311834",
+        "parent": "6695:311832",
+        "type": "FRAME",
+        "name": "Group 1321317230",
+        "x": 16,
+        "y": 60,
+        "w": 375,
+        "h": 428,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311835;27:20924;27:20917",
+        "parent": "I6695:311835;27:20924",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311835;27:20924;27:20919",
+        "parent": "I6695:311835;27:20924;27:20917",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "选择日期",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311835;27:20925;27:20909",
+        "parent": "I6695:311835;27:20925",
+        "type": "RECTANGLE",
+        "name": "Active Indicator",
+        "x": 0,
+        "y": 40,
+        "w": 114,
+        "h": 2,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311835;27:20925;27:20910",
+        "parent": "I6695:311835;27:20925",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311835;27:20925;27:20912",
+        "parent": "I6695:311835;27:20925;27:20910",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": "选择月份",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311835;27:20926;27:20917",
+        "parent": "I6695:311835;27:20926",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311835;27:20926;27:20919",
+        "parent": "I6695:311835;27:20926;27:20917",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "选择年份",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311836;541:15953;539:15891",
+        "parent": "I6695:311836;541:15953",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15953;539:15892",
+        "parent": "I6695:311836;541:15953;539:15891",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15953;539:15893",
+        "parent": "I6695:311836;541:15953;539:15891",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 192.5,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15954;539:15891",
+        "parent": "I6695:311836;541:15954",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15954;539:15892",
+        "parent": "I6695:311836;541:15954;539:15891",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2024年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15954;539:15893",
+        "parent": "I6695:311836;541:15954;539:15891",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 192.5,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15955;539:15870",
+        "parent": "I6695:311836;541:15955",
+        "type": "RECTANGLE",
+        "name": "line",
+        "x": 0,
+        "y": -0.5,
+        "w": 375,
+        "h": 0.5,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9333333373069763,
+              "g": 0.9333333373069763,
+              "b": 0.9333333373069763
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15955;539:15871",
+        "parent": "I6695:311836;541:15955",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15955;539:15872",
+        "parent": "I6695:311836;541:15955;539:15871",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15955;539:15873",
+        "parent": "I6695:311836;541:15955;539:15871",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 192.5,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15955;539:15875",
+        "parent": "I6695:311836;541:15955",
+        "type": "RECTANGLE",
+        "name": "line",
+        "x": 0,
+        "y": 60,
+        "w": 375,
+        "h": 0.5,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9333333373069763,
+              "g": 0.9333333373069763,
+              "b": 0.9333333373069763
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15956;539:15891",
+        "parent": "I6695:311836;541:15956",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15956;539:15892",
+        "parent": "I6695:311836;541:15956;539:15891",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15956;539:15893",
+        "parent": "I6695:311836;541:15956;539:15891",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 192.5,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15957;539:15891",
+        "parent": "I6695:311836;541:15957",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15957;539:15892",
+        "parent": "I6695:311836;541:15957;539:15891",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15957;539:15893",
+        "parent": "I6695:311836;541:15957;539:15891",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 192.5,
+        "y": 0,
+        "w": 172.5,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311836;541:15958",
+        "parent": "6695:311836",
+        "type": "RECTANGLE",
+        "name": "矩形",
+        "x": 0,
+        "y": 177,
+        "w": 375,
+        "h": 123.19999694824219,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 0.00009999999747378752
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0.5
+              ]
+            ]
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311836;541:15959",
+        "parent": "6695:311836",
+        "type": "RECTANGLE",
+        "name": "矩形",
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 123.19999694824219,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 0.00009999999747378752
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                5.620381904131993e-17,
+                1.0062196254730225,
+                -0.006219641771167517
+              ],
+              [
+                -1.0062196254730225,
+                5.620381904131993e-17,
+                0.5031098127365112
+              ]
+            ]
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311837",
+        "parent": "6695:311834",
+        "type": "FRAME",
+        "name": "Frame 1321319951",
+        "x": 0,
+        "y": 350,
+        "w": 375,
+        "h": 78,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311838",
+        "parent": "6695:311837",
+        "type": "FRAME",
+        "name": "button/中按钮/次要/Normal",
+        "x": 16,
+        "y": 0,
+        "w": 343,
+        "h": 44,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311841",
+        "parent": "6695:311837",
+        "type": "FRAME",
+        "name": "button/中按钮/次要/Normal",
+        "x": 16,
+        "y": 0,
+        "w": 343,
+        "h": 44,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311842;404:15119",
+        "parent": "6695:311842",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 66.75,
+        "y": 10,
+        "w": 32,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": "取消",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311843;146:3187",
+        "parent": "6695:311843",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 66.75,
+        "y": 10,
+        "w": 32,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": "确定",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "6695:311845",
+        "parent": "6695:311844",
+        "type": "RECTANGLE",
+        "name": "Rectangle 109",
+        "x": 0,
+        "y": 45,
+        "w": 375,
+        "h": 32,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311846;0:1377",
+        "parent": "6695:311846",
+        "type": "RECTANGLE",
+        "name": "Home Indicator",
+        "x": 0,
+        "y": 21,
+        "w": 134,
+        "h": 5,
+        "cornerRadius": 100,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "6695:311850",
+    "w": 375,
+    "h": 428,
+    "records": [
+      {
+        "id": "6695:311850",
+        "parent": "6695:311848",
+        "type": "FRAME",
+        "name": "Group 1321317230",
+        "x": 16,
+        "y": 60,
+        "w": 375,
+        "h": 428,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311851;27:20924;27:20917",
+        "parent": "I6695:311851;27:20924",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311851;27:20924;27:20919",
+        "parent": "I6695:311851;27:20924;27:20917",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "选择年份",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311851;27:20925;27:20917",
+        "parent": "I6695:311851;27:20925",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311851;27:20925;27:20919",
+        "parent": "I6695:311851;27:20925;27:20917",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "选择月份",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311851;27:20926;27:20909",
+        "parent": "I6695:311851;27:20926",
+        "type": "RECTANGLE",
+        "name": "Active Indicator",
+        "x": 0,
+        "y": 40,
+        "w": 114,
+        "h": 2,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311851;27:20926;27:20910",
+        "parent": "I6695:311851;27:20926",
+        "type": "FRAME",
+        "name": "Label & Counter",
+        "x": 25,
+        "y": 9,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311851;27:20926;27:20912",
+        "parent": "I6695:311851;27:20926;27:20910",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": "选择日期",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311852;541:16042;539:15884",
+        "parent": "I6695:311852;541:16042",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16042;539:15885",
+        "parent": "I6695:311852;541:16042;539:15884",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 111.66666412353516,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16042;539:15886",
+        "parent": "I6695:311852;541:16042;539:15884",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 131.66665649414062,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16042;539:15887",
+        "parent": "I6695:311852;541:16042;539:15884",
+        "type": "TEXT",
+        "name": "27日",
+        "x": 253.3333282470703,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "14日",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16043;539:15884",
+        "parent": "I6695:311852;541:16043",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16043;539:15885",
+        "parent": "I6695:311852;541:16043;539:15884",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 111.66666412353516,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2024年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16043;539:15886",
+        "parent": "I6695:311852;541:16043;539:15884",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 131.66665649414062,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16043;539:15887",
+        "parent": "I6695:311852;541:16043;539:15884",
+        "type": "TEXT",
+        "name": "27日",
+        "x": 253.3333282470703,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "14日",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16044;539:15861",
+        "parent": "I6695:311852;541:16044",
+        "type": "RECTANGLE",
+        "name": "line",
+        "x": 0,
+        "y": -0.5,
+        "w": 375,
+        "h": 0.5,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9333333373069763,
+              "g": 0.9333333373069763,
+              "b": 0.9333333373069763
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16044;539:15866",
+        "parent": "I6695:311852;541:16044",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16044;539:15864",
+        "parent": "I6695:311852;541:16044;539:15866",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 111.66666412353516,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16044;539:15863",
+        "parent": "I6695:311852;541:16044;539:15866",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 131.66665649414062,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16044;539:15865",
+        "parent": "I6695:311852;541:16044;539:15866",
+        "type": "TEXT",
+        "name": "27日",
+        "x": 253.3333282470703,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d7632104e65b65a095c06234fd614c3b22a74b94/330:7"
+              }
+            }
+          }
+        ],
+        "text": "14日",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16044;539:15862",
+        "parent": "I6695:311852;541:16044",
+        "type": "RECTANGLE",
+        "name": "line",
+        "x": 0,
+        "y": 60,
+        "w": 375,
+        "h": 0.5,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9333333373069763,
+              "g": 0.9333333373069763,
+              "b": 0.9333333373069763
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16045;539:15884",
+        "parent": "I6695:311852;541:16045",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16045;539:15885",
+        "parent": "I6695:311852;541:16045;539:15884",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 111.66666412353516,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16045;539:15886",
+        "parent": "I6695:311852;541:16045;539:15884",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 131.66665649414062,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16045;539:15887",
+        "parent": "I6695:311852;541:16045;539:15884",
+        "type": "TEXT",
+        "name": "27日",
+        "x": 253.3333282470703,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "14日",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16046;539:15884",
+        "parent": "I6695:311852;541:16046",
+        "type": "FRAME",
+        "name": "Frame 1321320004",
+        "x": 0,
+        "y": 17,
+        "w": 375,
+        "h": 26,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16046;539:15885",
+        "parent": "I6695:311852;541:16046;539:15884",
+        "type": "TEXT",
+        "name": "选中项",
+        "x": 10,
+        "y": 0,
+        "w": 111.66666412353516,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "2025年",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16046;539:15886",
+        "parent": "I6695:311852;541:16046;539:15884",
+        "type": "TEXT",
+        "name": "2019年",
+        "x": 131.66665649414062,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "1月",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16046;539:15887",
+        "parent": "I6695:311852;541:16046;539:15884",
+        "type": "TEXT",
+        "name": "27日",
+        "x": 253.3333282470703,
+        "y": 0,
+        "w": 111.66667175292969,
+        "h": 26,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:cf15121a29d4a734a9bf3d05c018f3a3a986d694/330:9"
+              }
+            }
+          }
+        ],
+        "text": "14日",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 26
+        }
+      },
+      {
+        "id": "I6695:311852;541:16047",
+        "parent": "6695:311852",
+        "type": "RECTANGLE",
+        "name": "矩形",
+        "x": 0,
+        "y": 177,
+        "w": 375,
+        "h": 123.19999694824219,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 0.00009999999747378752
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0.5
+              ]
+            ]
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311852;541:16048",
+        "parent": "6695:311852",
+        "type": "RECTANGLE",
+        "name": "矩形",
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 123.19999694824219,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 0.00009999999747378752
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                5.620381904131993e-17,
+                1.0062196254730225,
+                -0.006219641771167517
+              ],
+              [
+                -1.0062196254730225,
+                5.620381904131993e-17,
+                0.5031098127365112
+              ]
+            ]
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311853",
+        "parent": "6695:311850",
+        "type": "FRAME",
+        "name": "Frame 1321319951",
+        "x": 0,
+        "y": 350,
+        "w": 375,
+        "h": 78,
+        "cornerRadius": 0,
+        "fills": [],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311854",
+        "parent": "6695:311853",
+        "type": "FRAME",
+        "name": "button/中按钮/次要/Normal",
+        "x": 16,
+        "y": 0,
+        "w": 343,
+        "h": 44,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "6695:311857",
+        "parent": "6695:311853",
+        "type": "FRAME",
+        "name": "button/中按钮/次要/Normal",
+        "x": 16,
+        "y": 0,
+        "w": 343,
+        "h": 44,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311858;404:15119",
+        "parent": "6695:311858",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 66.75,
+        "y": 10,
+        "w": 32,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6980392336845398,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d3dfcfafea17bec3d0b00e28b7ecc50f23f7490d/146:1"
+              }
+            }
+          }
+        ],
+        "text": "取消",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6695:311859;146:3187",
+        "parent": "6695:311859",
+        "type": "TEXT",
+        "name": "Label",
+        "x": 66.75,
+        "y": 10,
+        "w": 32,
+        "h": 24,
+        "cornerRadius": null,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": "确定",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "6695:311861",
+        "parent": "6695:311860",
+        "type": "RECTANGLE",
+        "name": "Rectangle 109",
+        "x": 0,
+        "y": 45,
+        "w": 375,
+        "h": 32,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      },
+      {
+        "id": "I6695:311862;0:1377",
+        "parent": "6695:311862",
+        "type": "RECTANGLE",
+        "name": "Home Indicator",
+        "x": 0,
+        "y": 21,
+        "w": 134,
+        "h": 5,
+        "cornerRadius": 100,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14901961386203766,
+              "b": 0.18431372940540314
+            },
+            "boundVariables": {}
+          }
+        ],
+        "text": null,
+        "size": null,
+        "font": null,
+        "line": null
+      }
+    ]
+  }
+]

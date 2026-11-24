@@ -1,0 +1,1074 @@
+{
+  "source": "6695:316799",
+  "svgFile": "native/chart-6695-316799.svg",
+  "elements": [
+    {
+      "index": 0,
+      "parentIndex": null,
+      "tag": "svg",
+      "attributes": {
+        "width": "329",
+        "height": "155",
+        "viewBox": "0 0 329 155",
+        "fill": "none"
+      },
+      "text": null
+    },
+    {
+      "index": 1,
+      "parentIndex": 0,
+      "tag": "g",
+      "attributes": {
+        "clip-path": "url(#clip0_6695_316799)"
+      },
+      "text": null
+    },
+    {
+      "index": 2,
+      "parentIndex": 1,
+      "tag": "rect",
+      "attributes": {
+        "width": "329",
+        "height": "155",
+        "rx": "21.67",
+        "fill": "url(#paint0_linear_6695_316799)"
+      },
+      "text": null
+    },
+    {
+      "index": 3,
+      "parentIndex": 1,
+      "tag": "mask",
+      "attributes": {
+        "id": "mask0_6695_316799",
+        "style": "mask-type:alpha",
+        "maskUnits": "userSpaceOnUse",
+        "x": "0",
+        "y": "0",
+        "width": "329",
+        "height": "155"
+      },
+      "text": null
+    },
+    {
+      "index": 4,
+      "parentIndex": 3,
+      "tag": "rect",
+      "attributes": {
+        "width": "329",
+        "height": "155",
+        "rx": "21.67",
+        "fill": "url(#paint1_linear_6695_316799)"
+      },
+      "text": null
+    },
+    {
+      "index": 5,
+      "parentIndex": 1,
+      "tag": "g",
+      "attributes": {
+        "mask": "url(#mask0_6695_316799)"
+      },
+      "text": null
+    },
+    {
+      "index": 6,
+      "parentIndex": 5,
+      "tag": "path",
+      "attributes": {
+        "d": "M70.998 -11H-0.00195312V77H70.998V-11Z",
+        "fill": "url(#pattern0_6695_316799)",
+        "fill-opacity": "0.44"
+      },
+      "text": null
+    },
+    {
+      "index": 7,
+      "parentIndex": 5,
+      "tag": "g",
+      "attributes": {
+        "filter": "url(#filter0_f_6695_316799)"
+      },
+      "text": null
+    },
+    {
+      "index": 8,
+      "parentIndex": 7,
+      "tag": "ellipse",
+      "attributes": {
+        "cx": "103.173",
+        "cy": "162.488",
+        "rx": "73.5",
+        "ry": "51.5",
+        "transform": "rotate(-165.277 103.173 162.488)",
+        "fill": "#FFE4E5",
+        "fill-opacity": "0.14"
+      },
+      "text": null
+    },
+    {
+      "index": 9,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#191919",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 10,
+      "parentIndex": 9,
+      "tag": "tspan",
+      "attributes": {
+        "x": "20",
+        "y": "57.32"
+      },
+      "text": "综合收费率"
+    },
+    {
+      "index": 11,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#0DADAB",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DIN",
+        "font-size": "15",
+        "font-weight": "bold",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 12,
+      "parentIndex": 11,
+      "tag": "tspan",
+      "attributes": {
+        "x": "86.2891",
+        "y": "59.0675"
+      },
+      "text": "87.5"
+    },
+    {
+      "index": 13,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#0DADAB",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DIN",
+        "font-size": "13",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 14,
+      "parentIndex": 13,
+      "tag": "tspan",
+      "attributes": {
+        "x": "117.057",
+        "y": "58.1285"
+      },
+      "text": "%"
+    },
+    {
+      "index": 15,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#8591A3",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "10",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 16,
+      "parentIndex": 15,
+      "tag": "tspan",
+      "attributes": {
+        "x": "134",
+        "y": "56.6"
+      },
+      "text": "/ 目标 90%"
+    },
+    {
+      "index": 17,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M20 72.2305C20 70.5736 21.3431 69.2305 23 69.2305H306C307.657 69.2305 309 70.5736 309 72.2305C309 73.8873 307.657 75.2305 306 75.2305H23C21.3431 75.2305 20 73.8873 20 72.2305Z",
+        "fill": "#D6F5F5"
+      },
+      "text": null
+    },
+    {
+      "index": 18,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "opacity": "0.77",
+        "d": "M20 72C20 70.3431 21.3431 69 23 69H270C271.657 69 273 70.3431 273 72C273 73.6569 271.657 75 270 75H23C21.3431 75 20 73.6569 20 72Z",
+        "fill": "#2DCAE0"
+      },
+      "text": null
+    },
+    {
+      "index": 19,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M20 72C20 70.3431 21.3431 69 23 69H270C271.657 69 273 70.3431 273 72C273 73.6569 271.657 75 270 75H23C21.3431 75 20 73.6569 20 72Z",
+        "fill": "url(#pattern1_6695_316799)"
+      },
+      "text": null
+    },
+    {
+      "index": 20,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#191919",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "12",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 21,
+      "parentIndex": 20,
+      "tag": "tspan",
+      "attributes": {
+        "x": "20",
+        "y": "109.32"
+      },
+      "text": "现金收费率"
+    },
+    {
+      "index": 22,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#3092ED",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DIN",
+        "font-size": "15",
+        "font-weight": "bold",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 23,
+      "parentIndex": 22,
+      "tag": "tspan",
+      "attributes": {
+        "x": "86.2891",
+        "y": "111.068"
+      },
+      "text": "72.3"
+    },
+    {
+      "index": 24,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#3092ED",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DIN",
+        "font-size": "13",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 25,
+      "parentIndex": 24,
+      "tag": "tspan",
+      "attributes": {
+        "x": "117.057",
+        "y": "110.128"
+      },
+      "text": "%"
+    },
+    {
+      "index": 26,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#8591A3",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "10",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 27,
+      "parentIndex": 26,
+      "tag": "tspan",
+      "attributes": {
+        "x": "134",
+        "y": "108.6"
+      },
+      "text": "/ 目标 85%"
+    },
+    {
+      "index": 28,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M22 127C22 125.343 23.3431 124 25 124H308C309.657 124 311 125.343 311 127C311 128.657 309.657 130 308 130H25C23.3431 130 22 128.657 22 127Z",
+        "fill": "#EBF5FF"
+      },
+      "text": null
+    },
+    {
+      "index": 29,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "opacity": "0.77",
+        "d": "M22 127C22 125.343 23.3431 124 25 124H228C229.657 124 231 125.343 231 127C231 128.657 229.657 130 228 130H25C23.3431 130 22 128.657 22 127Z",
+        "fill": "#56B8FF"
+      },
+      "text": null
+    },
+    {
+      "index": 30,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M34 124H32L25 130H27L34 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 31,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M41 124H39L32 130H34L41 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 32,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M48 124H46L39 130H41L48 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 33,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M55 124H53L46 130H48L55 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 34,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M62 124H60L53 130H55L62 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 35,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M69 124H67L60 130H62L69 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 36,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M76 124H74L67 130H69L76 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 37,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M83 124H81L74 130H76L83 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 38,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M90 124H88L81 130H83L90 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 39,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M97 124H95L88 130H90L97 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 40,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M104 124H102L95 130H97L104 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 41,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M111 124H109L102 130H104L111 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 42,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M118 124H116L109 130H111L118 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 43,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M125 124H123L116 130H118L125 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 44,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M132 124H130L123 130H125L132 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 45,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M139 124H137L130 130H132L139 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 46,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M146 124H144L137 130H139L146 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 47,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M153 124H151L144 130H146L153 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 48,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M160 124H158L151 130H153L160 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 49,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M167 124H165L158 130H160L167 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 50,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M174 124H172L165 130H167L174 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 51,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M181 124H179L172 130H174L181 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 52,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M188 124H186L179 130H181L188 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 53,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M195 124H193L186 130H188L195 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 54,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M202 124H200L193 130H195L202 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 55,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M209 124H207L200 130H202L209 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 56,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M216 124H214L207 130H209L216 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 57,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M223 124H221L214 130H216L223 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 58,
+      "parentIndex": 1,
+      "tag": "path",
+      "attributes": {
+        "d": "M230 124H228L221 130H223L230 124Z",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 59,
+      "parentIndex": 1,
+      "tag": "rect",
+      "attributes": {
+        "x": "249",
+        "y": "44",
+        "width": "61",
+        "height": "19",
+        "rx": "7",
+        "fill": "#FFE8ED",
+        "fill-opacity": "0.96"
+      },
+      "text": null
+    },
+    {
+      "index": 60,
+      "parentIndex": 1,
+      "tag": "rect",
+      "attributes": {
+        "x": "249.25",
+        "y": "44.25",
+        "width": "60.5",
+        "height": "18.5",
+        "rx": "6.75",
+        "stroke": "#FFB8C4",
+        "stroke-opacity": "0.5",
+        "stroke-width": "0.5"
+      },
+      "text": null
+    },
+    {
+      "index": 61,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#ED2940",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "9",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 62,
+      "parentIndex": 61,
+      "tag": "tspan",
+      "attributes": {
+        "x": "255",
+        "y": "56.74"
+      },
+      "text": "-2.5% 缺口"
+    },
+    {
+      "index": 63,
+      "parentIndex": 1,
+      "tag": "rect",
+      "attributes": {
+        "x": "243",
+        "y": "96",
+        "width": "64",
+        "height": "19",
+        "rx": "7",
+        "fill": "#FFE8ED",
+        "fill-opacity": "0.96"
+      },
+      "text": null
+    },
+    {
+      "index": 64,
+      "parentIndex": 1,
+      "tag": "rect",
+      "attributes": {
+        "x": "243.25",
+        "y": "96.25",
+        "width": "63.5",
+        "height": "18.5",
+        "rx": "6.75",
+        "stroke": "#FFB8C4",
+        "stroke-opacity": "0.5",
+        "stroke-width": "0.5"
+      },
+      "text": null
+    },
+    {
+      "index": 65,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "#ED2940",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "9",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 66,
+      "parentIndex": 65,
+      "tag": "tspan",
+      "attributes": {
+        "x": "249",
+        "y": "108.74"
+      },
+      "text": "-12.7% 缺口"
+    },
+    {
+      "index": 67,
+      "parentIndex": 1,
+      "tag": "rect",
+      "attributes": {
+        "x": "288",
+        "y": "66",
+        "width": "1.5",
+        "height": "11",
+        "rx": "0.75",
+        "fill": "#33C1C1",
+        "fill-opacity": "0.78"
+      },
+      "text": null
+    },
+    {
+      "index": 68,
+      "parentIndex": 1,
+      "tag": "rect",
+      "attributes": {
+        "x": "278",
+        "y": "121",
+        "width": "1.5",
+        "height": "11",
+        "rx": "0.75",
+        "fill": "#56B8FF",
+        "fill-opacity": "0.78"
+      },
+      "text": null
+    },
+    {
+      "index": 69,
+      "parentIndex": 1,
+      "tag": "text",
+      "attributes": {
+        "fill": "black",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "15",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 70,
+      "parentIndex": 69,
+      "tag": "tspan",
+      "attributes": {
+        "x": "16",
+        "y": "27.9"
+      },
+      "text": "粤西区域"
+    },
+    {
+      "index": 71,
+      "parentIndex": 0,
+      "tag": "defs",
+      "attributes": {},
+      "text": null
+    },
+    {
+      "index": 72,
+      "parentIndex": 71,
+      "tag": "pattern",
+      "attributes": {
+        "id": "pattern0_6695_316799",
+        "patternContentUnits": "objectBoundingBox",
+        "width": "1",
+        "height": "1"
+      },
+      "text": null
+    },
+    {
+      "index": 73,
+      "parentIndex": 72,
+      "tag": "use",
+      "attributes": {
+        "{http://www.w3.org/1999/xlink}href": "#image0_6695_316799",
+        "transform": "matrix(0.00289593 0 0 0.00233391 -0.0746269 -0.535714)"
+      },
+      "text": null
+    },
+    {
+      "index": 74,
+      "parentIndex": 71,
+      "tag": "filter",
+      "attributes": {
+        "id": "filter0_f_6695_316799",
+        "x": "-23.1211",
+        "y": "55.2773",
+        "width": "252.589",
+        "height": "214.422",
+        "filterUnits": "userSpaceOnUse",
+        "color-interpolation-filters": "sRGB"
+      },
+      "text": null
+    },
+    {
+      "index": 75,
+      "parentIndex": 74,
+      "tag": "feFlood",
+      "attributes": {
+        "flood-opacity": "0",
+        "result": "BackgroundImageFix"
+      },
+      "text": null
+    },
+    {
+      "index": 76,
+      "parentIndex": 74,
+      "tag": "feBlend",
+      "attributes": {
+        "mode": "normal",
+        "in": "SourceGraphic",
+        "in2": "BackgroundImageFix",
+        "result": "shape"
+      },
+      "text": null
+    },
+    {
+      "index": 77,
+      "parentIndex": 74,
+      "tag": "feGaussianBlur",
+      "attributes": {
+        "stdDeviation": "27",
+        "result": "effect1_foregroundBlur_6695_316799"
+      },
+      "text": null
+    },
+    {
+      "index": 78,
+      "parentIndex": 71,
+      "tag": "linearGradient",
+      "attributes": {
+        "id": "paint0_linear_6695_316799",
+        "x1": "180.292",
+        "y1": "71.5",
+        "x2": "164.147",
+        "y2": "-6.09748",
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "text": null
+    },
+    {
+      "index": 79,
+      "parentIndex": 78,
+      "tag": "stop",
+      "attributes": {
+        "stop-color": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 80,
+      "parentIndex": 78,
+      "tag": "stop",
+      "attributes": {
+        "offset": "0.527684",
+        "stop-color": "#F1FCFC"
+      },
+      "text": null
+    },
+    {
+      "index": 81,
+      "parentIndex": 78,
+      "tag": "stop",
+      "attributes": {
+        "offset": "1",
+        "stop-color": "#E3F9F9"
+      },
+      "text": null
+    },
+    {
+      "index": 82,
+      "parentIndex": 71,
+      "tag": "linearGradient",
+      "attributes": {
+        "id": "paint1_linear_6695_316799",
+        "x1": "181",
+        "y1": "51.5",
+        "x2": "180.5",
+        "y2": "-9.49999",
+        "gradientUnits": "userSpaceOnUse"
+      },
+      "text": null
+    },
+    {
+      "index": 83,
+      "parentIndex": 82,
+      "tag": "stop",
+      "attributes": {
+        "stop-color": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 84,
+      "parentIndex": 82,
+      "tag": "stop",
+      "attributes": {
+        "offset": "0.527684",
+        "stop-color": "#F1FCFC"
+      },
+      "text": null
+    },
+    {
+      "index": 85,
+      "parentIndex": 82,
+      "tag": "stop",
+      "attributes": {
+        "offset": "1",
+        "stop-color": "#E3F9F9"
+      },
+      "text": null
+    },
+    {
+      "index": 86,
+      "parentIndex": 71,
+      "tag": "clipPath",
+      "attributes": {
+        "id": "clip0_6695_316799"
+      },
+      "text": null
+    },
+    {
+      "index": 87,
+      "parentIndex": 86,
+      "tag": "rect",
+      "attributes": {
+        "width": "329",
+        "height": "155",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 88,
+      "parentIndex": 71,
+      "tag": "image",
+      "attributes": {
+        "id": "image0_6695_316799",
+        "width": "658",
+        "height": "658",
+        "preserveAspectRatio": "none",
+        "{http://www.w3.org/1999/xlink}href": {
+          "originalResource": "native-resources/83c9e5d58c1cc686f95f93a3694dd2db76da53f5acdd9d1143eb3fcf14f279fd.png",
+          "sha256": "83c9e5d58c1cc686f95f93a3694dd2db76da53f5acdd9d1143eb3fcf14f279fd",
+          "bytes": 238284
+        }
+      },
+      "text": null
+    },
+    {
+      "index": 89,
+      "parentIndex": 71,
+      "tag": "pattern",
+      "attributes": {
+        "id": "pattern1_6695_316799",
+        "patternUnits": "userSpaceOnUse",
+        "patternTransform": "matrix(6.74877 0 0 5.72104 19.527 68.442)",
+        "preserveAspectRatio": "none",
+        "viewBox": "-13.2561 -15.6374 189.12 160.32",
+        "width": "1",
+        "height": "1"
+      },
+      "text": null
+    },
+    {
+      "index": 90,
+      "parentIndex": 89,
+      "tag": "use",
+      "attributes": {
+        "{http://www.w3.org/1999/xlink}href": "#pattern1_6695_316799_inner",
+        "transform": "translate(-189.12 -160.32)"
+      },
+      "text": null
+    },
+    {
+      "index": 91,
+      "parentIndex": 89,
+      "tag": "use",
+      "attributes": {
+        "{http://www.w3.org/1999/xlink}href": "#pattern1_6695_316799_inner",
+        "transform": "translate(0 -160.32)"
+      },
+      "text": null
+    },
+    {
+      "index": 92,
+      "parentIndex": 89,
+      "tag": "use",
+      "attributes": {
+        "{http://www.w3.org/1999/xlink}href": "#pattern1_6695_316799_inner",
+        "transform": "translate(-189.12 0)"
+      },
+      "text": null
+    },
+    {
+      "index": 93,
+      "parentIndex": 89,
+      "tag": "g",
+      "attributes": {
+        "id": "pattern1_6695_316799_inner"
+      },
+      "text": null
+    },
+    {
+      "index": 94,
+      "parentIndex": 93,
+      "tag": "path",
+      "attributes": {
+        "d": "M0 167L197 0",
+        "stroke": "#2DCAE0",
+        "stroke-width": "41"
+      },
+      "text": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿组件ID,名称,Key,组件集,实例数
+4424:50916,Type=Legend,5b2ae30d8482aa02162eefc4b3d38f0820b7fbbb,Table Cell (Mobile),12
+4424:50898,Dot & Label,257e6c20ff350889046bc99cc030e1b207b7dada,,21
+4424:48957,"类型=分段选择器, 数量=2",9e35cb390c52aa7536d0ffb69503d0b18d988316,Tabs,3
+4424:48905,"Active=Yes, 类型=tag divide",32bed8786b854c399cc1ed8770eb06de05d0e1e5,Tab-line,3
+4424:48909,"Active=No, 类型=tag divide",14c18be36e18f14bf2bbd6435d4a1ffbf3951dae,Tab-line,3
+4424:46866,"Type=Checked, Disabled=No",0e94b047c6a0b9a50abd31876ad8baf330df0bdf,Checkbox,12
+4424:46442, Outline / checkmark,94e997851d036a6f47865ff799f7546334eec1f3,,6
+4424:46869,"Type=Empty, Disabled=No",30cc2166c566129b6e44111f1ae972d6a06c161e,Checkbox,3
+4424:50164,"Property 1=刻度, 类型=双轴",fd42b2c69feb471413e55feb74844e1aafe0dd93,Y轴,15
+4424:50171,"Property 1=零刻度, 类型=双轴",1af925e371812ab9c124493c4dc908870adabc77,Y轴,3
+4424:50978,Property 1=月柱,9cd215ffb85a039ca7936b0f1c9586551d1eb25d,X轴,3
+4424:51480,Type=1,c0d35048ed869d8fd2da3a3e04608907c5f86388,Double Bars,18
+4424:51485,Type=2,86c7315884eaadd5609bd3c2b98a8a6035e8c08c,Double Bars,2
+4424:51490,Type=3,9a21830acc2fff4fc6aa6a55e72ac2c4fa4c24f6,Double Bars,2
+4424:51495,Type=4,b7f581d3654f26675dcdb08dad6ae2d328fd5258,Double Bars,2
+4424:51025,"趋势=1, 类型=单值",1b40c079f0f287ac969335a0bc31d155e6cde652,Chart,3
+4424:51027,"趋势=2, 类型=累计",20aae4f7995cba471bcf8017ab1b739eb52aa80e,Chart,3
+4424:51029,"趋势=3, 类型=累计",ecaccb2dbade23591a1a392734b9b0bf3d4f7b3d,Chart,3
+4424:51031,"趋势=4, 类型=累计",c2733a0e4b26305149d6b3096602328aabad233b,Chart,3

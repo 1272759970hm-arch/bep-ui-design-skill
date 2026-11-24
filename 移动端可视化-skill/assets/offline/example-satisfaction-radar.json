@@ -1,0 +1,96 @@
+{
+  "title": "一看移动端 · 满意度雷达图",
+  "description": "模拟数据。五维可按需比较同量纲参照，六维展示当前读数及缺失状态。",
+  "screens": [
+    {
+      "name": "五维满意度",
+      "header": {
+        "title": "五维满意度",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "satisfactionRadar",
+          "props": {
+            "subtitle": "项目对照",
+            "dimensions": [
+              {
+                "name": "保洁与环境卫生",
+                "current": 79.42,
+                "highest": 94,
+                "average": 76.5
+              },
+              {
+                "name": "安防",
+                "current": 79.7,
+                "highest": 84,
+                "average": 78.2
+              },
+              {
+                "name": "管家服务",
+                "current": 88.5,
+                "highest": 96,
+                "average": 80.1
+              },
+              {
+                "name": "公共绿化",
+                "current": 79.82,
+                "highest": 87.4,
+                "average": 75.8
+              },
+              {
+                "name": "工程维修",
+                "current": 79.86,
+                "highest": 90,
+                "average": 77.3
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，共同量程 0–100%。"
+    },
+    {
+      "name": "六维满意度",
+      "header": {
+        "title": "六维满意度",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "satisfactionRadar",
+          "props": {
+            "subtitle": "项目概览",
+            "dimensions": [
+              {
+                "name": "整体",
+                "current": 92
+              },
+              {
+                "name": "保洁",
+                "current": 88
+              },
+              {
+                "name": "公共绿化养护",
+                "current": 95
+              },
+              {
+                "name": "安防",
+                "current": 79
+              },
+              {
+                "name": "工程",
+                "current": 84
+              },
+              {
+                "name": "客户服务响应",
+                "current": null
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，共同量程 0–100%。"
+    }
+  ]
+}

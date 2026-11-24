@@ -1,0 +1,20 @@
+{
+  "css": [
+    "tokens.css",
+    "yikan.css",
+    "../status-tags/status-tags.css",
+    "trial.css"
+  ],
+  "javascriptInOrder": [
+    "assets.js",
+    "native-rings.js",
+    "query-controls.js",
+    "business-ranking.js",
+    "trial-components.js",
+    "yikan.js"
+  ],
+  "builder": "scripts/build_page.py",
+  "networkRequired": false,
+  "fonts": "Commercial fonts are not bundled; original font identities are in the parameter records.",
+  "version": "1.3.4-trial.2"
+}

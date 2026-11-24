@@ -1,0 +1,2769 @@
+{
+  "$schemaVersion": "1.0",
+  "registryDate": "2026-11-03",
+  "sourceFile": "Figma: BeP移动端组件-S端 (fileKey vIpu7tb1dguui3QuqYETtM), pages 基础规范(0:1)/控件(0:3320)",
+  "sourceLibraryStatus": "REMOTE_INSTANCE — 源组件库文件已从本文件断开订阅（get_libraries 查不到），所有真实组件均需通过克隆 Page 1 已有实例获得，不能 importComponentByKeyAsync",
+  "componentCount": 38,
+  "components": [
+    {
+      "name": "导航栏",
+      "nameEn": "NavBar",
+      "category": "Navigation",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": "5b00000302bc35e85ba44e75243c9f8737d3fca5",
+      "mainComponentId": "1:476",
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "纯导航-右侧带文案",
+          "status": "VERIFIED",
+          "componentId": "1:476",
+          "note": "唯一做过 mainComponent 深度解析的变体"
+        },
+        {
+          "name": "iPhoneX-可变色",
+          "status": "NOT_VERIFIED",
+          "note": "仅在原始 get_metadata 全量扫描中确认为 INSTANCE 节点类型，未做 mainComponent 深度解析"
+        },
+        {
+          "name": "iPhoneX-右侧带icon",
+          "status": "NOT_VERIFIED",
+          "note": "同上"
+        },
+        {
+          "name": "微信小程序-白底",
+          "status": "NOT_VERIFIED",
+          "note": "同上"
+        },
+        {
+          "name": "微信小程序-自定义底色",
+          "status": "NOT_VERIFIED",
+          "note": "同上"
+        }
+      ],
+      "dimensions": {
+        "width": 374.5,
+        "height": 44,
+        "unit": "px"
+      },
+      "tokens": {
+        "height": "spacing.navbar.height (44px, FOUND_IN_FIGMA)"
+      },
+      "usage": "页面顶部标题栏、返回按钮、右侧操作入口",
+      "limitations": "内置标题文字实测字号 18px，与全局 design-tokens.md 的'页面标题'24px Token 冲突，见 design-system-conflicts.json 第1条，必须保留组件真实实现(18px)",
+      "fallback": "不需要，证据充分",
+      "visualRecipe": {
+        "source": "画板 107:4631 导航栏",
+        "size": {
+          "height": 44,
+          "heightWithStatusBar": 88,
+          "width": "fill"
+        },
+        "text": {
+          "title": {
+            "size": 18,
+            "weight": "Semibold",
+            "color": "#22262F"
+          }
+        },
+        "fills": {
+          "bg": "#FFFFFF（可换色变体）"
+        },
+        "icon": {
+          "back": {
+            "size": 24,
+            "color": "#22262F",
+            "paddingLeft": 16
+          }
+        },
+        "rules": [
+          "标题 18px 为组件内置值，不要改成 24px",
+          "全屏沉浸内容（图片预览）不叠加 NavBar，用 Image 的全屏变体"
+        ]
+      }
+    },
+    {
+      "name": "底部导航",
+      "nameEn": "TabBar (Bottom Navigation)",
+      "category": "Navigation",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "基础用法-iPhone678",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "基础用法-iPhoneX",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "自定义2个-iPhone678",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "自定义2个-iPhoneX",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "自定义3个-iPhone678",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "自定义3个-iPhoneX",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "自定义4个-iPhoneX",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "自定义5个-iPhone678",
+          "status": "VERIFIED"
+        }
+      ],
+      "dimensions": {
+        "height": 56,
+        "safeAreaBottom": 34,
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "App 级容器页的一级导航，2-5个入口",
+      "limitations": "命名陷阱：Figma 真实名字也叫'标签栏'，与下面的页内 Tab 不是同一个组件，见 component-library.md 第1节",
+      "fallback": "不需要，证据充分",
+      "visualRecipe": {
+        "source": "画板 107:4338 底部导航",
+        "size": {
+          "height": 50,
+          "heightWithSafeArea": 84,
+          "safeArea": 34,
+          "width": 375
+        },
+        "text": {
+          "size": 14,
+          "active": "#00B1B4 Medium",
+          "inactive": "#444F60 Regular"
+        },
+        "icon": {
+          "size": 24,
+          "gapToText": 2,
+          "active": "#00B1B4",
+          "inactive": "#444F60"
+        },
+        "fills": {
+          "bg": "#FFFFFF",
+          "topLine": "0.5px #EEEEEE"
+        },
+        "badge": {
+          "dot": 8,
+          "dotColor": "#F53F3F",
+          "dotOffsetX": 8,
+          "dotOffsetY": 2,
+          "numberMin": 16,
+          "numberRadius": 8,
+          "numberOffsetX": 4,
+          "numberOffsetY": 1
+        },
+        "rules": [
+          "50px 为 iPhone678 内容区；iPhone X 及之后用 84px（含 34 安全区）",
+          "不要用它做页内分类切换"
+        ]
+      }
+    },
+    {
+      "name": "页内标签栏",
+      "nameEn": "Tab (Content, non-bottom)",
+      "category": "Navigation",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "SPEC_FRAME",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "fontSizeLevel1": 18,
+        "fontSizeLevel2": 16,
+        "unit": "px",
+        "level1Layout": "文字平分整行宽度(justify-content:space-between)，不是左对齐固定间距",
+        "level1IndicatorWidth": 24,
+        "level1IndicatorHeight": 2,
+        "level1IndicatorRadius": "9999(全圆角/胶囊状)",
+        "level1IndicatorNote": "指示条是独立元素，不是文字的border-bottom；固定尺寸不随文字长度变化，居中对齐在文字下方"
+      },
+      "tokens": {},
+      "usage": "单页内容分类切换（如全部/待处理/已完成）",
+      "limitations": "没有真实主组件，必须按规范画板手工还原；2025-08用户更正过一级Tab的平分布局和指示条精确尺寸(24x2px全圆角)，二级Tab胶囊摆在一级下方（详见component-library.md）",
+      "fallback": "按 SPEC_FRAME 记录的字号(18/16px)、样式(直线下划线/胶囊)手工搭建",
+      "visualRecipe": {
+        "source": "画板 107:4417 标签栏（三种样式并存）",
+        "size": {
+          "primaryHeight": 42,
+          "capsuleHeight": 38,
+          "secondaryCapsuleHeight": 32
+        },
+        "variants": {
+          "一级Tab-下划线": {
+            "height": 42,
+            "text": {
+              "size": 16,
+              "active": "#00B1B4 Medium",
+              "inactive": "#22262F Regular"
+            },
+            "indicator": {
+              "width": 24,
+              "height": 2,
+              "radius": 9999,
+              "position": "文字正下方居中"
+            },
+            "layout": "文字平分整行宽度"
+          },
+          "独立胶囊Tab-单层筛选": {
+            "height": 38,
+            "container": {
+              "bg": "#FFFFFF",
+              "radius": 21
+            },
+            "text": {
+              "size": 16,
+              "active": "#FFFFFF",
+              "inactive": "#22262F"
+            },
+            "selected": {
+              "bg": "#00B1B4",
+              "solid": true
+            },
+            "gap": 16,
+            "layout": "一行放得下时平均分布"
+          },
+          "二级胶囊-多级标签内": {
+            "height": 32,
+            "text": {
+              "size": 14,
+              "active": "#00B1B4",
+              "inactive": "#444F60"
+            },
+            "selected": {
+              "bg": "rgba(0,177,180,0.16)"
+            },
+            "unselected": {
+              "bg": "#F2F3F5"
+            },
+            "radius": 21
+          }
+        },
+        "rules": [
+          "2026-11 重大修正：单层胶囊 Tab 选中态是【实心品牌色+白字】，浅底样式只用于多级标签的二级胶囊",
+          "一级 Tab 指示条是独立元素，不是文字 border-bottom",
+          "胶囊最多 3 个分类，超出改用一级 Tab 或下拉",
+          "范围大/总的分类用一级（上），范围小/细的用二级（下）"
+        ]
+      }
+    },
+    {
+      "name": "宫格",
+      "nameEn": "Grid",
+      "category": "Navigation",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "二级文字",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "无分界线",
+          "status": "VERIFIED"
+        }
+      ],
+      "dimensions": {
+        "iconSlice": 34,
+        "maxRows": 2,
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "首页/频道页图标网格入口",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 107:4106 宫格",
+        "size": {
+          "cell": {
+            "width": 75,
+            "height": 84
+          },
+          "cellWithSubtitle": {
+            "width": 75,
+            "height": 106
+          },
+          "icon": 34
+        },
+        "text": {
+          "title": {
+            "size": 14,
+            "color": "#22262F",
+            "maxChars": 5
+          },
+          "subtitle": {
+            "size": 12,
+            "color": "#9199A2"
+          }
+        },
+        "rules": [
+          "不超过 2 行、5 个",
+          "标题超 5 字改为滑动，不要换行堆叠"
+        ]
+      }
+    },
+    {
+      "name": "按钮 / 次要",
+      "nameEn": "Button / Secondary",
+      "category": "Action",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": "015d36a2553f4478294957392ee81b3b37b26d40",
+      "mainComponentId": "1:666",
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "Normal",
+          "status": "VERIFIED",
+          "componentId": "1:666 / 1:670",
+          "note": "两个不同 componentKey，说明次要按钮内部还有细分未查清"
+        },
+        {
+          "name": "Hover",
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "name": "Disabled",
+          "status": "NOT_VERIFIED"
+        }
+      ],
+      "variants": [],
+      "dimensions": {
+        "width": 164,
+        "height": 48,
+        "unit": "px"
+      },
+      "tokens": {
+        "radius": "radius.button (4px)"
+      },
+      "usage": "次要操作（非主 CTA）",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 107:4842 按钮规范",
+        "size": {
+          "height": 48,
+          "minWidth": 96,
+          "paddingX": 16
+        },
+        "radius": 4,
+        "variants": {
+          "normal": {
+            "bg": "#F0F6F9",
+            "text": "#00B1B4 15px Regular"
+          },
+          "pressed": {
+            "bg": "#9AC5D8",
+            "text": "#FFFFFF"
+          },
+          "disabled": {
+            "bg": "#F0F6F9",
+            "text": "rgba(0,177,180,0.40)"
+          }
+        },
+        "rules": [
+          "辅助按钮用于与主按钮并排的次级操作，不建议单独承担主操作"
+        ]
+      }
+    },
+    {
+      "name": "按钮 / 主要",
+      "nameEn": "Button / Primary",
+      "category": "Action",
+      "status": "NOT_FOUND",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": null,
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved (exhaustive negative result)",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "Normal",
+          "status": "NOT_FOUND"
+        },
+        {
+          "name": "Disabled",
+          "status": "NOT_FOUND"
+        }
+      ],
+      "variants": [],
+      "dimensions": {
+        "height": 48,
+        "radius": 4,
+        "note": "来自按钮规范画板的手工规格，非真实组件测量值"
+      },
+      "tokens": {},
+      "usage": "页面主操作（提交/确认类 CTA）",
+      "limitations": "全库无真实组件；发现一处图层名字叫'主要按钮'但实际 mainComponent 解析结果是开关组件，是历史命名遗留痕迹，不能被名字误导",
+      "fallback": "按按钮规范画板手工搭建：48px高/圆角4px/color.brand.3填充/白字，另见 missing-components.json 第1条",
+      "visualRecipe": {
+        "source": "画板 107:4842 按钮规范",
+        "size": {
+          "height": 48,
+          "minWidth": 96,
+          "paddingX": 16,
+          "smallHeight": 32
+        },
+        "radius": 4,
+        "variants": {
+          "normal": {
+            "bg": "#00B1B4",
+            "text": "#FFFFFF 15px Medium"
+          },
+          "pressed": {
+            "bg": "#00686A",
+            "text": "#FFFFFF"
+          },
+          "disabled": {
+            "bg": "rgba(0,177,180,0.40)",
+            "text": "#FFFFFF"
+          },
+          "capsule": {
+            "bg": "#00B1B4",
+            "radius": 20,
+            "text": "#FFFFFF"
+          },
+          "outline": {
+            "bg": "#FFFFFF",
+            "border": "0.5px #00B1B4",
+            "text": "#00B1B4"
+          },
+          "textButton": {
+            "color": "#00B1B4",
+            "danger": "#FF3636"
+          }
+        },
+        "rules": [
+          "按钮文字最多 6 字",
+          "双按钮组合：辅助在左、主要在右",
+          "单个大按钮通栏 fill，页面边距 0 16px"
+        ]
+      }
+    },
+    {
+      "name": "步进器",
+      "nameEn": "Stepper",
+      "category": "Action",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "SPEC_FRAME",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "基础",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "单边禁用",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "禁用",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "最大状态",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "数值增减控件（购物车数量、表单数值字段）",
+      "limitations": null,
+      "fallback": "按规范画板手工还原四态",
+      "visualRecipe": {
+        "source": "画板 107:3915 步进器",
+        "size": {
+          "height": 32,
+          "button": 32,
+          "valueMinWidth": 40
+        },
+        "text": {
+          "value": {
+            "size": 18,
+            "color": "#22262F"
+          }
+        },
+        "rules": [
+          "单侧禁用时该侧图标 #CCCFD6",
+          "达到上限时 + 置灰（最大态）"
+        ]
+      }
+    },
+    {
+      "name": "输入框",
+      "nameEn": "Input",
+      "category": "Form",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": "cfba65a621b1660e1a9f4605ec97b28c4067a2f7",
+      "mainComponentId": "1:142",
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "默认/占位符",
+          "status": "VERIFIED",
+          "componentId": "1:142"
+        },
+        {
+          "name": "已输入",
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "name": "报错",
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "name": "禁用",
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "name": "多行文本/Textarea",
+          "status": "NOT_FOUND",
+          "note": "全文件 name*=多行 搜索为空，穷举确认；不要拉高冒充，见 missing-components.json"
+        }
+      ],
+      "variants": [
+        {
+          "name": "默认",
+          "status": "VERIFIED",
+          "componentId": "1:142"
+        },
+        {
+          "name": "带图标",
+          "status": "VERIFIED",
+          "componentId": "1:148"
+        },
+        {
+          "name": "文字按钮",
+          "status": "VERIFIED",
+          "componentId": "1:155"
+        },
+        {
+          "name": "插入按钮-获取短信验证码",
+          "status": "VERIFIED",
+          "componentId": "1:173"
+        },
+        {
+          "name": "插入按钮-已输入",
+          "status": "VERIFIED",
+          "componentId": "1:183"
+        },
+        {
+          "name": "插入按钮-重新获取短信验证码",
+          "status": "VERIFIED",
+          "componentId": "1:197"
+        }
+      ],
+      "dimensions": {
+        "width": 375,
+        "height": 60,
+        "unit": "px",
+        "cornerRadius": "NOT_DEFINED（背景是VECTOR非标准Rectangle，未读到cornerRadius属性）",
+        "layoutPattern": "标签左对齐 + 值/占位符右对齐，单行布局（非上下堆叠）——此前版本误判为堆叠，已更正"
+      },
+      "tokens": {
+        "titleFontSize": 18,
+        "placeholderFontSize": 18,
+        "titleColor": "NOT_DEFINED（推测 color.text.5，未单独验证fill）"
+      },
+      "usage": "文本/数据录入字段",
+      "limitations": "内部嵌套真实的必填星号子组件（数据录入/标题/带星，mainComponentId 1:14，星形 1:12），通过切换该节点 visible 属性控制必填标识显隐，不需要 instance-swap",
+      "fallback": "n/a，基础形态证据充分",
+      "visualRecipe": {
+        "source": "画板 107:3632 输入框",
+        "size": {
+          "rowHeight": 60,
+          "radius": 6,
+          "paddingX": 16
+        },
+        "text": {
+          "label": {
+            "size": 18,
+            "color": "#22262F"
+          },
+          "placeholder": {
+            "size": 18,
+            "color": "#CCCFD6"
+          },
+          "value": {
+            "size": 18,
+            "color": "#22262F"
+          },
+          "error": {
+            "size": 14,
+            "color": "#FF3636"
+          },
+          "counter": {
+            "size": 14,
+            "color": "#9199A2"
+          }
+        },
+        "fills": {
+          "inputBox": "#F2F3F5",
+          "row": "#FFFFFF"
+        },
+        "rules": [
+          "必填星号在标题之后（配送员*），颜色 #FF3636",
+          "行高 60px 与 Cell 对齐，可混排",
+          "字数计数右下对齐"
+        ]
+      }
+    },
+    {
+      "name": "选择触发行",
+      "nameEn": "Select Trigger Row (for Picker/DatePicker entry)",
+      "category": "Form",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": "3ad9f515cbf8d57a3aeee9d70e13f85f642b724c",
+      "mainComponentId": "1:17",
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "选择默认",
+          "status": "VERIFIED",
+          "componentId": "1:17"
+        },
+        {
+          "name": "带图标",
+          "status": "VERIFIED",
+          "componentId": "1:85"
+        },
+        {
+          "name": "标题+按钮",
+          "status": "VERIFIED",
+          "componentId": "1:92"
+        },
+        {
+          "name": "标题+文字按钮",
+          "status": "VERIFIED",
+          "componentId": "1:102"
+        },
+        {
+          "name": "带标签",
+          "status": "VERIFIED",
+          "componentId": "1:107"
+        },
+        {
+          "name": "标题带说明文案",
+          "status": "VERIFIED",
+          "componentId": "1:116",
+          "note": "高度90px"
+        },
+        {
+          "name": "标题换行",
+          "status": "VERIFIED",
+          "componentId": "1:123",
+          "note": "高度94px"
+        },
+        {
+          "name": "选择后",
+          "status": "VERIFIED",
+          "componentId": "1:129",
+          "note": "选中值已填入的态"
+        },
+        {
+          "name": "内容过多",
+          "status": "VERIFIED",
+          "componentId": "1:136"
+        }
+      ],
+      "dimensions": {
+        "width": 375,
+        "height": 60,
+        "heightVariants": {
+          "标题带说明文案": 90,
+          "标题换行": 94
+        },
+        "unit": "px",
+        "layoutPattern": "标签左对齐 + 值/占位符右对齐 + 右箭头，单行布局（非上下堆叠）——此前版本误判为堆叠，已更正"
+      },
+      "tokens": {},
+      "usage": "字段值来自预设选择器（城市/日期/分类等），显示为'标题+当前值或占位符+右箭头'一行，点击后弹出真正的 Picker",
+      "limitations": "不要把这一行当成 Picker 本身，真正的滚轮/级联内容在 Picker 组件族里；选中值后应切到'选择后'变体，不要用'选择默认'硬塞已选文案",
+      "fallback": "n/a，证据非常充分",
+      "visualRecipe": {
+        "source": "画板 107:3605 单元格 / 107:3632 输入框",
+        "size": {
+          "rowHeight": 60,
+          "paddingX": 16
+        },
+        "text": {
+          "label": {
+            "size": 18,
+            "color": "#22262F"
+          },
+          "value": {
+            "size": 18,
+            "color": "#22262F"
+          },
+          "placeholder": {
+            "size": 18,
+            "color": "#CCCFD6"
+          }
+        },
+        "icon": {
+          "arrow": {
+            "size": 16,
+            "color": "#CCCFD6"
+          }
+        },
+        "fills": {
+          "row": "#FFFFFF"
+        },
+        "rules": [
+          "选择器/日期/时间都通过这一行触达，不要另造入口样式",
+          "行高与 Cell/Input 统一 60px，可混排"
+        ]
+      }
+    },
+    {
+      "name": "搜索栏",
+      "nameEn": "SearchBar",
+      "category": "Form",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "SPEC_FRAME",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "基础·初始状态",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "激活样式",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "选择+功能",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "选择+搜索",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "主页/顶层导航的内容检索入口",
+      "limitations": null,
+      "fallback": "按规范画板四个变体手工还原",
+      "visualRecipe": {
+        "source": "画板 107:4016 搜索栏",
+        "size": {
+          "height": 36,
+          "radius": 18,
+          "paddingX": 12
+        },
+        "text": {
+          "placeholder": {
+            "size": 14,
+            "color": "#9199A2"
+          },
+          "value": {
+            "size": 14,
+            "color": "#22262F"
+          }
+        },
+        "icon": {
+          "search": {
+            "size": 16,
+            "color": "#9199A2",
+            "gap": 4
+          }
+        },
+        "fills": {
+          "bg": "#FFFFFF（灰底页）/ #F2F3F5（白底容器内）"
+        },
+        "variants": [
+          "基础·输入前",
+          "激活样式（光标+清除）",
+          "选择+搜索（左侧选择器+0.5px 竖线）",
+          "选择+功能（右侧 36×36 筛选按钮）"
+        ],
+        "rules": [
+          "全圆角胶囊 18px，不是卡片式小圆角",
+          "不要当普通文本输入框用"
+        ]
+      }
+    },
+    {
+      "name": "上传",
+      "nameEn": "Upload",
+      "category": "Form",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": "1:206",
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "未上传",
+          "status": "VERIFIED",
+          "componentId": "1:206"
+        },
+        {
+          "name": "上传中",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "上传失败",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "上传完成",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "禁用",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "自定义",
+          "status": "VERIFIED"
+        }
+      ],
+      "variants": [],
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "文件/图片上传，可配合上传文件类型图标 COMPONENT_SET 展示类型",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 107:3775 上传",
+        "size": {
+          "thumb": 80,
+          "radius": 4
+        },
+        "fills": {
+          "placeholder": "#F2F3F5"
+        },
+        "variants": [
+          "未上传",
+          "上传中（遮罩+进度）",
+          "上传成功",
+          "上传失败（遮罩+重试）"
+        ],
+        "rules": [
+          "上传中/失败用 rgba(0,0,0,0.7) 遮罩配白色状态图标与 14px 文案"
+        ]
+      }
+    },
+    {
+      "name": "开关",
+      "nameEn": "Switch",
+      "category": "Form",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "开",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "关",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "加载中",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "禁用",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "不可操作",
+          "status": "VERIFIED"
+        }
+      ],
+      "variants": [],
+      "dimensions": {
+        "width": 56,
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "布尔型设置项（如通知开关）；'加载中'状态也是 Loading 场景的首选替代方案之一",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 107:3895 开关",
+        "size": {
+          "width": 52,
+          "height": 28,
+          "radius": 14,
+          "knob": 24
+        },
+        "fills": {
+          "on": "#00B1B4",
+          "off": "#CCCFD6",
+          "disabled": "#F2F3F5"
+        },
+        "variants": [
+          "开",
+          "关",
+          "加载中",
+          "禁用",
+          "不可操作"
+        ],
+        "rules": [
+          "不要用它做多选/单选"
+        ]
+      }
+    },
+    {
+      "name": "单选框",
+      "nameEn": "Radio",
+      "category": "Selection",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "未选中",
+          "status": "VERIFIED",
+          "componentId": "1:704"
+        },
+        {
+          "name": "选中",
+          "status": "VERIFIED",
+          "componentId": "1:695"
+        }
+      ],
+      "variants": [],
+      "dimensions": {
+        "width": 20,
+        "height": 20,
+        "rowHeight": 48,
+        "unit": "px",
+        "layoutPattern": "多个选项与字段标签同一行、并排排列在右侧，不是另起一行——2025-08 用户提供的 Figma「表单」组合范式画板截图验证（非 Claude 直接调用 use_figma 实测，可信度低于 resolved/structural 两级，单独标注来源）"
+      },
+      "tokens": {},
+      "usage": "单选场景，两态均已分别验证，可放心两态都用",
+      "limitations": "",
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:4119 单选框",
+        "size": {
+          "rowHeight": 48,
+          "icon": 26,
+          "chip": [
+            106,
+            48
+          ]
+        },
+        "text": {
+          "size": 18,
+          "color": "#22262F",
+          "gapToIcon": 8
+        },
+        "states": {
+          "selected": {
+            "fill": "#00B1B4",
+            "check": "#FFFFFF"
+          },
+          "unselected": {
+            "fill": "transparent",
+            "border": "1px #C9CDD4"
+          },
+          "disabled": {
+            "fill": "#F2F3F5",
+            "border": "#CCCFD6"
+          }
+        },
+        "rules": [
+          "默认高度 48px，小区域可参照按钮规范缩减",
+          "与 Checkbox 不可互换"
+        ]
+      }
+    },
+    {
+      "name": "多选框（小方框）",
+      "nameEn": "Checkbox (20x20 square)",
+      "category": "Selection",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved (exhaustive for unselected state)",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "选中",
+          "status": "VERIFIED",
+          "componentId": "1:707"
+        },
+        {
+          "name": "选中禁用",
+          "status": "VERIFIED",
+          "componentId": "1:716"
+        },
+        {
+          "name": "未选中",
+          "status": "NOT_FOUND",
+          "note": "穷举扫描50个候选组件无命中，不是弱证据；见 missing-components.json"
+        }
+      ],
+      "variants": [],
+      "dimensions": {
+        "width": 20,
+        "height": 20,
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "多选场景（小方框形态，非胶囊按钮）",
+      "limitations": "未选中态没有真实组件，禁止用'选中态改色去勾'冒充",
+      "fallback": "未选中态：按选中态 footprint(20x20) 手工绘制空心方框",
+      "visualRecipe": {
+        "source": "画板 138:4558 多选框",
+        "size": {
+          "rowHeight": 48,
+          "box": 26,
+          "radius": 4
+        },
+        "states": {
+          "selected": {
+            "fill": "#00B1B4"
+          },
+          "unselected": {
+            "fill": "transparent",
+            "border": "1px #C9CDD4"
+          },
+          "disabled": {
+            "fill": "#F2F3F5",
+            "border": "#CCCFD6"
+          }
+        },
+        "rules": [
+          "未选中态无真实主组件，按 26×26 r4 空心方框手工搭建并标注"
+        ]
+      }
+    },
+    {
+      "name": "多选/单选胶囊按钮",
+      "nameEn": "Radio/Checkbox Chip Button (106x48)",
+      "category": "Selection",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "未选",
+          "status": "VERIFIED",
+          "componentId": "1:689"
+        },
+        {
+          "name": "已选",
+          "status": "VERIFIED",
+          "componentId": "1:683"
+        },
+        {
+          "name": "已选禁用",
+          "status": "VERIFIED",
+          "componentId": "1:686"
+        },
+        {
+          "name": "未选禁用",
+          "status": "VERIFIED",
+          "componentId": "1:692"
+        },
+        {
+          "name": "多选-已选",
+          "status": "VERIFIED",
+          "componentId": "1:726"
+        },
+        {
+          "name": "多选-已选禁用",
+          "status": "VERIFIED",
+          "componentId": "1:734"
+        }
+      ],
+      "variants": [],
+      "dimensions": {
+        "width": 106,
+        "height": 48,
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "快捷单选/快捷多选场景（如服务类型标签组），比小方框 Checkbox 更适合平铺展示少量选项",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:4558 快捷多选",
+        "size": {
+          "width": 106,
+          "height": 48
+        },
+        "states": {
+          "selected": {
+            "bg": "rgba(0,177,180,0.06)",
+            "border": "1px #00B1B4",
+            "text": "#00B1B4"
+          },
+          "unselected": {
+            "bg": "#FFFFFF",
+            "border": "1px #EEEEEE",
+            "text": "#444F60"
+          }
+        },
+        "rules": [
+          "适合服务类型这类多选标签组，间距 8px"
+        ]
+      }
+    },
+    {
+      "name": "单元格",
+      "nameEn": "Cell",
+      "category": "Data Display",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "height": "NOT_DEFINED",
+        "titleMaxChars": 12
+      },
+      "tokens": {},
+      "usage": "承载信息或表单字段的'行'，是 List 列表的实现方式（Cell + Divider 堆叠）",
+      "limitations": "容器本身无独立实例，但常内嵌真实 Input/选择触发行/Divider 子实例，是'容器手搭+子件复用'混合模式，不是矛盾",
+      "fallback": "容器按规范画板手工还原，子件按各自组件规则命中真实 instance",
+      "visualRecipe": {
+        "source": "画板 107:3605 单元格",
+        "size": {
+          "rowHeight": 60,
+          "rowHeightWithDesc": 90,
+          "rowHeightLarge": 94,
+          "paddingX": 16
+        },
+        "text": {
+          "leftLabel": {
+            "size": 18,
+            "color": "#9199A2"
+          },
+          "rightValue": {
+            "size": 18,
+            "color": "#1D2129"
+          },
+          "title": {
+            "size": 18,
+            "color": "#22262F"
+          },
+          "desc": {
+            "size": 14,
+            "color": "#9199A2",
+            "gap": 4
+          }
+        },
+        "icon": {
+          "arrow": {
+            "size": 16,
+            "color": "#CCCFD6"
+          }
+        },
+        "fills": {
+          "row": "#FFFFFF",
+          "divider": "0.5px #EEEEEE"
+        },
+        "rules": [
+          "左侧标签用 #9199A2、右侧值用 #1D2129（用户真实截图确认）",
+          "标题不得超过 12 个字符",
+          "分割线左缩进 16px",
+          "行本身直角无圆角"
+        ]
+      }
+    },
+    {
+      "name": "表单（组合范式）",
+      "nameEn": "Form (composite pattern)",
+      "category": "Form",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "SPEC_FRAME",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "整页表单参考示例（个人信息表单、请假外勤表单）",
+      "limitations": "不是单一组件，是 Input/Radio/Checkbox/Upload/Switch/Cell 的页面级组合范式；2025-08 用户提供的 Figma「表单」组合范式画板截图验证（非 Claude 直接调用 use_figma 实测，可信度低于 resolved/structural 两级，单独标注来源）补充观察：该画板确认是左右同行的标签-值结构，顶部有多Tab分段（如'个人信息'），示例字段存在真实的数据质量问题——性别选项文案就是占位字符串'未选中'/'已选中'而非真实选项，手机号字段处有一处丢失引用的图片资源，这些都是源文件示例内容本身的问题，不是可复用的真实文案或组件，生成页面时不要照抄这些占位内容",
+      "fallback": "按字段拆解后逐个套用对应组件规则",
+      "visualRecipe": {
+        "source": "画板 417:5612 表单",
+        "size": {
+          "rowHeight": 60,
+          "labelWidth": "hug",
+          "paddingX": 16
+        },
+        "text": {
+          "label": {
+            "size": 18,
+            "color": "#9199A2"
+          },
+          "value": {
+            "size": 18,
+            "color": "#1D2129"
+          },
+          "requiredStar": {
+            "size": 18,
+            "color": "#FF3636"
+          }
+        },
+        "rules": [
+          "标签在左、值在右，单行布局（不是上下堆叠）",
+          "必填星号在标题之后",
+          "同类字段行高统一 60，分割线左缩进 16"
+        ]
+      }
+    },
+    {
+      "name": "卡片",
+      "nameEn": "Card",
+      "category": "Data Display",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "基础单卡",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "双排卡片",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "通栏单卡",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "不通栏单卡",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "有边界的信息聚合容器（订单卡/工单卡/资讯卡/首页模块卡）",
+      "limitations": "规范画板记录了'有投影'/'无投影'变体，2025-08被用户两次直接更正：默认不用投影，也不能退而求其次改用描边替代——两者都不是默认状态，纯背景色对比才是",
+      "fallback": "按规范画板手工还原，默认无投影、无描边，纯靠卡片背景(通常白色)与页面背景(color.fill.1/fill.2)的色差做区隔；只有用户明确要求'要投影'或'要描边'时才加，默认两者都不加",
+      "visualRecipe": {
+        "source": "画板 296:5685 卡片",
+        "size": {
+          "radius": 8,
+          "padding": 16,
+          "gap": 12
+        },
+        "text": {
+          "title": {
+            "size": 16,
+            "weight": "Medium",
+            "color": "#22262F",
+            "lineHeight": 24
+          },
+          "body": {
+            "size": 14,
+            "color": "#444F60",
+            "lineHeight": 20
+          },
+          "meta": {
+            "size": 12,
+            "color": "#9199A2"
+          }
+        },
+        "fills": {
+          "bg": "#FFFFFF",
+          "shadow": "none",
+          "border": "none"
+        },
+        "rules": [
+          "2026-11 修正：圆角统一 8px（旧记录 6px 作废）",
+          "默认无阴影无描边，靠白色与 #F7F8FA 色差区隔",
+          "卡内子元素（标签/按钮/缩略图）圆角 4px，不继承 8px",
+          "卡片间距 12px"
+        ]
+      }
+    },
+    {
+      "name": "标签（普通）",
+      "nameEn": "Tag (Plain, Inline)",
+      "category": "Data Display",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "sizes": [
+          12,
+          14
+        ],
+        "radius": 2,
+        "unit": "px",
+        "position": "跟标题同行内联展示，不脱离文档流"
+      },
+      "tokens": {},
+      "usage": "描述性/分类性信息标记，比如配送方式(到店自提/门店配送)、商品类型(实物商品/数字商品)——回答'这是什么'，不回答'现在是什么状态'",
+      "limitations": "2025-08更正：之前跟状态标签共用一套视觉和摆放方式（都做成同行内联小色块），被用户指出两者应该有视觉区分——普通标签内联，状态标签角标。此后两者拆成独立条目，不能再混用同一个实现",
+      "fallback": "按规范画板手工还原，圆角2px，12/14px两档尺寸，跟随内容语义选中性/信息色（不是Success/Warning/Danger这类状态色，那是状态标签的职责）",
+      "visualRecipe": {
+        "source": "画板 107:3399 标签",
+        "size": {
+          "large": {
+            "height": 22,
+            "fontSize": 14
+          },
+          "small": {
+            "height": 20,
+            "fontSize": 12
+          },
+          "radius": 2,
+          "paddingX": 8,
+          "height": {
+            "large": 22,
+            "small": 20
+          }
+        },
+        "colors": {
+          "brand": {
+            "bg": "rgba(0,177,180,0.10)",
+            "text": "#00B1B4"
+          },
+          "success": {
+            "bg": "rgba(0,180,42,0.10)",
+            "text": "#00B42A"
+          },
+          "warning": {
+            "bg": "rgba(255,166,69,0.10)",
+            "text": "#FFA645"
+          },
+          "danger": {
+            "bg": "rgba(245,63,63,0.10)",
+            "text": "#F53F3F"
+          },
+          "neutral": {
+            "bg": "rgba(111,135,158,0.10)",
+            "text": "#6F879E"
+          },
+          "info": {
+            "bg": "rgba(69,132,255,0.10)",
+            "text": "#4584FF",
+            "note": "页面稿未见蓝色标签实例，按组件库信息色同法降为 10%，INFERRED"
+          }
+        },
+        "rules": [
+          "语义标签浅底统一 10% 透明度（2026-11-05 依真实设计稿 11 屏 18 处标签实测更正，原记 16% 作废）",
+          "标签底色与文字必须同源同色相：bg = rgba(该色rgb, 0.10)，text = 该色实色",
+          "中性标签（未开始/已结束/未知）用石板灰 10% 底 rgba(111,135,158,0.10) + #6F879E 字；不要用 #F2F3F5 灰底 + #444F60 深灰字（视觉过重，像按钮）",
+          "警告档文字是 #FFA645（不是 #FF7D00、不是 #FFCA3E）",
+          "分类信息标签用中性灰，业务状态用浅底+彩字，两者不能做成同一视觉",
+          "标签不可点击，分类切换是 Tab 的职责"
+        ],
+        "layout": {
+          "display": "inline-flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingX": 8,
+          "paddingY": 2,
+          "radius": 2,
+          "lineHeight": "1"
+        },
+        "libraryArtboard": {
+          "source": "组件库画板 107:3399「标签」（2026-11-05 Dev Mode 实测，两层事实存档）",
+          "values": {
+            "success": {
+              "bg": "rgba(0,180,42,0.16)",
+              "text": "#00B42A"
+            },
+            "warning": {
+              "bg": "rgba(255,125,0,0.16)",
+              "text": "#FF7D00"
+            },
+            "danger": {
+              "bg": "rgba(245,63,63,0.16)",
+              "text": "#F53F3F"
+            },
+            "info": {
+              "bg": "rgba(69,132,255,0.16)",
+              "text": "#4584FF"
+            },
+            "neutral": {
+              "bg": "rgba(145,153,162,0.16)",
+              "text": "#9199A2"
+            },
+            "residue": {
+              "bg": "rgba(0,109,155,0.16)",
+              "note": "旧品牌色 #006D9B 残留，禁止照抄"
+            }
+          },
+          "note": "组件库画板旧标准为 16%，真实业务页面落地一律 10%（见 colors）。页面按 10% 执行，本组值仅存档备查，不要回抄"
+        }
+      }
+    },
+    {
+      "name": "标签（状态角标）",
+      "nameEn": "Tag (Status, Corner Badge)",
+      "category": "Data Display",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "sizes": [
+          12,
+          14
+        ],
+        "radius": "卡片圆角 8px：仅右上角 8px + 左下角 8px，其余两角 0（'悬挂嵌角'形态，不是四角统一小圆角）",
+        "unit": "px",
+        "position": "绝对定位在卡片右上角，跟卡片边缘对齐/轻微悬挂，不是文档流里跟标题同行内联"
+      },
+      "tokens": {},
+      "usage": "订单/任务/审批等业务状态标记（待审核/待备货/待自提/已完成等）——回答'现在是什么状态'，跟随状态语义色（Success绿/Warning橙/Danger红/Info蓝等），必须放在卡片右上角，不能跟普通标签混排在标题同一行",
+      "limitations": "跟标题行的普通标签是完全不同的两个视觉呈现，即使内容都是文字+背景色，也不能用同一套CSS实现——摆放位置(角标 vs 内联)和形状(右上角贴合卡片圆角 vs 四角统一小圆角)都不同",
+      "fallback": "按用户截图手工还原：position绝对定位于卡片右上角，右上角圆角跟卡片本身圆角一致，其余角用小圆角，营造'嵌入角落'的视觉效果",
+      "visualRecipe": {
+        "source": "真实设计稿 11 屏 18 处标签实测（2026-11-05）；卡片右上角悬挂形态",
+        "size": {
+          "height": 27,
+          "radius": {
+            "topLeft": 0,
+            "topRight": 8,
+            "bottomRight": 0,
+            "bottomLeft": 8
+          },
+          "paddingX": 8,
+          "paddingY": 4
+        },
+        "text": {
+          "size": 12,
+          "lineHeight": "1"
+        },
+        "rules": [
+          "角标用于卡片/图片角落的状态覆盖，与行内普通标签不是同一实现",
+          "角标形态：absolute; top:0; right:0; border-radius: 0 8px 0 8px; height:27px; padding:4px 8px",
+          "配色同普通标签：10% 同源浅底 + 该色实色字",
+          "业务状态用浅底+彩字，分类信息用中性石板灰"
+        ],
+        "position": {
+          "mode": "absolute",
+          "top": 0,
+          "right": 0,
+          "note": "贴卡片右上角，不占文档流；卡片需 overflow:hidden 或自身圆角>=8px 才不会溢出"
+        },
+        "colors": {
+          "brand": {
+            "bg": "rgba(0,177,180,0.10)",
+            "text": "#00B1B4"
+          },
+          "success": {
+            "bg": "rgba(0,180,42,0.10)",
+            "text": "#00B42A"
+          },
+          "warning": {
+            "bg": "rgba(255,166,69,0.10)",
+            "text": "#FFA645"
+          },
+          "danger": {
+            "bg": "rgba(245,63,63,0.10)",
+            "text": "#F53F3F"
+          },
+          "neutral": {
+            "bg": "rgba(111,135,158,0.10)",
+            "text": "#6F879E"
+          }
+        },
+        "geometryNote": "实测 className：absolute bg-[rgba(245,63,63,0.1)] h-[27px] px-[8px] py-[4px] right-0 rounded-bl-[8px] rounded-tr-[8px] top-0"
+      }
+    },
+    {
+      "name": "时间轴",
+      "nameEn": "Timeline",
+      "category": "Data Display",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "完成",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "进行中",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "带时间戳的历史记录（物流跟踪、审批记录）",
+      "limitations": null,
+      "fallback": "按节点标题+完成/进行中状态手工还原",
+      "visualRecipe": {
+        "source": "画板 107:3369 时间轴",
+        "size": {
+          "node": 36,
+          "nodeLarge": 48,
+          "lineWidth": 0.5
+        },
+        "text": {
+          "title": {
+            "size": 16,
+            "color": "#22262F"
+          },
+          "desc": {
+            "size": 14,
+            "color": "#9199A2"
+          }
+        },
+        "fills": {
+          "line": "#EEEEEE",
+          "nodeDone": "#00B1B4",
+          "nodePending": "#CCCFD6"
+        },
+        "rules": [
+          "已完成节点实心品牌色，未完成空心",
+          "最后一个节点不画连接线"
+        ]
+      }
+    },
+    {
+      "name": "步骤条",
+      "nameEn": "Steps",
+      "category": "Data Display",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "完成",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "开始",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "少量固定步骤的当前进度（多步表单），不适合做水平百分比进度条",
+      "limitations": null,
+      "fallback": "按横向1-4步手工还原",
+      "visualRecipe": {
+        "source": "画板 107:3173 步骤条",
+        "size": {
+          "dot": 20,
+          "lineHeight": 0.5
+        },
+        "text": {
+          "title": {
+            "size": 14,
+            "color": "#22262F"
+          },
+          "desc": {
+            "size": 12,
+            "color": "#9199A2"
+          },
+          "done": {
+            "color": "#00B1B4"
+          },
+          "pending": {
+            "color": "#9199A2"
+          }
+        },
+        "variants": [
+          "横向-有文字",
+          "横向-多行文字",
+          "横向-无文字"
+        ],
+        "rules": [
+          "已完成/进行中圆点用品牌色，未开始用 #CCCFD6",
+          "连接线 0.5px，已完成段用品牌色"
+        ]
+      }
+    },
+    {
+      "name": "数据图表集",
+      "nameEn": "Charts (Ring/Line/Bar/Pie/Radar/Gauge...)",
+      "category": "Data Visualization",
+      "status": "REMOTE_COMPONENT",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "COMPONENT",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "baseCanvas": "1920x1080（PC/大屏基准，非375移动端基准）"
+      },
+      "tokens": {},
+      "usage": "数据看板、运营监控、报表页",
+      "limitations": "⚠️ 移动端使用前必须先确认自适应/裁剪规则，库内未提供移动端专用版本，不能假设等比缩放到手机屏幕还保持可读性",
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 1108:6310 / 1108:6465 / 1108:6911",
+        "palette": [
+          "#0F87FF",
+          "#4ACA4C",
+          "#FFD547",
+          "#FF5F5F",
+          "#5C7091"
+        ],
+        "text": {
+          "axis": {
+            "size": 10,
+            "color": "rgba(0,0,0,0.4)"
+          },
+          "label": {
+            "size": 12,
+            "color": "rgba(0,0,0,0.9)"
+          },
+          "legend": {
+            "size": 12
+          },
+          "title": {
+            "size": 16
+          }
+        },
+        "rules": [
+          "图表配色用上面 5 色序列，不要自选色",
+          "坐标轴文字 10px、数据标签 12px",
+          "环形图中心放主数值",
+          "图表容器 8px 圆角、白底、无阴影"
+        ]
+      }
+    },
+    {
+      "name": "图片",
+      "nameEn": "Image",
+      "category": "Content",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "默认加载",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "加载失败",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "商品图/头像大图/全屏图片预览",
+      "limitations": null,
+      "fallback": "按规范画板手工还原，全屏预览固定Dark主题",
+      "visualRecipe": {
+        "source": "画板 107:3807 图片",
+        "size": {
+          "radius": 6,
+          "radiusLarge": 12,
+          "thumb": 48,
+          "previewTopBar": 48
+        },
+        "fills": {
+          "placeholder": "#F2F3F5"
+        },
+        "variants": [
+          "矩形图片",
+          "圆形图片",
+          "默认加载",
+          "加载失败"
+        ],
+        "rules": [
+          "列表缩略图 48×48、圆角 4；卡片图 6–8；头像圆形",
+          "全屏预览：顶栏 48 高，展示区 = 屏高-48，等比例居中",
+          "加载态用 #F2F3F5 占位，失败态给重试"
+        ]
+      }
+    },
+    {
+      "name": "分割线",
+      "nameEn": "Divider",
+      "category": "Content",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": "4db924f234d7969d1a97a2d11a0e2945fddb6376",
+      "mainComponentId": "1:2",
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "height": 0.5,
+        "color": "#EEEEEE",
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "区隔内容区块，尤其Cell/List行间分隔；全库复用最高(31次)；已内嵌在Input/选择触发行组件内部，用这两个组件时不需要额外克隆",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板投影/分割线",
+        "size": {
+          "thickness": 0.5
+        },
+        "fills": {
+          "color": "#EEEEEE"
+        },
+        "variants": [
+          "通栏",
+          "左留16px"
+        ],
+        "rules": [
+          "列表内用左留16px 变体",
+          "不要给卡片列表每行都加分割线，靠间距区隔"
+        ]
+      }
+    },
+    {
+      "name": "折叠面板",
+      "nameEn": "Accordion",
+      "category": "Content",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [
+        {
+          "name": "展开",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "收起",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "长文本/次要信息的可选展开",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 107:2900 折叠面板",
+        "size": {
+          "headerHeight": 60,
+          "headerLarge": 112
+        },
+        "text": {
+          "title": {
+            "size": 18,
+            "color": "#22262F"
+          },
+          "body": {
+            "size": 14,
+            "color": "#444F60",
+            "lineHeight": 22
+          }
+        },
+        "icon": {
+          "arrow": {
+            "size": 16,
+            "color": "#9199A2"
+          }
+        },
+        "fills": {
+          "divider": "0.5px #EEEEEE",
+          "bg": "#FFFFFF"
+        },
+        "rules": [
+          "标题行 60 高，展开箭头右侧",
+          "内容区上下留 12，行高 22",
+          "多个面板之间 0.5px 分割线"
+        ]
+      }
+    },
+    {
+      "name": "走马灯",
+      "nameEn": "Carousel",
+      "category": "Content",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "同时展示多个商品/分类的横滑场景",
+      "limitations": "证据较弱（仅1次引用），但确认真实存在",
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:3922 走马灯",
+        "size": {
+          "cardRadius": 6.5,
+          "indicator": 8,
+          "gap": 8
+        },
+        "fills": {
+          "indicatorActive": "#00B1B4",
+          "indicatorInactive": "#E5E6EA（60% 白）"
+        },
+        "rules": [
+          "指示点 8px 圆形，选中品牌色",
+          "卡片圆角 6",
+          "只提供容器，内部内容自定义"
+        ]
+      }
+    },
+    {
+      "name": "轻提示",
+      "nameEn": "Toast",
+      "category": "Feedback",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "成功",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "失败",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "失败双行",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "加载",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "dimensions": {
+        "textMaxChars": 16,
+        "minPaddingX": 16
+      },
+      "tokens": {},
+      "usage": "操作结果反馈、加载中提示；'加载'变体是Loading场景的替代方案之一",
+      "limitations": null,
+      "fallback": "按规范画板手工还原",
+      "visualRecipe": {
+        "source": "画板 107:3109 轻提示",
+        "size": {
+          "height": 38,
+          "radius": 4,
+          "paddingX": 16
+        },
+        "fills": {
+          "bg": "rgba(0,0,0,0.70)"
+        },
+        "text": {
+          "size": 14,
+          "color": "#FFFFFF"
+        },
+        "rules": [
+          "文案不超过 16 个字",
+          "距屏幕两边最小 16px，水平居中"
+        ]
+      }
+    },
+    {
+      "name": "对话框",
+      "nameEn": "Dialog",
+      "category": "Feedback",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "无标题-单按钮",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "无标题-双按钮",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "有标题-单按钮",
+          "status": "SPEC_ONLY"
+        },
+        {
+          "name": "有标题-双按钮",
+          "status": "SPEC_ONLY"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "二次确认、系统通知、关键信息强打断",
+      "limitations": "主体容器(标题+正文)是GROUP需手搭；操作区'对话框/操作区-1|2'是真实INSTANCE；遮罩层复用Overlay组件，三部分真实性不同，不要笼统说'Dialog是真实组件'",
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:4337 对话框",
+        "size": {
+          "minHeight": 148,
+          "width": "屏宽-64",
+          "radius": 8,
+          "buttonHeight": 48
+        },
+        "text": {
+          "title": {
+            "size": 18,
+            "weight": "Medium",
+            "color": "#22262F",
+            "align": "center"
+          },
+          "body": {
+            "size": 16,
+            "color": "#444F60",
+            "lineHeight": 24,
+            "align": "center"
+          }
+        },
+        "fills": {
+          "bg": "#FFFFFF",
+          "mask": "rgba(0,0,0,0.60)"
+        },
+        "variants": [
+          "有标题-单按钮",
+          "有标题-双按钮",
+          "无标题-单按钮",
+          "无标题-双按钮"
+        ],
+        "rules": [
+          "默认带遮罩",
+          "双按钮辅助在左、主要在右"
+        ]
+      }
+    },
+    {
+      "name": "弹出层",
+      "nameEn": "Popup",
+      "category": "Feedback",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "minHeight": "272pt",
+        "maxHeight": "内容区80%"
+      },
+      "tokens": {},
+      "usage": "底部/侧边弹出的通用容器，承载筛选、操作面板、自定义内容",
+      "limitations": "容器本身GROUP，内部常嵌真实遮罩层/导航栏/选择器子实例",
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:4669 弹出层",
+        "size": {
+          "minHeight": 272,
+          "maxHeightRatio": 0.8,
+          "radius": 8
+        },
+        "text": {
+          "title": {
+            "size": 16,
+            "weight": "Medium"
+          }
+        },
+        "fills": {
+          "bg": "#FFFFFF",
+          "contentArea": "#F7F8FA",
+          "mask": "rgba(0,0,0,0.60)"
+        },
+        "variants": [
+          "中部",
+          "底部",
+          "左侧",
+          "右侧"
+        ],
+        "rules": [
+          "最小高 272",
+          "最高不超内容区 80%",
+          "底部固定操作区按钮 48px 高"
+        ]
+      }
+    },
+    {
+      "name": "气泡",
+      "nameEn": "Popover",
+      "category": "Feedback",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "右上",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "左上",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "左下",
+          "status": "VERIFIED"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "元素旁的轻量引导提示",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:4187 气泡",
+        "size": {
+          "radius": 4,
+          "padding": [
+            8,
+            12
+          ],
+          "arrow": 8
+        },
+        "text": {
+          "size": 16,
+          "color": "#22262F"
+        },
+        "fills": {
+          "light": "#FFFFFF",
+          "dark": "rgba(0,0,0,0.80)"
+        },
+        "variants": [
+          "白色",
+          "黑色",
+          "点击",
+          "禁用",
+          "左上/右上/左下/右下 四个箭头方向"
+        ],
+        "rules": [
+          "浅色底配深字、深色底配白字，不要混",
+          "箭头方向要和被指向元素一致"
+        ]
+      }
+    },
+    {
+      "name": "空状态",
+      "nameEn": "Empty",
+      "category": "Feedback",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "通用无内容",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "搜索无结果",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "网络异常",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "定位失败",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "功能建设/维护中",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "记录为空",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "系统异常",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "入口相关",
+          "status": "VERIFIED"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "列表无数据、搜索无结果、网络失败、权限拒绝、功能维护",
+      "limitations": "插画本身是真实instance，但外层文案排版布局是GROUP需手搭",
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:3955「35空状态」（2026-11-05 Dev Mode 实测更正）",
+        "size": {
+          "illustration": {
+            "width": 225,
+            "height": 195,
+            "note": "插画 instance 实测 225×195，原记 120 作废"
+          },
+          "cardWidth": 375,
+          "contentWidth": 225
+        },
+        "spacing": {
+          "illustrationToTitle": 16,
+          "titleToDesc": 8,
+          "note": "插画底 → 16 → 标题(单行24) → 8 → 描述(两行48)；有操作按钮时按钮在描述下 16"
+        },
+        "text": {
+          "title": {
+            "size": 16,
+            "weight": "500",
+            "lineHeight": 24
+          },
+          "desc": {
+            "size": 14,
+            "lineHeight": 24,
+            "color": "#9199A2"
+          },
+          "note": "标题色 registry 原记 #444F60，真实页面截图偏深（近 #22262F），待逐字核，暂按深色档处理"
+        },
+        "variantMap": {
+          "什么内容都没有呢~": {
+            "illustration": "nothing_image_empty",
+            "nodeId": "138:4008"
+          },
+          "您还没有记录呢": {
+            "illustration": "nothing_image_record",
+            "nodeId": "138:4013"
+          },
+          "找不到匹配的内容": {
+            "illustration": "nothing_image_search",
+            "nodeId": "138:3998"
+          },
+          "网络请求失败": {
+            "illustration": "nothing_image_network",
+            "nodeId": "138:3984"
+          },
+          "定位获取失败": {
+            "illustration": "nothing_image_position",
+            "nodeId": "138:3979"
+          },
+          "抱歉，未开通此功能": {
+            "illustration": "nothing_image_fuction",
+            "nodeId": "138:3989"
+          },
+          "功能建设中": {
+            "illustration": "nothing_image_door",
+            "nodeId": "138:3994"
+          },
+          "功能维护中": {
+            "illustration": "nothing_image_wrong",
+            "nodeId": "138:4003"
+          }
+        },
+        "assetRule": "插画是位图 instance：HTML 原型里禁止外链 Figma URL（有登录态、会过期、file:// 打不开）。两种合法取法——①Dev Mode MCP get_image 按 nodeId 导出 PNG 后 base64 内嵌单文件；②设计师在 Figma 手动 Export PNG/SVG 交付。源文件永远留在 Figma，不传第三方图床。⚠️ 白底陷阱（2026-11-05 实测）：Figma 导出的 PNG 自带不透明白底（255,255,255，instance 框架底色被烘焙），直接贴到页面底色 #F7F8FA 上会出现白色方块。必须先抠白底再内嵌：从四边做白色连通域置 alpha=0（阈值 min(rgb)>=244），保留插画内部被轮廓包住的白色（吉祥物高光/白纸）。页面底色接近白色所以 1px 抗锯齿边可忽略，无需额外羽化",
+        "rules": [
+          "8 种场景各有专属插画，不要用一张图套所有场景",
+          "插画居中；标题与描述间距 8（原记 4 作废），插画与标题间距 16",
+          "描述超过一行时最多两行，lh24",
+          "空状态不整屏铺灰底，直接放在页面底色上"
+        ]
+      }
+    },
+    {
+      "name": "遮罩层",
+      "nameEn": "Overlay / Mask",
+      "category": "Feedback",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {
+        "color": "#000000",
+        "opacity": "60%"
+      },
+      "usage": "任何模态浮层(Dialog/Popup/Picker)的背景",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:4669 弹出层内的遮罩",
+        "fills": {
+          "color": "rgba(0,0,0,0.60)"
+        },
+        "rules": [
+          "对话框/弹出层默认带遮罩，不额外加模糊"
+        ]
+      }
+    },
+    {
+      "name": "选择器（含日期/时间选择器）",
+      "nameEn": "Picker / DatePicker / TimePicker",
+      "category": "Selection",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "1列",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "2列",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "3列",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "tab-nor",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "标题栏",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "日期-3列",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "tab-1",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "tab-2",
+          "status": "VERIFIED"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "底部弹出的滚轮/级联选择内容本体（区别于'选择触发行'这个入口），选项少于4个时不要用，改用Dropdown",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:3762 选择器 / 138:4421 时间选择器",
+        "size": {
+          "pickerRow": 60,
+          "panelRadius": 4,
+          "buttonHeight": 48
+        },
+        "text": {
+          "option": {
+            "size": 18,
+            "color": "#4E5969"
+          },
+          "optionSelected": {
+            "size": 18,
+            "color": "#00B1B4"
+          },
+          "title": {
+            "size": 16,
+            "color": "#22262F"
+          }
+        },
+        "fills": {
+          "panel": "#FFFFFF",
+          "divider": "0.5px #EEEEEE",
+          "mask": "rgba(0,0,0,0.60)"
+        },
+        "rules": [
+          "滚轮行高 60，选中行品牌色加粗",
+          "顶部标题居中，取消/确定在两侧，按钮高 48",
+          "日期选择器画板 138:4624 本次读取超时，尺寸沿用同族选择器口径（行 60、面板 r4），标 INFERRED"
+        ]
+      }
+    },
+    {
+      "name": "分类选择",
+      "nameEn": "TreeSelect",
+      "category": "Selection",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "一级内容",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "二级内容",
+          "status": "VERIFIED"
+        },
+        {
+          "name": "二级内容-pre",
+          "status": "VERIFIED"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "多级分类目录筛选（商品分类、组织架构），单选或多选",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 138:4014 分类选择",
+        "size": {
+          "panelRadius": 4,
+          "rowHeight": 52,
+          "panelWidth": "屏宽-32"
+        },
+        "text": {
+          "level1": {
+            "size": 15,
+            "color": "#22262F"
+          },
+          "level2": {
+            "size": 15,
+            "color": "#444F60"
+          },
+          "selected": {
+            "size": 15,
+            "color": "#00B1B4"
+          }
+        },
+        "fills": {
+          "panel": "#FFFFFF",
+          "aside": "#F2F3F5",
+          "mask": "rgba(0,0,0,0.60)"
+        },
+        "variants": [
+          "单选",
+          "多选"
+        ],
+        "rules": [
+          "左侧一级分类灰底 #F2F3F5，右侧二级白底",
+          "行高 52，一级文字过长换行显示"
+        ]
+      }
+    },
+    {
+      "name": "日历",
+      "nameEn": "Calendar",
+      "category": "Selection",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "可视化查看月历/周期的日期选择（区别于滚轮式DatePicker）",
+      "limitations": null,
+      "fallback": "网格结构按规范画板手工还原",
+      "visualRecipe": {
+        "source": "画板 107:3024 日历",
+        "size": {
+          "cell": 30,
+          "panelRadius": 8,
+          "height": 424
+        },
+        "text": {
+          "weekday": {
+            "size": 12,
+            "color": "#9199A2"
+          },
+          "day": {
+            "size": 16,
+            "color": "#22262F"
+          },
+          "otherMonth": {
+            "color": "#CCCFD6"
+          }
+        },
+        "fills": {
+          "selected": "#00B1B4",
+          "selectedText": "#FFFFFF",
+          "todayRing": "#00B1B4"
+        },
+        "rules": [
+          "日期单元 30×30，选中为品牌色实心圆",
+          "非本月日期用 #CCCFD6",
+          "面板圆角 8"
+        ]
+      }
+    },
+    {
+      "name": "下拉菜单",
+      "nameEn": "Dropdown",
+      "category": "Selection",
+      "status": "SPEC_ONLY",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "GROUP",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "structural",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [],
+      "dimensions": {
+        "maxOptionsShown": 4
+      },
+      "tokens": {},
+      "usage": "选项数量少(≤4个)的即时切换",
+      "limitations": null,
+      "fallback": "按规范画板手工还原",
+      "visualRecipe": {
+        "source": "画板 107:2923 下拉菜单",
+        "size": {
+          "rowHeight": 48,
+          "radius": 4,
+          "maxItems": 4
+        },
+        "text": {
+          "size": 16,
+          "color": "#22262F"
+        },
+        "fills": {
+          "bg": "#FFFFFF",
+          "divider": "0.5px #EEEEEE",
+          "shadow": "0 2px 4px rgba(2,25,42,0.10)"
+        },
+        "rules": [
+          "最多 4 项，超出滚动",
+          "菜单面板需要投影与页面区分（此处允许用 shadow.card）",
+          "行高 48，点击态浅品牌底"
+        ]
+      }
+    },
+    {
+      "name": "图标",
+      "nameEn": "Icon",
+      "category": "Media",
+      "status": "COMPONENT_SET",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": null,
+      "mainComponentId": null,
+      "type": "COMPONENT_SET",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "上传=查看/下载/删除/excl/pdf/ppt/word/rar/txt/audio/video/pic",
+          "status": "VERIFIED",
+          "note": "COMPONENT_SET，Property名'上传='"
+        },
+        {
+          "name": "类型=userimg-f-24/48/64, userimg-m-24/48/64",
+          "status": "VERIFIED",
+          "note": "COMPONENT_SET，Property名'类型='"
+        },
+        {
+          "name": "业务图标（购物车/定位/搜索/消息/分享等）",
+          "status": "VERIFIED",
+          "note": "独立Component，非Variant机制，在'图标2'画板"
+        }
+      ],
+      "dimensions": {
+        "default": 24,
+        "uploadType": 30,
+        "grid": 34,
+        "avatar": [
+          24,
+          48,
+          64
+        ],
+        "unit": "px"
+      },
+      "tokens": {},
+      "usage": "几乎任何需要图标的场景，这是全库唯一真正使用Figma Variant属性机制的组件族",
+      "limitations": null,
+      "fallback": null,
+      "visualRecipe": {
+        "source": "控件页 87 个 icon/移动端-* symbol",
+        "size": {
+          "default": 24,
+          "small": 16,
+          "tabbar": 24,
+          "uploadType": 30,
+          "grid": 34,
+          "avatar": [
+            24,
+            48,
+            64
+          ]
+        },
+        "rules": [
+          "优先使用控件页真实 icon symbol 清单（见 icon-library.md）",
+          "图标颜色跟语境语义色走，不无脑套 #22262F",
+          "不可拉大/改色复用不相关图标冒充"
+        ]
+      }
+    },
+    {
+      "name": "必填星号",
+      "nameEn": "Required Star (nested sub-component)",
+      "category": "Form",
+      "status": "REMOTE_INSTANCE",
+      "source": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "componentKey": "797831e31e2643b7268253810fb094bd5dc717b4",
+      "mainComponentId": "1:14",
+      "type": "INSTANCE",
+      "verified": true,
+      "verifiedFrom": "Figma「BeP移动端组件-S端」fileKey vIpu7tb1dguui3QuqYETtM（2026-11 Dev Mode MCP 逐画板复核）",
+      "verificationDepth": "resolved",
+      "verifiedDate": "2026-11",
+      "states": [],
+      "variants": [
+        {
+          "name": "数据录入/标题/带星",
+          "status": "VERIFIED",
+          "componentId": "1:14"
+        },
+        {
+          "name": "星（星形符号本身）",
+          "status": "VERIFIED",
+          "componentId": "1:12",
+          "note": "componentKey e08973df3617ba1abcb5b272894aca813366343f"
+        }
+      ],
+      "dimensions": {},
+      "tokens": {},
+      "usage": "嵌套在 Input / 选择触发行 组件内部，通过设置该节点 visible=true/false 切换必填标识显隐，不需要instance-swap",
+      "limitations": "2025-08更正：星号在标题内的排列顺序是'标题文字在前，星号在后'（如'配送员*'），不是'星号在前、标题文字在后'（'*配送员'）——之前只验证了这个嵌套子组件的可见性切换机制，没有单独记录/验证过星号相对标题文字的排列顺序，实际生成时套用了常见网页表单'星号在标题前'的通用惯例，被用户指出跟BEP-S真实规范不符，这条由用户直接确认更正，不是重新做了Figma验证",
+      "fallback": null,
+      "visualRecipe": {
+        "source": "画板 107:3605 单元格内的 星 节点",
+        "size": {
+          "width": 10,
+          "height": 18
+        },
+        "text": {
+          "size": 18,
+          "color": "#FF3636"
+        },
+        "rules": [
+          "位置在标题文字之后（配送员*），不是之前",
+          "颜色 #FF3636"
+        ]
+      }
+    }
+  ],
+  "reviewNote": "2026-11 全量复核：为 21 个核心组件补入 visualRecipe（可直接落值）；修正 Tab 三种样式、卡片圆角 8、底部导航 50/84、单元格与输入框 60、行高 1.4 2026-11-05：标签浅底由 16% 更正为 10%，中性标签改为石板灰 10%，警告字改 #FFA645，角标几何补记为 0 8px 0 8px / h27 / p4-8。",
+  "coverage": {
+    "specFramesTotal": 46,
+    "specFramesRead": 44,
+    "specFramesFailed": [
+      "138:4624 日期选择器（design_context 超时）",
+      "296:5317 表单（节点已不存在，改用 417:5612）"
+    ],
+    "controlPageSymbols": 87,
+    "controlPageNote": "控件页 87 个 symbol 已读取名称与尺寸清单；其中图标类见 icon-library，组件类（按钮/导航栏/标签栏/开关/分割线/宫格）已在对应规范画板逐个读取",
+    "componentsWithVisualRecipe": 39,
+    "componentsTotal": 39,
+    "readDate": "2026-11-03"
+  }
+}

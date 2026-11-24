@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>履约工作台 — BEP-S 独立生成测试</title>
+<link rel="stylesheet" href="styles.css" />
+<!--
+  本页面由 Claude 仅依据 component-registry.json / design-tokens.json / mobile-ui-rules.md /
+  page-patterns.md / validation.md / missing-components.json / icon-library.json 生成，
+  严格按用户提供的"履约工作台"原型截图 1:1 还原信息架构、模块内容和数据，只把视觉实现换成
+  BEP-S 已验证的真实组件/规范画板/Token，不改动业务内容。生成过程未调用 Figma MCP。
+  详细的 Component Mapping / Design System Facts / AI Design Decisions 见对话报告正文。
+-->
+</head>
+<body>
+  <main class="page" data-bep-page="履约工作台">
+
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__right">5G <span class="statusbar__battery"></span></span>
+    </div>
+
+    <!-- 导航栏：REMOTE_INSTANCE，"纯导航-右侧带文案"变体（唯一做过mainComponent深度解析的变体），
+         标题字号18px是组件真实实现值，优先级高于全局24px Token，见 design-system-conflicts.json 第1条 -->
+    <header class="navbar"
+      data-bep-component="导航栏"
+      data-bep-status="REMOTE_INSTANCE"
+      data-bep-source="component-registry"
+      data-bep-verified="true"
+      data-bep-note="纯导航-右侧带文案 变体；标题18px为组件真实实现值(DESIGN_SYSTEM_CONFLICT，与全局24px Token冲突，此处遵循真实组件)">
+      <h1 class="navbar__title">履约工作台</h1>
+      <div class="navbar__store">
+        <span>凤凰荟中心店</span>
+        <svg class="icon icon--12" viewBox="0 0 48 48" aria-hidden="true"
+          data-bep-component="Icon(chevron-down)" data-bep-status="EXTERNAL_STANDARD"
+          data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M36 18L24 30L12 18" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </div>
+    </header>
+
+    <div class="content">
+
+      <!-- 实物商品卡片：卡片(SPEC_ONLY 基础单卡)，默认无投影无描边 -->
+      <section class="card stat-card"
+        data-bep-component="卡片"
+        data-bep-status="SPEC_ONLY"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-note="按规范画板'基础单卡'手工还原，无投影无描边，靠color.white与页面color.fill.1色差区隔">
+        <div class="stat-card__head">
+          <h2 class="stat-card__title">实物商品</h2>
+          <span class="tag tag--plain"
+            data-bep-component="标签（普通）"
+            data-bep-status="SPEC_ONLY"
+            data-bep-source="component-registry"
+            data-bep-verified="true">履约状态已拆分</span>
+        </div>
+        <div class="stat-row">
+          <div class="stat-item">
+            <div class="stat-item__num stat-item__num--danger">1</div>
+            <div class="stat-item__label">配送异常</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num stat-item__num--brand">2</div>
+            <div class="stat-item__label">待备货</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">1</div>
+            <div class="stat-item__label">待自提</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">1</div>
+            <div class="stat-item__label">待配送</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">1</div>
+            <div class="stat-item__label">配送中</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 数字商品卡片 -->
+      <section class="card stat-card"
+        data-bep-component="卡片"
+        data-bep-status="SPEC_ONLY"
+        data-bep-source="component-registry"
+        data-bep-verified="true">
+        <div class="stat-card__head">
+          <h2 class="stat-card__title">数字商品</h2>
+          <span class="tag tag--info"
+            data-bep-component="标签（普通）"
+            data-bep-status="SPEC_ONLY"
+            data-bep-source="component-registry"
+            data-bep-verified="true"
+            data-bep-note="AI_DESIGN_DECISION：库内标签仅定义中性色，'新增'的蓝色背景取color.auxiliary.3(恋尾蓝)浅色化，非正式info语义色定义">新增</span>
+        </div>
+        <div class="stat-row stat-row--3">
+          <div class="stat-item">
+            <div class="stat-item__num stat-item__num--brand">1</div>
+            <div class="stat-item__label">待使用</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">1</div>
+            <div class="stat-item__label">退款</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">4</div>
+            <div class="stat-item__label">全部数字订单</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 宫格快捷入口：REMOTE_INSTANCE 容器 + Solar Icons Bold Duotone 金刚区图标(EXTERNAL_STANDARD，真实提取的SVG，非手绘) -->
+      <section class="grid quick-grid"
+        data-bep-component="宫格"
+        data-bep-status="REMOTE_INSTANCE"
+        data-bep-source="component-registry"
+        data-bep-verified="true"
+        data-bep-note="容器复用真实宫格组件；4个图标为Solar Icons Bold Duotone真实提取SVG(CC BY 4.0)，与原型4个入口一一对应">
+        <div class="grid__item">
+          <span class="grid__icon grid__icon--teal">
+            <svg viewBox="0 0 24 24" aria-hidden="true" data-bep-component="Icon(scan-qrcode)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library.colorfulIcons" data-bep-verified="true"><g fill="currentColor"><g opacity=".5"><path d="M10.5531 13.4469C10.1294 13.0232 9.60212 12.8505 9.01812 12.772C8.46484 12.6976 7.76789 12.6976 6.93209 12.6977L5.82717 12.6977C5.24648 12.6977 4.76184 12.6976 4.36823 12.7351C3.95674 12.7742 3.57325 12.8591 3.22152 13.0746C2.87731 13.2856 2.5879 13.575 2.37697 13.9192C2.16142 14.2709 2.07653 14.6544 2.0374 15.0659C1.99998 15.4595 1.99999 15.9442 2 16.5249V16.5932C1.99999 17.477 1.99999 18.1897 2.05454 18.7635C2.1108 19.3552 2.22996 19.8707 2.51405 20.3343C2.80168 20.8037 3.19632 21.1983 3.6657 21.486C4.12929 21.77 4.64482 21.8892 5.23653 21.9455C5.8103 22 6.52304 22 7.40683 22H7.47507C8.05577 22 8.54048 22 8.9341 21.9626C9.34559 21.9235 9.72907 21.8386 10.0808 21.623C10.425 21.4121 10.7144 21.1227 10.9254 20.7785C11.1409 20.4267 11.2258 20.0433 11.2649 19.6318C11.3024 19.2382 11.3023 18.7535 11.3023 18.1728L11.3023 17.0679C11.3024 16.2321 11.3024 15.5352 11.228 14.9819C11.1495 14.3979 10.9768 13.8706 10.5531 13.4469Z"/><path d="M8.9341 2.0374C9.34559 2.07653 9.72907 2.16142 10.0808 2.37697C10.425 2.5879 10.7144 2.87731 10.9254 3.22152C11.1409 3.57325 11.2258 3.95674 11.2649 4.36823C11.3024 4.76183 11.3023 5.24658 11.3023 5.82726L11.3023 6.93212C11.3024 7.7679 11.3024 8.46484 11.228 9.01812C11.1495 9.60212 10.9768 10.1294 10.5531 10.5531C10.1294 10.9768 9.60212 11.1495 9.01812 11.228C8.46484 11.3024 7.76787 11.3024 6.93209 11.3023L5.82711 11.3023C5.24643 11.3023 4.76183 11.3024 4.36823 11.2649C3.95674 11.2258 3.57325 11.1409 3.22152 10.9254C2.87731 10.7144 2.5879 10.425 2.37697 10.0808C2.16142 9.72907 2.07653 9.34559 2.0374 8.9341C1.99998 8.54047 1.99999 8.05579 2 7.47506V7.40679C1.99999 6.52302 1.99999 5.81029 2.05454 5.23653C2.1108 4.64482 2.22996 4.12929 2.51405 3.6657C2.80168 3.19632 3.19632 2.80168 3.6657 2.51405C4.12929 2.22996 4.64482 2.1108 5.23653 2.05454C5.81029 1.99999 6.52307 1.99999 7.40684 2H7.4751C8.05583 1.99999 8.54047 1.99998 8.9341 2.0374Z"/><path d="M16.5932 2H16.5249C15.9442 1.99999 15.4595 1.99998 15.0659 2.0374C14.6544 2.07653 14.2709 2.16142 13.9192 2.37697C13.575 2.5879 13.2856 2.87731 13.0746 3.22152C12.8591 3.57325 12.7742 3.95674 12.7351 4.36823C12.6976 4.76185 12.6977 5.24654 12.6977 5.82725L12.6977 6.93209C12.6976 7.76789 12.6976 8.46484 12.772 9.01812C12.8505 9.60212 13.0232 10.1294 13.4469 10.5531C13.8706 10.9768 14.3979 11.1495 14.9819 11.228C15.5352 11.3024 16.2321 11.3024 17.0679 11.3023L18.1728 11.3023C18.7535 11.3023 19.2382 11.3024 19.6318 11.2649C20.0433 11.2258 20.4267 11.1409 20.7785 10.9254C21.1227 10.7144 21.4121 10.425 21.623 10.0808C21.8386 9.72907 21.9235 9.34559 21.9626 8.9341C22 8.54048 22 8.05587 22 7.47517V7.40683C22 6.52304 22 5.8103 21.9455 5.23653C21.8892 4.64482 21.77 4.12929 21.486 3.6657C21.1983 3.19632 20.8037 2.80168 20.3343 2.51405C19.8707 2.22996 19.3552 2.1108 18.7635 2.05454C18.1897 1.99999 17.477 1.99999 16.5932 2Z"/></g><path d="M14.0926 21.3024C14.0926 21.6877 13.7803 22.0001 13.3949 22.0001C13.0096 22.0001 12.6973 21.6877 12.6973 21.3024V18.5117H14.0926V21.3024Z" opacity=".5"/><path d="M21.3022 12.6978C20.9169 12.6978 20.6045 13.0101 20.6045 13.3954V16.6512H21.9998V13.3954C21.9998 13.0101 21.6875 12.6978 21.3022 12.6978Z" opacity=".5"/><path d="M16.0761 16.6173C16 16.8011 16 17.0341 16 17.5C16 17.9659 16 18.1989 16.0761 18.3827C16.1776 18.6277 16.3723 18.8224 16.6173 18.9239C16.8011 19 17.0341 19 17.5 19C17.9659 19 18.1989 19 18.3827 18.9239C18.6277 18.8224 18.8224 18.6277 18.9239 18.3827C19 18.1989 19 17.9659 19 17.5C19 17.0341 19 16.8011 18.9239 16.6173C18.8224 16.3723 18.6277 16.1776 18.3827 16.0761C18.1989 16 17.9659 16 17.5 16C17.0341 16 16.8011 16 16.6173 16.0761C16.3723 16.1776 16.1776 16.3723 16.0761 16.6173Z"/><path d="M21.9992 18.5352V18.5117H20.6039C20.6039 18.9547 20.6035 19.252 20.5878 19.4822C20.5725 19.7061 20.5451 19.8152 20.5154 19.8869C20.3974 20.1718 20.171 20.3982 19.8861 20.5162C19.8143 20.546 19.7053 20.5734 19.4813 20.5887C19.2511 20.6044 18.9538 20.6047 18.5109 20.6047H16.6504V22.0001H18.5344C18.9478 22.0001 19.293 22.0001 19.5763 21.9808C19.8713 21.9606 20.1499 21.9173 20.42 21.8054C21.0469 21.5457 21.5449 21.0477 21.8045 20.4209C21.9164 20.1508 21.9598 19.8722 21.9799 19.5772C21.9992 19.2938 21.9992 18.9487 21.9992 18.5352Z" opacity=".5"/><path d="M12.6973 16.6156V16.6512H14.0926C14.0926 15.9835 14.0935 15.5352 14.1282 15.1934C14.1618 14.8633 14.2212 14.7108 14.2886 14.6099C14.3734 14.4829 14.4824 14.3739 14.6094 14.2891C14.7103 14.2217 14.8628 14.1623 15.1929 14.1287C15.5347 14.0939 15.983 14.0931 16.6508 14.0931H18.5112V12.6978H16.6151C15.9922 12.6977 15.4725 12.6977 15.0517 12.7405C14.6113 12.7853 14.2025 12.8827 13.8342 13.1289C13.5549 13.3155 13.315 13.5553 13.1284 13.8347C12.8823 14.203 12.7848 14.6118 12.74 15.0522C12.6972 15.473 12.6973 15.9927 12.6973 16.6156Z" opacity=".5"/><path d="M5.50821 18.6903C5.72656 18.8452 6.03581 18.8452 6.6543 18.8452C7.27278 18.8452 7.58203 18.8452 7.80038 18.6903C7.87743 18.6356 7.9447 18.5683 7.99937 18.4913C8.1543 18.2729 8.1543 17.9637 8.1543 17.3452C8.1543 16.7267 8.1543 16.4175 7.99937 16.1991C7.9447 16.1221 7.87743 16.0548 7.80038 16.0001C7.58203 15.8452 7.27276 15.8452 6.65428 15.8452C6.0358 15.8452 5.72656 15.8452 5.50821 16.0001C5.43117 16.0548 5.36389 16.1221 5.30923 16.1991C5.1543 16.4175 5.1543 16.7267 5.1543 17.3452C5.1543 17.9637 5.1543 18.2729 5.30923 18.4913C5.36389 18.5683 5.43117 18.6356 5.50821 18.6903Z"/><path d="M6.6543 8.15479C6.03581 8.15479 5.72656 8.15479 5.50821 7.99986C5.43117 7.94519 5.36389 7.87792 5.30923 7.80087C5.1543 7.58252 5.1543 7.27327 5.1543 6.65479C5.1543 6.0363 5.1543 5.72705 5.30923 5.5087C5.36389 5.43165 5.43117 5.36438 5.50821 5.30971C5.72656 5.15479 6.03581 5.15479 6.6543 5.15479C7.27278 5.15479 7.58203 5.15479 7.80038 5.30971C7.87743 5.36438 7.9447 5.43165 7.99937 5.5087C8.1543 5.72705 8.1543 6.0363 8.1543 6.65479C8.1543 7.27327 8.1543 7.58252 7.99937 7.80087C7.9447 7.87792 7.87743 7.94519 7.80038 7.99986C7.58203 8.15479 7.27278 8.15479 6.6543 8.15479Z"/><path d="M16.1996 8C16.418 8.15493 16.7272 8.15493 17.3457 8.15493C17.9642 8.15493 18.2734 8.15493 18.4918 8C18.5688 7.94533 18.6361 7.87806 18.6908 7.80101C18.8457 7.58266 18.8457 7.27342 18.8457 6.65493C18.8457 6.03644 18.8457 5.7272 18.6908 5.50885C18.6361 5.4318 18.5688 5.36453 18.4918 5.30986C18.2734 5.15493 17.9642 5.15493 17.3457 5.15493C16.7272 5.15493 16.418 5.15493 16.1996 5.30986C16.1226 5.36453 16.0553 5.4318 16.0006 5.50885C15.8457 5.7272 15.8457 6.03647 15.8457 6.65494C15.8457 7.27342 15.8457 7.58266 16.0006 7.80101C16.0553 7.87806 16.1226 7.94533 16.1996 8Z"/></g></svg>
+          </span>
+          <span class="grid__label">扫码核销</span>
+        </div>
+        <div class="grid__item">
+          <span class="grid__icon grid__icon--blue">
+            <svg viewBox="0 0 24 24" aria-hidden="true" data-bep-component="Icon(clipboard-list)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library.colorfulIcons" data-bep-verified="true"><g fill="currentColor"><path d="M21 15.9983V9.99826C21 7.16983 21 5.75562 20.1213 4.87694C19.3529 4.10856 18.175 4.01211 16 4H8C5.82497 4.01211 4.64706 4.10856 3.87868 4.87694C3 5.75562 3 7.16983 3 9.99826V15.9983C3 18.8267 3 20.2409 3.87868 21.1196C4.75736 21.9983 6.17157 21.9983 9 21.9983H15C17.8284 21.9983 19.2426 21.9983 20.1213 21.1196C21 20.2409 21 18.8267 21 15.9983Z" opacity=".5"/><path d="M8 3.5C8 2.67157 8.67157 2 9.5 2H14.5C15.3284 2 16 2.67157 16 3.5V4.5C16 5.32843 15.3284 6 14.5 6H9.5C8.67157 6 8 5.32843 8 4.5V3.5Z"/><path fill-rule="evenodd" d="M6.25 10.5C6.25 10.0858 6.58579 9.75 7 9.75H7.5C7.91421 9.75 8.25 10.0858 8.25 10.5C8.25 10.9142 7.91421 11.25 7.5 11.25H7C6.58579 11.25 6.25 10.9142 6.25 10.5ZM9.75 10.5C9.75 10.0858 10.0858 9.75 10.5 9.75H17C17.4142 9.75 17.75 10.0858 17.75 10.5C17.75 10.9142 17.4142 11.25 17 11.25H10.5C10.0858 11.25 9.75 10.9142 9.75 10.5ZM6.25 14C6.25 13.5858 6.58579 13.25 7 13.25H7.5C7.91421 13.25 8.25 13.5858 8.25 14C8.25 14.4142 7.91421 14.75 7.5 14.75H7C6.58579 14.75 6.25 14.4142 6.25 14ZM9.75 14C9.75 13.5858 10.0858 13.25 10.5 13.25H17C17.4142 13.25 17.75 13.5858 17.75 14C17.75 14.4142 17.4142 14.75 17 14.75H10.5C10.0858 14.75 9.75 14.4142 9.75 14ZM6.25 17.5C6.25 17.0858 6.58579 16.75 7 16.75H7.5C7.91421 16.75 8.25 17.0858 8.25 17.5C8.25 17.9142 7.91421 18.25 7.5 18.25H7C6.58579 18.25 6.25 17.9142 6.25 17.5ZM9.75 17.5C9.75 17.0858 10.0858 16.75 10.5 16.75H17C17.4142 16.75 17.75 17.0858 17.75 17.5C17.75 17.9142 17.4142 18.25 17 18.25H10.5C10.0858 18.25 9.75 17.9142 9.75 17.5Z" clip-rule="evenodd"/></g></svg>
+          </span>
+          <span class="grid__label">订单任务</span>
+        </div>
+        <div class="grid__item">
+          <span class="grid__icon grid__icon--orange">
+            <svg viewBox="0 0 24 24" aria-hidden="true" data-bep-component="Icon(delivery)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library.colorfulIcons" data-bep-verified="true"><g fill="currentColor"><path d="M2.27749 5.24694C2.38823 4.84781 2.80157 4.61402 3.2007 4.72476L4.9044 5.19744C5.82129 5.45183 6.5469 6.15866 6.80003 7.07489L8.95106 14.8609L9.10935 15.4075C9.74249 15.6438 10.2863 16.0866 10.6314 16.6747L10.9414 16.579L19.8115 14.2739C20.2124 14.1697 20.6219 14.4102 20.7261 14.8111C20.8303 15.212 20.5897 15.6214 20.1888 15.7256L11.3515 18.0223L11.0228 18.1238C11.0161 19.3947 10.1392 20.5555 8.81236 20.9003C7.22189 21.3136 5.58709 20.3982 5.16092 18.8556C4.73476 17.313 5.67861 15.7274 7.26908 15.3141C7.3479 15.2936 7.42682 15.2764 7.5057 15.2623L5.35419 7.47433C5.24592 7.08242 4.92897 6.76092 4.50338 6.64284L2.79968 6.17016C2.40054 6.05942 2.16675 5.64608 2.27749 5.24694Z"/><path d="M9.56443 8.73049L10.0789 10.5926C10.5639 12.3481 10.8064 13.2259 11.5194 13.6252C12.2323 14.0244 13.1374 13.7892 14.9474 13.3188L16.8673 12.8199C18.6774 12.3495 19.5824 12.1143 19.9941 11.4227C20.4057 10.7312 20.1632 9.85344 19.6782 8.09788L19.1638 6.2358C18.6788 4.48023 18.4363 3.60244 17.7233 3.20319C17.0103 2.80394 16.1052 3.03915 14.2952 3.50955L12.3753 4.00849C10.5652 4.47889 9.66021 4.71409 9.24856 5.40562C8.83692 6.09714 9.07942 6.97493 9.56443 8.73049Z" opacity=".5"/></g></svg>
+          </span>
+          <span class="grid__label">门店配送</span>
+        </div>
+        <div class="grid__item">
+          <span class="grid__icon grid__icon--red">
+            <svg viewBox="0 0 24 24" aria-hidden="true" data-bep-component="Icon(danger-triangle)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library.colorfulIcons" data-bep-verified="true"><g fill="currentColor"><path d="M12 3C9.68925 3 8.23007 5.58716 5.31171 10.7615L4.94805 11.4063C2.52291 15.7061 1.31034 17.856 2.40626 19.428C3.50217 21 6.21356 21 11.6363 21H12.3637C17.7864 21 20.4978 21 21.5937 19.428C22.6897 17.856 21.4771 15.7061 19.0519 11.4063L18.6883 10.7615C15.7699 5.58716 14.3107 3 12 3Z" opacity=".5"/><path d="M12 7.25C12.4142 7.25 12.75 7.58579 12.75 8V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V8C11.25 7.58579 11.5858 7.25 12 7.25Z"/><path d="M12 17C12.5523 17 13 16.5523 13 16C13 15.4477 12.5523 15 12 15C11.4477 15 11 15.4477 11 16C11 16.5523 11.4477 17 12 17Z"/></g></svg>
+          </span>
+          <span class="grid__label">异常处理</span>
+        </div>
+      </section>
+
+      <!-- 最近任务 -->
+      <div class="section-head">
+        <h2 class="section-title">最近任务</h2>
+        <a class="section-more" href="#" data-bep-note="演示态，无真实跳转">
+          查看全部
+          <svg class="icon icon--12" viewBox="0 0 48 48" aria-hidden="true"
+            data-bep-component="Icon(chevron-right)" data-bep-status="EXTERNAL_STANDARD"
+            data-bep-source="icon-library" data-bep-verified="true">
+            <path d="M19 12L31 24L19 36" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- 任务卡片：卡片(SPEC_ONLY) + 标签(普通，"门店配送") + 标签(状态角标，"配送异常") -->
+      <section class="card task-card"
+        data-bep-component="卡片"
+        data-bep-status="SPEC_ONLY"
+        data-bep-source="component-registry"
+        data-bep-verified="true">
+        <span class="tag tag--corner"
+          data-bep-component="标签（状态角标）"
+          data-bep-status="SPEC_ONLY"
+          data-bep-source="component-registry"
+          data-bep-verified="true"
+          data-bep-note="该组件的规范来源即2025-08用户提供的真实截图确认，本次场景数据一致">配送异常</span>
+
+        <div class="task-card__head">
+          <h3 class="task-card__store">凤凰里社区店</h3>
+          <span class="tag tag--plain tag--small"
+            data-bep-component="标签（普通）"
+            data-bep-status="SPEC_ONLY"
+            data-bep-source="component-registry"
+            data-bep-verified="true">门店配送</span>
+        </div>
+
+        <div class="task-card__row">
+          <span class="task-card__row-label">子订单号</span>
+          <span class="task-card__row-value">
+            SO202607310009
+            <svg class="icon icon--14" viewBox="0 0 48 48" aria-hidden="true"
+              data-bep-component="Icon(copy)" data-bep-status="EXTERNAL_STANDARD"
+              data-bep-source="icon-library" data-bep-verified="true">
+              <path d="M13 12.4316V7.8125C13 6.2592 14.2592 5 15.8125 5H40.1875C41.7408 5 43 6.2592 43 7.8125V32.1875C43 33.7408 41.7408 35 40.1875 35H35.5163" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <path d="M32.1875 13H7.8125C6.2592 13 5 14.2592 5 15.8125V40.1875C5 41.7408 6.2592 43 7.8125 43H32.1875C33.7408 43 35 41.7408 35 40.1875V15.8125C35 14.2592 33.7408 13 32.1875 13Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </div>
+        <div class="task-card__row">
+          <span class="task-card__row-label">用户</span>
+          <span class="task-card__row-value">吴** ****0055</span>
+        </div>
+
+        <div class="task-card__divider"
+          data-bep-component="分割线"
+          data-bep-status="REMOTE_INSTANCE"
+          data-bep-source="component-registry"
+          data-bep-verified="true"></div>
+
+        <div class="product-row">
+          <div class="product-row__thumb"
+            data-bep-component="Image"
+            data-bep-status="SPEC_ONLY"
+            data-bep-note="无真实商品图资产，按原型同款做法用文字缩写占位，非最终图片">山</div>
+          <div class="product-row__info">
+            <div class="product-row__name">山茶油 1L</div>
+            <div class="product-row__spec">压榨一级</div>
+          </div>
+          <div class="product-row__price-block">
+            <div class="product-row__price">¥128.00</div>
+            <div class="product-row__qty">×2</div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 底部导航：REMOTE_INSTANCE，2个Tab，图标为IconPark真实提取SVG(EXTERNAL_STANDARD)，与原型一致 -->
+    <nav class="tabbar"
+      data-bep-component="底部导航"
+      data-bep-status="REMOTE_INSTANCE"
+      data-bep-source="component-registry"
+      data-bep-verified="true"
+      data-bep-note="容器高度56px复用spacing.tabbar.height真实Token；appstore/file-text图标为icon-library已确认真实SVG，非AI手绘">
+      <div class="tabbar__item tabbar__item--active">
+        <svg viewBox="0 0 48 48" aria-hidden="true" data-bep-component="Icon(appstore)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M18 6H8C6.89543 6 6 6.89543 6 8V18C6 19.1046 6.89543 20 8 20H18C19.1046 20 20 19.1046 20 18V8C20 6.89543 19.1046 6 18 6Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/>
+          <path d="M18 28H8C6.89543 28 6 28.8954 6 30V40C6 41.1046 6.89543 42 8 42H18C19.1046 42 20 41.1046 20 40V30C20 28.8954 19.1046 28 18 28Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/>
+          <path d="M40 6H30C28.8954 6 28 6.89543 28 8V18C28 19.1046 28.8954 20 30 20H40C41.1046 20 42 19.1046 42 18V8C42 6.89543 41.1046 6 40 6Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/>
+          <path d="M40 28H30C28.8954 28 28 28.8954 28 30V40C28 41.1046 28.8954 42 30 42H40C41.1046 42 42 41.1046 42 40V30C42 28.8954 41.1046 28 40 28Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/>
+        </svg>
+        <span>工作台</span>
+      </div>
+      <div class="tabbar__item">
+        <svg viewBox="0 0 48 48" aria-hidden="true" data-bep-component="Icon(file-text)" data-bep-status="EXTERNAL_STANDARD" data-bep-source="icon-library" data-bep-verified="true">
+          <path d="M10 44H38C39.1046 44 40 43.1046 40 42V14H30V4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M30 4L40 14" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M24 22V36" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18 22H24L30 22" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>订单</span>
+      </div>
+    </nav>
+
+    <div class="home-indicator" aria-hidden="true"></div>
+
+  </main>
+</body>
+</html>

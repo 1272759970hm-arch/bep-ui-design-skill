@@ -1,0 +1,95 @@
+<svg width="498" height="373" viewBox="0 0 498 373" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="343" height="373" rx="12" fill="white"/>
+<path d="M127.5 18C127.5 14.6863 130.186 12 133.5 12H209.5C212.814 12 215.5 14.6863 215.5 18V62C215.5 65.3137 212.814 68 209.5 68H133.5C130.186 68 127.5 65.3137 127.5 62V18Z" fill="#66A6FF" fill-opacity="0.06"/>
+<path d="M133.5 12.25H209.5C212.676 12.25 215.25 14.8244 215.25 18V62C215.25 65.1756 212.676 67.75 209.5 67.75H133.5C130.324 67.75 127.75 65.1756 127.75 62V18C127.75 14.8244 130.324 12.25 133.5 12.25Z" stroke="#66A6FF" stroke-opacity="0.4" stroke-width="0.5"/>
+<text fill="#66A6FF" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0.01em"><tspan x="135.5" y="31.9">&#x4fdd;&#x6d01;</tspan></text>
+<text fill="#66A6FF" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="20" letter-spacing="0.01em"><tspan x="135.5" y="60.2">79.42%</tspan></text>
+<rect x="247.75" y="97.25" width="88.5" height="58.5" rx="5.75" fill="white"/>
+<rect x="247.75" y="97.25" width="88.5" height="58.5" rx="5.75" stroke="#EEEEEE" stroke-width="0.5"/>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0.01em"><tspan x="255.5" y="116.9">&#x5b89;&#x9632;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="20" letter-spacing="0.01em"><tspan x="255.5" y="145.2">79.70%</tspan></text>
+<rect x="191.75" y="213.25" width="88.5" height="58.5" rx="5.75" fill="white"/>
+<rect x="191.75" y="213.25" width="88.5" height="58.5" rx="5.75" stroke="#EEEEEE" stroke-width="0.5"/>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0.01em"><tspan x="199.5" y="232.9">&#x7ba1;&#x5bb6;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="20" letter-spacing="0.01em"><tspan x="199.5" y="261.2">79.74%</tspan></text>
+<rect x="73.75" y="213.25" width="89.5" height="58.5" rx="5.75" fill="white"/>
+<rect x="73.75" y="213.25" width="89.5" height="58.5" rx="5.75" stroke="#EEEEEE" stroke-width="0.5"/>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0.01em"><tspan x="81.5" y="232.9">&#x7eff;&#x5316;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="20" letter-spacing="0.01em"><tspan x="81.5" y="261.2">79.82%</tspan></text>
+<rect x="6.75" y="97.25" width="89.5" height="58.5" rx="5.75" fill="white"/>
+<rect x="6.75" y="97.25" width="89.5" height="58.5" rx="5.75" stroke="#EEEEEE" stroke-width="0.5"/>
+<text fill="#444F60" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="15" letter-spacing="0.01em"><tspan x="14.5" y="116.9">&#x5de5;&#x7a0b;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="20" letter-spacing="0.01em"><tspan x="14.5" y="145.2">79.86%</tspan></text>
+<path d="M172 72L243.329 123.824L216.084 207.676H127.916L100.671 123.824L172 72Z" fill="url(#paint0_radial_6695_316308)"/>
+<path d="M243.035 123.919L215.901 207.427H128.099L100.964 123.919L172 72.3076L243.035 123.919Z" stroke="#66A6FF" stroke-opacity="0.1" stroke-width="0.5"/>
+<path d="M172 87L229.063 128.459L207.267 195.541H136.733L114.937 128.459L172 87Z" fill="url(#paint1_radial_6695_316308)"/>
+<path d="M228.769 128.554L207.086 195.291H136.914L115.23 128.554L172 87.3076L228.769 128.554Z" stroke="#66A6FF" stroke-opacity="0.1" stroke-width="0.5"/>
+<path d="M172 102L214.798 133.094L198.45 183.406H145.55L129.202 133.094L172 102Z" fill="url(#paint2_radial_6695_316308)"/>
+<path d="M214.503 133.189L198.269 183.156H145.731L129.496 133.189L172 102.308L214.503 133.189Z" stroke="#66A6FF" stroke-opacity="0.1" stroke-width="0.5"/>
+<path d="M172 117L200.532 137.729L189.634 171.271H154.366L143.468 137.729L172 117Z" fill="url(#paint3_radial_6695_316308)"/>
+<path d="M200.237 137.824L189.452 171.021H154.548L143.762 137.824L172 117.308L200.237 137.824Z" stroke="#66A6FF" stroke-opacity="0.1" stroke-width="0.5"/>
+<path d="M172 132L186.266 142.365L180.817 159.135H163.183L157.734 142.365L172 132Z" fill="url(#paint4_radial_6695_316308)"/>
+<path d="M185.972 142.46L180.635 158.886H163.365L158.027 142.46L172 132.308L185.972 142.46Z" stroke="#66A6FF" stroke-opacity="0.1" stroke-width="0.5"/>
+<path d="M172 72L172.5 147" stroke="#57B2F3" stroke-opacity="0.08"/>
+<path d="M216 207.5L172.5 147" stroke="#57B2F3" stroke-opacity="0.08"/>
+<path d="M128.095 207.535L172.5 147" stroke="#57B2F3" stroke-opacity="0.08"/>
+<path d="M101 124L172.5 147" stroke="#57B2F3" stroke-opacity="0.08"/>
+<path d="M243 124L172.5 147" stroke="#57B2F3" stroke-opacity="0.08"/>
+<path d="M172.223 90.205L123.552 132.094L141 189.498L210.499 199.501L232.999 127.505L172.223 90.205Z" stroke="#56B8FF"/>
+<path d="M171.999 82.0036L105.999 125.504L135.71 196.78L214.5 205.501L238.899 125.247L171.999 82.0036Z" stroke="#949CF8"/>
+<path d="M172.5 97.5006L130.823 133.839L145.5 183.001L203.5 190.499L222.744 131.62L172.5 97.5006Z" fill="url(#paint5_linear_6695_316308)" stroke="#66A6FF"/>
+<circle cx="172.5" cy="98.5" r="2.5" fill="#66A6FF"/>
+<circle cx="172.5" cy="90.5" r="2.5" fill="#56B8FF"/>
+<circle cx="124.5" cy="132.5" r="2.5" fill="#56B8FF"/>
+<circle cx="141.5" cy="189.5" r="2.5" fill="#56B8FF"/>
+<circle cx="135.5" cy="196.5" r="2.5" fill="#949CF8"/>
+<circle cx="106.5" cy="125.5" r="2.5" fill="#949CF8"/>
+<circle cx="172.5" cy="82.5" r="2.5" fill="#949CF8"/>
+<circle cx="238.5" cy="125.5" r="2.5" fill="#949CF8"/>
+<circle cx="213.5" cy="204.5" r="2.5" fill="#949CF8"/>
+<circle cx="210.5" cy="199.5" r="2.5" fill="#56B8FF"/>
+<circle cx="130.5" cy="133.5" r="2.5" fill="#66A6FF"/>
+<circle cx="145.5" cy="182.5" r="2.5" fill="#66A6FF"/>
+<circle cx="204.5" cy="189.5" r="2.5" fill="#66A6FF"/>
+<circle cx="222.5" cy="131.5" r="2.5" fill="#66A6FF"/>
+<circle cx="232.5" cy="127.5" r="2.5" fill="#56B8FF"/>
+<path d="M14 295C14 291.686 16.6863 289 20 289H119V357H20C16.6863 357 14 354.314 14 351V295Z" fill="#00B2B2" fill-opacity="0.06"/>
+<rect x="30" y="305.5" width="8" height="8" rx="4" fill="#66A6FF"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="40" y="314.54">&#x4fdd;&#x6d01;&#x6ee1;&#x610f;&#x7387;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="18" letter-spacing="0px"><tspan x="30" y="340.48">79.8%</tspan></text>
+<rect width="105" height="68" transform="translate(119 289)" fill="#00B2B2" fill-opacity="0.06"/>
+<rect x="135" y="305.5" width="8" height="8" rx="4" fill="#56B8FF"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="145" y="314.54">&#x9879;&#x76ee;&#x6700;&#x9ad8;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="18" letter-spacing="0px"><tspan x="135" y="340.48">79.7%</tspan></text>
+<path d="M224 289H323C326.314 289 329 291.686 329 295V351C329 354.314 326.314 357 323 357H224V289Z" fill="#00B2B2" fill-opacity="0.06"/>
+<rect x="240" y="305.5" width="8" height="8" rx="4" fill="#949CF8"/>
+<text fill="#9199A2" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="14" letter-spacing="0px"><tspan x="250" y="314.54">&#x9879;&#x76ee;&#x5e73;&#x5747;</tspan></text>
+<text fill="#22262F" style="white-space: pre" xml:space="preserve" font-family="PingFang SC" font-size="18" letter-spacing="0px"><tspan x="240" y="340.48">79.4%</tspan></text>
+<path d="M327 0H331C337.627 0 343 5.37258 343 12V43H327V0Z" fill="white"/>
+<defs>
+<radialGradient id="paint0_radial_6695_316308" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 147) rotate(90) scale(75)">
+<stop stop-color="#66A6FF" stop-opacity="0"/>
+<stop offset="1" stop-color="#66A6FF" stop-opacity="0.08"/>
+</radialGradient>
+<radialGradient id="paint1_radial_6695_316308" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 147) rotate(90) scale(60)">
+<stop stop-color="#66A6FF" stop-opacity="0"/>
+<stop offset="1" stop-color="#66A6FF" stop-opacity="0.16"/>
+</radialGradient>
+<radialGradient id="paint2_radial_6695_316308" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 147) rotate(90) scale(45)">
+<stop stop-color="#66A6FF" stop-opacity="0"/>
+<stop offset="1" stop-color="#66A6FF" stop-opacity="0.24"/>
+</radialGradient>
+<radialGradient id="paint3_radial_6695_316308" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 147) rotate(90) scale(30)">
+<stop stop-color="#66A6FF" stop-opacity="0"/>
+<stop offset="1" stop-color="#66A6FF" stop-opacity="0.32"/>
+</radialGradient>
+<radialGradient id="paint4_radial_6695_316308" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 147) rotate(90) scale(15)">
+<stop stop-color="#66A6FF" stop-opacity="0"/>
+<stop offset="1" stop-color="#66A6FF" stop-opacity="0.4"/>
+</radialGradient>
+<linearGradient id="paint5_linear_6695_316308" x1="192.121" y1="177.105" x2="169.889" y2="98.4369" gradientUnits="userSpaceOnUse">
+<stop stop-color="#66A6FF" stop-opacity="0.6"/>
+<stop offset="1" stop-color="#66A6FF" stop-opacity="0.15"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,596 @@
+[
+  {
+    "id": "7958:123865",
+    "name": "指标详情框架",
+    "children": [
+      {
+        "id": "7958:123866",
+        "name": "模板",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:123920",
+        "name": "模板",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:123974",
+        "name": "模板",
+        "type": "FRAME",
+        "count": 8
+      },
+      {
+        "id": "7958:124028",
+        "name": "Frame 1321320046",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "7958:124072",
+        "name": "Frame 1321320047",
+        "type": "FRAME",
+        "count": 9
+      },
+      {
+        "id": "7958:124115",
+        "name": "Frame 1321320049",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "7958:124125",
+        "name": "日期选择器",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:124126",
+        "name": "快捷按钮",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:124127",
+        "name": "Rectangle 34626328",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124128",
+        "name": "Rectangle 34626330",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124129",
+        "name": "Rectangle 34626331",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124130",
+        "name": "Rectangle 34626332",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124131",
+        "name": "Rectangle 34626333",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124132",
+        "name": "Rectangle 34626334",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124133",
+        "name": "Rectangle 34626340",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124134",
+        "name": "Rectangle 34626342",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124135",
+        "name": "Rectangle 34626335",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124136",
+        "name": "Rectangle 34626336",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124137",
+        "name": "Rectangle 34626341",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124138",
+        "name": "Rectangle 34626337",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124139",
+        "name": "Rectangle 34626338",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124140",
+        "name": "Rectangle 34626339",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124141",
+        "name": "Rectangle 34626329",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:124142",
+        "name": "Arrow 20",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124143",
+        "name": "Arrow 29",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124144",
+        "name": "Arrow 30",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124145",
+        "name": "Arrow 32",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124146",
+        "name": "Arrow 33",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124147",
+        "name": "Arrow 31",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124148",
+        "name": "Arrow 21",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124149",
+        "name": "Arrow 23",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124150",
+        "name": "Arrow 24",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124151",
+        "name": "Arrow 25",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124152",
+        "name": "Arrow 26",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124153",
+        "name": "Arrow 27",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124154",
+        "name": "Arrow 28",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124155",
+        "name": "Arrow 34",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124156",
+        "name": "Arrow 22",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124157",
+        "name": "搜索",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:124291",
+        "name": "Arrow 28",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124292",
+        "name": "搜索结果",
+        "type": "FRAME",
+        "count": 5
+      },
+      {
+        "id": "7958:124427",
+        "name": "Arrow 35",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124428",
+        "name": "Arrow 36",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124429",
+        "name": "Arrow 37",
+        "type": "VECTOR",
+        "count": 0
+      },
+      {
+        "id": "7958:124430",
+        "name": "Frame 1321320090",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:124463",
+        "name": "【按年】 年同比：2026年1-3月，与2025年1-3月比 年环比 ：2026年1-3月，与2026年1-2月比 特殊场景，当前在1月份 年同比：2026年1月，与2025年1月比 年环比：无意义，不用出数 【按月】 月同比：2026年3月1日-2026年3月15日，与2025年3月1日-2025年3月30日比 月环比 ：2026年3月1日-2026年3月15日，与2026年2月1日-2026年2月28日比 特殊场景，当前在1月份 月同比：2026年1月1日-2026年1月15日，与2025年1月1日-2025年1月31日比 月环比：无意义，不用出数 【按日】（已与数开确认，原今日收款逻辑） 日同比：2026年3月1日14点，与2025年3月1日14点比 日环比 ：2026年3月1日14点，与2026年2月28日14点比 特殊场景，当前在1月1日 日同比：2026年1月1日14点，与2025年1月1日14点比 日环比：2026年1月1日14点，与2025年12月31日14点比",
+        "type": "TEXT",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "id": "7958:124689",
+    "name": "图表交互说明",
+    "children": [
+      {
+        "id": "7958:124690",
+        "name": "收费率-账单主体",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:124743",
+        "name": "收费率-账单主体",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:124796",
+        "name": "收费率-账单主体",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:124849",
+        "name": "收费率-账单主体",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:124902",
+        "name": "收费率-账单主体",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:124955",
+        "name": "进度0值",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:125023",
+        "name": "进度正常",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:125091",
+        "name": "进度百分百",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:125159",
+        "name": "进度超百",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:125227",
+        "name": "进度负值",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:125295",
+        "name": "指标负值",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:125296",
+        "name": "指标0值",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:125297",
+        "name": "指标0-100值",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:125298",
+        "name": "指标百分百",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:125299",
+        "name": "指标超百",
+        "type": "TEXT",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "id": "7958:115500",
+    "name": "项目首页",
+    "children": [
+      {
+        "id": "7958:115501",
+        "name": "首页",
+        "type": "FRAME",
+        "count": 10
+      },
+      {
+        "id": "7958:115664",
+        "name": "首页",
+        "type": "FRAME",
+        "count": 10
+      },
+      {
+        "id": "7958:115833",
+        "name": "首页",
+        "type": "FRAME",
+        "count": 9
+      },
+      {
+        "id": "7958:115992",
+        "name": "首页",
+        "type": "FRAME",
+        "count": 11
+      },
+      {
+        "id": "7958:116155",
+        "name": "首页",
+        "type": "FRAME",
+        "count": 11
+      },
+      {
+        "id": "7958:116318",
+        "name": "首页",
+        "type": "FRAME",
+        "count": 10
+      },
+      {
+        "id": "7958:116481",
+        "name": "首页",
+        "type": "FRAME",
+        "count": 10
+      },
+      {
+        "id": "7958:116663",
+        "name": "方案目标首页",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:116664",
+        "name": "多组织-组织滑动",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:116665",
+        "name": "方案目标单组织首页",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:116666",
+        "name": "无驾驶舱",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:116667",
+        "name": "空数据",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:116668",
+        "name": "新旧版过度首页",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:116669",
+        "name": "首页-沉浸式背景",
+        "type": "FRAME",
+        "count": 11
+      },
+      {
+        "id": "7958:116872",
+        "name": "首页-沉浸式背景",
+        "type": "FRAME",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7958:122652",
+    "name": "项目信息/重点关注",
+    "children": [
+      {
+        "id": "7958:122653",
+        "name": "项目信息",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "7958:122731",
+        "name": "重点关注",
+        "type": "FRAME",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "7958:144838",
+    "name": "充电",
+    "children": [
+      {
+        "id": "7958:144839",
+        "name": "13437540065868408.jpg 2",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "7958:144840",
+        "name": "两轮充电设计稿 / v1.2.0 Skill验证",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:145431",
+        "name": "资金流水=充电收益+增值收益",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:145432",
+        "name": "4.使用情况tab：",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:145433",
+        "name": "a.日均接口使用率",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:145434",
+        "name": "b.设备在线率",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:145435",
+        "name": "c.设备启用率",
+        "type": "TEXT",
+        "count": 0
+      },
+      {
+        "id": "7958:145436",
+        "name": "资金排名/完整指标",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "7958:145464",
+        "name": "设备排名 / 完整指标",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "7958:145493",
+        "name": "Rectangle 34626380",
+        "type": "RECTANGLE",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "id": "7958:145494",
+    "name": "场地",
+    "children": [
+      {
+        "id": "7958:145495",
+        "name": "首页-增加现金流卡片页20260423",
+        "type": "FRAME",
+        "count": 11
+      },
+      {
+        "id": "7958:145619",
+        "name": "场地 · 收入构成 · 指定页头72123",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "7958:145837",
+        "name": "场地 · 收入构成 · 指定页头72123",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "7958:146048",
+        "name": "场地 · 经营效率 · 移动端规范",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "7958:146135",
+        "name": "场地 · 合同情况 · 移动端规范",
+        "type": "FRAME",
+        "count": 4
+      }
+    ]
+  }
+]

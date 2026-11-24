@@ -1,0 +1,116 @@
+{
+  "version": "1.3.4-trial.1",
+  "pageErrors": [],
+  "externalRequests": [],
+  "metrics": {
+    "summary": {
+      "width": 375,
+      "height": 152,
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "size": "14px",
+      "line": "22px",
+      "background": "rgba(255, 255, 255, 0.48)",
+      "color": "rgb(68, 79, 96)"
+    },
+    "amount": {
+      "width": 68.90625,
+      "height": 44,
+      "font": "\"Yikan DIN\", \"PingFang SC\", sans-serif",
+      "size": "36px",
+      "line": "44px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 38, 47)"
+    },
+    "rankAmount": {
+      "width": 95.453125,
+      "height": 40,
+      "font": "\"PingFang SC\", sans-serif",
+      "size": "14px",
+      "line": "22px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(68, 79, 96)"
+    },
+    "rankNumber": {
+      "width": 8.703125,
+      "height": 19,
+      "font": "\"Yikan DIN\", \"PingFang SC\", sans-serif",
+      "size": "16px",
+      "line": "24px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 153, 162)"
+    },
+    "header": {
+      "width": 44.671875,
+      "height": 32,
+      "font": "\"PingFang SC\", sans-serif",
+      "size": "14px",
+      "line": "22px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 153, 162)"
+    },
+    "row": {
+      "width": 44.671875,
+      "height": 40,
+      "font": "\"PingFang SC\", sans-serif",
+      "size": "14px",
+      "line": "22px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(68, 79, 96)"
+    },
+    "columns": [
+      "44px",
+      "90px",
+      "94px",
+      "94px"
+    ],
+    "aiHeight": "40px",
+    "aiEntry": {
+      "width": 32,
+      "height": 36,
+      "font": "\"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "size": "12px",
+      "line": "20px",
+      "background": "rgba(109, 92, 255, 0.1)",
+      "color": "rgb(109, 92, 255)"
+    }
+  },
+  "homeComparison": {
+    "height": 18,
+    "size": "12px",
+    "line": "20px"
+  },
+  "actualFonts": {
+    "summaryAmount": [
+      {
+        "familyName": "DIN",
+        "postScriptName": "DIN-Bold",
+        "isCustomFont": false,
+        "glyphCount": 4
+      }
+    ],
+    "rankingAmount": [
+      {
+        "familyName": "PingFang SC",
+        "postScriptName": "PingFangSC-Regular",
+        "isCustomFont": false,
+        "glyphCount": 7
+      }
+    ]
+  },
+  "behavior": [
+    "funding category switch with stable total",
+    "AI expand",
+    "date cancel and confirm",
+    "peer neighborhood and masking",
+    "name search",
+    "numeric sorting",
+    "subordinate scope and drill event",
+    "whole-card fullscreen and focus restore"
+  ],
+  "limits": [
+    "Not full-library pixel parity",
+    "Date controls do not fetch backend data",
+    "Commercial fonts are not bundled",
+    "Production permission and routes not implemented"
+  ]
+}

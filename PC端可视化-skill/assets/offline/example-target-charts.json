@@ -1,0 +1,78 @@
+{
+  "title": "一看移动端 · 目标条与收费率",
+  "description": "用可替换数据核对实际值、目标线与完成率，及收费率的目标缺口。",
+  "screens": [
+    {
+      "name": "经营目标完成",
+      "header": {
+        "title": "经营目标完成",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "actualTarget",
+          "props": {
+            "actual": 56.4,
+            "target": 100,
+            "unit": "亿元",
+            "segments": [
+              45,
+              11.4
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，供组件跑测。"
+    },
+    {
+      "name": "经营目标超额",
+      "header": {
+        "title": "经营目标超额",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "actualTarget",
+          "props": {
+            "actual": 125,
+            "target": 100,
+            "unit": "万元",
+            "segments": [
+              80,
+              45
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，供组件跑测。"
+    },
+    {
+      "name": "收费率目标卡",
+      "header": {
+        "title": "收费率目标卡",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "chargeRateTarget",
+          "props": {
+            "title": "粤西区域",
+            "rows": [
+              {
+                "name": "综合收费率",
+                "actual": 87.5,
+                "target": 90
+              },
+              {
+                "name": "现金收费率",
+                "actual": 72.3,
+                "target": 85
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据，供组件跑测。"
+    }
+  ]
+}

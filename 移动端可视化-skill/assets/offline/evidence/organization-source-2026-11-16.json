@@ -1,0 +1,25 @@
+{
+  "sourceFile": "2oSqZAFWhrtQoOytyamFOn",
+  "sourcePage": "6671:131442",
+  "retrieved": "2026-11-16",
+  "items": [
+    {
+      "nodeId": "6671:131689",
+      "label": "全国默认 · 区域选择",
+      "pngFile": "native-resources/organization-6671-131689-source.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "7bec1483e64fa8681553bd63d31fd2a205855a50e8f26318aa7c1b1b3358e2bc",
+      "svgReadStatus": "invalid XML for both text and outlined exports"
+    },
+    {
+      "nodeId": "6671:131690",
+      "label": "区域选择 · 列表主体",
+      "pngFile": "native-resources/organization-6671-131690-source.png",
+      "width": 375,
+      "height": 714,
+      "sha256": "c339415ae49fc2cf429f1e0e0e2ff2fb3f0d8ae3650253d1c8c546d6e34e538e",
+      "svgReadStatus": "invalid XML for both text and outlined exports"
+    }
+  ]
+}

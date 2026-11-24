@@ -1,0 +1,515 @@
+{
+  "source": "6695:315115",
+  "svgFile": "native/chart-6695-315115.svg",
+  "elements": [
+    {
+      "index": 0,
+      "parentIndex": null,
+      "tag": "svg",
+      "attributes": {
+        "width": "355",
+        "height": "238",
+        "viewBox": "0 0 355 238",
+        "fill": "none"
+      },
+      "text": null
+    },
+    {
+      "index": 1,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "width": "343",
+        "height": "238",
+        "rx": "12",
+        "fill": "white"
+      },
+      "text": null
+    },
+    {
+      "index": 2,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 3,
+      "parentIndex": 2,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.0156",
+        "y": "31.04"
+      },
+      "text": "100%"
+    },
+    {
+      "index": 4,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M53 26H323",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 5,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "opacity": "0.08",
+        "x": "51",
+        "y": "26",
+        "width": "32",
+        "height": "170",
+        "fill": "#00B2B2"
+      },
+      "text": null
+    },
+    {
+      "index": 6,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 7,
+      "parentIndex": 6,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.6348",
+        "y": "65.04"
+      },
+      "text": "80%"
+    },
+    {
+      "index": 8,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 60H323",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 9,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 10,
+      "parentIndex": 9,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.6348",
+        "y": "99.04"
+      },
+      "text": "60%"
+    },
+    {
+      "index": 11,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 94H323",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 12,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 13,
+      "parentIndex": 12,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.6348",
+        "y": "133.04"
+      },
+      "text": "40%"
+    },
+    {
+      "index": 14,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 128H323",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 15,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 16,
+      "parentIndex": 15,
+      "tag": "tspan",
+      "attributes": {
+        "x": "13.6348",
+        "y": "167.04"
+      },
+      "text": "20%"
+    },
+    {
+      "index": 17,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M52 162H323",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5",
+        "stroke-dasharray": "2 2"
+      },
+      "text": null
+    },
+    {
+      "index": 18,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0em"
+      },
+      "text": null
+    },
+    {
+      "index": 19,
+      "parentIndex": 18,
+      "tag": "tspan",
+      "attributes": {
+        "x": "22.0293",
+        "y": "201.04"
+      },
+      "text": "0%"
+    },
+    {
+      "index": 20,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M48 196H323",
+        "stroke": "#E5E5E5",
+        "stroke-width": "0.5"
+      },
+      "text": null
+    },
+    {
+      "index": 21,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 22,
+      "parentIndex": 21,
+      "tag": "tspan",
+      "attributes": {
+        "x": "47",
+        "y": "220.04"
+      },
+      "text": "保洁"
+    },
+    {
+      "index": 23,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 24,
+      "parentIndex": 23,
+      "tag": "tspan",
+      "attributes": {
+        "x": "94",
+        "y": "220.04"
+      },
+      "text": "工程"
+    },
+    {
+      "index": 25,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 26,
+      "parentIndex": 25,
+      "tag": "tspan",
+      "attributes": {
+        "x": "141",
+        "y": "220.04"
+      },
+      "text": "客服"
+    },
+    {
+      "index": 27,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 28,
+      "parentIndex": 27,
+      "tag": "tspan",
+      "attributes": {
+        "x": "188",
+        "y": "220.04"
+      },
+      "text": "绿化"
+    },
+    {
+      "index": 29,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 30,
+      "parentIndex": 29,
+      "tag": "tspan",
+      "attributes": {
+        "x": "235",
+        "y": "220.04"
+      },
+      "text": "安防"
+    },
+    {
+      "index": 31,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "#C6CAD1",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 32,
+      "parentIndex": 31,
+      "tag": "tspan",
+      "attributes": {
+        "x": "282",
+        "y": "220.04"
+      },
+      "text": "其它"
+    },
+    {
+      "index": 33,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "61",
+        "y": "35",
+        "width": "12",
+        "height": "161",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 34,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "108",
+        "y": "54",
+        "width": "12",
+        "height": "142",
+        "fill": "#56B8FF"
+      },
+      "text": null
+    },
+    {
+      "index": 35,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "155",
+        "y": "82",
+        "width": "12",
+        "height": "114",
+        "fill": "#8EAAD4"
+      },
+      "text": null
+    },
+    {
+      "index": 36,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "202",
+        "y": "104",
+        "width": "12",
+        "height": "92",
+        "fill": "#3DC7F8"
+      },
+      "text": null
+    },
+    {
+      "index": 37,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "249",
+        "y": "104",
+        "width": "12",
+        "height": "92",
+        "fill": "#66A6FF"
+      },
+      "text": null
+    },
+    {
+      "index": 38,
+      "parentIndex": 0,
+      "tag": "rect",
+      "attributes": {
+        "x": "296",
+        "y": "116",
+        "width": "12",
+        "height": "80",
+        "fill": "#949CF8"
+      },
+      "text": null
+    },
+    {
+      "index": 39,
+      "parentIndex": 0,
+      "tag": "path",
+      "attributes": {
+        "d": "M65.8418 198.248C66.2188 197.918 66.7812 197.918 67.1582 198.248L71.4463 202H87.5C89.7091 202 91.5 203.791 91.5 206V222C91.5 224.209 89.7091 226 87.5 226H45.5C43.2909 226 41.5 224.209 41.5 222V206C41.5 203.791 43.2909 202 45.5 202H61.5537L65.8418 198.248Z",
+        "fill": "#33C1C1"
+      },
+      "text": null
+    },
+    {
+      "index": 40,
+      "parentIndex": 0,
+      "tag": "text",
+      "attributes": {
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "PingFang SC",
+        "font-size": "14",
+        "letter-spacing": "0px"
+      },
+      "text": null
+    },
+    {
+      "index": 41,
+      "parentIndex": 40,
+      "tag": "tspan",
+      "attributes": {
+        "x": "52.5",
+        "y": "218.704"
+      },
+      "text": "保洁"
+    }
+  ]
+}

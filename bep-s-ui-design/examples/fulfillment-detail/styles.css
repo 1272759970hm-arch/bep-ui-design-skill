@@ -1,0 +1,298 @@
+/*
+  BEP-S 履约任务详情页 — 样式
+  Token 来源同前几次约定：FOUND_IN_FIGMA / (SPEC_FRAME) / INFERRED / AI_PROPOSED，见变量注释。
+  卡片默认无投影无描边（2025-08 用户两次更正后的规则），本页从一开始就按这个来，不需要再改一轮。
+*/
+
+:root {
+  --color-brand-1: rgba(0, 177, 180, 0.06); /* USER_OVERRIDE 2025-08，原Figma读值 #006D9B */
+  --color-brand-3: #00B1B4; /* USER_OVERRIDE 2025-08，原Figma读值 #006D9B，见 design-tokens.json */
+  --color-white: #FFFFFF;
+  --color-fill-1: #F7F8FA;
+  --color-fill-2: #F2F3F5;
+  --color-fill-3: #E5E8EB;
+  --color-line-1: #EEEEEE;
+  --color-text-3: #9199A2;
+  --color-text-4: #444F60;
+  --color-text-5: #22262F;
+  --color-danger-1: #FFECE8;
+  --color-danger-6: #FF3636;
+  --color-danger-7: #CB2634;
+
+  --font-size-caption: 13px;
+  --font-size-body: 15px;
+  --font-size-value: 16px;
+  --font-size-amount: 18px;
+  --font-size-navtitle: 18px; /* 与全局"页面标题24px"的已知冲突，见 design-system-conflicts.json 第1条 */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+
+  --spacing-page-marginX: 16px;
+  --spacing-module-gap: 12px;
+  --spacing-navbar-height: 44px;
+  --spacing-safeArea-bottom: 34px;
+  --spacing-inferred-gap-sm: 8px;
+
+  --radius-button: 4px;
+  --radius-card: 6px;
+  --border-hairline: 0.5px solid var(--color-line-1);
+
+  --size-icon-default: 24px;
+
+  --ai-proposed-timeline-dot: 8px;
+  --size-button-height: 48px; /* (SPEC_FRAME) 按钮规范画板给的常规按钮高度，不是本页AI现编的数 */
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; background: var(--color-fill-2); }
+
+body {
+  font-family: "Noto Sans SC", "PingFang SC", -apple-system, sans-serif;
+  color: var(--color-text-5);
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.page {
+  width: 375px;
+  min-height: 100vh;
+  background: var(--color-fill-1);
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  height: var(--spacing-navbar-height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--spacing-page-marginX);
+  background: var(--color-white);
+  border-bottom: var(--border-hairline);
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.navbar__back {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--color-text-5);
+}
+
+.navbar__title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: var(--font-size-navtitle);
+  font-weight: var(--font-weight-medium);
+  margin: 0;
+  pointer-events: none;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-module-gap);
+  padding: var(--spacing-page-marginX) var(--spacing-page-marginX) var(--spacing-module-gap);
+}
+
+/* ============ 异常提示横幅：NOT_FOUND，AI_PROPOSED ============ */
+.alert-banner {
+  background: var(--color-danger-1);
+  color: var(--color-danger-7);
+  font-size: var(--font-size-caption);
+  padding: 10px 12px; /* AI_PROPOSED，无对应token，按视觉估算 */
+  border-radius: var(--radius-card);
+  line-height: 1.5;
+}
+
+/* ============ 卡片：SPEC_ONLY，默认无投影无描边 ============ */
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-card);
+  padding: var(--spacing-page-marginX);
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: var(--font-weight-medium);
+  margin: 0 0 var(--spacing-module-gap);
+  color: var(--color-text-5);
+}
+
+/* ============ 金额行：单元格(Cell)模式，标签左值右 ============ */
+.amount-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px; /* AI_PROPOSED，Cell高度NOT_DEFINED，按视觉估算 */
+}
+
+.amount-row + .amount-row {
+  border-top: var(--border-hairline);
+}
+
+.amount-row__label {
+  font-size: var(--font-size-body);
+  color: var(--color-text-4);
+}
+
+.amount-row__value {
+  font-size: var(--font-size-value);
+  color: var(--color-text-5);
+}
+
+.amount-row--total {
+  border-top: var(--border-hairline);
+  padding-top: 4px;
+  margin-top: 4px;
+}
+
+.amount-row--total .amount-row__label {
+  color: var(--color-text-5);
+  font-weight: var(--font-weight-medium);
+}
+
+.amount-row--total .amount-row__value {
+  font-size: var(--font-size-amount);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-danger-6); /* AI_DESIGN_DECISION：总价红色强调，电商惯例，非警示语义复用 */
+}
+
+/* ============ 履约记录：时间轴(Timeline) ============ */
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  display: flex;
+  gap: var(--spacing-inferred-gap-sm);
+  padding-bottom: var(--spacing-module-gap);
+  position: relative;
+}
+
+.timeline-item__rail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--ai-proposed-timeline-dot);
+  flex-shrink: 0;
+}
+
+.timeline-item__dot {
+  width: var(--ai-proposed-timeline-dot);
+  height: var(--ai-proposed-timeline-dot);
+  border-radius: 50%;
+  background: var(--color-fill-3);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.timeline-item--current .timeline-item__dot {
+  background: var(--color-brand-3);
+}
+
+.timeline-item__line {
+  width: 1px;
+  flex: 1;
+  background: var(--color-line-1);
+  margin-top: 2px;
+}
+
+.timeline-item:last-child .timeline-item__line { display: none; }
+
+.timeline-item__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.timeline-item__title {
+  font-size: var(--font-size-value);
+  color: var(--color-text-5);
+}
+
+.timeline-item--current .timeline-item__title {
+  color: var(--color-brand-3);
+  font-weight: var(--font-weight-medium);
+}
+
+.timeline-item__meta {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-3);
+  margin-top: 2px;
+}
+
+.timeline-expand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: var(--color-brand-3);
+  font-size: var(--font-size-caption);
+  cursor: pointer;
+  padding: 4px 0 0;
+}
+
+.timeline-expand svg {
+  width: 12px;
+  height: 12px;
+}
+
+/* ============ 底部固定操作栏：NOT_FOUND容器 + 按钮 ============ */
+.action-bar {
+  flex-shrink: 0;
+  background: var(--color-white);
+  border-top: var(--border-hairline);
+  padding: 10px var(--spacing-page-marginX) var(--spacing-safeArea-bottom);
+  display: flex;
+  gap: var(--spacing-inferred-gap-sm);
+}
+
+.btn-secondary {
+  flex: 1;
+  height: var(--size-button-height);
+  border-radius: var(--radius-button);
+  background: var(--color-white);
+  border: 1px solid var(--color-brand-3);
+  color: var(--color-brand-3);
+  font-size: var(--font-size-amount);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+}
+
+.btn-primary {
+  flex: 1;
+  height: var(--size-button-height);
+  border-radius: var(--radius-button);
+  background: var(--color-brand-3);
+  border: none;
+  color: var(--color-white);
+  font-size: var(--font-size-amount);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+}
+
+.btn-secondary:active,
+.btn-primary:active {
+  opacity: 0.85;
+}
+
+@media (max-width: 375px) {
+  .page { width: 100%; }
+  body { padding: 0; }
+}

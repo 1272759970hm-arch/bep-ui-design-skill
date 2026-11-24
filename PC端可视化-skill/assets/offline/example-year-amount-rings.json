@@ -1,0 +1,65 @@
+{
+  "title": "一看移动端 · 本年与往年预存金额",
+  "description": "比较同一指标中本年与往年的金额构成，保留实际金额、合计和占比。",
+  "screens": [
+    {
+      "name": "预存金额构成",
+      "header": {
+        "title": "项目预存",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "yearAmountRings",
+          "props": {
+            "modules": [
+              {
+                "title": "预存冲抵",
+                "current": 444.5,
+                "previous": 550.1,
+                "unit": "亿元",
+                "comparisonValue": -3.2
+              },
+              {
+                "title": "预存余额",
+                "current": 65,
+                "previous": 35,
+                "unit": "万元"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。金额单位和同比按模块独立传入。"
+    },
+    {
+      "name": "零值与缺失",
+      "header": {
+        "title": "项目预存",
+        "date": "2026年10月"
+      },
+      "components": [
+        {
+          "type": "yearAmountRings",
+          "props": {
+            "modules": [
+              {
+                "title": "预存冲抵",
+                "current": 0,
+                "previous": 0,
+                "unit": "万元"
+              },
+              {
+                "title": "预存余额",
+                "current": 16,
+                "previous": null,
+                "unit": "万元"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "模拟数据。金额单位和同比按模块独立传入。"
+    }
+  ]
+}

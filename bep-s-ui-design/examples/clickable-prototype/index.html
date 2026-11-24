@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>BEP-S 可点击原型模板 · 工单列表</title>
+<style>
+/* ============================================================
+   1. Token 层：所有颜色/尺寸只在这里定义，页面里不许裸写色值
+   来源 design-tokens.md（FOUND_IN_FIGMA / USER_OVERRIDE）
+   ============================================================ */
+:root{
+  --brand:            #00B1B4;   /* color.brand.3 */
+  --brand-pressed:    #00686A;   /* color.brand.4 */
+  --brand-tint14:     rgba(0,177,180,0.14);  /* 筛选胶囊选中底 */
+  --brand-tint16:     rgba(0,177,180,0.16);  /* 语义 Tag 浅底 */
+  --text-1:           #22262F;   /* color.text.5 标题/正文 */
+  --text-2:           #444F60;   /* color.text.4 次强调 */
+  --text-3:           #9199A2;   /* color.text.3 辅助/占位 */
+  --line:             #EEEEEE;   /* color.line.1 */
+  --page-bg:          #F7F8FA;   /* color.fill.1 */
+  --fill-2:           #F2F3F5;   /* color.fill.2 未选中胶囊/填充 */
+  --card:             #FFFFFF;
+  --white:            #FFFFFF;
+  --scrim:            rgba(0,0,0,.6);   /* 遮罩 */
+  --stage-bg:         #1B1D21;          /* 舞台底（手机外的桌面背景） */
+  --stage-text:       #7C828C;          /* 舞台说明文字 */
+  --card-pressed:     #FCFCFD;          /* 卡片按下 */
+  --danger:           #F53F3F;
+  --warning:          #FF7D00;
+  --success:          #00B42A;
+
+  --r-card: 8px;  --r-btn: 4px;  --r-tag: 2px;  --r-pill: 999px;
+  --nav-h: 44px;  --status-h: 44px;  --tabbar-h: 50px;  --safe-b: 34px;
+  --page-x: 16px; --gap: 12px;
+  --font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+}
+
+/* ============================================================
+   2. 舞台层：桌面浏览器里居中一台 375×812 的手机
+   评审场景用；给 .stage 加 .fullscreen 可切满屏
+   ============================================================ */
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{
+  margin:0;font-family:var(--font);color:var(--text-1);
+  background:var(--stage-bg);
+  display:flex;align-items:center;justify-content:center;
+  padding:24px 0;
+}
+.stage{position:relative}
+.phone{
+  position:relative;width:375px;height:812px;background:var(--page-bg);
+  border-radius:32px;overflow:hidden;
+  box-shadow:0 24px 64px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.08);
+}
+.stage-caption{
+  margin-top:12px;text-align:center;font-size:12px;color:var(--stage-text);letter-spacing:.2px;
+}
+body.fullscreen{background:var(--page-bg);padding:0}
+body.fullscreen .phone{width:100vw;height:100vh;border-radius:0;box-shadow:none}
+body.fullscreen .stage-caption{display:none}
+
+/* ============================================================
+   3. 屏幕层：一屏一个 .screen，靠 data-active 切换
+   ============================================================ */
+.screen{
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  background:var(--page-bg);
+  opacity:0;visibility:hidden;transform:translateX(12px);
+  transition:opacity .18s ease, transform .18s ease, visibility .18s;
+  pointer-events:none;
+}
+.screen[data-active="true"]{opacity:1;visibility:visible;transform:none;pointer-events:auto}
+
+/* 状态栏（演示用，真实 HTML 里可保留，属于"手机壳"的一部分） */
+.statusbar{
+  height:var(--status-h);flex:0 0 auto;display:flex;align-items:center;
+  justify-content:space-between;padding:0 16px 0 28px;font-size:13px;font-weight:600;
+  background:var(--card);
+}
+.statusbar .sb-right{display:flex;align-items:center;gap:5px;font-size:11px;letter-spacing:.5px}
+
+/* 导航栏 44 */
+.navbar{
+  height:var(--nav-h);flex:0 0 auto;background:var(--card);
+  display:flex;align-items:center;justify-content:center;position:relative;
+}
+.navbar .nav-title{font-size:18px;font-weight:600}
+.navbar .nav-back{
+  position:absolute;left:16px;top:50%;transform:translateY(-50%);
+  width:24px;height:24px;display:grid;place-items:center;cursor:pointer;
+}
+.navbar .nav-back:active{opacity:.5}
+.navbar .nav-action{
+  position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  font-size:14px;color:var(--brand);cursor:pointer;
+}
+
+/* 内容区：唯一可滚动容器 */
+.content{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:12px}
+.content::-webkit-scrollbar{width:0}
+
+/* ============================================================
+   4. 组件层：严格照 component-library.md 的 visualRecipe
+   ============================================================ */
+/* 4.1 筛选胶囊（页面级）：h32 / px12 / r21，选中=14% tint + 品牌字 */
+.chips{display:flex;gap:8px;padding:12px var(--page-x);overflow-x:auto;background:var(--card)}
+.chips::-webkit-scrollbar{height:0}
+.chip{
+  flex:0 0 auto;height:32px;padding:0 12px;border-radius:21px;
+  background:var(--fill-2);color:var(--text-2);font-size:14px;
+  display:inline-flex;align-items:center;cursor:pointer;border:0;
+  transition:background .15s,color .15s;
+}
+.chip[aria-selected="true"]{background:var(--brand-tint14);color:var(--brand);font-weight:500}
+.chip:active{opacity:.7}
+
+/* 4.2 卡片：白底 r8，无投影无描边 */
+.card{
+  background:var(--card);border-radius:var(--r-card);
+  padding:16px var(--page-x) 12px;margin:0 var(--page-x) var(--gap);
+  cursor:pointer;
+}
+.card:active{background:var(--card-pressed)}
+.card-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.card-loc{display:flex;align-items:center;gap:4px;font-size:14px;color:var(--text-3);min-width:0}
+.card-loc span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card-title{font-size:18px;font-weight:600;margin:8px 0 0;line-height:1.4}
+.card-desc{
+  font-size:14px;color:var(--text-3);line-height:22px;margin:6px 0 0;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.card-kv{margin-top:10px;display:flex;flex-direction:column;gap:4px}
+.card-kv div{display:flex;font-size:14px;line-height:24px}
+.card-kv dt{width:72px;flex:0 0 auto;color:var(--text-3);margin:0}
+.card-kv dd{margin:0;color:var(--text-1)}
+.card-actions{
+  display:flex;align-items:center;gap:12px;margin-top:12px;padding-top:10px;
+  border-top:.5px solid var(--line);font-size:16px;
+}
+.card-actions .a-main{color:var(--text-1)}
+.card-actions .a-link{color:var(--brand);margin-left:auto;display:flex;align-items:center;gap:2px}
+.card-actions span:active{opacity:.6}
+
+/* 4.3 状态 Tag：r2，16% 浅底 + 主色字 */
+.tag{
+  flex:0 0 auto;height:22px;padding:0 6px;border-radius:var(--r-tag);
+  font-size:12px;line-height:22px;display:inline-block;
+}
+.tag.danger{background:rgba(245,63,63,.16);color:var(--danger)}
+.tag.warning{background:rgba(255,125,0,.16);color:var(--warning)}
+.tag.success{background:rgba(0,180,42,.16);color:var(--success)}
+.tag.brand{background:var(--brand-tint16);color:var(--brand)}
+
+/* 4.4 分节（详情页）：节头 h60 + 内容 px16 */
+.section{background:var(--card);margin-bottom:var(--gap)}
+.section-head{
+  height:60px;padding:0 var(--page-x);display:flex;align-items:center;
+  justify-content:space-between;font-size:16px;font-weight:600;
+}
+.section-head .hint{font-size:14px;font-weight:400;color:var(--text-3)}
+.section-body{padding:0 var(--page-x) 20px;font-size:14px;line-height:22px;color:var(--text-2)}
+.kv-block{background:var(--page-bg);border-radius:var(--r-card);padding:12px}
+
+/* 4.5 主按钮 48 / 底部操作栏 48+34 */
+.footer{
+  flex:0 0 auto;background:var(--card);
+  padding:0 var(--page-x);height:48px;
+  display:flex;align-items:center;
+}
+.btn{
+  width:100%;height:48px;border:0;border-radius:var(--r-btn);
+  background:var(--brand);color:var(--white);font-size:16px;font-weight:500;
+  font-family:var(--font);cursor:pointer;display:grid;place-items:center;
+}
+.btn:active{background:var(--brand-pressed)}
+.btn.ghost{background:var(--fill-2);color:var(--text-1)}
+.btn-row{display:flex;gap:15px;width:100%}
+.safe-pad{height:var(--safe-b);background:var(--card);flex:0 0 auto}
+
+/* 4.6 底部导航 50 + 34 */
+.tabbar{
+  flex:0 0 auto;height:calc(var(--tabbar-h) + var(--safe-b));background:var(--card);
+  border-top:.5px solid var(--line);display:flex;padding-bottom:var(--safe-b);
+}
+.tabbar button{
+  flex:1;border:0;background:none;font-family:var(--font);cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+  font-size:10px;color:var(--text-3);padding:0;
+}
+.tabbar button[aria-selected="true"]{color:var(--brand)}
+.tabbar .tb-icon{width:24px;height:24px;display:grid;place-items:center;font-size:18px;line-height:1}
+
+/* 4.7 底部弹层 + 遮罩 */
+.mask{
+  position:absolute;inset:0;background:var(--scrim);z-index:40;
+  opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s;
+}
+.mask[data-open="true"]{opacity:1;visibility:visible}
+.sheet{
+  position:absolute;left:0;right:0;bottom:0;z-index:41;background:var(--card);
+  border-radius:12px 12px 0 0;transform:translateY(100%);
+  transition:transform .24s cubic-bezier(.32,.72,0,1);
+  padding-bottom:var(--safe-b);
+}
+.sheet[data-open="true"]{transform:none}
+.sheet-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px;font-size:18px;font-weight:500;
+}
+.sheet-head button{
+  border:0;background:none;font-family:var(--font);font-size:16px;
+  color:var(--brand);cursor:pointer;padding:0;
+}
+.sheet-body{padding:0 16px 16px;display:flex;flex-direction:column;gap:12px}
+.opt{
+  height:52px;border-radius:var(--r-card);background:var(--fill-2);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 12px;font-size:16px;cursor:pointer;
+}
+.opt[aria-selected="true"]{background:var(--brand-tint14);color:var(--brand)}
+.opt:active{opacity:.7}
+
+/* 4.8 Toast：h38，2s 自动消失 */
+.toast{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(.96);
+  z-index:60;max-width:240px;padding:10px 16px;border-radius:var(--r-card);
+  background:rgba(0,0,0,.8);color:var(--white);font-size:14px;line-height:20px;text-align:center;
+  opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s;
+}
+.toast[data-open="true"]{opacity:1;visibility:visible;transform:translate(-50%,-50%) scale(1)}
+
+/* 4.9 空状态 */
+.empty{
+  padding:96px var(--page-x) 0;display:flex;flex-direction:column;
+  align-items:center;text-align:center;gap:8px;
+}
+.empty .ill{width:120px;height:120px;border-radius:50%;background:var(--fill-2);
+  display:grid;place-items:center;font-size:44px}
+.empty h3{font-size:16px;font-weight:500;margin:8px 0 0}
+.empty p{font-size:14px;color:var(--text-3);margin:0;line-height:22px}
+
+/* 评审辅助：右上角状态提示，正式交付可删 */
+.devbar{
+  position:absolute;top:8px;right:8px;z-index:70;display:flex;gap:6px;
+}
+.devbar button{
+  border:0;border-radius:var(--r-btn);background:rgba(0,0,0,.45);color:var(--white);
+  font-size:11px;padding:4px 8px;cursor:pointer;font-family:var(--font);
+}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="phone" id="phone">
+
+    <!-- ============ 屏幕 1：工单列表 ============ -->
+    <section class="screen" data-screen="list" data-active="true">
+      <div class="statusbar"><span>9:41</span><span class="sb-right">▮▮▮ ⌾ ▰</span></div>
+      <div class="navbar">
+        <div class="nav-title">工单</div>
+        <div class="nav-action" data-toast="筛选功能待开发">筛选</div>
+      </div>
+
+      <!-- 筛选胶囊：选中 = 14% tint（C-68），切「已完成」进空态 -->
+      <div class="chips" role="tablist" data-chips="orderFilter">
+        <button class="chip" role="tab" aria-selected="true"  data-filter="todo">待处理</button>
+        <button class="chip" role="tab" aria-selected="false" data-filter="doing">处理中</button>
+        <button class="chip" role="tab" aria-selected="false" data-filter="done">已完成</button>
+      </div>
+
+      <div class="content">
+        <div id="orderList" style="padding-top:12px"></div>
+
+        <!-- 空态：与列表互斥显示 -->
+        <div class="empty" id="orderEmpty" hidden>
+          <div class="ill">🗂</div>
+          <h3>暂无已完成工单</h3>
+          <p>切换上方筛选查看其他状态的工单</p>
+        </div>
+      </div>
+
+      <div class="tabbar" role="tablist">
+        <button role="tab" aria-selected="true" data-screen-go="list">
+          <span class="tb-icon">☰</span>工单
+        </button>
+        <button role="tab" aria-selected="false" data-screen-go="mine">
+          <span class="tb-icon">☺</span>我的
+        </button>
+      </div>
+    </section>
+
+    <!-- ============ 屏幕 2：工单详情 ============ -->
+    <section class="screen" data-screen="detail">
+      <div class="statusbar"><span>9:41</span><span class="sb-right">▮▮▮ ⌾ ▰</span></div>
+      <div class="navbar">
+        <div class="nav-back" data-back="1" aria-label="返回">‹</div>
+        <div class="nav-title">工单详情</div>
+      </div>
+
+      <div class="content" id="detailContent">
+        <!-- 头部卡：标题 + 状态 Tag，内嵌卡中卡 kv -->
+        <div class="card" style="cursor:default" id="detailHeader">
+          <div class="card-top">
+            <div class="card-loc">📍 <span id="dLoc">—</span></div>
+            <span class="tag danger" id="dTag">未闭环</span>
+          </div>
+          <h2 class="card-title" id="dTitle">—</h2>
+          <div class="kv-block" style="margin-top:12px;display:flex;flex-direction:column;gap:4px">
+            <dl class="card-kv" style="margin:0">
+              <div><dt>工单编号</dt><dd id="dNo">—</dd></div>
+              <div><dt>巡检人员</dt><dd id="dPerson">—</dd></div>
+              <div><dt>发生时间</dt><dd id="dTime">—</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-head">问题描述<span class="hint">共 1 条</span></div>
+          <div class="section-body" id="dDesc">—</div>
+        </div>
+
+        <div class="section">
+          <div class="section-head">处理记录<span class="hint" data-toast="查看全部记录">全部 ›</span></div>
+          <div class="section-body">
+            <div class="kv-block" style="display:flex;flex-direction:column;gap:6px">
+              <div style="color:var(--text-1)">待保洁 · 待验收</div>
+              <div style="color:var(--text-3)">工单已派至保洁班组，等待现场处理后回传照片</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer"><button class="btn" data-sheet-open="handle">处理工单</button></div>
+      <div class="safe-pad"></div>
+    </section>
+
+    <!-- ============ 屏幕 3：我的（占位，演示 Tab 可切） ============ -->
+    <section class="screen" data-screen="mine">
+      <div class="statusbar"><span>9:41</span><span class="sb-right">▮▮▮ ⌾ ▰</span></div>
+      <div class="navbar"><div class="nav-title">我的</div></div>
+      <div class="content">
+        <div class="empty">
+          <div class="ill">☺</div>
+          <h3>演示屏</h3>
+          <p>这一屏只用来验证底部 Tab 能双向切换</p>
+        </div>
+      </div>
+      <div class="tabbar" role="tablist">
+        <button role="tab" aria-selected="false" data-screen-go="list">
+          <span class="tb-icon">☰</span>工单
+        </button>
+        <button role="tab" aria-selected="true" data-screen-go="mine">
+          <span class="tb-icon">☺</span>我的
+        </button>
+      </div>
+    </section>
+
+    <!-- ============ 弹层：处理工单 ============ -->
+    <div class="mask" data-mask="handle" data-open="false"></div>
+    <div class="sheet" data-sheet="handle" data-open="false" role="dialog" aria-modal="true">
+      <div class="sheet-head">
+        <button data-sheet-close="handle">取消</button>
+        <span>处理工单</span>
+        <span style="width:32px"></span>
+      </div>
+      <div class="sheet-body" data-options="handleResult">
+        <div class="opt" aria-selected="false" data-value="cleaned">已保洁完成</div>
+        <div class="opt" aria-selected="false" data-value="needrepair">需工程整改</div>
+        <div class="opt" aria-selected="false" data-value="invalid">非本工单问题</div>
+      </div>
+      <div style="padding:4px 16px 16px">
+        <button class="btn" data-sheet-submit="handle">提交</button>
+      </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast" data-open="false"></div>
+
+    <!-- 评审辅助（正式交付删除） -->
+    <div class="devbar">
+      <button onclick="document.body.classList.toggle('fullscreen')">满屏/手机壳</button>
+    </div>
+  </div>
+  <div class="stage-caption" id="caption">工单列表 · 可点击：卡片进详情 / 胶囊筛选 / 底部 Tab</div>
+</div>
+
+<script>
+/* ============================================================
+   数据层：mock 数据放最上面，文案必须是真实业务内容（禁 xxxx/示例）
+   ============================================================ */
+const ORDERS = [
+  {
+    id: 'o1', screen: '待处理', loc: '公区-4栋-单元门', title: '单元门口积水且有白色垃圾',
+    desc: '处理人中心广场地面存在明显积水，并伴有少量白色垃圾，旁边照明灯不亮。',
+    no: 'WB20231o28-00000001', person: '陈晓玲', time: '08-12 16:00',
+    tag: { cls: 'danger', text: '未闭环' }, status: 'todo'
+  },
+  {
+    id: 'o2', screen: '待处理', loc: '电梯-住宅10号楼-客梯轿厢', title: '轿厢内地面积水未清理',
+    desc: '客梯轿厢地面有明显水渍，角落留有纸屑，需保洁现场处理并回传整改照片。',
+    no: 'WB20231o28-00000002', person: '李国平', time: '08-12 15:20',
+    tag: { cls: 'warning', text: '待整改' }, status: 'todo'
+  },
+  {
+    id: 'o3', screen: '处理中', loc: '楼层公区-北门岗亭', title: '北门岗亭玻璃门有手印污渍',
+    desc: '北门岗亭玻璃门内外侧均有明显手印，保洁已完成初步擦拭，等待验收。',
+    no: 'WB20231o28-00000003', person: '李国平', time: '08-12 14:05',
+    tag: { cls: 'brand', text: '待验收' }, status: 'doing'
+  }
+];
+
+/* ============================================================
+   交互层：单文件、零依赖，所有屏幕共享一套状态
+   ============================================================ */
+const $  = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+
+/* ---- 屏幕切换：hash 驱动，浏览器后退键天然可用 ---- */
+const SCREEN_NAME = { list: '工单列表', detail: '工单详情', mine: '我的' };
+function go(name, push = true) {
+  $$('.screen').forEach(el => el.dataset.active = String(el.dataset.screen === name));
+  if (push && location.hash !== '#' + name) history.pushState({ screen: name }, '', '#' + name);
+  $('#caption').textContent = SCREEN_NAME[name] + ' · 可点击：卡片进详情 / 胶囊筛选 / 底部 Tab';
+  const active = $('.screen[data-active="true"] .content');
+  if (active) active.scrollTop = 0;
+}
+window.addEventListener('popstate', () => go((location.hash || '#list').slice(1), false));
+
+/* ---- 列表渲染 ---- */
+function renderList(filter = 'todo') {
+  const data = ORDERS.filter(o => o.status === filter);
+  const box = $('#orderList');
+  $('#orderEmpty').hidden = data.length > 0;
+  box.hidden = data.length === 0;
+  box.innerHTML = data.map(o => `
+    <article class="card" data-order="${o.id}">
+      <div class="card-top">
+        <div class="card-loc">📍 <span>${o.loc}</span></div>
+        <span class="tag ${o.tag.cls}">${o.tag.text}</span>
+      </div>
+      <h2 class="card-title">${o.title}</h2>
+      <p class="card-desc">${o.desc}</p>
+      <dl class="card-kv">
+        <div><dt>发生时间</dt><dd>${o.time}</dd></div>
+        <div><dt>巡检人员</dt><dd>${o.person}</dd></div>
+      </dl>
+      <div class="card-actions">
+        <span class="a-main">保洁 · ${o.tag.text}</span>
+        <span class="a-link">查看详情 ›</span>
+      </div>
+    </article>`).join('');
+}
+
+/* ---- 详情渲染 + 进入 ---- */
+function openDetail(id) {
+  const o = ORDERS.find(x => x.id === id);
+  if (!o) return;
+  $('#dLoc').textContent = o.loc;
+  $('#dTitle').textContent = o.title;
+  $('#dNo').textContent = o.no;
+  $('#dPerson').textContent = o.person;
+  $('#dTime').textContent = o.time;
+  $('#dDesc').textContent = o.desc;
+  $('#dTag').className = 'tag ' + o.tag.cls;
+  $('#dTag').textContent = o.tag.text;
+  go('detail');
+}
+
+/* ---- Toast：2s 自动收起 ---- */
+let toastTimer;
+function toast(msg) {
+  const t = $('#toast');
+  t.textContent = msg; t.dataset.open = 'true';
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.dataset.open = 'false', 2000);
+}
+
+/* ---- 弹层：遮罩点击 / 取消 / ESC 都能关 ---- */
+let sheetChoice = '';
+function openSheet(name) {
+  $$('[data-mask="' + name + '"]').forEach(m => m.dataset.open = 'true');
+  $$('[data-sheet="' + name + '"]').forEach(s => s.dataset.open = 'true');
+}
+function closeSheet(name) {
+  $$('[data-mask="' + name + '"]').forEach(m => m.dataset.open = 'false');
+  $$('[data-sheet="' + name + '"]').forEach(s => s.dataset.open = 'false');
+}
+
+/* ---- 统一事件代理：所有可点元素都必须在这里有分支，禁止死链 ---- */
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-order],[data-filter],[data-screen-go],[data-back],[data-toast],[data-sheet-open],[data-sheet-close],[data-sheet-submit],.opt,[data-mask]');
+  if (!el) return;
+
+  if (el.dataset.order)        return openDetail(el.dataset.order);
+  if (el.dataset.screenGo)     return go(el.dataset.screenGo);
+  if (el.dataset.back)         return history.back();
+  if (el.dataset.toast)        return toast(el.dataset.toast);
+
+  if (el.dataset.filter) {
+    $$('[data-chips="orderFilter"] .chip').forEach(c =>
+      c.setAttribute('aria-selected', String(c.dataset.filter === el.dataset.filter)));
+    return renderList(el.dataset.filter);
+  }
+  if (el.dataset.sheetOpen)    return openSheet(el.dataset.sheetOpen);
+  if (el.dataset.sheetClose)   return closeSheet(el.dataset.sheetClose);
+  if (el.dataset.mask)         return closeSheet(el.dataset.mask);
+
+  if (el.classList.contains('opt')) {
+    const group = el.parentElement.dataset.options;
+    $$('[data-options="' + group + '"] .opt').forEach(o => o.setAttribute('aria-selected', 'false'));
+    el.setAttribute('aria-selected', 'true');
+    sheetChoice = el.dataset.value;
+    return;
+  }
+  if (el.dataset.sheetSubmit) {
+    if (!sheetChoice) return toast('请先选择处理结果');
+    closeSheet(el.dataset.sheetSubmit);
+    setTimeout(() => toast('已提交，等待验收'), 180);
+  }
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeSheet('handle');
+});
+
+/* ---- 初始化 ---- */
+renderList('todo');
+go((location.hash || '#list').slice(1), false);
+</script>
+</body>
+</html>

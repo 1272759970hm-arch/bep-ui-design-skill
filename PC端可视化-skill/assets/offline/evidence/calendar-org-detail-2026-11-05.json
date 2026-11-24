@@ -1,0 +1,2644 @@
+[
+  {
+    "id": "6671:132073",
+    "name": "月份选择-当期",
+    "w": 375,
+    "h": 812,
+    "children": [
+      {
+        "id": "6671:132074",
+        "name": "Frame 1321318688",
+        "type": "FRAME",
+        "w": 375,
+        "h": 34
+      },
+      {
+        "id": "6671:132082",
+        "name": "Header",
+        "type": "FRAME",
+        "w": 375,
+        "h": 88
+      },
+      {
+        "id": "6671:132103",
+        "name": "Frame 1321318775",
+        "type": "FRAME",
+        "w": 343,
+        "h": 660
+      },
+      {
+        "id": "6671:132224",
+        "name": "Frame 1321318844",
+        "type": "FRAME",
+        "w": 343,
+        "h": 65
+      },
+      {
+        "id": "6671:132280",
+        "name": "Frame 1321318848",
+        "type": "FRAME",
+        "w": 343,
+        "h": 28
+      },
+      {
+        "id": "6671:132285",
+        "name": "Frame 1321319996",
+        "type": "FRAME",
+        "w": 108,
+        "h": 36
+      }
+    ],
+    "texts": [
+      {
+        "id": "6671:132090",
+        "text": "9:41",
+        "size": 14,
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132094",
+        "text": "请选择",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132099",
+        "text": "2025年8月21日",
+        "size": 15,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 23
+        }
+      },
+      {
+        "id": "6671:132107",
+        "text": "一",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132109",
+        "text": "二",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132111",
+        "text": "三",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132113",
+        "text": "四",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132115",
+        "text": "五",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132117",
+        "text": "六",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132119",
+        "text": "日",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132124",
+        "text": "2025",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132125",
+        "text": "2025年",
+        "size": 20,
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132129",
+        "text": "1月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132132",
+        "text": "2月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132134",
+        "text": "3月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132137",
+        "text": "4月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132141",
+        "text": "5月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132144",
+        "text": "6月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132147",
+        "text": "7月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132149",
+        "text": "8月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132153",
+        "text": "9月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132155",
+        "text": "10月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132157",
+        "text": "11月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132159",
+        "text": "12月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132162",
+        "text": "2025",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132163",
+        "text": "2026年",
+        "size": 20,
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132167",
+        "text": "1月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132169",
+        "text": "2月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132171",
+        "text": "3月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132173",
+        "text": "4月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132176",
+        "text": "5月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132178",
+        "text": "6月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132180",
+        "text": "7月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132182",
+        "text": "8月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132185",
+        "text": "9月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132187",
+        "text": "10月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132189",
+        "text": "11月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132191",
+        "text": "12月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132194",
+        "text": "2025",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132195",
+        "text": "2027年",
+        "size": 20,
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132199",
+        "text": "1月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132201",
+        "text": "2月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132203",
+        "text": "3月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132205",
+        "text": "4月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132208",
+        "text": "5月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132210",
+        "text": "6月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132212",
+        "text": "7月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132214",
+        "text": "8月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132217",
+        "text": "9月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132219",
+        "text": "10月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132221",
+        "text": "11月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132223",
+        "text": "12月",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132238",
+        "text": "日视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132239",
+        "text": "当日每小时累计值",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132260",
+        "text": "月视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132261",
+        "text": "当日每日累计值",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132278",
+        "text": "年视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132279",
+        "text": "当年每月累计值",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132282",
+        "text": "历史数据",
+        "size": 20,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132283",
+        "text": "2025年8月",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132303",
+        "text": "回到本月",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:132304",
+    "name": "年份选择-累计",
+    "w": 375,
+    "h": 812,
+    "children": [
+      {
+        "id": "6671:132305",
+        "name": "Frame 1321318688",
+        "type": "FRAME",
+        "w": 375,
+        "h": 34
+      },
+      {
+        "id": "6671:132313",
+        "name": "Header",
+        "type": "FRAME",
+        "w": 375,
+        "h": 88
+      },
+      {
+        "id": "6671:132334",
+        "name": "Frame 1321318777",
+        "type": "FRAME",
+        "w": 343,
+        "h": 38
+      },
+      {
+        "id": "6671:132351",
+        "name": "Frame 1321318774",
+        "type": "FRAME",
+        "w": 343,
+        "h": 160
+      },
+      {
+        "id": "6671:132380",
+        "name": "Frame 1321318848",
+        "type": "FRAME",
+        "w": 343,
+        "h": 28
+      },
+      {
+        "id": "6671:132385",
+        "name": "Frame 1321318846",
+        "type": "FRAME",
+        "w": 343,
+        "h": 65
+      },
+      {
+        "id": "6671:132441",
+        "name": "Frame 1321319996",
+        "type": "FRAME",
+        "w": 108,
+        "h": 36
+      }
+    ],
+    "texts": [
+      {
+        "id": "6671:132321",
+        "text": "9:41",
+        "size": 14,
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132325",
+        "text": "请选择",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132330",
+        "text": "2025年8月21日",
+        "size": 15,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 23
+        }
+      },
+      {
+        "id": "6671:132337",
+        "text": "一",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132339",
+        "text": "二",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132341",
+        "text": "三",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132343",
+        "text": "四",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132345",
+        "text": "五",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132347",
+        "text": "六",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132349",
+        "text": "日",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132355",
+        "text": "2020年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132358",
+        "text": "2021年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132361",
+        "text": "2022年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132365",
+        "text": "2023年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132368",
+        "text": "2024年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132371",
+        "text": "2025年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132375",
+        "text": "2026年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132377",
+        "text": "2027年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132379",
+        "text": "2028年",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132382",
+        "text": "历史数据",
+        "size": 20,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132383",
+        "text": "2025年",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132399",
+        "text": "日视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132400",
+        "text": "本日当前的累计值",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132421",
+        "text": "月视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132422",
+        "text": "本月至今的累计值",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132439",
+        "text": "年视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132440",
+        "text": "本年至今的累计值",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132459",
+        "text": "回到本年",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:132460",
+    "name": "日期选择",
+    "w": 375,
+    "h": 812,
+    "children": [
+      {
+        "id": "6671:132461",
+        "name": "Frame 1321318775",
+        "type": "FRAME",
+        "w": 343,
+        "h": 682
+      },
+      {
+        "id": "6671:132661",
+        "name": "Frame 1321318844",
+        "type": "FRAME",
+        "w": 343,
+        "h": 65
+      },
+      {
+        "id": "6671:132717",
+        "name": "Frame 1321319995",
+        "type": "FRAME",
+        "w": 343,
+        "h": 28
+      },
+      {
+        "id": "6671:132722",
+        "name": "Frame 1321319996",
+        "type": "FRAME",
+        "w": 108,
+        "h": 36
+      },
+      {
+        "id": "6671:132734",
+        "name": "Frame 1321318688",
+        "type": "FRAME",
+        "w": 375,
+        "h": 34
+      },
+      {
+        "id": "6671:132742",
+        "name": "Header",
+        "type": "FRAME",
+        "w": 375,
+        "h": 88
+      }
+    ],
+    "texts": [
+      {
+        "id": "6671:132465",
+        "text": "一",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132467",
+        "text": "二",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132469",
+        "text": "三",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132471",
+        "text": "四",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132473",
+        "text": "五",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132475",
+        "text": "六",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132477",
+        "text": "日",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "6671:132482",
+        "text": "2025",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "6671:132483",
+        "text": "8月",
+        "size": 20,
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132487",
+        "text": "31",
+        "size": 15,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132489",
+        "text": "31",
+        "size": 15,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132491",
+        "text": "31",
+        "size": 15,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132493",
+        "text": "30",
+        "size": 15,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132495",
+        "text": "1",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132498",
+        "text": "2",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132501",
+        "text": "3",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132505",
+        "text": "4",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132508",
+        "text": "5",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132511",
+        "text": "6",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132514",
+        "text": "7",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132517",
+        "text": "8",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132520",
+        "text": "9",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132523",
+        "text": "10",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132527",
+        "text": "11",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132530",
+        "text": "12",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132533",
+        "text": "13",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132536",
+        "text": "14",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132539",
+        "text": "15",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132542",
+        "text": "16",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132545",
+        "text": "17",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132549",
+        "text": "18",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132552",
+        "text": "19",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132555",
+        "text": "20",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132558",
+        "text": "21",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132561",
+        "text": "22",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132563",
+        "text": "23",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132565",
+        "text": "24",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132568",
+        "text": "25",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132570",
+        "text": "26",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132572",
+        "text": "27",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132574",
+        "text": "28",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132576",
+        "text": "29",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132578",
+        "text": "30",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132580",
+        "text": "31",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132583",
+        "text": "2025",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "6671:132584",
+        "text": "9月",
+        "size": 20,
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132588",
+        "text": "1",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132590",
+        "text": "2",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132592",
+        "text": "3",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132594",
+        "text": "4",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132596",
+        "text": "5",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132598",
+        "text": "6",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132600",
+        "text": "7",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132603",
+        "text": "8",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132605",
+        "text": "9",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132607",
+        "text": "10",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132609",
+        "text": "11",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132611",
+        "text": "12",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132613",
+        "text": "13",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132615",
+        "text": "14",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132618",
+        "text": "15",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132620",
+        "text": "16",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132622",
+        "text": "17",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132624",
+        "text": "18",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132626",
+        "text": "19",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132628",
+        "text": "20",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132630",
+        "text": "21",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132633",
+        "text": "22",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132635",
+        "text": "23",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132637",
+        "text": "24",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132639",
+        "text": "25",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132641",
+        "text": "26",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132643",
+        "text": "27",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132645",
+        "text": "28",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132648",
+        "text": "29",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132650",
+        "text": "30",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132652",
+        "text": "27",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132654",
+        "text": "28",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132656",
+        "text": "29",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132658",
+        "text": "30",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132660",
+        "text": "31",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 20
+        }
+      },
+      {
+        "id": "6671:132675",
+        "text": "日视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132676",
+        "text": "当日每小时数据",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132697",
+        "text": "月视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132698",
+        "text": "当月每天数据",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132715",
+        "text": "年视图",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132716",
+        "text": "当年每月数据",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132719",
+        "text": "历史数据",
+        "size": 20,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132720",
+        "text": "2025年8月21日",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132733",
+        "text": "回到本日",
+        "size": 14,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132750",
+        "text": "9:41",
+        "size": 14,
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132754",
+        "text": "请选择",
+        "size": 18,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:132759",
+        "text": "2025年8月21日",
+        "size": 15,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 23
+        }
+      }
+    ]
+  },
+  {
+    "id": "6671:131690",
+    "name": "工单筛选-抢单",
+    "w": 375,
+    "h": 714,
+    "children": [
+      {
+        "id": "6671:131691",
+        "name": "搜索",
+        "type": "FRAME",
+        "w": 375,
+        "h": 90
+      },
+      {
+        "id": "6671:131702",
+        "name": "Frame 1321318433",
+        "type": "FRAME",
+        "w": 375,
+        "h": 627
+      }
+    ],
+    "texts": [
+      {
+        "id": "6671:131699",
+        "text": "请输入区域或项目名称查询",
+        "size": 14,
+        "line": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "6671:131701",
+        "text": "全部区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "6671:131707",
+        "text": "选择区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6671:131708;5542:18504",
+        "text": "附近",
+        "size": 12,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Medium"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 16
+        }
+      },
+      {
+        "id": "I6671:131710;1112:16028",
+        "text": "全部区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6671:131711;1112:16028",
+        "text": "华东区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6671:131712;1112:16028",
+        "text": "华南区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6671:131713;1112:16028",
+        "text": "华北区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6671:131714;1112:16028",
+        "text": "华西区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6671:131715;1112:16028",
+        "text": "川渝区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      },
+      {
+        "id": "I6671:131716;1112:16028",
+        "text": "上海区域",
+        "size": 16,
+        "font": {
+          "family": "PingFang SC",
+          "style": "Regular"
+        },
+        "line": {
+          "unit": "PIXELS",
+          "value": 24
+        }
+      }
+    ]
+  }
+]

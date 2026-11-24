@@ -1,0 +1,314 @@
+[
+  {
+    "id": "6671:152715",
+    "name": "首页交互说明",
+    "children": [
+      {
+        "id": "6671:152716",
+        "name": "首页",
+        "type": "FRAME",
+        "w": 375,
+        "h": 1243,
+        "children": 11
+      },
+      {
+        "id": "6671:152879",
+        "name": "Rectangle 34626328",
+        "type": "RECTANGLE",
+        "w": 96,
+        "h": 36,
+        "children": 0
+      },
+      {
+        "id": "6671:152880",
+        "name": "Frame 1321320002",
+        "type": "FRAME",
+        "w": 415,
+        "h": 428,
+        "children": 2
+      },
+      {
+        "id": "6671:152887",
+        "name": "Rectangle 34625991",
+        "type": "RECTANGLE",
+        "w": 36,
+        "h": 36,
+        "children": 0
+      },
+      {
+        "id": "6671:152888",
+        "name": "Arrow 21",
+        "type": "VECTOR",
+        "w": 163,
+        "h": 80,
+        "children": 0
+      },
+      {
+        "id": "6671:152889",
+        "name": "Rectangle 34625992",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 44,
+        "children": 0
+      },
+      {
+        "id": "6671:152890",
+        "name": "Rectangle 34625993",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 63,
+        "children": 0
+      },
+      {
+        "id": "6671:152891",
+        "name": "Rectangle 34626329",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 40,
+        "children": 0
+      },
+      {
+        "id": "6671:152892",
+        "name": "Rectangle 34626330",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 84,
+        "children": 0
+      },
+      {
+        "id": "6671:152893",
+        "name": "Rectangle 34626335",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 84,
+        "children": 0
+      },
+      {
+        "id": "6671:152894",
+        "name": "Rectangle 34626336",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 84,
+        "children": 0
+      },
+      {
+        "id": "6671:152895",
+        "name": "Rectangle 34626334",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 92,
+        "children": 0
+      },
+      {
+        "id": "6671:152896",
+        "name": "Rectangle 34626337",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 92,
+        "children": 0
+      },
+      {
+        "id": "6671:152897",
+        "name": "Rectangle 34626338",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 92,
+        "children": 0
+      },
+      {
+        "id": "6671:152898",
+        "name": "Rectangle 34626339",
+        "type": "RECTANGLE",
+        "w": 343,
+        "h": 92,
+        "children": 0
+      },
+      {
+        "id": "6671:152899",
+        "name": "Rectangle 34626331",
+        "type": "RECTANGLE",
+        "w": 111,
+        "h": 86,
+        "children": 0
+      },
+      {
+        "id": "6671:152900",
+        "name": "Rectangle 34626332",
+        "type": "RECTANGLE",
+        "w": 111,
+        "h": 86,
+        "children": 0
+      },
+      {
+        "id": "6671:152901",
+        "name": "Rectangle 34626333",
+        "type": "RECTANGLE",
+        "w": 111,
+        "h": 86,
+        "children": 0
+      },
+      {
+        "id": "6671:152902",
+        "name": "Frame 1321320001",
+        "type": "FRAME",
+        "w": 415,
+        "h": 500,
+        "children": 4
+      },
+      {
+        "id": "6671:152915",
+        "name": "Arrow 20",
+        "type": "VECTOR",
+        "w": 315,
+        "h": 89,
+        "children": 0
+      },
+      {
+        "id": "6671:152916",
+        "name": "Arrow 14",
+        "type": "VECTOR",
+        "w": 309,
+        "h": 89,
+        "children": 0
+      },
+      {
+        "id": "6671:152917",
+        "name": "Arrow 19",
+        "type": "VECTOR",
+        "w": 390,
+        "h": 36,
+        "children": 0
+      },
+      {
+        "id": "6671:152918",
+        "name": "Arrow 22",
+        "type": "VECTOR",
+        "w": 390,
+        "h": 22,
+        "children": 0
+      },
+      {
+        "id": "6671:152919",
+        "name": "Arrow 23",
+        "type": "VECTOR",
+        "w": 359,
+        "h": 461,
+        "children": 0
+      },
+      {
+        "id": "6671:152920",
+        "name": "Arrow 24",
+        "type": "VECTOR",
+        "w": 28,
+        "h": 802,
+        "children": 0
+      }
+    ]
+  },
+  {
+    "id": "6671:163193",
+    "name": "现金流 2026-04-29",
+    "children": [
+      {
+        "id": "6671:163194",
+        "name": "现金流-大物业板块",
+        "type": "FRAME",
+        "w": 375,
+        "h": 1842,
+        "children": 2
+      },
+      {
+        "id": "6671:163485",
+        "name": "现金流-大物业板块（悬停）",
+        "type": "FRAME",
+        "w": 375,
+        "h": 1842,
+        "children": 2
+      },
+      {
+        "id": "6671:163792",
+        "name": "现金流-国内+股权",
+        "type": "FRAME",
+        "w": 375,
+        "h": 1842,
+        "children": 2
+      },
+      {
+        "id": "6671:164073",
+        "name": "首页",
+        "type": "FRAME",
+        "w": 375,
+        "h": 812,
+        "children": 7
+      }
+    ]
+  },
+  {
+    "id": "6671:170725",
+    "name": "2026/07/21版本",
+    "children": [
+      {
+        "id": "6671:170726",
+        "name": "预警排行（全屏）",
+        "type": "FRAME",
+        "w": 465,
+        "h": 648,
+        "children": 5
+      },
+      {
+        "id": "6671:170923",
+        "name": "Multiselect",
+        "type": "INSTANCE",
+        "w": 116,
+        "h": 128,
+        "children": 1
+      },
+      {
+        "id": "6671:170924",
+        "name": "预警排行-亮灯规则弹窗（上拉）",
+        "type": "FRAME",
+        "w": 375,
+        "h": 812,
+        "children": 12
+      },
+      {
+        "id": "6671:171350",
+        "name": "预警排行",
+        "type": "FRAME",
+        "w": 375,
+        "h": 812,
+        "children": 9
+      },
+      {
+        "id": "6671:171633",
+        "name": "预警排行-亮灯规则弹窗（全屏）",
+        "type": "FRAME",
+        "w": 375,
+        "h": 1242,
+        "children": 4
+      }
+    ]
+  },
+  {
+    "id": "6671:167060",
+    "name": "收费率/满意度",
+    "children": [
+      {
+        "id": "6671:167061",
+        "name": "收费率-明细",
+        "type": "FRAME",
+        "w": 375,
+        "h": 396,
+        "children": 1
+      },
+      {
+        "id": "6671:167110",
+        "name": "满意度详情-条线满意度",
+        "type": "FRAME",
+        "w": 375,
+        "h": 396,
+        "children": 3
+      }
+    ]
+  }
+]

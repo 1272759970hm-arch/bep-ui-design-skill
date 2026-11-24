@@ -1,0 +1,8 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="327" height="170" viewBox="0 0 327 170"><ns0:path d="M155.5 12C155.5 5.37258 160.873 0 167.5 0H299C305.627 0 311 5.37258 311 12V54H155.5V12Z" fill="#33C1C1" fill-opacity="0.06" />
+<ns0:path d="M0 54H299C305.627 54 311 59.3726 311 66V170H0V54Z" fill="#33C1C1" fill-opacity="0.06" />
+<ns0:defs>
+<ns0:clipPath id="clip0_6671_175264">
+<ns0:rect width="311" height="54" fill="white" />
+</ns0:clipPath>
+</ns0:defs>
+</ns0:svg>

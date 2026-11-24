@@ -1,0 +1,207 @@
+{
+  "fileKey": "coPS7naE76ZG6pErhZZOB8",
+  "sourceDate": "2026-11-16",
+  "scope": "Component dimensions and visible-text check; does not contain geometry/SVG",
+  "boards": [
+    {
+      "id": "10044:65926",
+      "type": "FRAME",
+      "name": "收益构成 / 原生环图与分类明细",
+      "w": 343,
+      "h": 326,
+      "visible": true,
+      "children": [
+        {
+          "id": "10044:65927",
+          "type": "FRAME",
+          "name": "chats",
+          "w": 327,
+          "h": 310,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "10044:65931",
+          "t": "实际值(XX亿元)",
+          "visible": true
+        },
+        {
+          "id": "10044:65933",
+          "t": "66.6",
+          "visible": true
+        },
+        {
+          "id": "10044:65934",
+          "t": "%",
+          "visible": true
+        },
+        {
+          "id": "10044:65940",
+          "t": "72.8%",
+          "visible": false
+        },
+        {
+          "id": "10044:65945",
+          "t": "72.8%",
+          "visible": false
+        },
+        {
+          "id": "10044:65952",
+          "t": "资金流水",
+          "visible": true
+        },
+        {
+          "id": "10044:65954",
+          "t": "3.84",
+          "visible": true
+        },
+        {
+          "id": "10044:65955",
+          "t": "亿",
+          "visible": true
+        },
+        {
+          "id": "10044:65963",
+          "t": "充电收益",
+          "visible": true
+        },
+        {
+          "id": "10044:65968",
+          "t": "增值收益",
+          "visible": true
+        },
+        {
+          "id": "10044:65973",
+          "t": "本期\n充电收益",
+          "visible": true
+        },
+        {
+          "id": "10044:65975",
+          "t": "XX",
+          "visible": true
+        },
+        {
+          "id": "10044:65976",
+          "t": "元",
+          "visible": true
+        },
+        {
+          "id": "10044:65978",
+          "t": "累计\n充电收益",
+          "visible": true
+        },
+        {
+          "id": "10044:65980",
+          "t": "XX",
+          "visible": true
+        },
+        {
+          "id": "10044:65981",
+          "t": "元",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "10044:66027",
+      "type": "FRAME",
+      "name": "收益构成 / 原生环图与分类明细",
+      "w": 343,
+      "h": 326,
+      "visible": true,
+      "children": [
+        {
+          "id": "10044:66028",
+          "type": "FRAME",
+          "name": "chats",
+          "w": 327,
+          "h": 310,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "10044:66032",
+          "t": "实际值(XX亿元)",
+          "visible": true
+        },
+        {
+          "id": "10044:66034",
+          "t": "66.6",
+          "visible": true
+        },
+        {
+          "id": "10044:66035",
+          "t": "%",
+          "visible": true
+        },
+        {
+          "id": "10044:66041",
+          "t": "72.8%",
+          "visible": false
+        },
+        {
+          "id": "10044:66046",
+          "t": "72.8%",
+          "visible": false
+        },
+        {
+          "id": "10044:66053",
+          "t": "资金流水",
+          "visible": true
+        },
+        {
+          "id": "10044:66055",
+          "t": "3.84",
+          "visible": true
+        },
+        {
+          "id": "10044:66056",
+          "t": "亿",
+          "visible": true
+        },
+        {
+          "id": "10044:66064",
+          "t": "充电收益",
+          "visible": true
+        },
+        {
+          "id": "10044:66069",
+          "t": "增值收益",
+          "visible": true
+        },
+        {
+          "id": "10044:66074",
+          "t": "本期\n增值收益",
+          "visible": true
+        },
+        {
+          "id": "10044:66076",
+          "t": "XX",
+          "visible": true
+        },
+        {
+          "id": "10044:66077",
+          "t": "元",
+          "visible": true
+        },
+        {
+          "id": "10044:66079",
+          "t": "累计\n增值收益",
+          "visible": true
+        },
+        {
+          "id": "10044:66081",
+          "t": "XX",
+          "visible": true
+        },
+        {
+          "id": "10044:66082",
+          "t": "元",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}
