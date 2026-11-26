@@ -4,13 +4,13 @@ BEP 四端设计规范与配套资源，来自提供的「skill规范合集」�
 
 | 方向 | Skill 目录 | Skill 名称 |
 | --- | --- | --- |
-| B 端 / PC 后台 | [bep-admin-ui-brand-next](bep-admin-ui-brand-next/SKILL.md) | bep-admin-ui-brand-next |
-| C 端商城 | [c-mall-designer](c-mall-designer/SKILL.md) | c-mall-designer |
-| S 端移动应用 | [bep-s-ui-design](bep-s-ui-design/SKILL.md) | bep-s-ui-design |
-| PC 端可视化 | [PC端可视化-skill](PC端可视化-skill/SKILL.md) | chart-skill |
-| 移动端可视化 | [移动端可视化-skill](移动端可视化-skill/SKILL.md) | chart-skill |
+| B 端 / PC 后台 | [B端组件规范skill-PC端](B端组件规范skill-PC端/SKILL.md) | bep-admin-ui-brand-next |
+| C 端商城 | [C端组件规范skill-移动端](C端组件规范skill-移动端/SKILL.md) | c-mall-designer |
+| S 端移动应用 | [S端组件规范skill-移动端](S端组件规范skill-移动端/SKILL.md) | bep-s-ui-design |
+| PC 端可视化 | [可视化组件规范skill-PC端](可视化组件规范skill-PC端/SKILL.md) | chart-skill |
+| 移动端可视化 | [可视化组件规范skill-移动端](可视化组件规范skill-移动端/SKILL.md) | chart-skill |
 
-每个目录保留完整的 SKILL.md、引用规范、脚本、素材和示例。C 端源目录 c-mall-designer-20261119-1054 在仓库中命名为 c-mall-designer。
+每个目录保留完整的 SKILL.md、引用规范、脚本、素材和示例。目录名与提供的「skill规范合集」保持一致。
 
 ## 可视化版本说明
 
