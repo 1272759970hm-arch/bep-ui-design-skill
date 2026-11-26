@@ -1,4 +1,4 @@
-# BEP UI Design Skills
+# 碧桂园服务-UED-组件规范skill
 
 BEP 四端设计规范与配套资源，来自提供的「skill规范合集」。
 
